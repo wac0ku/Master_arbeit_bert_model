@@ -1,0 +1,5 @@
+Summary:
+Skyservice Airlines flight SSV960 an Airbus A320 aircraft serial number 496 was departing from runway 23 at TorontoLester B Pearson International Airport on a domestic charter flight to Edmonton Alberta. At 1613 eastern daylight time the takeoff run was started and considered normal until the aircraft rotated. At 1500 feet above ground level the electronic centralized aircraft monitoring began to display numerous faults related to the left engine. The flight crew declared an emergency and made an immediate return to Toronto for an overweight landing.
+
+Recommendations:
+- Perform engine maintenance and inspection.

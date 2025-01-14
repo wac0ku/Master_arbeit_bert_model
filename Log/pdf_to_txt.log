@@ -1,0 +1,996 @@
+2025-01-14 16:35:17,864 - INFO - Converting PDF files to TXT format...
+2025-01-14 16:35:18,096 - INFO - Successfully converted data/raw_pdf\20000913_A320_C-GTDC.pdf to data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-14 16:35:18,238 - INFO - Successfully converted data/raw_pdf\20151016_A320_9V-TRH.pdf to data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-14 16:35:18,978 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITG.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 16:35:19,282 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITP.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 16:35:19,648 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITQ.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 16:35:20,015 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITW.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 16:35:20,385 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-IVB.pdf to data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 16:35:20,685 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-WGT.pdf to data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 16:35:20,842 - INFO - Successfully converted data/raw_pdf\Accepted Report to VT-WGJ.pdf to data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-14 16:35:21,105 - INFO - Successfully converted data/raw_pdf\Airbus_A320-214_OE-LOA_09-20.pdf to data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 16:35:21,199 - INFO - Successfully converted data/raw_pdf\Airbus_A320-232_9H-LOZ_06-22.pdf to data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 16:35:21,204 - INFO - Preprocessing TXT files...
+2025-01-14 16:35:21,211 - ERROR - Error in main workflow: preprocess_txt() takes 0 positional arguments but 2 were given
+2025-01-14 16:38:24,266 - INFO - Converting PDF files to TXT format...
+2025-01-14 16:38:24,278 - INFO - Skipping data/raw_pdf\20000913_A320_C-GTDC.pdf, TXT file already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-14 16:38:24,282 - INFO - Skipping data/raw_pdf\20151016_A320_9V-TRH.pdf, TXT file already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-14 16:38:24,286 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITG.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 16:38:24,292 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITP.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 16:38:24,298 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITQ.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 16:38:24,317 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITW.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 16:38:24,330 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-IVB.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 16:38:24,344 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-WGT.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 16:38:24,350 - INFO - Skipping data/raw_pdf\Accepted Report to VT-WGJ.pdf, TXT file already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-14 16:38:24,360 - INFO - Skipping data/raw_pdf\Airbus_A320-214_OE-LOA_09-20.pdf, TXT file already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 16:38:24,367 - INFO - Skipping data/raw_pdf\Airbus_A320-232_9H-LOZ_06-22.pdf, TXT file already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 16:38:24,384 - INFO - Preprocessing TXT files...
+2025-01-14 16:38:24,399 - ERROR - Error in main workflow: preprocess_txt() takes 0 positional arguments but 2 were given
+2025-01-14 16:39:00,861 - INFO - Converting PDF files to TXT format...
+2025-01-14 16:39:00,871 - INFO - Skipping data/raw_pdf\20000913_A320_C-GTDC.pdf, TXT file already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-14 16:39:00,878 - INFO - Skipping data/raw_pdf\20151016_A320_9V-TRH.pdf, TXT file already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-14 16:39:00,886 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITG.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 16:39:00,902 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITP.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 16:39:00,908 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITQ.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 16:39:00,916 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-ITW.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 16:39:00,923 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-IVB.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 16:39:00,930 - INFO - Skipping data/raw_pdf\Accepted Final Investigation Report VT-WGT.pdf, TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 16:39:00,939 - INFO - Skipping data/raw_pdf\Accepted Report to VT-WGJ.pdf, TXT file already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-14 16:39:00,945 - INFO - Skipping data/raw_pdf\Airbus_A320-214_OE-LOA_09-20.pdf, TXT file already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 16:39:00,957 - INFO - Skipping data/raw_pdf\Airbus_A320-232_9H-LOZ_06-22.pdf, TXT file already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 16:39:00,969 - INFO - Preprocessing TXT files...
+2025-01-14 16:39:03,119 - INFO - Processed 20000913_A320_C-GTDC.txt - Detected language: en
+2025-01-14 16:39:03,217 - INFO - Processed 20151016_A320_9V-TRH.txt - Detected language: en
+2025-01-14 16:39:03,320 - INFO - Processed Accepted Final Investigation Report VT-ITG.txt - Detected language: en
+2025-01-14 16:39:03,435 - INFO - Processed Accepted Final Investigation Report VT-ITP.txt - Detected language: en
+2025-01-14 16:39:03,519 - INFO - Processed Accepted Final Investigation Report VT-ITQ.txt - Detected language: en
+2025-01-14 16:39:03,610 - INFO - Processed Accepted Final Investigation Report VT-ITW.txt - Detected language: en
+2025-01-14 16:39:03,696 - INFO - Processed Accepted Final Investigation Report VT-IVB.txt - Detected language: en
+2025-01-14 16:39:03,782 - INFO - Processed Accepted Final Investigation Report VT-WGT.txt - Detected language: en
+2025-01-14 16:39:03,997 - INFO - Processed Accepted Report to VT-WGJ.txt - Detected language: en
+2025-01-14 16:39:04,161 - INFO - Processed Airbus_A320-214_OE-LOA_09-20.txt - Detected language: en
+2025-01-14 16:39:04,272 - INFO - Processed Airbus_A320-232_9H-LOZ_06-22.txt - Detected language: en
+2025-01-14 16:39:04,286 - INFO - Loading summarization model...
+2025-01-14 16:39:04,291 - INFO - Loading model: facebook/bart-large-cnn
+2025-01-14 16:40:25,456 - ERROR - Error loading model: At least one of TensorFlow 2.0 or PyTorch should be installed. To install TensorFlow 2.0, read the instructions at https://www.tensorflow.org/install/ To install PyTorch, read the instructions at https://pytorch.org/.
+2025-01-14 16:40:25,462 - INFO - Generating summaries and recommendations...
+2025-01-14 16:40:25,495 - INFO - Generating summary...
+2025-01-14 16:40:25,500 - INFO - Summarizing text
+2025-01-14 16:40:25,507 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:25,513 - INFO - Generating recommendations...
+2025-01-14 16:40:25,527 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:25,676 - INFO - Generating summary...
+2025-01-14 16:40:25,683 - INFO - Summarizing text
+2025-01-14 16:40:25,687 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:25,696 - INFO - Generating recommendations...
+2025-01-14 16:40:25,702 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:25,776 - INFO - Generating summary...
+2025-01-14 16:40:25,784 - INFO - Summarizing text
+2025-01-14 16:40:25,789 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:25,798 - INFO - Generating recommendations...
+2025-01-14 16:40:25,802 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:25,857 - INFO - Generating summary...
+2025-01-14 16:40:25,864 - INFO - Summarizing text
+2025-01-14 16:40:25,868 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:25,872 - INFO - Generating recommendations...
+2025-01-14 16:40:25,879 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:25,927 - INFO - Generating summary...
+2025-01-14 16:40:25,933 - INFO - Summarizing text
+2025-01-14 16:40:25,938 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:25,949 - INFO - Generating recommendations...
+2025-01-14 16:40:25,953 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,012 - INFO - Generating summary...
+2025-01-14 16:40:26,017 - INFO - Summarizing text
+2025-01-14 16:40:26,022 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,032 - INFO - Generating recommendations...
+2025-01-14 16:40:26,037 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,105 - INFO - Generating summary...
+2025-01-14 16:40:26,112 - INFO - Summarizing text
+2025-01-14 16:40:26,116 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,121 - INFO - Generating recommendations...
+2025-01-14 16:40:26,133 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,236 - INFO - Generating summary...
+2025-01-14 16:40:26,241 - INFO - Summarizing text
+2025-01-14 16:40:26,249 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,254 - INFO - Generating recommendations...
+2025-01-14 16:40:26,266 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,334 - INFO - Generating summary...
+2025-01-14 16:40:26,339 - INFO - Summarizing text
+2025-01-14 16:40:26,346 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,351 - INFO - Generating recommendations...
+2025-01-14 16:40:26,363 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,425 - INFO - Generating summary...
+2025-01-14 16:40:26,433 - INFO - Summarizing text
+2025-01-14 16:40:26,437 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,442 - INFO - Generating recommendations...
+2025-01-14 16:40:26,451 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,508 - INFO - Generating summary...
+2025-01-14 16:40:26,513 - INFO - Summarizing text
+2025-01-14 16:40:26,517 - ERROR - Error summarizing text: 'NoneType' object is not callable
+2025-01-14 16:40:26,521 - INFO - Generating recommendations...
+2025-01-14 16:40:26,538 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 16:40:26,560 - ERROR - No results generated.
+2025-01-14 16:40:26,565 - INFO - Workflow completed successfully
+2025-01-14 17:21:41,873 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:21:41,885 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:21:41,889 - INFO - Preprocessing TXT files...
+2025-01-14 17:21:41,893 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:21:41,898 - INFO - Loading summarization model...
+2025-01-14 17:21:41,901 - INFO - Loading model: facebook/bart-large-cnn
+2025-01-14 17:21:42,376 - ERROR - Error loading model: Failed to import transformers.models.bart.modeling_tf_bart because of the following error (look up to see its traceback):
+Your currently installed version of Keras is Keras 3, but this is not yet supported in Transformers. Please install the backwards-compatible tf-keras package with `pip install tf-keras`.
+2025-01-14 17:21:42,381 - INFO - Generating summaries and recommendations...
+2025-01-14 17:21:42,384 - ERROR - Error in main workflow: [WinError 3] Das System kann den angegebenen Pfad nicht finden: 'results'
+2025-01-14 17:26:17,069 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:26:17,079 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:26:17,083 - INFO - Preprocessing TXT files...
+2025-01-14 17:26:17,087 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:26:17,090 - INFO - Loading summarization model...
+2025-01-14 17:26:17,094 - INFO - Loading model: facebook/bart-large-cnn
+2025-01-14 17:26:25,509 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:29:09,361 - INFO - Model loaded successfully
+2025-01-14 17:29:09,525 - INFO - Generating summaries and recommendations...
+2025-01-14 17:29:09,538 - ERROR - Error in main workflow: [WinError 3] Das System kann den angegebenen Pfad nicht finden: 'results'
+2025-01-14 17:31:57,626 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:31:57,633 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:31:57,636 - INFO - Preprocessing TXT files...
+2025-01-14 17:31:57,641 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:31:57,643 - INFO - Loading summarization model...
+2025-01-14 17:31:57,645 - INFO - Loading model: facebook/bart-large-cnn
+2025-01-14 17:32:04,069 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:32:19,331 - INFO - Model loaded successfully
+2025-01-14 17:32:19,337 - INFO - Generating summaries and recommendations...
+2025-01-14 17:32:19,409 - INFO - Generating summary...
+2025-01-14 17:32:19,415 - INFO - Summarizing text
+2025-01-14 17:32:19,673 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:19,680 - INFO - Generating recommendations...
+2025-01-14 17:32:19,685 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:19,757 - INFO - Generating summary...
+2025-01-14 17:32:19,766 - INFO - Summarizing text
+2025-01-14 17:32:19,888 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:19,895 - INFO - Generating recommendations...
+2025-01-14 17:32:19,901 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:19,961 - INFO - Generating summary...
+2025-01-14 17:32:19,968 - INFO - Summarizing text
+2025-01-14 17:32:20,075 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:20,082 - INFO - Generating recommendations...
+2025-01-14 17:32:20,088 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:20,142 - INFO - Generating summary...
+2025-01-14 17:32:20,149 - INFO - Summarizing text
+2025-01-14 17:32:20,250 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:20,255 - INFO - Generating recommendations...
+2025-01-14 17:32:20,258 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:20,305 - INFO - Generating summary...
+2025-01-14 17:32:20,313 - INFO - Summarizing text
+2025-01-14 17:32:20,426 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:20,449 - INFO - Generating recommendations...
+2025-01-14 17:32:20,457 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:20,586 - INFO - Generating summary...
+2025-01-14 17:32:20,598 - INFO - Summarizing text
+2025-01-14 17:32:20,708 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:20,714 - INFO - Generating recommendations...
+2025-01-14 17:32:20,719 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:20,776 - INFO - Generating summary...
+2025-01-14 17:32:20,786 - INFO - Summarizing text
+2025-01-14 17:32:20,886 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:20,892 - INFO - Generating recommendations...
+2025-01-14 17:32:20,898 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:20,950 - INFO - Generating summary...
+2025-01-14 17:32:20,956 - INFO - Summarizing text
+2025-01-14 17:32:21,056 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:21,065 - INFO - Generating recommendations...
+2025-01-14 17:32:21,071 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:21,136 - INFO - Generating summary...
+2025-01-14 17:32:21,141 - INFO - Summarizing text
+2025-01-14 17:32:21,477 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:21,482 - INFO - Generating recommendations...
+2025-01-14 17:32:21,487 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:21,549 - INFO - Generating summary...
+2025-01-14 17:32:21,552 - INFO - Summarizing text
+2025-01-14 17:32:21,801 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:21,806 - INFO - Generating recommendations...
+2025-01-14 17:32:21,811 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:21,858 - INFO - Generating summary...
+2025-01-14 17:32:21,867 - INFO - Summarizing text
+2025-01-14 17:32:21,975 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:32:21,984 - INFO - Generating recommendations...
+2025-01-14 17:32:21,991 - ERROR - Error processing text file: 'NoneType' object has no attribute 'lower'
+2025-01-14 17:32:22,006 - ERROR - No results generated.
+2025-01-14 17:32:22,010 - INFO - Workflow completed successfully
+2025-01-14 17:36:44,513 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:36:44,522 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:36:44,525 - INFO - Preprocessing TXT files...
+2025-01-14 17:36:44,528 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:36:44,530 - INFO - Loading summarization model...
+2025-01-14 17:36:44,532 - INFO - Downloading model: facebook/bart-large-cnn
+2025-01-14 17:36:51,066 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:37:33,835 - INFO - Model downloaded and saved successfully
+2025-01-14 17:37:33,934 - INFO - Generating summaries and recommendations...
+2025-01-14 17:37:34,196 - INFO - Generating summary...
+2025-01-14 17:37:34,204 - INFO - Summarizing text
+2025-01-14 17:37:34,895 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:34,903 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:37:34,914 - INFO - Generating summary...
+2025-01-14 17:37:34,918 - INFO - Summarizing text
+2025-01-14 17:37:35,698 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:35,704 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:37:35,710 - INFO - Generating summary...
+2025-01-14 17:37:35,715 - INFO - Summarizing text
+2025-01-14 17:37:35,868 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:35,873 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:37:35,881 - INFO - Generating summary...
+2025-01-14 17:37:35,885 - INFO - Summarizing text
+2025-01-14 17:37:35,977 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:35,983 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:37:35,998 - INFO - Generating summary...
+2025-01-14 17:37:36,003 - INFO - Summarizing text
+2025-01-14 17:37:36,111 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,116 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:37:36,124 - INFO - Generating summary...
+2025-01-14 17:37:36,128 - INFO - Summarizing text
+2025-01-14 17:37:36,225 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,236 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:37:36,245 - INFO - Generating summary...
+2025-01-14 17:37:36,247 - INFO - Summarizing text
+2025-01-14 17:37:36,365 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,370 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:37:36,381 - INFO - Generating summary...
+2025-01-14 17:37:36,385 - INFO - Summarizing text
+2025-01-14 17:37:36,502 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,510 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:37:36,517 - INFO - Generating summary...
+2025-01-14 17:37:36,521 - INFO - Summarizing text
+2025-01-14 17:37:36,663 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,667 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:37:36,676 - INFO - Generating summary...
+2025-01-14 17:37:36,682 - INFO - Summarizing text
+2025-01-14 17:37:36,944 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:36,952 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:37:36,961 - INFO - Generating summary...
+2025-01-14 17:37:36,965 - INFO - Summarizing text
+2025-01-14 17:37:37,041 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:37:37,048 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:37:37,063 - ERROR - No results generated.
+2025-01-14 17:37:37,068 - INFO - Workflow completed successfully
+2025-01-14 17:39:14,815 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:39:14,824 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:39:14,827 - INFO - Preprocessing TXT files...
+2025-01-14 17:39:14,831 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:39:14,835 - INFO - Loading summarization model...
+2025-01-14 17:39:14,842 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 17:39:21,733 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:39:26,765 - INFO - Model loaded successfully from local directory
+2025-01-14 17:39:26,769 - INFO - Generating summaries and recommendations...
+2025-01-14 17:39:26,784 - INFO - Generating summary...
+2025-01-14 17:39:26,790 - INFO - Summarizing text
+2025-01-14 17:39:26,955 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:26,962 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:39:26,968 - INFO - Generating summary...
+2025-01-14 17:39:26,974 - INFO - Summarizing text
+2025-01-14 17:39:27,260 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,265 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:39:27,273 - INFO - Generating summary...
+2025-01-14 17:39:27,278 - INFO - Summarizing text
+2025-01-14 17:39:27,386 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,392 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:39:27,400 - INFO - Generating summary...
+2025-01-14 17:39:27,404 - INFO - Summarizing text
+2025-01-14 17:39:27,494 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,501 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:39:27,510 - INFO - Generating summary...
+2025-01-14 17:39:27,517 - INFO - Summarizing text
+2025-01-14 17:39:27,610 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,618 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:39:27,625 - INFO - Generating summary...
+2025-01-14 17:39:27,631 - INFO - Summarizing text
+2025-01-14 17:39:27,735 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,741 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:39:27,752 - INFO - Generating summary...
+2025-01-14 17:39:27,758 - INFO - Summarizing text
+2025-01-14 17:39:27,865 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,871 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:39:27,878 - INFO - Generating summary...
+2025-01-14 17:39:27,882 - INFO - Summarizing text
+2025-01-14 17:39:27,983 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:27,988 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:39:27,995 - INFO - Generating summary...
+2025-01-14 17:39:28,003 - INFO - Summarizing text
+2025-01-14 17:39:28,121 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:28,128 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:39:28,134 - INFO - Generating summary...
+2025-01-14 17:39:28,138 - INFO - Summarizing text
+2025-01-14 17:39:28,392 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:28,400 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:39:28,406 - INFO - Generating summary...
+2025-01-14 17:39:28,411 - INFO - Summarizing text
+2025-01-14 17:39:28,476 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:39:28,483 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:39:28,493 - ERROR - No results generated.
+2025-01-14 17:39:28,497 - INFO - Workflow completed successfully
+2025-01-14 17:41:32,057 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:41:32,066 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:41:32,069 - INFO - Preprocessing TXT files...
+2025-01-14 17:41:32,073 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:41:32,076 - INFO - Loading summarization model...
+2025-01-14 17:41:32,082 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 17:41:38,729 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:41:41,910 - INFO - Model loaded successfully from local directory
+2025-01-14 17:41:41,914 - INFO - Generating summaries and recommendations...
+2025-01-14 17:41:41,927 - INFO - Generating summary...
+2025-01-14 17:41:41,932 - INFO - Summarizing text
+2025-01-14 17:41:42,047 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,052 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:41:42,058 - INFO - Generating summary...
+2025-01-14 17:41:42,066 - INFO - Summarizing text
+2025-01-14 17:41:42,165 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,171 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:41:42,180 - INFO - Generating summary...
+2025-01-14 17:41:42,186 - INFO - Summarizing text
+2025-01-14 17:41:42,279 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,286 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:41:42,293 - INFO - Generating summary...
+2025-01-14 17:41:42,299 - INFO - Summarizing text
+2025-01-14 17:41:42,385 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,390 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:41:42,399 - INFO - Generating summary...
+2025-01-14 17:41:42,403 - INFO - Summarizing text
+2025-01-14 17:41:42,532 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,537 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:41:42,547 - INFO - Generating summary...
+2025-01-14 17:41:42,554 - INFO - Summarizing text
+2025-01-14 17:41:42,653 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,659 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:41:42,665 - INFO - Generating summary...
+2025-01-14 17:41:42,670 - INFO - Summarizing text
+2025-01-14 17:41:42,761 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,766 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:41:42,771 - INFO - Generating summary...
+2025-01-14 17:41:42,776 - INFO - Summarizing text
+2025-01-14 17:41:42,898 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:42,903 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:41:42,909 - INFO - Generating summary...
+2025-01-14 17:41:42,913 - INFO - Summarizing text
+2025-01-14 17:41:43,015 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:43,020 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:41:43,027 - INFO - Generating summary...
+2025-01-14 17:41:43,032 - INFO - Summarizing text
+2025-01-14 17:41:43,276 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:43,282 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:41:43,290 - INFO - Generating summary...
+2025-01-14 17:41:43,299 - INFO - Summarizing text
+2025-01-14 17:41:43,366 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:41:43,372 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:41:43,385 - ERROR - No results generated.
+2025-01-14 17:41:43,389 - INFO - Workflow completed successfully
+2025-01-14 17:53:22,922 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:53:22,931 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:53:22,933 - INFO - Preprocessing TXT files...
+2025-01-14 17:53:22,936 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:53:22,940 - INFO - Loading summarization model...
+2025-01-14 17:53:22,943 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 17:53:26,930 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:53:30,142 - INFO - Model loaded successfully from local directory
+2025-01-14 17:53:30,145 - INFO - Generating summaries and recommendations...
+2025-01-14 17:53:30,157 - INFO - Generating summary...
+2025-01-14 17:53:30,160 - INFO - Summarizing text
+2025-01-14 17:53:31,193 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:31,212 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:53:31,219 - INFO - Generating summary...
+2025-01-14 17:53:31,222 - INFO - Summarizing text
+2025-01-14 17:53:31,999 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:32,011 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:53:32,019 - INFO - Generating summary...
+2025-01-14 17:53:32,023 - INFO - Summarizing text
+2025-01-14 17:53:32,783 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:32,799 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:53:32,808 - INFO - Generating summary...
+2025-01-14 17:53:32,812 - INFO - Summarizing text
+2025-01-14 17:53:33,525 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:33,540 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:53:33,547 - INFO - Generating summary...
+2025-01-14 17:53:33,551 - INFO - Summarizing text
+2025-01-14 17:53:34,208 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:34,223 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:53:34,228 - INFO - Generating summary...
+2025-01-14 17:53:34,231 - INFO - Summarizing text
+2025-01-14 17:53:34,966 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:34,979 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:53:34,986 - INFO - Generating summary...
+2025-01-14 17:53:34,992 - INFO - Summarizing text
+2025-01-14 17:53:35,690 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:35,703 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:53:35,712 - INFO - Generating summary...
+2025-01-14 17:53:35,715 - INFO - Summarizing text
+2025-01-14 17:53:36,481 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:36,501 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:53:36,508 - INFO - Generating summary...
+2025-01-14 17:53:36,518 - INFO - Summarizing text
+2025-01-14 17:53:37,237 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:37,249 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:53:37,254 - INFO - Generating summary...
+2025-01-14 17:53:37,261 - INFO - Summarizing text
+2025-01-14 17:53:37,951 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:37,965 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:53:37,971 - INFO - Generating summary...
+2025-01-14 17:53:37,976 - INFO - Summarizing text
+2025-01-14 17:53:38,775 - ERROR - Error summarizing text: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.
+2025-01-14 17:53:38,793 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:53:38,802 - ERROR - No results generated.
+2025-01-14 17:53:38,804 - INFO - Workflow completed successfully
+2025-01-14 17:55:57,751 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:55:57,759 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:55:57,762 - INFO - Preprocessing TXT files...
+2025-01-14 17:55:57,764 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:55:57,767 - INFO - Loading summarization model...
+2025-01-14 17:55:57,769 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 17:56:02,178 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:56:05,392 - INFO - Model loaded successfully from local directory
+2025-01-14 17:56:05,394 - INFO - Generating summaries and recommendations...
+2025-01-14 17:56:05,403 - INFO - Generating summary...
+2025-01-14 17:56:05,407 - INFO - Summarizing text
+2025-01-14 17:56:07,085 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:07,106 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:56:07,112 - INFO - Generating summary...
+2025-01-14 17:56:07,115 - INFO - Summarizing text
+2025-01-14 17:56:07,969 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:07,984 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:56:07,991 - INFO - Generating summary...
+2025-01-14 17:56:07,995 - INFO - Summarizing text
+2025-01-14 17:56:08,787 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:08,833 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:56:08,839 - INFO - Generating summary...
+2025-01-14 17:56:08,846 - INFO - Summarizing text
+2025-01-14 17:56:09,659 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:09,674 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:56:09,681 - INFO - Generating summary...
+2025-01-14 17:56:09,685 - INFO - Summarizing text
+2025-01-14 17:56:10,340 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:10,360 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:56:10,369 - INFO - Generating summary...
+2025-01-14 17:56:10,373 - INFO - Summarizing text
+2025-01-14 17:56:11,190 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:11,203 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:56:11,208 - INFO - Generating summary...
+2025-01-14 17:56:11,212 - INFO - Summarizing text
+2025-01-14 17:56:12,095 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:12,109 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:56:12,115 - INFO - Generating summary...
+2025-01-14 17:56:12,118 - INFO - Summarizing text
+2025-01-14 17:56:12,983 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:13,004 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:56:13,008 - INFO - Generating summary...
+2025-01-14 17:56:13,011 - INFO - Summarizing text
+2025-01-14 17:56:13,786 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:13,798 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:56:13,803 - INFO - Generating summary...
+2025-01-14 17:56:13,808 - INFO - Summarizing text
+2025-01-14 17:56:14,829 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:14,841 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:56:14,847 - INFO - Generating summary...
+2025-01-14 17:56:14,851 - INFO - Summarizing text
+2025-01-14 17:56:15,552 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:56:15,566 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:56:15,576 - ERROR - No results generated.
+2025-01-14 17:56:15,579 - INFO - Workflow completed successfully
+2025-01-14 17:57:43,534 - INFO - Converting PDF files to TXT format...
+2025-01-14 17:57:43,543 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 17:57:43,547 - INFO - Preprocessing TXT files...
+2025-01-14 17:57:43,552 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 17:57:43,555 - INFO - Loading summarization model...
+2025-01-14 17:57:43,559 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 17:57:48,240 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 17:57:51,162 - INFO - Model loaded successfully from local directory
+2025-01-14 17:57:51,166 - INFO - Generating summaries and recommendations...
+2025-01-14 17:57:51,175 - INFO - Generating summary...
+2025-01-14 17:57:51,179 - INFO - Summarizing text
+2025-01-14 17:57:52,456 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:52,478 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 17:57:52,485 - INFO - Generating summary...
+2025-01-14 17:57:52,490 - INFO - Summarizing text
+2025-01-14 17:57:53,335 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:53,346 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 17:57:53,350 - INFO - Generating summary...
+2025-01-14 17:57:53,355 - INFO - Summarizing text
+2025-01-14 17:57:54,111 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:54,122 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 17:57:54,127 - INFO - Generating summary...
+2025-01-14 17:57:54,130 - INFO - Summarizing text
+2025-01-14 17:57:54,864 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:54,883 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 17:57:54,890 - INFO - Generating summary...
+2025-01-14 17:57:54,895 - INFO - Summarizing text
+2025-01-14 17:57:55,789 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:55,804 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 17:57:55,811 - INFO - Generating summary...
+2025-01-14 17:57:55,816 - INFO - Summarizing text
+2025-01-14 17:57:56,588 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:56,599 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 17:57:56,604 - INFO - Generating summary...
+2025-01-14 17:57:56,610 - INFO - Summarizing text
+2025-01-14 17:57:57,380 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:57,396 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 17:57:57,401 - INFO - Generating summary...
+2025-01-14 17:57:57,405 - INFO - Summarizing text
+2025-01-14 17:57:58,132 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:58,144 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 17:57:58,149 - INFO - Generating summary...
+2025-01-14 17:57:58,152 - INFO - Summarizing text
+2025-01-14 17:57:59,057 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:57:59,070 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 17:57:59,077 - INFO - Generating summary...
+2025-01-14 17:57:59,081 - INFO - Summarizing text
+2025-01-14 17:58:00,207 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:58:00,220 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 17:58:00,226 - INFO - Generating summary...
+2025-01-14 17:58:00,234 - INFO - Summarizing text
+2025-01-14 17:58:00,952 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 17:58:00,966 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 17:58:00,975 - ERROR - No results generated.
+2025-01-14 17:58:00,978 - INFO - Workflow completed successfully
+2025-01-14 18:01:16,926 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:01:16,934 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:01:16,936 - INFO - Preprocessing TXT files...
+2025-01-14 18:01:16,939 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:01:16,941 - INFO - Loading summarization model...
+2025-01-14 18:01:16,943 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:01:20,889 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:01:23,548 - INFO - Model loaded successfully from local directory
+2025-01-14 18:01:23,550 - INFO - Generating summaries and recommendations...
+2025-01-14 18:01:23,559 - INFO - Generating summary...
+2025-01-14 18:01:23,563 - INFO - Summarizing text
+2025-01-14 18:02:04,706 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:02:04,770 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:02:04,779 - INFO - Generating summary...
+2025-01-14 18:02:04,784 - INFO - Summarizing text
+2025-01-14 18:03:39,633 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:03:39,641 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:03:39,643 - INFO - Preprocessing TXT files...
+2025-01-14 18:03:39,646 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:03:39,648 - INFO - Loading summarization model...
+2025-01-14 18:03:39,650 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:03:43,590 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:03:46,539 - INFO - Model loaded successfully from local directory
+2025-01-14 18:03:46,543 - INFO - Generating summaries and recommendations...
+2025-01-14 18:03:46,552 - INFO - Generating summary...
+2025-01-14 18:03:46,555 - INFO - Summarizing text
+2025-01-14 18:03:47,445 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:04:25,716 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:04:25,752 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:04:25,789 - INFO - Generating summary...
+2025-01-14 18:04:25,799 - INFO - Summarizing text
+2025-01-14 18:04:27,282 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:07:19,361 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:07:19,370 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:07:19,372 - INFO - Preprocessing TXT files...
+2025-01-14 18:07:19,375 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:07:19,378 - INFO - Loading summarization model...
+2025-01-14 18:07:19,381 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:07:23,400 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:07:26,331 - INFO - Model loaded successfully from local directory
+2025-01-14 18:07:26,334 - INFO - Generating summaries and recommendations...
+2025-01-14 18:07:26,344 - INFO - Generating summary...
+2025-01-14 18:07:26,348 - INFO - Summarizing text
+2025-01-14 18:07:27,442 - INFO - Input tensor shape: torch.Size([1, 6318])
+2025-01-14 18:07:27,479 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     9,   896,     2]])
+2025-01-14 18:07:27,606 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:27,618 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:07:27,624 - INFO - Generating summary...
+2025-01-14 18:07:27,628 - INFO - Summarizing text
+2025-01-14 18:07:28,319 - INFO - Input tensor shape: torch.Size([1, 5210])
+2025-01-14 18:07:28,326 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  3083,   541,     2]])
+2025-01-14 18:07:28,375 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:28,395 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 18:07:28,405 - INFO - Generating summary...
+2025-01-14 18:07:28,409 - INFO - Summarizing text
+2025-01-14 18:07:29,100 - INFO - Input tensor shape: torch.Size([1, 4973])
+2025-01-14 18:07:29,108 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     5,  3054,     2]])
+2025-01-14 18:07:29,142 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:29,156 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 18:07:29,160 - INFO - Generating summary...
+2025-01-14 18:07:29,164 - INFO - Summarizing text
+2025-01-14 18:07:29,850 - INFO - Input tensor shape: torch.Size([1, 5196])
+2025-01-14 18:07:29,857 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,  2132,  3054,     2]])
+2025-01-14 18:07:29,889 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:29,903 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 18:07:29,910 - INFO - Generating summary...
+2025-01-14 18:07:29,913 - INFO - Summarizing text
+2025-01-14 18:07:30,760 - INFO - Input tensor shape: torch.Size([1, 5195])
+2025-01-14 18:07:30,766 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   303,  5009,     2]])
+2025-01-14 18:07:30,798 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:30,814 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 18:07:30,821 - INFO - Generating summary...
+2025-01-14 18:07:30,825 - INFO - Summarizing text
+2025-01-14 18:07:31,515 - INFO - Input tensor shape: torch.Size([1, 5190])
+2025-01-14 18:07:31,522 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     5,  3054,     2]])
+2025-01-14 18:07:31,551 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:31,565 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-14 18:07:31,574 - INFO - Generating summary...
+2025-01-14 18:07:31,580 - INFO - Summarizing text
+2025-01-14 18:07:32,346 - INFO - Input tensor shape: torch.Size([1, 5102])
+2025-01-14 18:07:32,353 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,     5,  2524,     2]])
+2025-01-14 18:07:32,385 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:32,399 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-14 18:07:32,406 - INFO - Generating summary...
+2025-01-14 18:07:32,409 - INFO - Summarizing text
+2025-01-14 18:07:33,142 - INFO - Input tensor shape: torch.Size([1, 5538])
+2025-01-14 18:07:33,148 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  3917, 39436,     2]])
+2025-01-14 18:07:33,180 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:33,196 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-14 18:07:33,201 - INFO - Generating summary...
+2025-01-14 18:07:33,206 - INFO - Summarizing text
+2025-01-14 18:07:33,952 - INFO - Input tensor shape: torch.Size([1, 6248])
+2025-01-14 18:07:33,959 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,   188,  3534,     2]])
+2025-01-14 18:07:33,995 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:34,008 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-14 18:07:34,014 - INFO - Generating summary...
+2025-01-14 18:07:34,017 - INFO - Summarizing text
+2025-01-14 18:07:34,928 - INFO - Input tensor shape: torch.Size([1, 13316])
+2025-01-14 18:07:34,934 - INFO - Input tensor values: tensor([[    0,  1549,  1437,  ...,    19, 22235,     2]])
+2025-01-14 18:07:35,011 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:35,025 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-14 18:07:35,031 - INFO - Generating summary...
+2025-01-14 18:07:35,038 - INFO - Summarizing text
+2025-01-14 18:07:35,673 - INFO - Input tensor shape: torch.Size([1, 3162])
+2025-01-14 18:07:35,680 - INFO - Input tensor values: tensor([[    0,   246,  1437,  ..., 27034,  3266,     2]])
+2025-01-14 18:07:35,712 - ERROR - Error summarizing text: index out of range in self
+2025-01-14 18:07:35,730 - ERROR - Failed to generate summary for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-14 18:07:35,739 - ERROR - No results generated.
+2025-01-14 18:07:35,742 - INFO - Workflow completed successfully
+2025-01-14 18:10:53,894 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:10:53,901 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:10:53,904 - INFO - Preprocessing TXT files...
+2025-01-14 18:10:53,906 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:10:53,908 - INFO - Loading summarization model...
+2025-01-14 18:10:53,910 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:10:58,119 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:11:00,995 - INFO - Model loaded successfully from local directory
+2025-01-14 18:11:00,999 - INFO - Generating summaries and recommendations...
+2025-01-14 18:11:01,008 - INFO - Generating summary...
+2025-01-14 18:11:01,012 - INFO - Summarizing text
+2025-01-14 18:11:01,977 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:11:01,984 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 18:11:38,768 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:11:38,833 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:11:38,843 - INFO - Generating summary...
+2025-01-14 18:11:38,847 - INFO - Summarizing text
+2025-01-14 18:11:39,789 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:11:39,823 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 18:12:59,587 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:12:59,620 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:12:59,808 - INFO - Preprocessing TXT files...
+2025-01-14 18:12:59,897 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:12:59,918 - INFO - Loading summarization model...
+2025-01-14 18:13:00,006 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:13:04,838 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:13:07,618 - INFO - Model loaded successfully from local directory
+2025-01-14 18:13:07,621 - INFO - Generating summaries and recommendations...
+2025-01-14 18:13:07,636 - INFO - Generating summary...
+2025-01-14 18:13:07,642 - INFO - Summarizing text
+2025-01-14 18:13:08,441 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:13:08,447 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 18:14:38,819 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:14:38,925 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:14:38,940 - INFO - Generating summary...
+2025-01-14 18:14:38,944 - INFO - Summarizing text
+2025-01-14 18:14:39,965 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:14:39,998 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 18:18:43,382 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:18:43,388 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:18:43,389 - INFO - Preprocessing TXT files...
+2025-01-14 18:18:43,391 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:18:43,393 - INFO - Loading summarization model...
+2025-01-14 18:18:43,394 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:18:46,726 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:18:49,115 - INFO - Model loaded successfully from local directory
+2025-01-14 18:18:49,117 - INFO - Generating summaries and recommendations...
+2025-01-14 18:18:49,122 - INFO - Generating summary...
+2025-01-14 18:18:49,124 - INFO - Summarizing text
+2025-01-14 18:18:50,138 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:18:50,144 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 18:20:26,443 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:20:26,584 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:20:26,596 - INFO - Generating summary...
+2025-01-14 18:20:26,601 - INFO - Summarizing text
+2025-01-14 18:20:27,567 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:20:27,618 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 18:27:17,185 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:27:17,191 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:27:17,193 - INFO - Preprocessing TXT files...
+2025-01-14 18:27:17,195 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:27:17,196 - INFO - Loading summarization model...
+2025-01-14 18:27:17,198 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:27:20,342 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:27:22,593 - INFO - Model loaded successfully from local directory
+2025-01-14 18:27:22,596 - INFO - Generating summaries and recommendations...
+2025-01-14 18:27:22,602 - INFO - Generating summary...
+2025-01-14 18:27:22,604 - INFO - Summarizing text
+2025-01-14 18:27:23,390 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:27:23,417 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 18:28:32,593 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:28:32,657 - ERROR - Failed to generate summary for data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-14 18:28:32,664 - INFO - Generating summary...
+2025-01-14 18:28:32,669 - INFO - Summarizing text
+2025-01-14 18:28:33,336 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:28:33,356 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 18:29:35,901 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:29:35,931 - ERROR - Failed to generate summary for data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-14 18:29:35,936 - INFO - Generating summary...
+2025-01-14 18:29:35,941 - INFO - Summarizing text
+2025-01-14 18:29:36,552 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:29:36,564 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     9, 25422,     2]])
+2025-01-14 18:30:31,747 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:30:31,759 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-14 18:30:31,765 - INFO - Generating summary...
+2025-01-14 18:30:31,769 - INFO - Summarizing text
+2025-01-14 18:30:32,379 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:30:32,385 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   389,   360,     2]])
+2025-01-14 18:31:43,005 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:31:43,026 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-14 18:31:43,033 - INFO - Generating summary...
+2025-01-14 18:31:43,037 - INFO - Summarizing text
+2025-01-14 18:31:43,736 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:31:43,742 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,  1944,  8234,     2]])
+2025-01-14 18:32:49,744 - ERROR - Error summarizing text: Boolean value of Tensor with more than one value is ambiguous
+2025-01-14 18:32:49,759 - ERROR - Failed to generate summary for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-14 18:32:49,765 - INFO - Generating summary...
+2025-01-14 18:32:49,769 - INFO - Summarizing text
+2025-01-14 18:32:50,347 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:32:50,354 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   155, 28296,     2]])
+2025-01-14 18:38:14,299 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:38:14,305 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:38:14,307 - INFO - Preprocessing TXT files...
+2025-01-14 18:38:14,308 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:38:14,310 - INFO - Loading summarization model...
+2025-01-14 18:38:14,313 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:38:17,855 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:38:20,213 - INFO - Model loaded successfully from local directory
+2025-01-14 18:38:20,216 - INFO - Generating summaries and recommendations...
+2025-01-14 18:38:20,222 - INFO - Generating summary...
+2025-01-14 18:38:20,224 - INFO - Summarizing text
+2025-01-14 18:38:20,976 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:38:20,984 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 18:39:28,092 - INFO - Text summarized successfully
+2025-01-14 18:39:28,420 - INFO - Generating recommendations...
+2025-01-14 18:39:28,429 - INFO - Results saved to results\20000913_A320_C-GTDC_results.txt
+2025-01-14 18:39:28,438 - INFO - Generating summary...
+2025-01-14 18:39:28,441 - INFO - Summarizing text
+2025-01-14 18:39:29,176 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:39:29,224 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 18:40:35,117 - INFO - Text summarized successfully
+2025-01-14 18:40:35,133 - INFO - Generating recommendations...
+2025-01-14 18:40:35,140 - INFO - Results saved to results\20151016_A320_9V-TRH_results.txt
+2025-01-14 18:40:35,151 - INFO - Generating summary...
+2025-01-14 18:40:35,155 - INFO - Summarizing text
+2025-01-14 18:40:35,759 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:40:35,771 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     9, 25422,     2]])
+2025-01-14 18:41:39,719 - INFO - Text summarized successfully
+2025-01-14 18:41:39,753 - INFO - Generating recommendations...
+2025-01-14 18:41:39,776 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-14 18:41:39,800 - INFO - Generating summary...
+2025-01-14 18:41:39,812 - INFO - Summarizing text
+2025-01-14 18:41:40,491 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:41:40,502 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   389,   360,     2]])
+2025-01-14 18:42:46,953 - INFO - Text summarized successfully
+2025-01-14 18:42:46,967 - INFO - Generating recommendations...
+2025-01-14 18:42:46,974 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-14 18:42:46,978 - INFO - Generating summary...
+2025-01-14 18:42:46,981 - INFO - Summarizing text
+2025-01-14 18:42:47,601 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:42:47,610 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,  1944,  8234,     2]])
+2025-01-14 18:43:45,460 - INFO - Text summarized successfully
+2025-01-14 18:43:45,473 - INFO - Generating recommendations...
+2025-01-14 18:43:45,478 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-14 18:43:45,482 - INFO - Generating summary...
+2025-01-14 18:43:45,486 - INFO - Summarizing text
+2025-01-14 18:43:46,081 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:43:46,086 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   155, 28296,     2]])
+2025-01-14 18:44:37,669 - INFO - Text summarized successfully
+2025-01-14 18:44:37,685 - INFO - Generating recommendations...
+2025-01-14 18:44:37,690 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-14 18:44:37,695 - INFO - Generating summary...
+2025-01-14 18:44:37,698 - INFO - Summarizing text
+2025-01-14 18:44:38,744 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:44:38,752 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ..., 11897,   132,     2]])
+2025-01-14 18:45:42,037 - INFO - Text summarized successfully
+2025-01-14 18:45:42,053 - INFO - Generating recommendations...
+2025-01-14 18:45:42,057 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-14 18:45:42,065 - INFO - Generating summary...
+2025-01-14 18:45:42,070 - INFO - Summarizing text
+2025-01-14 18:45:42,702 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:45:42,705 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    21,  8967,     2]])
+2025-01-14 18:46:34,501 - INFO - Text summarized successfully
+2025-01-14 18:46:34,572 - INFO - Generating recommendations...
+2025-01-14 18:46:34,579 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-14 18:46:34,586 - INFO - Generating summary...
+2025-01-14 18:46:34,590 - INFO - Summarizing text
+2025-01-14 18:46:35,224 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:46:35,229 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    61,    56,     2]])
+2025-01-14 18:47:37,141 - INFO - Text summarized successfully
+2025-01-14 18:47:37,260 - INFO - Generating recommendations...
+2025-01-14 18:47:37,276 - INFO - Results saved to results\Accepted Report to VT-WGJ_results.txt
+2025-01-14 18:47:37,289 - INFO - Generating summary...
+2025-01-14 18:47:37,294 - INFO - Summarizing text
+2025-01-14 18:47:38,274 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:47:38,285 - INFO - Input tensor values: tensor([[   0, 1549, 1437,  ...,   25,   41,    2]])
+2025-01-14 18:48:47,106 - INFO - Text summarized successfully
+2025-01-14 18:48:47,127 - INFO - Generating recommendations...
+2025-01-14 18:48:47,137 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-14 18:48:47,146 - INFO - Generating summary...
+2025-01-14 18:48:47,154 - INFO - Summarizing text
+2025-01-14 18:48:47,793 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 18:48:47,800 - INFO - Input tensor values: tensor([[   0,  246, 1437,  ...,  381, 3134,    2]])
+2025-01-14 18:50:02,801 - INFO - Text summarized successfully
+2025-01-14 18:50:02,818 - INFO - Generating recommendations...
+2025-01-14 18:50:02,824 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-14 18:50:03,070 - INFO - DOCX file saved successfully: results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-14 18:50:03,074 - INFO - Results saved to results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-14 18:50:03,140 - INFO - DOCX file saved successfully: results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-14 18:50:03,145 - INFO - Results saved to results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-14 18:50:03,214 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-14 18:50:03,230 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-14 18:50:03,287 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-14 18:50:03,290 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-14 18:50:03,350 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-14 18:50:03,353 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-14 18:50:03,419 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-14 18:50:03,424 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-14 18:50:03,498 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-14 18:50:03,502 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-14 18:50:03,593 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-14 18:50:03,598 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-14 18:50:03,661 - INFO - DOCX file saved successfully: results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-14 18:50:03,667 - INFO - Results saved to results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-14 18:50:03,727 - INFO - DOCX file saved successfully: results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-14 18:50:03,732 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-14 18:50:03,789 - INFO - DOCX file saved successfully: results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-14 18:50:03,793 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-14 18:50:03,799 - INFO - Workflow completed successfully
+2025-01-14 18:57:59,011 - INFO - Converting PDF files to TXT format...
+2025-01-14 18:57:59,017 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 18:57:59,019 - INFO - Preprocessing TXT files...
+2025-01-14 18:57:59,021 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 18:57:59,022 - INFO - Loading summarization model...
+2025-01-14 18:57:59,025 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 18:58:02,101 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 18:58:04,354 - INFO - Model loaded successfully from local directory
+2025-01-14 18:58:04,356 - INFO - Generating summaries and recommendations...
+2025-01-14 18:58:04,365 - INFO - Skipping data/cleaned_data\20000913_A320_C-GTDC.txt, results already exist: results\20000913_A320_C-GTDC_results.txt
+2025-01-14 18:58:04,370 - INFO - Skipping data/cleaned_data\20151016_A320_9V-TRH.txt, results already exist: results\20151016_A320_9V-TRH_results.txt
+2025-01-14 18:58:04,375 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt, results already exist: results\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-14 18:58:04,379 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt, results already exist: results\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-14 18:58:04,384 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt, results already exist: results\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-14 18:58:04,391 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt, results already exist: results\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-14 18:58:04,397 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt, results already exist: results\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-14 18:58:04,402 - INFO - Skipping data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt, results already exist: results\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-14 18:58:04,408 - INFO - Skipping data/cleaned_data\Accepted Report to VT-WGJ.txt, results already exist: results\Accepted Report to VT-WGJ_results.txt
+2025-01-14 18:58:04,411 - INFO - Skipping data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt, results already exist: results\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-14 18:58:04,415 - INFO - Skipping data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt, results already exist: results\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-14 18:58:04,423 - ERROR - No results generated.
+2025-01-14 18:58:04,427 - INFO - Workflow completed successfully
+2025-01-14 19:21:34,163 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 19:21:36,323 - INFO - Converting PDF files to TXT format...
+2025-01-14 19:21:36,326 - INFO - TXT files already exist, skipping conversion.
+2025-01-14 19:21:36,328 - INFO - Preprocessing TXT files...
+2025-01-14 19:21:36,331 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-14 19:21:36,339 - INFO - Loading summarization model...
+2025-01-14 19:21:36,343 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 19:21:38,932 - INFO - Model loaded successfully from local directory
+2025-01-14 19:21:38,938 - INFO - Generating summaries and recommendations...
+2025-01-14 19:21:38,955 - INFO - Generating summary...
+2025-01-14 19:21:38,961 - INFO - Summarizing text
+2025-01-14 19:21:39,890 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:21:39,911 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-14 19:23:10,055 - INFO - Text summarized successfully
+2025-01-14 19:23:10,285 - INFO - Generating recommendations...
+2025-01-14 19:23:14,132 - INFO - Results saved to results\20000913_A320_C-GTDC_results.txt
+2025-01-14 19:23:14,152 - INFO - Generating summary...
+2025-01-14 19:23:14,166 - INFO - Summarizing text
+2025-01-14 19:23:15,646 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:23:15,699 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-14 19:24:34,103 - INFO - Text summarized successfully
+2025-01-14 19:24:34,123 - INFO - Generating recommendations...
+2025-01-14 19:24:34,811 - INFO - Results saved to results\20151016_A320_9V-TRH_results.txt
+2025-01-14 19:24:34,818 - INFO - Generating summary...
+2025-01-14 19:24:34,821 - INFO - Summarizing text
+2025-01-14 19:24:35,517 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:24:35,524 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     9, 25422,     2]])
+2025-01-14 19:25:54,736 - INFO - Text summarized successfully
+2025-01-14 19:25:54,830 - INFO - Generating recommendations...
+2025-01-14 19:25:57,734 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-14 19:25:57,746 - INFO - Generating summary...
+2025-01-14 19:25:57,750 - INFO - Summarizing text
+2025-01-14 19:25:58,673 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:25:58,697 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   389,   360,     2]])
+2025-01-14 19:27:07,888 - INFO - Text summarized successfully
+2025-01-14 19:27:07,990 - INFO - Generating recommendations...
+2025-01-14 19:27:10,333 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-14 19:27:10,342 - INFO - Generating summary...
+2025-01-14 19:27:10,345 - INFO - Summarizing text
+2025-01-14 19:27:11,191 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:27:11,210 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,  1944,  8234,     2]])
+2025-01-14 19:28:14,427 - INFO - Text summarized successfully
+2025-01-14 19:28:14,449 - INFO - Generating recommendations...
+2025-01-14 19:28:15,425 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-14 19:28:15,434 - INFO - Generating summary...
+2025-01-14 19:28:15,438 - INFO - Summarizing text
+2025-01-14 19:28:16,436 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:28:16,448 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   155, 28296,     2]])
+2025-01-14 19:29:10,896 - INFO - Text summarized successfully
+2025-01-14 19:29:10,917 - INFO - Generating recommendations...
+2025-01-14 19:29:11,610 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-14 19:29:11,616 - INFO - Generating summary...
+2025-01-14 19:29:11,620 - INFO - Summarizing text
+2025-01-14 19:29:12,373 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:29:12,377 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ..., 11897,   132,     2]])
+2025-01-14 19:30:21,498 - INFO - Text summarized successfully
+2025-01-14 19:30:21,615 - INFO - Generating recommendations...
+2025-01-14 19:30:24,348 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-14 19:30:24,359 - INFO - Generating summary...
+2025-01-14 19:30:24,366 - INFO - Summarizing text
+2025-01-14 19:30:25,317 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:30:25,333 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    21,  8967,     2]])
+2025-01-14 19:31:20,955 - INFO - Text summarized successfully
+2025-01-14 19:31:20,973 - INFO - Generating recommendations...
+2025-01-14 19:31:22,174 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-14 19:31:22,183 - INFO - Generating summary...
+2025-01-14 19:31:22,186 - INFO - Summarizing text
+2025-01-14 19:31:23,353 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:31:23,380 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    61,    56,     2]])
+2025-01-14 19:32:28,606 - INFO - Text summarized successfully
+2025-01-14 19:32:28,642 - INFO - Generating recommendations...
+2025-01-14 19:32:29,687 - INFO - Results saved to results\Accepted Report to VT-WGJ_results.txt
+2025-01-14 19:32:29,695 - INFO - Generating summary...
+2025-01-14 19:32:29,701 - INFO - Summarizing text
+2025-01-14 19:32:31,073 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:32:31,095 - INFO - Input tensor values: tensor([[   0, 1549, 1437,  ...,   25,   41,    2]])
+2025-01-14 19:33:48,024 - INFO - Text summarized successfully
+2025-01-14 19:33:48,130 - INFO - Generating recommendations...
+2025-01-14 19:33:53,918 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-14 19:33:53,960 - INFO - Generating summary...
+2025-01-14 19:33:54,020 - INFO - Summarizing text
+2025-01-14 19:33:57,461 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-14 19:33:57,507 - INFO - Input tensor values: tensor([[   0,  246, 1437,  ...,  381, 3134,    2]])
+2025-01-14 19:35:17,691 - INFO - Text summarized successfully
+2025-01-14 19:35:17,710 - INFO - Generating recommendations...
+2025-01-14 19:35:19,220 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-14 19:35:19,520 - INFO - DOCX file saved successfully: results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-14 19:35:19,526 - INFO - Results saved to results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-14 19:35:19,837 - INFO - DOCX file saved successfully: results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-14 19:35:19,844 - INFO - Results saved to results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-14 19:35:20,031 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-14 19:35:20,037 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-14 19:35:20,227 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-14 19:35:20,236 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-14 19:35:20,472 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-14 19:35:20,482 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-14 19:35:20,660 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-14 19:35:20,665 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-14 19:35:20,829 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-14 19:35:20,834 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-14 19:35:20,977 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-14 19:35:20,981 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-14 19:35:21,073 - INFO - DOCX file saved successfully: results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-14 19:35:21,077 - INFO - Results saved to results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-14 19:35:21,211 - INFO - DOCX file saved successfully: results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-14 19:35:21,216 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-14 19:35:21,580 - INFO - DOCX file saved successfully: results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-14 19:35:21,586 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-14 19:35:21,590 - INFO - Workflow completed successfully

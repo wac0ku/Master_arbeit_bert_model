@@ -1,0 +1,4 @@
+2025-01-14 19:17:57,608 - WARNING - From C:\Users\Neue Wege 3\Desktop\master_project\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-01-14 19:18:39,341 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-14 19:18:43,524 - INFO - Model loaded successfully from local directory

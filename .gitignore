@@ -1,0 +1,4 @@
+# Ignore BERT model files
+models/facebook_bart-large-cnn/
+.venv
+venv

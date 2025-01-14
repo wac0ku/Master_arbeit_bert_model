@@ -1,0 +1,6 @@
+Summary:
+Ms Indigo Airbus A320271 NEO aircraft VTITP while operating a scheduled flight from Dehradun to Bengaluru diverted to Delhi due to high engine vibration  EGT overlimit during climb. The aircraft was under the command of an ATPL holder with another ATPL holder as copilot. There were 186 passengers on board the aircraft including 04 cabin crew members. The occurrence was classified as a Serious Incident and an investigation to investigate into the probable causes was instituted.
+
+Recommendations:
+- Perform engine maintenance and inspection.
+- LABEL_1

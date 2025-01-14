@@ -1,0 +1,6 @@
+Summary:
+Ms Indigo Airbus A320271 NEO aircraft VTITG while operating a scheduled flight from Pune to Nagpur was involved in an Air Turn Back due to Engine Stall during climb. The occurrence was classified as Serious Incident and an investigation to investigate into the probable causes of the serious incident was instituted under Rule 11 1 of Aircraft Investigation of Accidents and Incidents Rules 2017.
+
+Recommendations:
+- Perform engine maintenance and inspection.
+- LABEL_1

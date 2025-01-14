@@ -1,0 +1,5 @@
+PyMuPDF==1.23.0
+transformers==4.36.2
+langdetect==1.0.9
+python-docx==0.8.11
+rich==13.7.0
