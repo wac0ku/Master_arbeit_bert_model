@@ -1,0 +1,1078 @@
+ 
+ 
+ 
+FINAL INVESTIGATION REPORT 
+ON 
+SERIOUS INCIDENT INVOLVING  
+M/S GO AIR 
+AIRBUS A320(NEO) AIRCRAFT VT-WGT 
+ON 07th MARCH 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AIRCRAFT ACCIDENT INVESTIGATION BUREAU 
+MINISTRY OF CIVIL AVIATION 
+GOVERNMENT OF INDIA 
+i 
+ 
+FOREWORD 
+ 
+ 
+This document has been prepared based upon the 
+evidences collected during the investigation and opinions 
+obtained from the experts. The investigation has been carried 
+out in accordance with Annex 13 to the convention on 
+International Civil Aviation and under Rule 11 of Aircraft 
+(Investigation of Accidents and Incidents), Rules 2017 of India.  
+The investigation is conducted not to apportion blame or to 
+assess individual or collective responsibility. The sole objective 
+is to draw lessons from this serious incident which may help in 
+preventing such incidents in future. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ii 
+ 
+INDEX 
+Para Content 
+Page 
+No. 
+ 
+SUMMARY 
+1 
+ 
+SYNOPSIS 
+2 
+1 
+FACTUAL INFORMATION   
+3 
+1.1 
+HISTORY OF THE FLIGHT     
+3 
+1.2 
+INJURIES TO PERSONS                             
+3 
+1.3 
+DAMAGE TO AIRCRAFT                               
+4 
+1.4 
+OTHER DAMAGE                                    
+4 
+1.5 
+PERSONNEL INFORMATION                           
+4 
+1.6 
+AIRCRAFT INFORMATION                          
+6 
+1.7 
+METEOROLOGICAL INFORMATION                     
+10 
+1.8 
+AIDS TO NAVIGATION                             
+11 
+1.9 
+COMMUNICATIONS 
+11 
+1.10 
+AERODROME INFORMATION                          
+11 
+1.11 
+FLIGHT RECORDERS                               
+11 
+1.12 
+WRECKAGE AND IMPACT INFORMATION                
+11 
+1.13 
+MEDICAL AND PATHOLOGICAL INFORMATION    
+11 
+1.14 
+FIRE 
+12 
+1.15 
+SURVIVAL ASPECTS                               
+12 
+1.16 
+TESTS AND RESEARCH                             
+12 
+1.17 
+ORGANISATIONAL AND MANAGEMENT 
+INFORMATION             
+12 
+1.18 
+ADDITIONAL INFORMATION                         
+12 
+iii 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.19 
+USEFUL OR EFFECTIVE INVESTIGATION 
+TECHNIQUES  
+15 
+ 
+ 
+ 
+2 
+ANALYSIS      
+16 
+2.1 
+GENERAL 
+16 
+2.2 
+CIRCUMSTANCES LEADING TO THE INCIDENT 
+16 
+2.3 
+PREVENTIVE ACTIONS TAKEN BY OEM & 
+OPERATOR  
+ 
+ 
+ 
+ 
+3 
+CONCLUSION                                    
+ 
+ 
+17 
+3.1 
+FINDINGS          
+17 
+3.2 
+PROBABLE CAUSE OF THE INCIDENT  
+19 
+ 
+ 
+ 
+4 
+SAFETY RECOMMENDATIONS 
+19 
+iv 
+ 
+GLOSSARY 
+AAIB 
+Aircraft Accident Investigation Bureau, India 
+AGB 
+Angle Gear Box 
+AMSL 
+Above Mean Sea Level 
+ARC 
+Airworthiness Review Certificate 
+ATB 
+Air Turn Back 
+ATC 
+Air Traffic Control 
+ATPL 
+Aero 
+AUW 
+All Up Weight 
+C of A 
+Certificate of Airworthiness 
+C of R 
+Certificate of Registration 
+CAR 
+Civil Aviation Requirements 
+CEO 
+Current Engine Option 
+CPL 
+Commercial Pilot License 
+DGCA 
+Directorate General of Civil Aviation 
+ECAM 
+Electronic Centralized Aircraft Monitor 
+EEC 
+Electronic Engine Controller 
+FADEC 
+Full Authority Digital Engine Control 
+FRTOL 
+Flight Radio Telephone Operators License 
+IATA 
+International Air Transport Association 
+GTB 
+Ground Turn Back 
+ICAO 
+International Civil Aviation Organization 
+IDG 
+Integrated Drive Generator 
+IFSD 
+In-Flight Shut Down 
+LPT 
+Low Pressure Turbine 
+LSOP 
+Lube and Scavenge Oil Pump 
+MGB 
+Main Gear Box 
+v 
+ 
+NEO 
+New Engine Option 
+OEM 
+Original Equipment Manufacturer 
+PHMU 
+Prognostics And Health Management Unit 
+PIC 
+Pilot in Command 
+PMA 
+Permanent Magnet Alternator 
+P&W 
+Pratt and Whitney 
+QRH 
+Quick Reference Handbook 
+RTO 
+Reject Take-off 
+SB 
+Service Bulletin 
+SSCVR 
+Cockpit Voice Recorder 
+SSDFDR 
+Digital Flight Data Recorder 
+ 
+1 
+ 
+FINAL INVESTIGATION REPORT ON SERIOUS INCIDENT INVOLVING M/S GO AIR 
+AIRBUS A320 (NEO) AIRCRAFT VT-WGT ON 07/03/2019 
+ 
+1. 
+Aircraft Type 
+: 
+Airbus A320-271 NEO 
+ 
+Nationality 
+: 
+Indian 
+ 
+Registration 
+: 
+VT  WGT 
+2. 
+Owner 
+: 
+M/s GY Aviation Lease 1730 Co. Limited 
+3. 
+Operator 
+: 
+Go Airlines (India) Limited 
+3. 
+Pilot  in Command 
+: 
+ATPL holder 
+ 
+Extent of Injuries 
+: 
+Nil 
+4. 
+First Officer 
+: 
+ATPL Holder 
+ 
+Extent of injuries 
+: 
+Nil 
+5. 
+Place of Serious Incident 
+: 
+Enroute (Near Lucknow) 
+6. 
+Date & Time of Incident 
+: 
+07th March 2019 & 1219 UTC 
+7. 
+Last Point of Departure 
+: 
+Patna Airport 
+8. 
+Point of Intended Landing 
+: 
+Delhi Airport 
+10.
+Type of Operation 
+: 
+Scheduled Operation 
+11.
+Passengers on Board 
+: 
+134 (Including 04 Cabin Crew Members) 
+ 
+Extent of Injuries 
+: 
+Nil 
+12.
+Phase of Operation 
+: 
+Cruise 
+13.
+Type of Occurrence 
+: 
+Diversion due to Engine Failure (Commanded 
+In-Flight Shut Down).  
+ 
+(All the timings in this report are in UTC unless otherwise specified) 
+ 
+ 
+ 
+2 
+ 
+SYNOPSIS 
+ 
+On 07th March 2019, M/s Go Air Airbus A320-271 (NEO) aircraft VT-WGT, while 
+operating a scheduled flight from Patna to Delhi was involved in a Serious Incident due to 
+Engine failure (Commanded IFSD of Engine) and had to divert to Lucknow. The aircraft was 
+under the command of an ATPL holder with a co-pilot also an ATPL holder. There were 134 
+passengers on board the aircraft including 04 cabin crew members. 
+The aircraft took off from Patna. While cruising at an altitude of 38,000 feet, 
+ also triggered on ECAM.  The engine oil pressure was 
+found reducing below 100 and was reduced to 2 within 05 seconds. The Engine # 1 power was 
+brought back to idle by crew. Thereafter, ENG1 FAIL  triggered on ECAM.  The crew carried 
+out ECAM actions and subsequently commanded IFSD of Engine # 1 was carried out. The 
+aircraft was then diverted to 
+landed safely at Lucknow.  
+The occurrence was classified as Serious Incident and an investigation to investigate 
+into the probable cause(s) of the serious incident, was instituted under Rule 11 (1) of Aircraft 
+(Investigation of Accidents and Incidents), Rules 2017. 
+ 
+ 
+ 
+3 
+ 
+1 
+FACTUAL INFORMATION 
+1.1 
+History of the Flight  
+On 07th March 2019, M/s Go Air Airbus A320-271 (NEO) aircraft VT-WGT, was 
+scheduled to operate flight G8-150 from Patna to Delhi. There was no abnormality reported on 
+the aircraft during any of the previous flights in the day. The aircraft took-off from Patna at 
+around 1138 UTC.  
+At 1217 UTC, while cruising 
+also triggered on ECAM.  The engine oil pressure was found 
+reducing below 100 and was reduced to 2 within 05 seconds. The Engine # 1 power was 
+ggered on 
+ECAM.  The crew carried out ECAM actions and subsequently at 1219 UTC carried out 
+commanded IFSD of Engine # 1.  
+As the engine parameters were abnormal and the Engine # 1 was Shut Down, the crew 
+decided to divert to Lucknow. Land ASAP  amber also came ON. The aircraft at that time was 
+. After clearance 
+from Varanasi ATC, aircraft descended to lower level (FL240). The aircraft was then changed 
+over to ATC, Lucknow at 1228 UTC. After obtaining necessary clearances from ATC, Lucknow 
+the aircraft landed uneventfully with single engine at Lucknow at 1247 UTC. Upon landing, the 
+aircraft was taxied to bay. The passengers were disembarked normally. There was no fire and 
+no injury to any occupant on board the aircraft. 
+During post flight inspection of the engine inlet area and exhaust area, oil traces were 
+found on exhaust area nozzle, tail cone, drain mast & Thrust Reverser (TR) cowl area 
+underneath drain mast. Oil quantity of Engine # 1 was found to be 2 quarts which was 20 quarts 
+at the beginning of flight. The consumption during the sector was abnormal.  
+Metal particles were observed on ENG # 1 MGB chip collector. The involved engine 
+(Engine # 1) was removed from the aircraft for further detailed examination and aircraft was 
+released for operations. During detailed inspection of AGB/MGB, Main Oil Pump (MOP)/ 
+Integrated Drive Generator (IDG) Gear was found damaged.   
+ 
+1.2 
+Injuries to Persons 
+There was no injury to any of the occupant on board the aircraft. 
+4 
+ 
+1.3 
+Damage to Aircraft 
+The damages were confined to Main Gear Box assembly of Engine # 1 and during tear 
+-  
+1. The MOP/IDG gear was found fractured. 
+2. The Gearbox Drive shaft cover was found with wear beyond limits. 
+3. The Main Gearbox housing was found fractured and holed with deep scoring. 
+4. Oil passage and jet of Starter Drive Oil Nozzle were found distorted and nicks beyond 
+limit. 
+5. MGB IDG Deoiler cover was found dented and scored. 
+6. PMA Gear shaft was found scored with gear teeth found broken.  
+7. Oil transfer tube was found gouged/nicked. 
+8. Rollers of Gearbox Gear shaft bearing were found dented. 
+9. Gear teeth of Deoiler Gear shaft was found broken. 
+10. Metal debris was found in the Angle Gearbox during disassembly. 
+ 
+1.4 
+Other Damages  
+Nil 
+ 
+1.5 
+Personnel Information 
+1.5.1 Pilot  In  Command 
+Age 
+50 Years 
+License 
+ATPL 
+Date of Issue 
+20th March 2009 
+Valid up to 
+29th Apr 2022 
+Endorsements as PIC 
+A320 
+Date of last Med. Exam 
+09th Nov 2018 
+Med. Exam valid up to 
+08th Nov 2019 
+FRTO License 
+Valid 
+Date of issue 
+05th Jul 2011 
+5 
+ 
+Valid up to 
+04th Jul 2020 
+IR test done 
+10th Dec 2018 
+IR test due 
+09th Dec 2019 
+Total flying experience 
+9037:32 Hrs 
+Experience on type 
+2585:37 Hrs 
+Experience as PIC on type 
+2382:10 Hrs 
+Last flown on type 
+A320 
+Total flying experience during last 180 days 
+474:35 Hrs 
+Total flying experience during last 90 days 
+197:09 Hrs 
+Total flying experience during last 30 days 
+56:42 Hrs 
+Total flying experience during last 07 Days 
+24:41 Hrs 
+Total flying experience during last 24 Hours 
+07:44 Hrs 
+ 
+1.15.2 Co-Pilot  
+Age 
+32 Years 
+License 
+ATPL 
+Date of Issue 
+13th April 2018 
+Valid up to 
+12th April 2023 
+Date of last Med. Exam 
+03rd May 2018 
+Med. Exam valid up to 
+27th May 2019 
+FRTO License 
+Valid 
+Date of issue 
+16th June 2014 
+Valid up to 
+15th June 2019 
+IR test done 
+25th Dec 2018 
+IR test due 
+24th Dec 2019 
+Total flying experience 
+2999:39 Hrs 
+Experience on type 
+2707:30 Hrs 
+Experience as PIC on type 
+N/A 
+Last flown on type 
+A320 
+Total flying experience during last 180 days 
+434:09 Hrs 
+6 
+ 
+Total flying experience during last 90 days 
+157:23 Hrs 
+Total flying experience during last 30 days 
+63:48 Hrs 
+Total flying experience during last 07 Days 
+21:49 Hrs 
+Total flying experience during last 24 Hours 
+09:13 Hrs 
+ 
+1.6 
+Aircraft Information 
+1.6.1 Airbus A-320 NEO 
+The Airbus A320 is narrow-body (single-aisle) aircraft with a retractable tricycle landing 
+gear and is powered by two wing pylon-mounted turbofan engines. The A320 family aircraft 
+fitted with new engines were named as NEO (New Engine Option) and the rest were named 
+as CEO (Current Engine Option). These new engines were manufactured with the idea that it 
+will consume less fuel as compared to other engines, reduced CO2 emissions and reduction 
+in engine noise. A320 NEO can be fitted with either:  
+- The PW1127G-JM, manufactured by Pratt & Whitney or;  
+- The LEAP-1A, manufactured by CFM International. 
+The A320 NEO aircraft made its first flight on 25th September 2014 and it was first 
+introduced by Lufthansa on 20th January 2016. A total of 38 operators worldwide are operating 
+A320 NEO family aircraft. After acceptance of Type Certification by DGCA, these A320 NEO 
+aircraft (fitted with PW1127G-JM engines) were inducted by two airline operators in India i.e. 
+M/s Indigo and M/s Go Air. 
+M/s Indigo inducted the first A320 NEO aircraft in its fleet on 11th March 2016. The 
+number of A320 NEO family fleet operating in India and globally (as of November 2020) is 
+given below: -   
+ 
+Airlines 
+A320 NEO 
+A321 NEO 
+Total 
+Global (Including 
+India) 
+All 
+         485 
+          249 
+734 
+India 
+Indigo 
+115
+161 
+25 
+25 
+186 
+Go Air 
+46 
+0 
+Table 1: A320/A321 Neo fleet Global vs India. 
+ 
+ 
+7 
+ 
+1.6.2 Brief Technical Description of PW1127G-JM Engine 
+The PW1127G-JM turbofan engine is an axial-flow, twin spool turbofan engine with an 
+ultra-high bypass ratio, low speed gear-driven fan. 
+ 
+Figure 1: ENGINE CROSS SECTION 
+The engine comprises of Modules/Build Groups as shown below: -  
+1. Fan Rotor Group 
+13. High Compressor Front Case Group 
+2. Fan Drive Bearing Group 
+14. High Compressor Rotor Group 
+3. Fan Drive Gear Group 
+15. Diffuser Case Group 
+4. Fan Intermediate Case Group 
+16. Combustor and Turbine Nozzle Group 
+5. No. 2 Bearing Group 
+17. High Turbine Stator Group 
+6. Fan Case Group 
+18. High Turbine Rotor Group 
+7. Low Compressor Stator Group 
+19. Turbine Intermediate Case Group 
+8. Low Compressor Rotor Group 
+20. Low Turbine Stator Group 
+9. 2.5 Bleed Group 
+21. Low Turbine Rotor Group 
+10. Compressor Intermediate Case Group 
+22. Turbine Exhaust Case Group 
+11. No. 3 Bearing Group 
+23. Main Gearbox Group 
+12. High Compressor Rear Stator Group 
+24. Angle Gearbox Group 
+8 
+ 
+ 
+Figure 2: Engine Modules/ Build Group 
+ 
+Figure 3: Engine Modules/ Build Group 
+9 
+ 
+ 
+ 
+Figure 4: MGBG  Main Gear Box Group 
+ 
+1.6.3 
+Aircraft VT-WGT General Information 
+Aircraft Model 
+ 
+  
+A320-271N 
+Aircraft S. No. 
+  
+8382 
+Year of Manufacturer 
+2018 
+Name of Owner 
+ 
+ 
+M/s GY AVIATION LEASE 1730 CO. LIMITED 
+C of R   
+ 
+ 
+  
+4952 
+C of A  
+ 
+ 
+  
+7055 
+10 
+ 
+Category 
+ 
+ 
+ 
+NORMAL 
+C of A Validity 
+ 
+  
+16.09.2019 
+A R C issued on 
+ 
+ 
+17.09.2019 
+ARC valid up to 
+ 
+ 
+16/09/2019 
+Aircraft Empty Weight 
+ 
+42,388 Kg 
+Maximum Take-off weight   
+73,500 Kg 
+Date of Aircraft weighment 
+24/08/2018 
+Empty Weight 
+ 
+ 
+43,301 Kg 
+Max Usable Fuel 
+ 
+ 
+18,622 Kg 
+Max Pay load with full fuel  
+11,577 Kg 
+Empty Weight C.G  
+  
+18.91 mts aft of datum 
+Next Weighing due  
+ 
+23/08/2023 
+Total Aircraft Hours  
+ 
+1897:35 
+Last major inspection 
+ 
+done on 16/01/2019 at 1376:41 hrs / 
+695 Cycles 
+Engine Type  
+ 
+ 
+PW1127GA-JM 
+Date of Manufacture LH 
+ 
+03/06/2019 
+Engine Sl. No. LH  
+ 
+P 770-792 
+Last major inspection (LH)  
+done on 16/01/2019 at 1376:41 hrs / 
+695 Cycles 
+Total Engine Hours/Cycles LH 
+1897:35 / 1002 
+Date of Manufacture RH 
+ 
+04/06/2019 
+Engine Sl. No. RH  
+ 
+P 770-794 
+Last major inspection (RH)  
+done on 16/01/2019 at 1376:41 hrs / 
+695 Cycles 
+Total Engine Hours/Cycles RH 
+1897:35 / 1002 
+Aeromobile License  
+31/01/2023 
+All concerned Airworthiness Directives, mandatory Service Bulletins, and DGCA 
+Mandatory Modifications on this aircraft and its engines were complied with as on date of event.  
+ 
+1.7 
+Meteorological Information 
+Weather has no relevance to the subject incident. 
+ 
+11 
+ 
+1.8 
+Aids to Navigation  
+All Navigational Aids available at Lucknow airport were serviceable. The aircraft was 
+equipped with standard navigational equipment and there was no recorded defect with the 
+navigational equipment prior to the flight. 
+ 
+1.9 
+Communications 
+There was always a positive two-way communication between the aircraft & ATC. 
+ 
+1.10 Aerodrome Information 
+Chaudhary Charan Singh International Airport is located in City of Lucknow. It is 
+operated by Adani Lucknow International Airport Limited. The IATA Location Identifier Code 
+is LKO and ICAO Location Indicator Code is VILK. Airport Co-ordinates and elevation are as 
+below:- 
+  
+Lat 
+ 
+:  
+ 
+Long  
+:  
+ 
+ 
+ 
+Elevation 
+:  
+404 feet (237 meters).  
+The airport has three runways with orientation 09/27.   
+ 
+1.11 Flight Recorders   
+Both Solid State Cockpit Voice Recorder (SSCVR) and Solid-State Flight Data Recorder 
+(SSFDR) were downloaded and readout was carried out. Relevant data was used for analysis 
+and correlating with other evidences.  
+ 
+1.12 Wreckage and Impact Information  
+Not applicable as the damages were confined to Main Gear Box (MGB) of Engine # 1 
+only.  
+ 
+1.13 Medical and Pathological Information   
+The crew had undergone pre-flight medical including BA (Breath Analyzer) Test as per 
+requirements. The test result was negative.  
+12 
+ 
+1.14 Fire 
+There was no fire. 
+ 
+1.15 Survival Aspects   
+The incident was survivable. 
+ 
+1.16 Test and Research  
+  
+Nil 
+ 
+1.17 Organizational and Management Information   
+The aircraft was operated by an Indian registered scheduled airline, M/s Go Airlines 
+(India) Limited, which was one of the launch customers for the Airbus A320 NEO aircraft fitted 
+with PW1127G-JM engines. It operates scheduled flights to both domestic and international 
+sectors. The A320 family aircraft operated by M/s Go Air are fitted with engines manufactured 
+by Pratt & Whitney, USA. As of November 2020, M/s Go Air has a total fleet of 46 A320 Neo 
+aircraft. 
+ 
+1.18 Additional Information    
+1.18.1 Typical 
+Snags 
+Reported 
+in 
+PW1127G-JM 
+Engines 
+and 
+Rectifications/ 
+Modifications. 
+Since the induction of PW1127G-JM engines in India in the year 2016, there had been 
+a number of snags reported. Most of the snags were repetitive in nature. In order to prevent 
+reoccurrence of such failures, Pratt & Whitney came up with some rectification 
+actions/Modifications for each snag.  
+Some of the typical snags reported are as follows: - 
+- #3 bearing seal failure. 
+- Combustor failure. 
+- Low Pressure Turbine (LPT) failure. 
+- N2 Vibration. 
+- Main Gear Box (MGB) Integrated Drive Generator (IDG)/LSOP (Lube & Scavenge Oil 
+Pump) gear failure. 
+13 
+ 
+Following table depicts the Rectification Action/Modification carried out by Pratt & 
+Whitney for each of the above Failures: -  
+S. No. 
+Typical Snag Reported 
+Rectification Action proposed by P&W 
+1. 
+# 3 bearing seal failure 
+Issued SB 72-00-087 
+2. 
+Combustor failure 
+Issued SB 72-00-0136 
+3. 
+Low Pressure Turbine failure 
+Issued SB 72-00-0111 
+4. 
+N2 Vibration 
+ 
+SB 72-00138 was released to replace HPC 
+stage 6 ring seal with modified one. 
+5. 
+MGB IDG/LSOP gear failure. 
+Issued SB 72-00-0129  
+Table 2: Typical Engine Failures and Rectification Action by Pratt & Whitney. 
+The typical engine failures discussed in above para led to significant occurrences like 
+In-Flight Shut Down (IFSD), Air Turn Back (ATB), Ground Turn Back (GTB), Rejected Take-
+Off (RTO), etc. The type and number of occurrences (Involving Indigo & Go Air aircraft) 
+corresponding to each of the typical engine failures are listed below: -  
+Type of Failure 
+ 
+#3 bearing 
+seal failure 
+Combustor 
+failure 
+LPT 
+failure 
+N2 
+Vibration 
+MGB 
+IDG/LSOP 
+gear failure. 
+Type of Event 
+RTO (Rejected 
+Take-off) 
+Nil 
+1 
+Nil 
+2 
+Nil 
+Engine Stall 
+Nil 
+Nil 
+1 
+Nil 
+Nil 
+ATB (Air Turn 
+Back)
+Nil 
+1 
+18 
+5 
+3 
+GTB (Ground 
+Turn Back) 
+Nil 
+Nil 
+Nil 
+1 
+Nil 
+Diversion 
+Nil 
+Nil 
+6 
+1 
+1 
+Emergency 
+Landing 
+1 
+Nil 
+Nil 
+Nil 
+Nil 
+Table 3. Type of Occurrences corresponding to each engine failure. 
+Out of the significant occurrences mentioned in the table above, 18 occurrences were 
+classified as serious incidents by AAIB and Annex 13 investigation were instituted to investigate 
+these serious incidents. Further distribution of these 18 serious incidents corresponding to type 
+of failure is as below: -  
+Type of Failure 
+Number of Serious Incidents 
+# 3 bearing seal failure 
+01 
+LPT failure 
+15 
+N2 Vibration 
+01 
+MGB IDG/LSOP gear failure. 
+01 
+Table 4. Number of serious incidents corresponding to type of failures. 
+14 
+ 
+1.18.2 Rectification Action carried out for MGB IDG/LSOP gear failure. 
+Engine Sr No. 770792 was inducted at OEM facility for disassembly, inspection and 
+repair. The IDG gear shaft was found fractured with secondary damage throughout the Main 
+Gearbox. The Main Gearbox was found with the MOP/IDG Gear fractured. The Main Gearbox 
+was rebuilt to incorporate SB 72-00-0129 in order to address this failure mode.  
+ In Preliminary Observation Report of the occurrence, data of similar occurrences worldwide 
+since October 2018 till the date of occurrence was analyzed and is given below: - 
+- 
+There were 08 IFSD events/ 02 on-ground events. 
+- 
+Issue presents as Low Oil Pressure ECAM warning. 
+- 
+All 08 IFSD events were confirmed to have fractures of the Main Oil Pump (MOP). 
+ 
+ 
+Figure 5 : Fractured MOP/IDG Gear 
+15 
+ 
+In the report, P&W came up with a corrective action plan to eliminate reoccurrence of such 
+types of failure in future. The said report also mentioned that the fractured MOP/IDG Gear is consistent 
+with other AGB events. The report said that the root cause investigation has involved both rig and 
+engine testing. This revealed that crack initiation in the MOP/IDG gear has been linked to vibratory 
+excitation of MOP/IDG gear under certain engine operating conditions. Following Corrective Action 
+Plan, was given to reduce event frequency: -   
+- 
+Engine Software (FCS 5.0) with keep-out zones at certain N2 speeds. 
+- 
+On-wing retrofit with redesigned MOP/IDG gear to avoid vibratory response. 
+Service Bulletin (PW SB 72-00-
+ Gear shaft, Integrated Drive Generator 
+(IDG), Oil Pump Drive, Assembly - Replace the IDG Oil Pump Drive Gear shaft Assembly to Improve 
+-occurrence of IFSD events and obviate 
+fracture of MOP/IDG gear fracture.  
+pump drive gear shaft assembly can fracture during engine operation resulting in an IFSD. The 
+assemblies to certain engine operating conditions result in a high cycle fa
+ 
+The SB required to replace the IDG oil pump drive gear shaft assembly with an improved 
+IDG oil pump drive gear shaft assembly with an axially thicker gear web, a radially thicker gear 
+rim, and improved tooth tip relief to eliminate the resonance response of the IDG oil pump drive 
+gear shaft assembly during engine operation. It was also mentioned that the subject SB was the 
+terminating action for the problem.  
+Airbus SB 73-
+Engine Fuel and Control - FADEC System - Introduce FCS5.0 
+was also introduced. The purpose of this Service Bulletin is to 
+introduce a new FADEC standard (STD) FCS5.0 (EEC and PHMU) on PW1100G-JM engines. 
+The FCS5.0 software addresses specific items and provides additional software improvements 
+on EEC and PHMU with respect to overall software robustness.  
+M/s Go Air has carried out the task as per the above said SBs and as on date, all their 
+serviceable PW1127G-JM engines are complied with both SBs. No similar occurrence has 
+been reported in India since the compliance of these SB issued by Pratt & Whitney and Airbus.  
+ 
+1.19 Useful or Effective Investigation Techniques  
+Nil 
+ 
+16 
+ 
+2 
+ANALYSIS 
+2.1 
+General 
+ 
+Both operating crew were appropriately licensed and qualified to operate the flight.  
+ 
+The aircraft had a valid Certificate of Airworthiness at the time of incident. The Aircraft 
+held a valid Certificate of Release to Service which was issued at the airport of 
+departure. Airworthiness Directives & Service Bulletins were complied with. Transit 
+Inspections were carried out as per the approved Transit Inspection Schedules and all 
+guidelines and specified in Maintenance Programme were carried out as and when due.  
+ 
+2.2 
+Circumstances Leading to the Incident 
+EC ALTERNATOR, 
+(Engine # 1 Low Oil Pressure) also triggered on ECAM.  The engine oil pressure was found 
+reducing below 100 and was reduced to 2 within 05 seconds. The Engine # 1 power was 
+crew carried out ECAM actions and subsequently carried out commanded IFSD of Engine # 1.  
+As the Engine parameters were abnormal and the engine # 1 was Shut Down, the crew 
+Varanasi instructed aircraft to descend to lower level (FL240). The aircraft was then changed 
+over to ATC, Lucknow. After obtaining necessary clearances from ATC, Lucknow the aircraft 
+landed uneventfully with single engine at Lucknow. 
+Oil quantity of ENG # 1 was found to be 2 quarts which was 20 quarts at the beginning 
+of flight. The consumption during the sector was abnormal. Oil traces were found on exhaust 
+nozzle, tail cone, drain mast and TR cowl area underneath drain mast. 
+Metal particles were observed on ENG # 1 MGB chip collector. The involved engine 
+(ENG # 1) was removed from the aircraft for further detailed examination and aircraft released 
+for further flight operations. 
+During Disassembly and Inspection of the engine carried out by OEM, it was observed 
+that the IDG oil pump drive gear shaft assembly fractured during engine operation. It was 
+17 
+ 
+opined by the OEM that the resonance response of some IDG oil pump drive gear shaft 
+assemblies to certain engine operating conditions can result in a high cycle fatigue fracture. 
+This fracture of IDG oil pump drive gear shaft assembly and consequent damages to 
+other MGB components like PMA, Starter Drive, Deoiler, Hydraulic pump etc. led to improper 
+scavenging and insufficient air sealing. This resulted in various ECAM fault including Engine 
+Oil low pressure and subsequently to engine failure and IFSD (Commanded).  
+ 
+2.3 
+Preventive Actions taken by OEM & Operator  
+It was observed that the failure of MOP/IDG gear was because of its resonance 
+response to certain engine operating conditions which resulted in a high cycle fatigue fracture. 
+The OEM came up with an immediate as well as long-term corrective action plan to arrest such 
+failing. To eliminate the re-occurrence of IFSD events and obviate fracture of MOP/IDG gear fracture, 
+Service Bulletin (PW SB 72-00-
+ine  Gear shaft, Integrated Drive Generator (IDG), Oil 
+Pump Drive, Assembly - Replace the IDG Oil Pump Drive Gear shaft Assembly to Improve Main 
+The SB required to replace the IDG oil pump drive gear shaft 
+assembly with an improved IDG oil pump drive gear shaft assembly. 
+The new and improved IDG oil pump drive gear shaft assembly has an axially thicker 
+gear web, a radially thicker gear rim, and improved tooth tip relief to eliminate the resonance 
+response of the IDG oil pump drive gear shaft assembly during engine operation. It was also 
+mentioned that the subject SB was the terminating action for the problem.  
+Further, Airbus SB 73-
+Engine Fuel and Control - FADEC System - Introduce 
+FCS5.0 FADEC S
+introduced a new FADEC standard (STD) FCS5.0 (EEC 
+and PHMU) on PW1100G-JM engines.  
+Both SBs have been complied by M/s Go Air on all its serviceable PW1127G-JM 
+engines and no similar occurrence has been reported in India since the compliance of these 
+SBs. 
+  
+3 
+CONCLUSION 
+3.1 
+Findings 
+1. The Certificate of Airworthiness, Certificate of Registration and the Certificate of Flight Release of 
+the aircraft was valid on the date of incident and all concerned Airworthiness Directives, Service 
+18 
+ 
+Bulletins, DGCA Mandatory Modifications on this aircraft and its engines were found complied 
+with.  
+2. No snag was reported by the crew on the flights prior to the incident flight on the day of incident. 
+3. Both pilots were appropriately qualified to operate the flight.  
+4. Due to warnings that triggered on ECAM and abnormal Engine parameters the Engine # 1 
+was Shut Down and the crew decided to divert to Lucknow.  
+5. 
+instructed aircraft to descend to lower level (FL240). The aircraft was then changed over 
+to ATC, Lucknow. After obtaining necessary clearances from ATC, Lucknow the aircraft 
+landed uneventfully with single engine at Lucknow. 
+6. During post flight inspection Oil quantity of Engine # 1 was found to be 2 quarts which was 
+20 quarts at the beginning of flight. The consumption during the sector was abnormal. Oil 
+traces were found on exhaust nozzle, tail cone, drain mast and TR cowl area underneath 
+drain mast. Metal particles were observed on Engine # 1 MGB chip collector.  
+7. On further inspection of AGB/MGB, Main Oil Pump (MOP)/ Integrated Drive Generator 
+(IDG) Gear was found damaged.   
+8. There was no fire and no injury to any occupant on board the aircraft. 
+9. 
+it was observed that the IDG oil pump drive 
+gear shaft assembly fractured during engine operation.  
+10. Based on analysis of earlier events it was opined by the OEM that the resonance response 
+of some IDG oil pump drive gear shaft assemblies to certain engine operating conditions 
+can result in a high cycle fatigue fracture. 
+11. This fracture of IDG oil pump drive gear shaft assembly and consequent damages to other 
+MGB components like PMA, Starter Drive, Deoiler, Hydraulic pump etc. led to improper 
+scavenging and insufficient air sealing. This resulted in various ECAM fault including 
+Engine Oil low pressure and subsequently to engine failure and IFSD (Commanded).  
+12. To eliminate the re-occurrence of such events and PW SB 72-00-0129 and Airbus SB 73-1136 
+were issued.   
+13. M/s Go Air has carried out the task as per the above said SBs and as on date, all their 
+serviceable PW1127G-JM engines are complied with these SBs. No similar occurrence 
+has been reported in India since the compliance of these SBs.  
+ 
+19 
+ 
+3.2 
+Probable Cause of the Incident 
+The IDG oil pump drive gear shaft assembly fractured during engine operation as its 
+resonance response to certain engine operating conditions resulted in a high cycle fatigue 
+fracture. This fracture of IDG oil pump drive gear shaft assembly and consequent damages to 
+other MGB components resulted in various ECAM fault including Engine Oil low pressure and 
+subsequently to engine failure and IFSD (Commanded).  
+ 
+4 
+SAFETY RECOMMENDATIONS 
+Corrective Actions initiated by the OEM and subsequent compliance by the operator has been 
+adequate to obviate recurrence hence nil recommendation is made.  
+ 
+ 
+ 
+ 
+Jasbir Singh Larhga 
+Investigator - In - Charge  
+K Ramachandran 
+Investigator 
+ 
+ 

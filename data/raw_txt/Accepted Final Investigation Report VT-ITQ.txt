@@ -1,0 +1,823 @@
+1 
+ 
+FINAL INVESTIGATION REPORT ON SERIOUS INCIDENT INVOLVING M/S INDIGO 
+AIRBUS A320 (NEO) AIRCRAFT VT-ITQ ON 21/01/2019 
+ 
+1. 
+Aircraft Type 
+: 
+Airbus A320-271 NEO 
+ 
+Nationality 
+: 
+Indian 
+ 
+Registration 
+: 
+VT - ITQ 
+2. 
+Owner 
+: 
+M/s Oriental Leasing 8 Company Limited 
+3. 
+Operator 
+: 
+Inter Globe Aviation Ltd (IndiGo) 
+3. 
+Pilot  in Command 
+: 
+ATPL holder 
+ 
+Extent of Injuries 
+: 
+Nil 
+4. 
+First Officer 
+: 
+ATPL Holder 
+ 
+Extent of injuries 
+: 
+Nil 
+5. 
+Place of Serious Incident 
+: 
+Enroute (Near Lucknow) 
+6. 
+Date & Time of Incident 
+: 
+21st January 2019 & 1128 UTC 
+7. 
+Last Point of Departure 
+: 
+Lucknow Airport 
+8. 
+Point of Intended Landing 
+: 
+Jaipur Airport 
+10.
+Type of Operation 
+: 
+Scheduled Operation 
+11.
+Passengers on Board 
+: 
+120 (Including 04 Cabin Crew Members) 
+ 
+Extent of Injuries 
+: 
+Nil 
+12.
+Phase of Operation 
+: 
+Climb 
+13.
+Type of Occurrence 
+: 
+Air Turn Back due to Engine Stall.  
+ 
+ 
+ 
+(All the timings in this report are in UTC unless otherwise specified) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+SYNOPSIS 
+ 
+ 
+On 21st January 2019, M/s Indigo Airbus A320-271 (NEO) aircraft VT-ITQ, while 
+operating a scheduled flight from Lucknow to Jaipur was involved in an Air Turn Back due to 
+engine stall during climb. The aircraft was under the command of an ATPL holder with a co-
+pilot also an ATPL holder. There were 120 passengers on board the aircraft including 04 cabin 
+crew members. 
+ 
+ 
+The aircraft took - off from Lucknow. While at FL120, a loud bang was heard by the crew 
+and subsequently ENG 2 STALL
+triggered on ECAM. This was followed by ENG 
+2 EGT OVERLIMIT  and ENG 2 HGH VIB  on ECAM. The Engine parameters i.e., N1 and N2 
+vibrations was at 7 and 10 respectively and the EGT was noticed to be increasing past 1000oC. 
+As the Engine parameters were abnormal, the crew decided to divert back to Lucknow. The 
+aircraft landed safely at Lucknow. On visual inspection of the engine inlet area and exhaust 
+area, all blades of LPT 3rd stage were found damaged.  
+ 
+ 
+The occurrence was classified as Serious Incident and an investigation to investigate 
+into the probable cause(s) of the serious incident, was instituted under Rule 11 (1) of Aircraft 
+(Investigation of Accidents and Incidents), Rules 2017. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+1 
+FACTUAL INFORMATION 
+1.1 
+History of the Flight  
+On 21st January 2019, M/s Indigo Airbus A320-271 (NEO) aircraft VT-ITQ, was 
+scheduled to operate flight 6E-451 from Lucknow to Jaipur. There was no abnormality reported 
+on the aircraft during previous flights of the day. The aircraft was scheduled to depart from 
+Lucknow at 1100 UTC and arrive Jaipur at 1225 UTC.  
+The aircraft took-off from Lucknow at around 1107 UTC. At 1128 UTC, while at Level 
+120, a loud bang was heard by the crew. Subsequently, ENG 2 STALL
+on ECAM. This was followed by ENG 2 EGT OVERLIMIT  and ENG 2 HGH VIB  on ECAM. 
+The crew followed ECAM actions and QRH/FCOM checklist for Engine Stall and Engine 
+Vibration. The Engine parameters i.e., N1 and N2 vibrations was at 7 and 10 respectively and 
+the EGT was noticed to be increasing past 1000oC. As the Engine parameters were abnormal, 
+the crew decided to divert back to Lucknow. Accordingly, crew informed ATC, Lucknow and 
+the aircraft was diverted back to Lucknow. No Emergency was declared by the crew. After 
+obtaining necessary clearances from ATC, Lucknow, the aircraft landed safely at Lucknow at 
+1158 UTC.  
+Upon landing, the aircraft vacated the runway and taxied to bay. The passengers were 
+disembarked normally. There was no fire and no injury to any occupant on board the aircraft. 
+During post flight inspection, while carrying out visual inspection of the involved engine, 
+i.e., inlet area and exhaust area of Engine # 2, Low Pressure Turbine 3rd stage blades were 
+found damaged.  
+1.2 
+Injuries to Persons 
+There was no injury to any of the occupant on board the aircraft. 
+ 
+1.3 
+Damage to Aircraft 
+During post flight inspection and tear down examination the following salient damages 
+on Engine # 2 were observed: -  
+1. During Borescope Inspection of High-Pressure Compressor (HPC) assembly, HPC 
+Stage 5 rotor blades were observed to have nicks. HPC Stage 6 rotor blades were 
+observed to have Worn and galled bore.  
+2. HPC Shaft seal slot was worn beyond limits. 
+3. Combustion Chamber outer seal was found cracked. 
+4 
+ 
+4. During Borescope Inspection of High-Pressure Turbine (HPT) assembly, HPT 
+Stage 1 Hub Air Seal found dented. 
+5. HPT stage 1 blades were found unserviceable. 
+6. Low Pressure Turbine (LPT) Shaft was observed to have impact damage.  
+7. LPT Stage 1 & Stage 3 Outer Air Seal Honeycomb Segment was found damaged. 
+8. LPT Stage 2 vanes were observed to have impact damage. 
+9. LPT Stage 3 vanes were observed to have impact damage. 
+10. LPT Case was found to be severely damaged.  
+11. LPT Stage 1 and stage 2 blades were observed to have impact damage. 
+12. All LPT Stage 3 blades were found damaged (Fractured from Tip).  
+13. Turbine Exhaust Case was found to have impact damage. 
+ 
+1.4 
+Other Damages  
+Nil 
+ 
+1.5 
+Personnel Information 
+1.5.1 Pilot  In  Command 
+Age                   
+ 32 Years 
+License 
+ ATPL 
+Date of Issue 
+ 19/04/2018 
+Valid up to 
+ 18/04/2023 
+Date of Class I Med. Exam. 
+ 15/02/2020 
+Class I Medical Valid up to  
+ 26/02/2021 
+Date of issue FRTOL License 
+ 14/01/2020 
+FRTO License Valid up to 
+ 13/01/2025 
+Endorsements as PIC 
+ 26.11.2018 
+Total flying experience 
+ 3186.36 HOURS 
+Total flying experience on type 
+ 2943.42 HOURS 
+Last Flown on type 
+ 20.01.2019 
+Total flying experience during last 1 year 
+ 605.10 HOURS 
+Total flying experience during last 6 
+Months 
+ 288.51 HOURS 
+Total flying experience during last 30 days   
+ 65.24 HOURS 
+Total flying experience during last 07 Days  
+ 9.46 HOURS 
+Total flying experience during last 24 Hours  
+ 4.52 HOURS 
+5 
+ 
+Rest period before flight 
+ 15.50 HOURS 
+Date of latest Flight Checks and Ground 
+Classes 
+ ALRC-29/11/2019 
+AND 
+ANNUAL 
+REFRESHER-08/07/2020 
+ 
+1.15.2 Co-Pilot  
+Age                     
+34 Years 
+License 
+ ATPL - Valid 
+Class I Medical Valid up to 
+ 11/02/2021 
+Date of issue FRTOL License 
+ 21/08/2014 
+FRTO License Valid up to 
+ 20/08/2019 
+Total flying experience 
+ 2212.30 HOURS 
+Total flying experience on type 
+ 1887.14 HOURS 
+Last Flown on type 
+ 20.01.2019 
+Total flying experience during last 1 year 
+ 821.53 HOURS 
+Total flying experience during last 6 
+Months
+ 413.44 HOURS 
+Total flying experience during last 30 days 
+ 73.03 HOURS 
+Total flying experience during last 07 Days
+ 22.31 HOURS 
+Total flying experience during last 24 Hours 
+ 3.93 HOURS 
+Rest period before flight 
+ 14.56 HOURS 
+Date of latest Flight Checks and Ground 
+Classes 
+ ALRC-19/06/2018 
+AND 
+ANNUAL 
+REFRESHER-28/08/2020 
+ 
+1.6 
+Aircraft Information 
+1.6.1 Airbus A-320 NEO 
+The Airbus A320 is narrow-body (single-aisle) aircraft with a retractable tricycle landing 
+gear and is powered by two wing pylon-mounted turbofan engines. The A320 family aircraft 
+fitted with new engines were named as NEO (New Engine Option) and the rest were named 
+as CEO (Current Engine Option). These new engines were manufactured with the idea that it 
+will consume less fuel as compared to other engines, reduced CO2 emissions and reduction in 
+engine noise. A320 NEO can be fitted with either:  
+- The PW1127G-JM, manufactured by Pratt & Whitney or;  
+- The LEAP-1A, manufactured by CFM International. 
+6 
+ 
+The A320 NEO aircraft made its first flight on 25th September 2014 and it was first 
+introduced by Lufthansa on 20th January 2016. A total of 38 operators worldwide are operating 
+A320 NEO family aircraft. After acceptance of Type Certification by DGCA, these A320 NEO 
+aircraft (fitted with PW1127G-JM engines) were inducted by two airline operators in India i.e. 
+M/s Indigo and M/s Go Air. 
+M/s Indigo inducted the first A320 NEO aircraft in its fleet on 11th March 2016. The 
+number of A320 NEO family fleet operating in India and globally (as of November 2020) is 
+given below: -   
+ 
+Airlines 
+A320 NEO 
+A321 NEO 
+Total 
+Global (Including 
+India) 
+All 
+         485 
+          249 
+734 
+India 
+Indigo 
+115
+161 
+25 
+25 
+186 
+Go Air 
+46 
+0 
+ 
+1.6.2 Brief Technical Description of PW1127G-JM Engine 
+The PW1127G-JM turbofan engine is an axial-flow, twin spool turbofan engine with an 
+ultra-high bypass ratio, low speed gear-driven fan. 
+ 
+7 
+ 
+The engine comprises of Modules/Build Groups as shown below: -  
+1. Fan Rotor Group 
+13. High Compressor Front Case Group 
+2. Fan Drive Bearing Group 
+14. High Compressor Rotor Group 
+3. Fan Drive Gear Group 
+15. Diffuser Case Group 
+4. Fan Intermediate Case Group 
+16. Combustor and Turbine Nozzle Group 
+5. No. 2 Bearing Group 
+17. High Turbine Stator Group 
+6. Fan Case Group 
+18. High Turbine Rotor Group 
+7. Low Compressor Stator Group 
+19. Turbine Intermediate Case Group 
+8. Low Compressor Rotor Group 
+20. Low Turbine Stator Group 
+9. 2.5 Bleed Group 
+21. Low Turbine Rotor Group 
+10. Compressor Intermediate Case Group 
+22. Turbine Exhaust Case Group 
+11. No. 3 Bearing Group 
+23. Main Gearbox Group 
+12. High Compressor Rear Stator Group 
+24. Angle Gearbox Group 
+ 
+ 
+8 
+ 
+ 
+ 
+9 
+ 
+ 
+ 
+ 
+1.6.3 Aircraft VT-ITQ General Information 
+Aircraft Model                        
+AIRBUS A320-271N 
+MSN 
+7391 
+Year of Manufacturer     
+2017 
+Name of Owner     
+M/s ORIENTAL LEASING 8 COMPANY LIMITED 
+C of R     
+4745/2 
+C of A       
+6848 
+Category     
+NORMAL 
+C of A Validity     
+NO VALIDITY 
+A R C issued  
+22.03.2018 
+ARC valid up to        
+24.03.2019 
+Aircraft Empty Weight     
+42205.925 KG 
+Maximum Take-off weight 
+73500.000 KG 
+Date of Aircraft weighment 
+20.02.2017 
+Operating Empty Weight             
+43278.555 KG 
+Max Usable Fuel         
+18622.000 KG 
+Max Payload with full fuel  
+11599.445 KG 
+10 
+ 
+Operating Empty Weight C.G       
+25.122 % MAC  
+Next Weighing due         
+19.02.2022 
+Total Aircraft Hours     
+6232:52 
+Last major inspection    
+1500 FH/ 1110 FC/ 180 DAYS AT 22.12.2018 
+List of Repairs carried out after 
+last major inspection till date of 
+incidence: 
+NIL 
+Engine Type                     
+PW1127G-JM 
+Date of Manufacture LH   
+31.01.2017 
+Engine Sl. No. LH             
+P770290 
+Last major inspection (LH) 
+1500 FH/ 1110 FC/ 180 DAYS AT 22.12.2018 
+Total 
+Engine 
+Hours/Cycles 
+LH          
+2208:12/ 1478 
+Date of Manufacture RH    
+26.07.2018 
+Engine Sl. No. RH            
+P770881 
+Last major inspection (RH) 
+1500 FH/ 1110 FC/ 180 DAYS AT 22.12.2018 
+Total Engine Hours/Cycles RH: 
+1383:00/ 907 
+Aero mobile License      
+31.05.2022 
+All concerned Airworthiness Directives, mandatory Service Bulletins, and DGCA 
+Mandatory Modifications on this aircraft and its engines were complied with as on date of event.  
+ 
+1.7 
+Meteorological Information 
+Enroute weather information is given below: -  
+ VILK 211100Z 10009KT 2500 HZ FEW100 24/12 Q1011 NOSIG= 
+ VILK 211130Z 10005KT 2500 HZ FEW100 23/12 Q1011 NOSIG= 
+ VILK 211230Z 11003KT 2000 HZ FEW100 21/13 Q1012 NOSIG= 
+However, weather has no relevance to the subject incident. 
+ 
+1.8 
+Aids to Navigation  
+All Navigational Aids available at Lucknow airport were serviceable. The aircraft was 
+equipped with standard navigational equipment and there was no recorded defect with the 
+navigational equipment prior to the flight. 
+ 
+11 
+ 
+1.9 
+Communications 
+There was always a positive two-way communication between the aircraft & ATC. 
+ 
+1.10 Aerodrome Information 
+Chaudhary Charan Singh International Airport is located in City of Lucknow. It is 
+operated by Adani Lucknow International Airport Limited. The IATA Location Identifier Code 
+is LKO and ICAO Location Indicator Code is VILK. The airport has single runway with 
+orientation 09/27. Airport Co-ordinates and elevation are given below: - 
+  
+Lat 
+ 
+:  
+26° 45  43
+ 
+Long  
+:  
+080° 53  00
+ 
+ 
+Elevation 
+:  
+404 feet (123 meters).  
+ 
+1.11 Flight Recorders   
+Both Solid State Cockpit Voice Recorder (SSCVR) and Solid-State Flight Data Recorder 
+(SSFDR) were downloaded and readout was carried out. Relevant data was used for analysis 
+and correlating with other evidences.  
+ 
+1.12 Wreckage and Impact Information  
+Not applicable as the damages were confined to core Engine # 2 only.  
+ 
+1.13 Medical and Pathological Information   
+The crew had undergone pre-flight medical including BA (Breath Analyzer) Test as per 
+requirements. The test result was negative.  
+ 
+1.14 Fire 
+There was no fire. 
+ 
+1.15 Survival Aspects   
+The Incident was survivable. 
+ 
+1.16 Test and Research  
+1.16.1 Tear Down Reports from Pratt & Whitney 
+As per agreement between M/s Indigo and OEM, the damaged engine was replaced 
+with a serviceable engine. The damaged RH engine was sent to OEM after the incident. The 
+ut. 
+There were several similar occurrences involving the failure of LPT 3rd stage blades preceding 
+12 
+ 
+this incident. The LPT 3rd stage blade failure was considered to be a known issue, which had 
+a developed corrective action in place. No Technical Investigation was carried out by the OEM 
+on the incident Engine (ESN P770881). 
+During Disassembly and Inspection and subsequent repair, LPT 3 Blades were found 
+fractured and impact damage was noted in the LPT and TEC. The LPT shaft and LPT2 disk 
+showed indications of rotor rub/abnormal deflection. The TIC piston seals showed light wear 
+with no missing material. Hardware affected by impact damage was repaired or replaced as 
+required. A new LPT3 rotor was installed as per SB 72-00-0111.  
+The engine had also reportedly experienced EGT overtemperature on-wing. The HPT2 
+snap ring, HPT1 and HPT2 blades, and forward ID TIC piston seal were routed for 
+overtemperature analysis. The analysis result showed these items did not experience 
+overtemperature.  
+ 
+1.16.2 Failure Analysis Report from National Aerospace Laboratories, Bengaluru    
+AAIB, India got the fractured blades from Engine ESN P770187, P770530 and P770516 
+which suffered similar LPT 3rd stage blade failure during different flights, tested at National 
+Aerospace Laboratories (NAL), Bengaluru to carry out Failure Analysis on these blades. NAL 
+carried out failure analysis of these blades and submitted a report to AAIB. 
+VT-ITQ was fitted with ESN P770881 at the time of incident. Given the similar nature of 
+failure and findings of shop inspection, it is presumed that failure on ESN P770881 was similar 
+to failure on engines involved in other LPT 3rd stage turbine failure incidents including ESN 
+P770187, P770530 and P770516 for which failure analysis was carried out at NAL, Bengaluru. 
+Following are the salient observations made in the failure analysis report provided by NAL, 
+Bengaluru: -  
+ 
+Examination revealed that all 78 LPT 3rd stage blades had fractured in the airfoil at 
+varying heights from the blade root platform.  
+ 
+Impact damages were found present predominantly along trailing edge (TE) of the 
+available part of the airfoil.  
+ 
+Fracture surfaces of the blades showed a flat appearance with vaguely delineated 
+chevron marks emanating from the crack origins in many occasions.  
+13 
+ 
+ 
+Fractography study confirmed that LPT 3rd stage blades had fractured instantaneously 
+in a brittle manner. None of the blades showed presence of any signatures of progressive 
+failure such as fatigue.  
+ 
+Scanning electron fractography study confirmed that the crack propagation in the blades 
+was by mixed mode of cleavage and interlamellar separation. In the fractured blades, the 
+fracture process in gamma-phase was by cleavage while it was by interlamellar separation in 
+lamellar colonies. 
+ 
+Metallurgical evaluation of the Material of Construction (MoC) showed that stage 3 LPT 
+blades were made of a Gamma base Titanium Aluminide (TiAl), an intermetallic material. The 
+MoC of the blades has the nominal composition of 52% Titanium (Ti) , 43% Aluminium (Al), 
+4% Nobium (Nb) and 1% Molybdenum (Mo). The material did not have any metallurgical 
+abnormalities that could be responsible for failure of the LPT blades. 
+ 
+TiAl-base intermetallic materials are, in general, brittle in nature having low fracture 
+toughness. Although, the alloy used for stage III LPT blades is an improved version of TiAl 
+alloys with engineered microstructure, the material still lacks adequate damage tolerance 
+properties compared to the conventional Nickel (Ni)-base superalloy that is generally used in 
+this section of gas turbine engines.  
+ 
+The MoC possessed a duplex microstructure consisting of mostly colonies of lamellae 
+and isolated single phase gamma grains.  
+ 
+Fatigue test conducted in this laboratory on the MoC of LPT 3rd stage blades showed 
+that the material does not have enough crack growth resistance and after initiation, the crack 
+propagates instantaneously leading to fracture.  
+ 
+1.17 Organizational and Management Information   
+The aircraft VT-ITQ is operated by M/s Indigo which is an Indian registered Scheduled 
+airline and one of the launch customers for the Airbus A320 NEO aircraft fitted with PW1127G-
+JM engines. It operates scheduled flights to both domestic and international sectors. It has got 
+a fleet of Airbus A320/A321 and ATR-72 aircraft.  As of November 2020, M/s Indigo has a total 
+fleet of 140 (A320/A321) NEO aircraft. The operator first inducted NEO aircraft in the year 
+2016. Initially, a total of 14 NEO aircraft were inducted by M/s Indigo in the year 2016.  
+  
+14 
+ 
+The year wise induction of NEO fleet (Graphical Representation) by M/s Indigo is shown 
+below: -  
+ 
+1.18  Additional Information         
+1.18.1 Typical Snags Reported in PW1127G-JM Engines  
+Since the induction of PW1127G-JM engines in India in the year 2016, there have been 
+a number of snags reported on aircraft fitted with these engines. Most of the snags were 
+repetitive in nature. In order to prevent reoccurrence of such failures, Pratt & Whitney came 
+up with some rectification actions/modifications for each snag.  
+The following table depicts the Typical Snags and Rectification Action/Modification 
+carried out by Pratt & Whitney along with the status of action taken by M/s Indigo as of 17th 
+Nov 2020: -  
+Sr. 
+ 
+Typical Snag 
+Reported 
+Rectification Action 
+proposed by P&W 
+Action Taken by M/s 
+Indigo (As of 17th Nov 
+2020) 
+1. 
+#3 bearing seal 
+failure 
+Issued SB 72-00-087 
+All Indigo engines are post SB 
+72-00-0087. 
+2. 
+Combustor failure 
+Issued SB 72-00-0136 
+176 IGO engine are post SB 
+72-00-0136. 
+3. 
+Low Pressure Turbine 
+failure 
+Issued SB 72-00-0111 
+All IGO engine are post SB 72-
+00-0111. 
+4. 
+N2 Vibration 
+ 
+SB 72-00138 was released 
+to replace HPC stage 6 ring 
+seal with modified one. 
+134 engines are flying with 
+post mod HPC 6 ring seal 
+5. 
+MGB IDG/LSOP gear 
+failure. 
+Issued SB 72-00-0129 
+30 engines are Pre SB 72-00-
+0129. 
+15 
+ 
+The typical engine failures discussed in above para led to significant occurrences like 
+In-Flight Shut Down (IFSD), Air Turn Back (ATB), Ground Turn Back (GTB), Rejected Take-Off 
+(RTO), etc. The type and number of occurrences (Involving Indigo & Go Air aircraft) 
+corresponding to each of the typical engine failures are listed below: -  
+Type of Failure 
+ 
+# 3 bearing 
+seal failure 
+Combustor 
+failure 
+LPT 
+failure 
+N2 
+Vibration
+MGB 
+IDG/LSOP 
+gear 
+failure. 
+Type of Event 
+RTO (Rejected 
+Take-off) 
+Nil 
+1 
+Nil 
+2 
+Nil 
+Engine Stall 
+Nil 
+Nil 
+1 
+Nil 
+Nil 
+ATB (Air Turn 
+Back) 
+Nil 
+1 
+18 
+5 
+3 
+GTB (Ground 
+Turn Back) 
+Nil 
+Nil 
+Nil 
+1 
+Nil 
+Diversion 
+Nil 
+Nil 
+6 
+1 
+1 
+Emergency 
+Landing 
+1 
+Nil 
+Nil 
+Nil 
+Nil 
+Out of the significant occurrences mentioned in the table above, 18 occurrences were 
+classified as serious incidents by AAIB and Annex 13 investigation were instituted to investigate 
+these serious incidents. Further distribution of these 18 serious incidents corresponding to type 
+of failure is as below: -  
+Type of Failure 
+Number of Serious Incidents 
+# 3 bearing seal failure 
+01 
+LPT failure 
+15 
+N2 Vibration 
+01 
+MGB IDG/LSOP gear failure. 
+01 
+As per the above table, it can be seen that majority of these serious incidents 
+corresponds to LPT failure wherein the Blades of 3rd Stage of LPT failed in flight. As per 
+agreement between M/s Indigo and OEM, the damaged engines were replaced by serviceable 
+engines. All engines involved in the 18 serious incidents discussed above were quarantined 
+after the occurrence and sent to OEM (Pratt & Whitney) facility in USA and Germany for repair. 
+ Pratt and Whitney did not subject any of these engines to any technical investigation 
+as the events were similar to various prior occurrences and considered to be a known issue. 
+16 
+ 
+The Shop Visit report of all these Engine was shared with AAIB through Accredited 
+Representative of NTSB.  
+ 
+1.18.2 Service Bulletin 72-00-0111 
+- Disk, LPT 3rd Stage and Blade, LPT 3rd Stage and 
+Shroud-Segment, Ring, 3rd Stage - Introduction of a New LPT 3rd Stage Blade which is more 
+ter Issue 
+2 was issued on 18th October 2019 and finally, Issue 3 was issued on 28th May 2020.  
+ge blade material 
+ 
+The SB required that the LPT 3rd stage disk, blades, locking plates, and shroud 
+segments be replaced by the new set made of different material. 
+ 
+1.18.3 
+Guidelines/Deadline given & action taken by DGCA. 
+DGCA issued a deadline (to M/s Indigo) stating that, each A320 NEO aircraft with 
+PW1127G-JM engine (where both engines of which has done more than 2900 FH) must have 
+at least one LPT modified engine installed forthwith. Further, it stated that, all the A320 NEO 
+aircraft fitted with Pratt and Whitney engines must have LPT modified for both its engines by 
+31st January 2020.   
+On 25th November 2019, DGCA issued an order stating that the new aircraft which has 
+been inducted will slip into the role of one existing aircraft with unmodified (LPT) engines. It 
+was also stated that no leased engines without modified LPT 3rd stage shall be imported. 
+Thereafter, DGCA on 19th December 2019 issued an order stating that the order dated 25th 
+November 2019 and 16th December 2019 will be kept in abeyance to the extent of grounding 
+an existing aircraft with both unmodified engines upon induction of new aircraft in the fleet of 
+Indigo. However, it said all other advisories issued by DGCA regarding the same will continue 
+to remain in force.   
+DGCA issued order dated 13th January 2020 in which they extended the deadline of 
+replacement of un-modified engines with modified engines to 31st May 2020. Later on, 27th 
+17 
+ 
+May 2020, DGCA issued yet another order wherein the deadline was further extended to 31st 
+August 2020 keeping in view of the COVID19 pandemic. 
+By 26th August 2020 all the PW1127G-JM engines (280 engines) of Indigo had complied 
+with SB 72-00-0111 i.e., all its NEO fleet (140 aircraft) were installed with LPT modified 
+engines.  
+ 
+1.19 Useful or Effective Investigation Techniques  
+Nil 
+ 
+2 
+ANALYSIS 
+2.1 
+General 
+ 
+Both pilots were appropriately licensed and qualified to operate the flight.  
+ 
+The aircraft had a valid Certificate of Airworthiness at the time of incident. The Aircraft 
+held a valid Certificate of Release to Service which was issued at the airport of departure. 
+Airworthiness Directives & Service Bulletins were complied with. Transit Inspections 
+were carried out as per the approved Transit Inspection Schedules and all higher 
+and specified in Maintenance Programme.  
+ 
+2.2 
+Circumstances Leading to the Incident 
+VT-ITQ was equipped with PW1127G-JM engine Sr. No. 770881. This engine was fitted 
+with pre-modified LPT 3rd stage blades which had less crack growth resistance and impact 
+tolerance. The aircraft suffered LPT 3rd stage blade failure while climbing passing Flight Level 
+115. A loud bang was heard by the crew. Subsequently, ENG 2 STALL
+ 
+ECAM. This was followed by ENG 2 EGT OVERLIMIT  and ENG 2 HGH VIB  on ECAM. The 
+crew followed ECAM actions and QRH/FCOM checklist for Engine Stall and Engine Vibration. 
+The Engine parameters i.e., N1 and N2 vibrations was at 7 and 10 respectively. EGT was 
+noticed to be increasing past 1000oC. As the Engine parameters were abnormal, the crew 
+decided to divert back to Lucknow. No Emergency was declared by the crew. After obtaining 
+necessary clearances from ATC, Lucknow, the aircraft landed safely at Lucknow.  
+During post flight inspection while carrying out visual inspection of the involved engine, 
+Low Pressure Turbine 3rd stage blades were found damaged. Incident was one amongst series 
+18 
+ 
+of similar events and hence Pratt and Whitney did not carry out Technical Investigation into 
+this case. 
+ 
+2.3 
+LPT 3rd stage blade failure and preventive action. 
+Based on the analysis by NAL, Bengaluru to study Material of Construction (MoC) it was 
+determined that the pre-modified LPT stage 3 blades are made of gamma-based Titanium 
+Aluminide (TiAl) which is, in general, brittle in nature having low fracture toughness. Although, 
+the alloy used for LPT blades 3rd stage blades is an improved version of TiAl alloys with 
+engineered microstructure, the material still lacked adequate damage tolerance properties. It 
+was confirmed during the fractography study conducted by NAL, Bengaluru that LPT 3rd stage 
+blades of the Engine ESN 770187, 770530 and 770516 had fractured instantaneously in a 
+brittle manner and none of the blades showed presence of any signatures of progressive failure 
+such as fatigue.  
+The fatigue test further confirmed that the material does not have enough crack growth 
+resistance and after initiation, the crack propagated instantaneously leading to fracture. It is, 
+therefore, evident that the LPT stage 3 blades failed in flight as these blades could not 
+withstand possible impact from material liberated upstream and got fractured instantaneously. 
+This led to engine high vibration and EGT overlimit.   
+Subsequent to directions issued by the DGCA to equip all aircraft with LPT modified 
+engines, the airlines complied with SB 72-00-0111 and all its A320 NEO fleet (140 aircraft) 
+were installed with LPT modified engines.  
+ 
+3 
+CONCLUSION 
+3.1 
+Findings 
+1. 
+The aircraft had valid Certificate of Airworthiness, Certificate of Registration and the Certificate 
+of Flight Release before operating the incident flight.  
+2. 
+Both pilots were appropriately qualified to operate the flight.  
+3. 
+There was no fire and no injury to any occupant on board the aircraft. 
+4. 
+During post flight inspection, while carrying out visual inspection of the involved engine, 
+i.e., inlet area and exhaust area of Engine # 2, Low Pressure Turbine 3rd stage blades were 
+found damaged. 

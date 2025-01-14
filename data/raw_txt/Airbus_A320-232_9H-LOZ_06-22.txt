@@ -1,0 +1,323 @@
+3
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin: 6/2022	
+9H-LOZ	
+AAIB-27313
+SERIOUS INCIDENT
+	
+Aircraft Type and Registration:	
+Airbus A320-232, 9H-LOZ 
+No & Type of Engines:	
+2 IAE V2500 turbofan engines
+Year of Manufacture:	
+2006 (Serial no: 2838)
+Date & Time (UTC):	
+28 May 2021 at 0825 hrs
+Location:	
+London Stansted Airport, Essex
+Type of Flight:	
+Commercial Air Transport (Non-revenue)
+Persons on Board:	
+Crew - 2	
+Passengers - None
+ 
+Injuries:	
+Crew - None	
+Passengers - N/A
+Nature of Damage:	
+None 
+Commander’s Licence:	
+Airline Transport Pilot’s Licence
+Commander’s Age:	
+30 years
+Commander’s Flying Experience:	
+5,290 hours (of which 5,100 were on type)
+	
+Last 90 days – 25 hours
+	
+Last 28 days –   6 hours
+Information Source:	
+Aircraft Accident Report Form submitted by the 
+pilot
+Synopsis
+On a routine short flight, during final approach to land, the No 2 engine reduced to idle and 
+would not respond to any control inputs.  The flight crew performed a missed approach 
+and, following the relevant checklist procedure, elected to shut down the engine.  They 
+then performed an uneventful single-engine approach and landed safely.  The engineering 
+investigation determined that the cause of the engine problem was most likely an inadvertent 
+activation of the overspeed protection valve in the fuel control system. The problem has 
+occurred previously on other V2500 engines and is being addressed through safety actions 
+by the engine and aircraft manufacturers.
+History of the flight
+The aircraft was scheduled to conduct a preservation flight1 on 28 May 2021, departing from 
+and returning to Stansted Airport and lasting approximately 45 minutes.  The operating crew 
+positioned from Vienna to Stansted as passengers on a commercial flight, arriving in the 
+crew room at Stansted at 0630 hrs.  They waited for the morning engineering shift to come 
+on duty at 0700 hrs and the aircraft was handed over to them shortly afterwards.  The crew 
+conducted the standard walkaround and pre-departure checks with no abnormal findings.  
+The aircraft departed from Stand 33L at 0803 hrs after a normal engine start and pushback 
+and taxied to line up and hold on Runway 22.
+Footnote
+1	
+These were routine flights conducted every 28 days to maintain serviceability of the aircraft during the 
+pandemic reduced flight schedules.
+4
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin:6/2022	
+9H-LOZ	
+ AAIB-27313
+Whilst holding on the runway, the crew were requested by Air Traffic Control (ATC) to 
+consider a new Standard Instrument Departure (SID) route, but they declined this request 
+to avoid the need to re-brief the departure whilst positioned on an active runway.  They 
+were given clearance to take off and climb to FL080 following the CLN1E SID, which they 
+completed without issue.  They were subsequently given radar vectors to line up for an ILS 
+approach to land back on Runway 22.  
+During the final approach, at 950 ft radio altitude and with autothrust engaged, an ‘eng 2 
+fadec fault’ appeared on the Electronic Centralised Aircraft Monitor (ECAM).  The crew 
+elected to go around and manually flew the standard missed approach profile, before 
+entering a hold to perform troubleshooting of the fault. During this period the No 2 engine 
+remained at idle despite manual throttle increases and the reselection of autothrust. The 
+crew also reported seeing apparently erroneous engine parameter readings relative to the 
+selected throttle position. After entering the hold, the immediate ECAM checklist actions 
+were performed.  The crew reported that the engine indications were not showing amber 
+XX, but appeared to be frozen and were still not responding to any throttle inputs.  The 
+ECAM checklist directed that in the case of abnormal engine parameters the engine should 
+be shut down.  The crew consulted the Flight Crew Operating Manual (FCOM) for further 
+guidance, before starting the Auxiliary Power Unit (APU) and shutting down the No 2 engine.
+The crew declared a MAYDAY and selected squawk 7700.  They then briefed for a return 
+to Runway 22 at Stansted.  After completing all the necessary single-engine operation 
+checklists and landing performance calculations, they requested radar vectors for a normal 
+ILS approach to Runway 22.  Following an uneventful approach and landing, the aircraft 
+vacated the runway and the crew confirmed with the Airport Fire and Rescue Service 
+Commander that the failed engine appeared normal.  During the landing rollout as the 
+aircraft airspeed dropped below 70 kts an ‘eng 2 ovspd prot fault’ warning was triggered 
+but this was not displayed on the ECAM.  The aircraft was then taxied to Maintenance 
+Hangar 10 at Stansted and shut down in accordance with the relevant checklists.
+Initial engineering investigation
+The post-flight report was downloaded from the aircraft (Figure 1).  The Digital Flight Data 
+Recorder (DFDR) was removed and downloaded, and the data provided to the aircraft 
+manufacturer for further investigation.  The post-flight report indicated that additional failure 
+messages had occurred during the flight which did not have an associated ECAM warning. 
+The first was ‘eng ded altern/hc/eec2’, which indicated a failure of the Engine 2 Dedicated 
+Alternator (EDA) or the electrical harness between the alternator and the Electronic Engine 
+Control (EEC) unit.  Additionally, ‘fmu/hc/eec2’ and ‘propulsion system 2’ faults were 
+also recorded.  The operator carried out Task 73-22-00-810-834-B ‘Failure of the engine 
+dedicated alternator stator on engine 2’ from the aircraft Troubleshooting Manual (TSM) and 
+the EEC, EDA and the Fuel Metering Unit (FMU) from the No 2 engine were removed and 
+sent for further investigation. 
+5
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin: 6/2022	
+9H-LOZ	
+AAIB-27313
+Figure 1
+Post-flight Report
+Related maintenance events prior to the incident flight
+On 23 May 2021 a water wash of both engines on the aircraft had been carried out in 
+accordance with the Aircraft Maintenance Manual task 72-00-00-100-010-A.  During the 
+required engine runs following this activity an ‘eng 2 ovspd prot fault’ had been triggered. 
+In response the operator conducted two tasks from the aircraft troubleshooting manual, 
+which were ‘loss of the N2 signal on engine 2’ and ‘loss of the N2 overspeed protection on 
+engine 2’.  The EEC, FMU and EDA electrical harnesses were inspected on the No 2 engine 
+and the engine 2 EEC A and B channels were tested.  No faults were identified by these 
+checks and the aircraft was released back into service.
+Recorded information
+The aircraft manufacturer analysed the recorded flight data for the incident flight and 
+produced a flight track which is shown in Figure 2. To assist in understanding the different 
+phases of the flight the diagram has been annotated as follows:
+	
+●
+Arrow 1 – shows the initial takeoff from Stansted.
+	
+●
+Arrow 2 – shows the departure and climb following the SID.
+	
+●
+Arrow 3 – shows the first approach to land on Runway 22, with the start of 
+the engine fault shown by the yellow pin.
+	
+●
+Arrow 4 – shows the go-around and missed approach route to the hold, with 
+the engine shutdown point indicated by the yellow pin during the second 
+circuit of the holding pattern.
+6
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin:6/2022	
+9H-LOZ	
+ AAIB-27313
+	
+●
+Arrow 5 – shows the re-join of the circuit at Stansted with the No 2 engine 
+shut down.
+	
+●
+Arrow 6 – shows the single engine final approach and landing on Runway 22.
+Figure 2 
+Recorded data showing the incident flight track
+An overview of the relevant recorded data parameters for the incident flight, produced by 
+the aircraft manufacturer, is shown in Figure 3.  This highlights the section where the No 2 
+engine problem occurred.  From 08:27:46 hrs the EEC commanded EPR target rapidly 
+increased on both engines to maintain the selected aircraft autopilot airspeed.  Whilst the 
+EPR increased to match the EEC demand on engine No 1, the No 2 engine EPR began 
+to decrease instead.  The ECAM FADEC fault warning was triggered at 08:27:53 hrs and 
+the crew reported that the engine parameters remained as figures rather than switching 
+to amber XX.  The actual engine No 2 EPR then remained at a constant value until the 
+engine was shut down.
+7
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin: 6/2022	
+9H-LOZ	
+AAIB-27313
+Figure 3 
+Relevant recorded data parameters for the incident flight
+Aircraft information
+The aircraft was fitted with two IAE V2527-A5 engines, which are Full Authority Digital 
+Electronic Control (FADEC) equipped.  The FADEC system consists of a dual-channel 
+EEC and the associated components and sensors to adjust and monitor the engine thrust 
+and rotational speed.  The main engine parameters are the Engine Pressure Ratio2 (EPR) 
+which indicates the thrust produced by the engine, N1 which is the speed of rotation of the 
+low-pressure spool3 and the Exhaust Gas Temperature (EGT), which is one of the normal 
+limiting parameters for the engine.  In normal mode the EEC computes the EPR figure 
+required based on the throttle position or Flight Management Guidance Computer (FMGC) 
+input, if autothrust is engaged. It then controls the fuel flow to the combustion chamber 
+spray nozzles using the FMU, to achieve the target EPR.  If a fault results in the EPR figure 
+not being available, the control system reverts to reversionary mode and uses N1 to control 
+the engine.  N2 is the speed of rotation of the high-pressure spool.
+Footnote
+2	
+This is a ratio of the intake air pressure and the exhaust gas pressure, measured by sensors in the engine 
+intake and low-pressure turbine exhaust.
+3	
+The term spool refers to the entire compressor stages and turbine stages connected by a shaft.
+8
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin:6/2022	
+9H-LOZ	
+ AAIB-27313
+The FMU has three mechanical control features, these are:
+	
+●
+The Fuel Metering Valve (FMV) which under normal operation modulates to 
+deliver a metered fuel flow to the fuel nozzles based on the EEC command.
+	
+●
+An engine overspeed protection valve which works in series with the FMV 
+to reduce the fuel flow to the spray nozzles if an overspeed of either the low-
+pressure or high-pressure spool is sensed by the EEC.
+	
+●
+A Pressure Rising and Shut-off Valve (PRSOV) which is the main open/shut 
+valve that controls fuel to the engine to facilitate starting and stopping of the 
+engine. 
+The FADEC system prevents an exceedance of the N1 or N2 spool by control logic which 
+acts directly on the fuel flow commanded by the EEC. When triggered, the fuel flow is 
+reduced but not completely shut off, with the residual fuel flow maintaining the engine at a 
+power setting slightly below flight idle.  This fuel flow is fixed and does not respond to throttle 
+position inputs.  The overspeed protection valve which achieves this is operated by a dual 
+channel servo valve, commanded by either channel of the EEC.  The valve is hydraulically 
+latched once engaged and can only be reset by shutting down the engine.
+The EDA is a dedicated alternator fitted to and driven by the engine main gearbox to provide 
+a dedicated Direct Current (DC) electrical power supply to the EEC, independent of the 
+aircraft electrical systems. The EDA also supplies an N2 speed signal to the EEC and 
+cockpit indication.  During engine start the EEC receives a 28V DC supply from the aircraft 
+until the EDA takes over at approximately 10% N2. In the event of an EDA failure the EEC 
+will switch back to the aircraft DC supply.
+Operating procedures
+An ‘eng 2 fadec fault’ warning on the ECAM indicates that both A and B channels of 
+the indicated engine EEC have been lost.  In many cases this results in the complete 
+loss of the indicated engine parameters, and the figures are replaced by an amber XX  
+indication.  When this occurs the engine status can still be checked by referring to the 
+engine’s associated indicated parameters such as hydraulic, electric, and pneumatic bleed 
+systems.  If abnormal engine behaviour is identified the engine must be shut down using the 
+master engine control lever.  The relevant FCOM checklist is shown in Figure 4.
+9
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin: 6/2022	
+9H-LOZ	
+AAIB-27313
+ 
+Figure 4
+FCOM procedure for ENG 1(2) FADEC FAULT warning
+Component investigation findings
+EEC
+The overhaul report for the removed EEC identified that some contamination was found on 
+the pressure ports but stated that this was not linked to the issue reported on the incident 
+flight.
+EDA
+The overhaul report confirmed that the component failed on test due to an insulation failure.  
+It stated that this could cause an intermittent EEC electrical failure leading to temporary 
+erroneous computations by the EEC.  It is possible that the loss of or erroneous behaviour 
+of the N2 signal can cause a false activation of the overspeed protection within the EEC, 
+but this would have been recorded as a separate fault on the post-flight report and reflected 
+in the N2 parameter values in the flight data.  As these indicators were not present, it was 
+ruled out as a possible cause for this incident.
+FMU
+The overhaul report identified the presence of internal fuel leaks around all three of the 
+mechanical control valves within the FMU, with fuel also present in the electrical wiring cavity.  
+These are known issues on the engine and are subject to ongoing product improvement 
+processes by the engine manufacturer.  
+10
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin:6/2022	
+9H-LOZ	
+ AAIB-27313
+Previous similar events
+Uncommanded (by the EEC) closure of the overspeed protection valve within the FMU has 
+been experienced in previous similar events on other V2500 engines in service.  These 
+events have resulted in either a FADEC, engine stall4, or engine overspeed protection fault 
+warning being triggered.  In all cases the engine ran down to idle and neither physical 
+movement of the throttle nor autothrust commands from the FMGC had any effect on the 
+engine.  
+Analysis
+The manufacturer’s assessment of the failure messages seen on the post-flight report and 
+the ECAM warning was that they were consistent with the reduction in EPR caused by 
+an uncommanded activation of the overspeed protection valve in the FMU.  This reduced 
+the fuel flow to the engine to a fixed level which was just below flight idle.   The flight data 
+values recorded for N1 and N2 immediately prior to this were normal and confirmed that no 
+actual overspeed had occurred, which would have resulted in the valve correctly operating.  
+Once activated, the fixed flow rate through the overspeed protection valve cannot be varied 
+by any input from the throttle or the FMGC.  As such, the apparently frozen parameters 
+reported by the flight crew were an accurate indication of the engine status.  
+The other ancillary engine indications and associated systems’ operating parameters 
+recorded by the DFDR were all consistent with this.  The valve remained hydraulically 
+latched while the engine was operating but would have reset after the engine was shut 
+down. The final overspeed protection fault warning seen on the post-flight report is 
+intentionally inhibited by the system until after touchdown and the aircraft airspeed has 
+reduced below 80 kt, which is why it appeared to occur after the engine had been shut 
+down.  The previous in-service events where the overspeed protection valve had operated 
+without being commanded by the EEC, were very similar to this incident involving 9H-LOZ. 
+It was not possible to confirm a definitive root cause for the activation of the overspeed 
+protection valve from the evidence recovered by the investigation.  However, these events 
+are all the subject of ongoing continued airworthiness activities by the engine and aircraft 
+manufacturers.
+Safety actions
+It has been reported that the engine manufacturer has conducted investigations 
+at component and system level to understand the cause of the inadvertent 
+overspeed protection valve activations.  Definitive identification of the root cause 
+has not been possible, but several factors have been identified as possible 
+contributors.  These will be addressed as product improvement changes to the 
+FMU and are targeted to be available in Q3 2022.  The aircraft manufacturer 
+reported that progress on these issues is regularly communicated to operators 
+of the engine during customer meetings, in which both the aircraft and engine 
+manufacturers participate.
+Footnote
+4	
+No evidence of the engine experiencing an actual stall or surge was reported.
+11
+©  Crown copyright 2022
+All times are UTC
+ AAIB Bulletin: 6/2022	
+9H-LOZ	
+AAIB-27313
+At the request of the operator of 9H-LOZ, the aircraft manufacturer also agreed 
+to review the wording of the FCOM procedure for an ‘eng 1/2 fadec fault’ 
+warning, to advise crews that the parameters will not always revert to ‘XX’ in 
+the event of a problem occurring and may appear as frozen or abnormal values.

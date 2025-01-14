@@ -1,0 +1,1116 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FINAL REPORT 
+ 
+ 
+ 
+ 
+ 
+AIRBUS A320, REGISTRATION 9V-TRH 
+FAN COWL DAMAGE DURING TAKE-OFF 
+ 
+16 October 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AIB/AAI/CAS.117 
+ 
+Transport Safety Investigation Bureau 
+Ministry of Transport  
+Singapore  
+ 
+11 August 2017 
+1 
+ 
+© 2017 Government of Singapore 
+ 
+The Transport Safety Investigation Bureau of Singapore  
+ 
+ 
+ 
+The Transport Safety Investigation Bureau (TSIB) is the air and marine accidents 
+and incidents investigation authority in Singapore responsible to the Ministry of 
+Transport.  Its mission is to promote aviation and marine safety through the conduct of 
+independent and objective investigations into air and marine accidents and incidents.  
+ 
+ 
+For aviation related investigation, the TSIB conducts the investigations in 
+accordance with the Singapore Air Navigation (Investigation of Accidents and Incidents) 
+Order 2003 and Annex 13 to the Convention on International Civil Aviation, which 
+governs how member States of the International Civil Aviation Organization (ICAO) 
+conduct aircraft accident investigations internationally.  
+ 
+ 
+In carrying out the investigations, the TSIB will adhere to ICAO’s stated objective, 
+which is as follows:  
+ 
+“The sole objective of the investigation of an accident or incident shall be the 
+prevention of accidents and incidents.  It is not the purpose of this activity to 
+apportion blame or liability.” 
+ 
+ 
+Accordingly, it is inappropriate that TSIB reports should be used to assign fault or 
+blame or to determine liability, since neither the safety investigation nor the reporting 
+process had been undertaken for those purposes. 
+2 
+ 
+© 2017 Government of Singapore 
+ 
+CONTENTS 
+ 
+ 
+ 
+ 
+  Page      
+ 
+ 
+ 
+ 
+Glossary
+  3 
+ 
+ 
+ 
+Synopsis
+  4 
+ 
+ 
+ 
+ 
+Aircraft Details
+  4 
+ 
+ 
+ 
+ 
+1
+Factual Information  
+  5 
+ 
+1.1 
+1.2 
+History of the flight 
+Damage to aircraft   
+  5 
+  7 
+ 
+1.3 
+1.4 
+Personnel information 
+Fan cowl latches 
+10 
+10 
+ 
+1.5 
+Fan cowl procedures 
+12 
+ 
+1.6 
+Simulated night test 
+14 
+ 
+1.7 
+Foreign object debris (FOD) detection  
+system 
+16 
+ 
+ 
+ 
+ 
+2
+Discussion   
+18 
+ 
+ 
+3
+Safety Actions 
+20 
+ 
+ 
+4
+Safety Recommendations 
+20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+© 2017 Government of Singapore 
+ 
+GLOSSARY 
+AMM 
+Aircraft maintenance manual  
+AMSP 
+ATC 
+Aircraft maintenance service provider 
+Air traffic control 
+BLO 
+Base Layover 
+CIC 
+Cabin crew in charge 
+EASA 
+European Aviation Safety Agency  
+FO 
+First Officer 
+FOD 
+Foreign object debris 
+HOD 
+Hold-open device 
+IDG 
+Integrated drive generator 
+LAE 
+Licensed Aircraft Engineer 
+LGCIU 
+Landing Gear Control Interface Unit   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+© 2017 Government of Singapore 
+ 
+SYNOPSIS 
+ 
+On 16 October 2015, a TigerAir A320 lost the inboard and outboard fan cowls of 
+its left engine during take-off from Singapore Changi Airport.     
+ 
+After being informed by the cabin crew of the loss of the left engine fan cowls, the 
+flight crew levelled the aircraft off at 8,000ft.  They checked and noted that all engine 
+parameters were normal.  They then decided to return to Changi Airport.   
+ 
+When landing gears were selected down during the approach to land, a Master 
+Warning came on, indicating that the left main landing gear was not downlocked.  The 
+approach was discontinued and the flight crew performed the manual gravity extension 
+procedure but the Master Warning still indicated that the left main landing gear was not 
+downlocked. 
+ 
+The flight crew declared Mayday and flew a holding pattern to burn fuel and 
+reduce the aircraft landing weight.  Later, the flight crew performed a low fly-past, and 
+engineers on the ground reported that the left main landing gear appeared to be down.  
+Subsequently the aircraft landed without incident.   
+ 
+The Transport Safety Investigation Bureau classified this occurrence as a serious 
+incident.   
+ 
+ 
+ 
+ 
+AIRCRAFT DETAILS  
+ 
+Aircraft type 
+: 
+Airbus A320   
+Operator 
+: 
+TigerAir   
+Aircraft registration 
+: 
+9V-TRH 
+Numbers/type of engines :  
+2 x International Aero Engines V2500  
+Date and time of incident :  
+16 October 2015, 2047hrs local time 
+Location of occurrence 
+: 
+During take-off from Singapore Changi Airport 
+Type of flight 
+: 
+Scheduled passenger flight 
+Persons on board 
+: 
+178 
+5 
+ 
+© 2017 Government of Singapore 
+ 
+1 
+FACTUAL INFORMATION 
+ 
+All times used in this report are Singapore times.  Singapore time is eight 
+hours ahead of Coordinated Universal Time (UTC).  
+ 
+ 
+1.1   
+History of the flight 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.1.1 
+On 15 October 2015, the day before the incident, the aircraft had completed 
+a prior flight and was parked at Bay 702 at Singapore Changi Airport for Base 
+Layover (BLO) maintenance.  The BLO involved a BLO technician checking 
+the oil level of the integrated drive generator (IDG) of the left and right 
+engines.  According to the BLO technician, he checked the right engine IDG 
+first.  He lifted the outboard fan cowl on the IDG side to visually sight the oil 
+level before closing it.  He proceeded to check the left engine.  He closed the 
+fan cowls of the left engine and fastened the latches of the fan cowls after 
+checking the IDGs.  He said he was not interrupted while closing the fan 
+cowls.  
+ 
+1.1.2 
+Before signing off the BLO technician’s work, the Licensed Aircraft Engineer 
+(LAE) in charge of the BLO performed a walkaround check.  As part of the 
+walkaround, the LAE looked at the sides of the fan cowl, he checked that 
+there were no gaps between the surfaces of the fan cowl and the engine 
+nacelle which, from his experience, would indicate an unfastened fan cowl 
+condition.  He mentioned that he would normally also squat down and extend 
+his hand to reach under the fan cowl to feel if the latches were secured.  
+However, he did not do so this time.  The BLO LAE ended his walkaround 
+check at the front of the aircraft near the nose landing gear.  According to the 
+BLO LAE, while in a squatting position at the front of the aircraft, he 
+inspected visually the engines from his position and he did not notice any 
+protrusion of unfastened latches (see paragraph 1.4). 
+ 
+1.1.3 
+The BLO was completed by 0300hrs on 16 October 2015 and the aircraft 
+remained at Bay 702 until its next flight.  
+ 
+1.1.4 
+At 1900hrs, the aircraft was towed to the departure gate to prepare for 
+passenger boarding.  The aircraft arrived at the departure gate at 1925hrs.  
+The flight crew was already waiting at the gate and boarded the aircraft when 
+it arrived.  The aircraft was scheduled to depart at 2010hrs. 
+ 
+1.1.5 
+The Departure LAE in charge of the departure check arrived at 1940hrs, 
+having just completed a departure job at another gate.  The Departure LAE 
+performed a walkaround check prior to releasing the aircraft for departure.  
+According to the Departure LAE, he did not squat to sight the condition of the 
+fan cowl latches.  He said that he observed the engines from the nose wheel 
+location and did not notice any protrusions at the bottom of the fan cowl 
+which he said would indicate unfastened latches. 
+6 
+ 
+© 2017 Government of Singapore 
+ 
+ 
+1.1.6 
+During preparation for departure, the First Officer (FO) said he performed a 
+walkaround check as required by company procedures.  He visually 
+inspected the engines from two positions (from the main landing gear1 and 
+from the outboard side of the engine).  Accordingly to the FO, he stood at 
+these positions and looked downwards at the fan cowls but he did not bend 
+down or squat to check2.  He did not notice any latch protrusions.  Looking at 
+the sides of the engine, the FO also checked that the fan cowl surfaces were 
+flush with that of the engine nacelle and that there was no gap. 
+ 
+1.1.7 
+The Captain later also decided to perform a walkaround check of the 
+aircraft3.  However, he only had time to look at the front cargo door and aft 
+cargo hold areas.  He did not notice any abnormality in these areas. 
+ 
+1.1.8 
+The aircraft took off at 2047hrs.  During the take-off, the Cabin crew-in-
+charge (CIC) was alerted by a passenger that the left engine fan cowl had 
+fallen off4. The CIC made a visual confirmation and immediately informed the 
+flight crew through the interphone. 
+ 
+1.1.9 
+The flight crew checked and noted that all cockpit panel parameters were 
+normal, although a fault message from the Landing Gear Control Interface 
+Unit5 (LGCIU) No.2 was received during take-off.  The Captain asked the CIC 
+to reconfirm what she saw.  The CIC reported back that the interior of the 
+engine was visible. 
+ 
+1.1.10 
+The flight crew levelled the aircraft off in a holding pattern at 8,000ft and the 
+Captain stepped out of the cockpit to assess the damage.  He observed that 
+the left engine fan cowls were missing and there was no visible damage to 
+the surrounding wing area.  He noted that the right engine fan cowls were 
+intact. 
+ 
+1.1.11 
+The Captain returned to the cockpit and he decided to return to Changi 
+Airport.  When the landing gears were selected down during the approach to 
+land, a Master Warning came on, indicating that the left main landing gear 
+was not downlocked.  The flight crew discontinued the landing, informed Air 
+Traffic Control (ATC) of the situation and requested to return to holding for 
+troubleshooting actions.   
+ 
+                                                 
+1 The inspection position at the main landing gear differed from the aircraft manufacturer guidance for exterior 
+walkaround check. 
+2 The FO indicated that he was taught during his training not to bend down or squat to check due to risk of possible 
+injury from sharp edges (e.g. vent pipes on the fan cowl) when standing up. 
+3  The Captain was not required to do the walkaround check.  He checked the front cargo door and aft cargo hold, 
+proceeding back to the cockpit thereafter. 
+4  The loss of the fan cowl during take-off was also recorded by a runway camera.   
+5  The LGCIU has a role in controlling the operation of the landing gears and the landing gear doors.  It does this by 
+sensing the position of the landing gears and the landing gear doors.   
+7 
+ 
+© 2017 Government of Singapore 
+ 
+1.1.12 
+The flight crew cycled the landing gears and performed the manual gravity 
+extension procedure to extend the landing gears, but the Master Warning 
+remained on.  The flight crew declared Mayday and remained in the holding 
+pattern to burn off excess fuel to reduce the aircraft landing weight. 
+ 
+1.1.13 
+Later, the flight crew performed a low fly-past, and engineers on the ground 
+reported that the left main landing gear appeared to be down.  Subsequently 
+the aircraft landed at 2318hrs without incident.  There was no injury to any 
+person in this incident. 
+ 
+ 
+1.2 
+Damage to aircraft 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.2.1 
+The left engine’s inboard and outboard fan cowls were missing (see Figure 
+1).   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1:  Loss of inboard and outboard fan cowls 
+ 
+1.2.2 
+The left engine forward pylon was buckled (Figure 2). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2:  Damage on the engine forward pylon 
+ 
+ 
+ 
+8 
+ 
+© 2017 Government of Singapore 
+ 
+ 
+1.2.3 
+Debris of the outboard fan cowl was found on the runway.  Figure 3 shows a 
+reconstruction of the debris.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3:  Reconstructed outboard fan cowl 
+ 
+ 
+1.2.4 
+The inboard fan cowl was recovered from the sea by a passing ship.  It was 
+essentially in one piece (Figure 4).  There was a tear across the top near 
+where the fan cowl was attached to the engine forward pylon.  The original 
+state of the latches (e.g. fastened or unfastened) could not be ascertained as 
+some degree of latch handling had occurred before the investigation team 
+received the fan cowl.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 4:  Inboard fan cowl  
+ 
+ 
+ 
+ 
+9 
+ 
+© 2017 Government of Singapore 
+ 
+1.2.5 
+All the four latches (comprising four hooks at the bottom edge of the inboard 
+fan cowl and four corresponding keepers at the bottom edge of the outboard 
+fan cowl) were recovered.  Apart from operational wear, no damages were 
+observed on the four latches (Figure 5). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5:  No damage to the hooks and keepers of the latches 
+ 
+ 
+1.2.6 
+Some fan cowl debris had lodged into the left main landing gear door, and 
+damaged the proximity sensor on the left main landing gear (Figure 6).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 6:  (Left) Fan cowl debris wedged into left main landing gear door  
+ 
+ 
+ 
+(Right) Proximity sensor (blue circle) impacted by fan cowl debris 
+ 
+ 
+ 
+ 
+ 
+Latch hooks 
+Latch keepers 
+10 
+ 
+© 2017 Government of Singapore 
+ 
+1.3 
+Personnel information 
+ 
+ 
+ 
+ 
+ 
+ 
+Departure LAE 
+Male 
+Age 
+37 
+Experience in current capacity 
+6 years 
+ 
+BLO LAE 
+Male 
+Age 
+32  
+Experience in current capacity 
+6 years 
+ 
+BLO Technician  
+Male 
+Age 
+31 
+Experience in current capacity 
+1 year 4 months 
+ 
+ 
+1.4 
+Fan cowl latches 
+ 
+1.4.1 
+For the left engine, each of the four fan cowl latches comprises a handle with 
+hook end at the bottom edge of the inboard fan cowl and a keeper end at the 
+bottom edge of the outboard fan cowl. 
+ 
+1.4.2 
+To fasten the latch, the hook is placed into the keeper and the latch handle is 
+closed flush with surface (Figure 7).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                  Figure 7:  Fastened latch with hook into keeper, and handle closed flush 
+ 
+ 
+1.4.3 
+If the latch is not fastened, the latch handle will protrude from the surface 
+(Figure 8). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hook into keeper 
+11 
+ 
+© 2017 Government of Singapore 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 8:  Protrusions due to unfastened latches 
+ 
+ 
+1.4.4 
+In the afternoon of 16 October 2015, the aircraft operator was conducting an 
+orientation tour for a group of interns.  The interns visited the incident aircraft 
+at Bay 702 at 1650hrs.  Photographs taken by one of the interns showed that 
+at least three of the four fan cowl latches of the left engine were unfastened 
+(Figure 9).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 9:  Photographs showing unfastened latches on 16 October 2016 
+ 
+ 
+Intern's photo #2 
+Intern's photo #1 
+12 
+ 
+© 2017 Government of Singapore 
+ 
+1.4.5 
+Damage to fan cowls in flight when the fan cowl latches were not fastened 
+had happened before.  The aircraft manufacturer has introduced a 
+modification for making a hole in the hold-open device (HOD) of the fan 
+cowls which can receive a dedicated red warning flag tool to make an 
+unfastened condition of fan cowls more noticeable (Figure 10).  This 
+modification was incorporated on the incident aircraft.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Figure 10: Red warning flag tool in the HOD indicating an unfastened fan cowl 
+ 
+ 
+1.5 
+Fan cowl procedures 
+ 
+1.5.1 
+The key actions as prescribed in the aircraft maintenance manual (AMM) to 
+be performed when opening and closing fan cowls were as follows: 
+ 
+(a) Warning notices to be installed in the cockpit prior to working on the fan 
+cowls 
+(b) Red warning flag tool to be installed in position on the HOD 
+(c) Record in the aircraft logbook whenever fan cowls have been opened or 
+closed 
+ 
+Maintenance personnel were expected to follow the procedures in the 
+aircraft maintenance manual.  However, the AMM did not mention that one 
+should crouch to check the latches.  
+ 
+1.5.2         The aircraft maintenance service provider (AMSP) issued a Quality Notice on 
+2 March 2009 to inform its maintenance personnel of the need to bend down 
+or crouch to confirm fan cowl latches are fastened.  The AMSP also issued a 
+Quality Notice on 11 May 2015 to remind its maintenance personnel of the 
+need for aircraft logbook recording whenever fan cowls have been opened or 
+closed and the need for confirming fan cowl latches are fastened.  The BLO 
+technician was not a recipient of the Quality Notices and neither was he 
+required to read the Quality Notices.  
+ 
+13 
+ 
+© 2017 Government of Singapore 
+ 
+1.5.3 
+The BLO technician was not aware that the red warning flag tool had to be 
+used when the fan cowls were opened.  He was not aware of the key actions 
+for opening and closing fan cowls as described in paragraph 1.5.1 (a)-(c) and 
+he did not refer to the AMM for the fan cowl opening/closing procedure during 
+the BLO prior to the incident flight.   
+ 
+1.5.4  
+There was no aircraft logbook entry recording the opening or closing of the 
+fan cowls during the BLO before the incident flight.  The BLO LAE explained 
+that his understanding at that time was that the logbook entry was to create 
+awareness for other maintenance personnel when there was a handover, 
+and that he did not realise at that time that the intent was to include 
+awareness to the flight crew as well.  The BLO LAE explained that the check 
+on the oil level of the IDGs of both the left and right engines did not require 
+any follow-up action and the fan cowls were closed immediately after the oil 
+level check, and that he did not make a logbook entry as there was no work 
+performed and there was no issue of a handover to other maintenance 
+personnel.  
+ 
+1.5.5 
+The aircraft manufacturer had provided guidance in its Flight Crew 
+Operations Manual (FCOM) for exterior walkaround check (Figure 11) to be 
+performed by flight crew or maintenance personnel.  The check was to, 
+among others, ensure that fan cowls are closed and latched before flight.  
+Each engine must be checked from both the inboard and outboard side of the 
+nacelle.  The guidance did not mention that one should crouch to check the 
+latches.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11:  Aircraft manufacturer’s instructions on the exterior walkaround check 
+ 
+ 
+14 
+ 
+© 2017 Government of Singapore 
+ 
+1.5.6 
+The aircraft manufacturer also published an article in its Safety First 
+Magazine in July 2012 and presented at its forum with operators in March 
+2014 on the issue of fan cowl loss and the need for crew members 
+performing the walkaround to follow the correct procedure such as 
+positioning themselves at both sides of the engine (e.g. inboard and outboard 
+of the nacelle) and crouching to check that all latches are correctly fastened 
+and that there is no gap around the cowl.  The aircraft manufacturer, in an 
+Operators Information Transmission (OIT) on 4 May 2015, highlighted to 
+operators the key actions in the AMM and the information in the Safety First 
+Magazine. 
+ 
+1.5.7 
+The operator in this occurrence did not attend the forum in March 2014 but 
+did receive the forum’s presentation material.  It also received the OIT.  As of 
+August 2015, the operator had been using the version of the AMM which 
+highlights the key actions described in paragraph 1.5.1 (a)-(c). 
+ 
+   
+1.6 
+Simulated night test  
+ 
+1.6.1 
+A series of night simulations were conducted to simulate the same night 
+working condition that was experienced on the early morning of the BLO 
+maintenance work at Bay 702 and the night departure of the incident flight. 
+ 
+1.6.2 
+It was observed that, even in night conditions, the airport lighting was 
+sufficient to illuminate the aircraft and its surrounding.  
+ 
+1.6.3 
+The aircraft manufacturer’s fan cowl closing procedure required the removal 
+of the red warning flag tool, the depressing of the HOD to allow the fan cowls 
+to close fully and finally the fastening of the four latches from rear to front.  It 
+was observed that after depressing the HOD to allow the fan cowls to fully 
+close and prior to fastening the latches, the fan cowl was relatively flushed at 
+the interface with the nose cowl.  The existing design of the HOD still could 
+allow the fan cowl to be closed flush at the interface, there was minimal 
+difference in flushness whether latches were unfastened or fastened (see 
+Figure 12).  
+ 
+ 
+15 
+ 
+© 2017 Government of Singapore 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 12:  (Left) Flushness at interface when all latches are not fastened 
+(Right) Flushness at interface with all latches fastened 
+ 
+ 
+1.6.4 
+With the fan cowls were closed, latches that were unfastened and protruding 
+could not be seen at certain locations from the engine (particularly when 
+viewed from a standing position).  The curvature of the engine nacelle 
+obscures the latches even when they are unfastened, making it difficult to 
+sight the protruding latch handles6. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 13:  (Left) Unfastened latches can barely be seen from a distance (side of engine) 
+ 
+(Right) Unfastened latches cannot be seen when standing next to engine 
+ 
+ 
+                                                 
+6 It was recommended by the aircraft manufacturer that the personnel performing the inspection should position 
+themselves at both sides of the engine and crouch to check that all latches are correctly fastened and that there is 
+no gap around the cowl.   
+Fan cowl 
+Nose cowl 
+Interface
+Interface 
+16 
+ 
+© 2017 Government of Singapore 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 14:  Unfastened latches cannot be seen at any point from the main 
+landing gears to the engine 
+ 
+1.6.5 
+While it might be possible to notice latches that were unfastened from the 
+front of the aircraft at positions around the nose landing gear (i.e. some 
+distance away from the engine) (see Figure 15), the silhouette of the engine 
+drain mast might obscure the protruding latches. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 15:  Unfastened latches can barely be seen from the nose landing gear 
+location 
+ 
+ 
+1.7 
+Foreign object debris (FOD) detection system 
+ 
+1.7.1 
+FOD constitutes a hazard to aircraft and can cause aircraft damage if not 
+detected and removed.  The aerodrome operator supplemented its daily 
+runway surface inspections with a FOD detection system to detect the 
+presence of debris on the runway.  The system uses multiple panning 
+cameras along the stretch of the runway to capture the presence of possible 
+FOD. 
+ 
+1.7.2 
+When a suspected FOD is detected, the FOD detection system will alert an 
+operator on duty.  The duty operator will view the image of the suspected 
+FOD to ascertain if it is really an image of a FOD, and arrange for the FOD’s 
+removal as necessary.  
+ 
+17 
+ 
+© 2017 Government of Singapore 
+ 
+1.7.3 
+After the incident flight took off, the FOD detection system detected the 
+presence of a FOD on the runway at 2048hrs.  However, the limitation of the 
+image resolution was such that the duty operator interpreted the image as 
+that of a runway ground light and not a FOD.  The FOD detection system 
+gave four more alerts but the duty operator determined that there was no 
+FOD.  
+ 
+1.7.4 
+At 2144hrs, the sixth alert provided a better image and the duty operator 
+determined that there was a FOD.  ATC was alerted and an aerodrome 
+maintenance vehicle was dispatched to recover the FOD, which turned out to 
+be fan cowl debris from the incident aircraft. 
+ 
+18 
+ 
+© 2017 Government of Singapore 
+ 
+2 
+DISCUSSION  
+ 
+ 
+2.1 
+Fan cowl latches 
+ 
+2.1.1 
+Evidence shows that at least three of the four latches of the fan cowl of the 
+left engine were not fastened four hours before the incident aircraft took off. 
+ 
+Detailed inspection on the recovered latches (inboard fan cowl hooks and 
+outboard fan cowl keepers) showed no damage on the connecting surfaces, 
+and the damage was solely on the fan cowl structure.  This would indicate 
+that there was no mechanical failure or structural damage on the latch hooks 
+and keepers, and would suggest that all latches were likely to be unfastened 
+at the time of take-off. 
+ 
+2.1.2 
+With fan cowl latches not fastened, the airflow generated during the aircraft’s 
+flight would tear off the fan cowls.   
+ 
+2.1.3 
+As mentioned in paragraph 1.1.2, the BLO LAE “checked that there were no 
+gaps between the surfaces of the fan cowl and the engine nacelle which, 
+from his experience, would indicate an unfastened fan cowl condition.”  And 
+as mentioned in paragraph 1.1.6, “the FO also checked that the fan cowl 
+surfaces were flush with that of the engine nacelle and that there was no 
+gap.”  It is not known how such flushness assessment has become an 
+acceptable way of ascertaining that the fan cowl latches are fastened, in lieu 
+of bending down or crouching to bring eye level low enough to confirm 
+latches are fastened.  The simulation test (paragraph 1.6.3) showed that a 
+fan cowl with unfastened latches could still appear flush with the engine 
+nacelle.  Such a flushness assessment is not a method recommended by the 
+aircraft manufacturer.  
+ 
+2.1.4 
+The BLO technician was not aware of the key actions to be performed in the 
+aircraft manufacturer’s instructions for opening and closing fan cowls.  The 
+walkaround procedure adopted by the BLO LAE, the Departure LAE and the 
+FO differed from the procedure provided by the aircraft manufacturer.   
+ 
+2.1.5 
+It is also found from the simulation test that, at a distance away from the 
+engine, the unfastened latches could be difficult to detect as the curvature of 
+the engine nacelle could obscure the view of the latches.  
+ 
+2.1.6 
+It is not a reliable method to determine if the fan cowl’s latches had been 
+fastened properly by trying to judge from a distance whether there are 
+protrusions of the latches.  The lighting condition and the angle of view may 
+make the judging difficult.  The silhouette of the engine drain mast may also 
+obscure the outline of protruding latches.   
+ 
+2.1.7 
+In short, a better way to ascertain whether the fan cowl latches are fastened 
+is to squat down low enough to sight the latches. 
+ 
+19 
+ 
+© 2017 Government of Singapore 
+ 
+2.1.8 
+It is noted that, although the aircraft manufacturer has emphasised the need 
+to bend down or crouch to check that latches are fastened in its Safety First 
+Magazine, this requirement is not mentioned in the aircraft manufacturer’s 
+FCOM for exterior walkaround check. 
+ 
+ 
+2.2 
+Master warning 
+ 
+2.2.1 
+Fragment from the outboard fan cowl impacted the left main landing gear 
+proximity sensor.  The damage to the proximity sensor resulted in the 
+erroneous Master Warning indicating that landing gear was not downlocked. 
+ 
+ 
+2.3 
+FOD detection system 
+ 
+2.3.1 
+The resolution of the cameras at the time of the incident did not support 
+effectively the task of interpreting camera images for the purpose of 
+ascertaining the presence of FOD. 
+ 
+ 
+ 
+ 
+ 
+20 
+ 
+© 2017 Government of Singapore 
+ 
+3 
+SAFETY ACTIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+During the course of the investigation and through discussions with the 
+investigation team, the following safety actions were initiated by the aircraft 
+operator, the aircraft maintenance service provider, the aerodrome operator 
+and the aircraft manufacturer. 
+ 
+ 
+3.1 
+The European Aviation Safety Agency (EASA) issued an Airworthiness 
+Directive (AD 2016-0053) on 14 March 2016 to modify the fan cowls such 
+that a special key had to be used to unlatch the fan cowls, the key cannot be 
+removed unless the fan cowl front latch is safely closed.   
+ 
+3.2 
+Following the incident, the aircraft operator issued a Flight Staff Instruction to 
+emphasise the requirement for flight crews to bend or squat down when 
+inspecting latches from either side of the engine. 
+ 
+3.3 
+The aerodrome operator is currently in the process of upgrading the FOD 
+detection system to incorporate higher definition cameras, so as to enable 
+better quality images and more accurate interpretation by the duty operator. 
+The aerodrome operator expects the upgrading to be completed in 
+September 2017.     
+ 
+3.4 
+Following the incident, the AMSP drew again the attention of its maintenance 
+personnel to the Quality Notices of 2 March 2009 and 11 May 2015 to remind 
+its maintenance personnel on the need for aircraft logbook recording 
+whenever fan cowls have been opened or closed and to bend down or 
+crouch to confirm latches are fastened.  It has also re-emphasised the 
+importance of following the aircraft manufacturer’s instructions for opening 
+and closing fan cowls during daily briefings with its maintenance personnel.  
+Regular checks on logbooks are also conducted by the AMSP to ensure 
+compliance with the Quality Notices. 
+ 
+ 
+4 
+SAFETY RECOMMENDATIONS 
+ 
+ 
+A safety recommendation is for the purpose of preventive action and shall in 
+no case create a presumption of blame or liability. 
+ 
+ 
+It is recommended that:  
+ 
+ 
+ 
+ 
+ 
+4.1 
+The aircraft operator remind its flight crew personnel that fan cowl flushness 
+with nacelle is not a reliable method for checking that fan cowl latches are 
+fastened. [TSIB Recommendation RA-2017-028] 
+ 
+ 
+21 
+ 
+© 2017 Government of Singapore 
+ 
+4.2 
+The aircraft maintenance service provider remind its maintenance personnel 
+that fan cowl flushness with nacelle is not a reliable method for checking that 
+fan cowl latches are fastened. [TSIB Recommendation RA-2017-029] 
+ 
+4.3 
+The aircraft manufacturer emphasise, in its maintenance documentation on 
+exterior walkaround check, the need for inspection personnel to bend down 
+or crouch to bring eye level low enough to confirm latches are fastened. 
+[TSIB Recommendation RA-2017-030]   
