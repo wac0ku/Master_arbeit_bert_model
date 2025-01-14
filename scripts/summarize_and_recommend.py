@@ -13,7 +13,7 @@ def generate_recommendations(summary):
     recommendations = []
     
     if isinstance(summary, str):  # Ensure summary is a string
-       
+        
         # BERT-based recommendations
         bert_recommendations = recommendation_model(summary)
         for rec in bert_recommendations:
