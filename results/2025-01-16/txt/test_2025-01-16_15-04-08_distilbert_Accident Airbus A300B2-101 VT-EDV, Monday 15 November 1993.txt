@@ -1,0 +1,5 @@
+Summary:
+The aircraft could not land at Hyderabad due to low visibility and carried out a missed approach. The flight crew enquired visibility at nearby Air Force airfields as well. The aircraft then diverted to Madras due to flaps problem the crew had to maintain low speed and low altitude as a result of which it experienced fuel shortage. The crew then tried to divert to nearby Tirupati but could not reach even the airport and executed forced landing in an open paddy field about 14 nautical miles from the airport.
+
+Recommendations:
+- deberta: LABEL_1

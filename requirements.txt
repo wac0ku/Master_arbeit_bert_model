@@ -5,3 +5,4 @@ python-docx==0.8.11
 rich==13.7.0
 tensorflow # TensorFlow very important
 torch # PyTorch very important
+sentencepiece # convert slow tokenizer to fast one

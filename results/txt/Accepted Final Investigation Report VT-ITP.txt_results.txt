@@ -2,4 +2,4 @@ Summary:
 Ms Indigo Airbus A320271 NEO aircraft VTITP while operating a scheduled flight from Dehradun to Bengaluru diverted to Delhi due to high engine vibration  EGT overlimit during climb. The occurrence was classified as a Serious Incident and an investigation to investigate into the probable causes was instituted. All the timings in this report are in UTC unless otherwise specified.
 
 Recommendations:
-- LABEL_1
+- No specific recommendations based on the summary.

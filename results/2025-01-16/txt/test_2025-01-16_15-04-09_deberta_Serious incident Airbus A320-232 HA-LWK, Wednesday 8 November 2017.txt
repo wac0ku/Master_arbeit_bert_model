@@ -1,0 +1,6 @@
+Summary:
+Wizz Air flight W64292 suffered an engine stall of engine no 1 during the approach to Tuzla International Airport. The engine was shut down and the aircraft landed safely. The aircraft was ferried to Budapest on November 10 and reentered service on November 11.
+
+Recommendations:
+- roberta: LABEL_1
+- deberta: LABEL_1

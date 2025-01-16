@@ -1,0 +1,5 @@
+Summary:
+Airbus A320251N Owner operator Thai Air Asia Registration HSBBX MSN 7195 Year of manufacture 2016 Engine model CFMI CFM LEAP1A26E1 Fatalities Fatalities 0  Occupants Other fatalities 0 Aircraft damage None Category Serious incident Location Phuket International Airport VTSP  Thailand Phase Taxi Nature Passenger  Scheduled Departure airport Chiang Mai International Airport CNXVTCC Destination airport Phuken International Airport HKTVTSP Confidence Rating Information verified through data from accident investigation authorities Narrative Engine 1 caught fire during taxi after landing at PhukET International Airport.
+
+Recommendations:
+- Unable to generate specific recommendations

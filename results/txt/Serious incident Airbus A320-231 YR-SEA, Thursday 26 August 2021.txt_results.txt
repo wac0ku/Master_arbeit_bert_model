@@ -2,4 +2,4 @@ Summary:
 The aircraft operated on a flight to evacuate refugees from Kabul Afghanistan on behalf of the US Armed Forces. The flight crew reported that engine no1 left side failed and requested landing at Islamabad. No assistance required upon arrival. The aircraft landed safely on runway 10R.
 
 Recommendations:
-- LABEL_1
+- No specific recommendations based on the summary.

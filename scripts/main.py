@@ -1,9 +1,10 @@
 import os
+from datetime import datetime
 from logging_progress import setup_logger, display_progress
 from pdf_to_txt import convert_all_pdfs
 from preprocess_text import preprocess_txt
-from summarize_and_recommend import process_multiple_files
-from load_model import load_summarization_model
+from dynamic_summarize_and_recommend import process_multiple_files, recommendation_models
+from load_model import load_summarization_model, clear_cached_model
 from generate_docx import create_docx
 
 logger = setup_logger("main")
@@ -35,34 +36,58 @@ def main():
         
         # Step 4: Generate summaries and recommendations
         logger.info("Generating summaries and recommendations...")
-        results_txt_dir = "results/txt"
-        results_docx_dir = "results/docx"
+        today_date = datetime.now().strftime("%Y-%m-%d")
+        results_txt_dir = os.path.join("results", today_date, "txt")
+        results_docx_dir = os.path.join("results", today_date, "docx")
         os.makedirs(results_txt_dir, exist_ok=True)  # Ensure results TXT directory exists
         os.makedirs(results_docx_dir, exist_ok=True)  # Ensure results DOCX directory exists
 
         results = process_multiple_files(cleaned_txt_output_dir, results_txt_dir, summarizer)
         
         if results:
-            # Step 5: Save results in DOCX format
+            # Step 5: Save results in both formats
             for file_name, summary, recommendations in results:
-                txt_output_path = os.path.join(results_txt_dir, f"{file_name}_results.txt")
-                docx_output_path = os.path.join(results_docx_dir, f"{file_name}_report.docx")
+                timestamp = datetime.now().strftime("%H-%M-%S")
+                base_filename = os.path.splitext(file_name)[0]
+                
+                # Save results for each model
+                for model_name in recommendation_models.keys():
+                    txt_output_path = os.path.join(results_txt_dir, f"test_{today_date}_{timestamp}_{model_name}_{base_filename}.txt")
+                    docx_output_path = os.path.join(results_docx_dir, f"test_{today_date}_{timestamp}_{model_name}_{base_filename}.docx")
 
-                # Save the TXT file
-                with open(txt_output_path, 'w', encoding='utf-8') as txt_file:
-                    txt_file.write(f"Summary:\n{summary}\n\nRecommendations:\n")
-                    for rec in recommendations:
-                        txt_file.write(f"- {rec}\n")
-                
-                logger.info(f"Results saved to {txt_output_path}")
-                
-                # Save the DOCX file
-                create_docx(summary, recommendations, docx_output_path)
-                logger.info(f"DOCX file saved to {docx_output_path}")
+                    # Save the TXT file with dynamic recommendations
+                    with open(txt_output_path, 'w', encoding='utf-8') as txt_file:
+                        txt_file.write(f"Summary:\n{summary}\n\nRecommendations:\n")
+                        if isinstance(recommendations, list):
+                            for rec in recommendations:
+                                if isinstance(rec, dict):
+                                    # Handle structured recommendations
+                                    txt_file.write(f"\nFrom {model_name}:\n")
+                                    if 'category' in rec:
+                                        txt_file.write(f"Category: {rec['category']}\n")
+                                    if 'context' in rec:
+                                        txt_file.write(f"Context: {rec['context']}\n")
+                                    if 'recommendations' in rec:
+                                        for subrec in rec['recommendations']:
+                                            txt_file.write(f"- {subrec}\n")
+                                else:
+                                    # Handle simple string recommendations
+                                    txt_file.write(f"- {rec}\n")
+                        else:
+                            txt_file.write(f"- {recommendations}\n")
+                    
+                    logger.info(f"Results saved to {txt_output_path}")
+                    
+                    # Save the DOCX file
+                    create_docx(summary, recommendations, results_docx_dir)
+                    logger.info(f"DOCX file saved to {docx_output_path}")
         else:
             logger.error("No results generated.")
         
         logger.info("Workflow completed successfully")
+        
+        # Clear cached model to release resources
+        clear_cached_model()
     except Exception as e:
         logger.error(f"Error in main workflow: {e}")
 

@@ -1,0 +1,6 @@
+Summary:
+Airbus A320 aircraft VTWGJ was involved in a serious incident while operating flight G8283 from Bangalore to Pune. The aircraft was under command of an ATPL holder PF with a CPL holder acting as Pilot Monitoring PM. There were 169 passengers on board The incident occurred in day light conditions. There was no fire or any injury to crew or passengers.
+
+Recommendations:
+- roberta: LABEL_1
+- deberta: LABEL_1

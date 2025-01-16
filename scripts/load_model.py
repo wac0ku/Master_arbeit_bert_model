@@ -71,3 +71,10 @@ def summarize_text(text, summarizer, max_length=130, min_length=30):
     except Exception as e:
         logger.error(f"Error summarizing text: {e}")
         return None
+
+def clear_cached_model():
+    """Clear the cached model to release resources."""
+    global cached_model
+    if cached_model is not None:
+        cached_model = None
+        logger.info("Cached model cleared.")
