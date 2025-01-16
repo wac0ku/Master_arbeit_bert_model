@@ -13,12 +13,11 @@ def pdf_to_txt(pdf_path, output_dir):
 
         # Extract the base name of the PDF file
         base_name = os.path.splitext(os.path.basename(pdf_path))[0]
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        txt_path = os.path.join(output_dir, f"{base_name}_{timestamp}.txt")
+        txt_path = os.path.join(output_dir, f"{base_name}.txt")
 
-        # Check if the TXT file already exists
+        # Check if the corresponding TXT file already exists
         if os.path.exists(txt_path):
-            logger.info(f"Skipping {pdf_path}, TXT file already exists: {txt_path}")
+            logger.info(f"Skipping {pdf_path}, corresponding TXT file already exists: {txt_path}")
             return txt_path
 
         # Open the PDF file
@@ -44,8 +43,3 @@ def convert_all_pdfs(input_dir, output_dir):
         if filename.endswith(".pdf"):
             pdf_path = os.path.join(input_dir, filename)
             pdf_to_txt(pdf_path, output_dir)
-
-if __name__ == "__main__":
-    input_dir = "data/raw_pdf"  # Example path, adjust as needed
-    output_dir = "results/txt"  # Save results in the results/txt directory
-    convert_all_pdfs(input_dir, output_dir)

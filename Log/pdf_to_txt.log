@@ -994,3 +994,122 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 2025-01-14 19:35:21,580 - INFO - DOCX file saved successfully: results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
 2025-01-14 19:35:21,586 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
 2025-01-14 19:35:21,590 - INFO - Workflow completed successfully
+2025-01-16 10:26:44,394 - INFO - Converting PDF files to TXT format...
+2025-01-16 10:26:44,394 - INFO - TXT files already exist, skipping conversion.
+2025-01-16 10:26:44,408 - INFO - Preprocessing TXT files...
+2025-01-16 10:26:44,411 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-16 10:26:44,411 - INFO - Loading summarization model...
+2025-01-16 10:26:44,414 - INFO - Downloading model: facebook/bart-large-cnn
+2025-01-16 10:27:30,879 - INFO - Model downloaded and saved successfully
+2025-01-16 10:27:30,957 - INFO - Generating summaries and recommendations...
+2025-01-16 10:27:31,112 - INFO - Generating summary...
+2025-01-16 10:27:31,114 - INFO - Summarizing text
+2025-01-16 10:27:31,866 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:27:31,984 - INFO - Input tensor values: tensor([[    0, 10612,   100,  ...,     7,     5,     2]])
+2025-01-16 10:28:52,894 - INFO - Text summarized successfully
+2025-01-16 10:28:53,058 - INFO - Generating recommendations...
+2025-01-16 10:29:03,479 - INFO - Results saved to results\20000913_A320_C-GTDC_results.txt
+2025-01-16 10:29:03,496 - INFO - Generating summary...
+2025-01-16 10:29:03,496 - INFO - Summarizing text
+2025-01-16 10:29:03,924 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:29:03,929 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,  2577,   737,     2]])
+2025-01-16 10:29:24,794 - INFO - Text summarized successfully
+2025-01-16 10:29:24,816 - INFO - Generating recommendations...
+2025-01-16 10:29:24,978 - INFO - Results saved to results\20151016_A320_9V-TRH_results.txt
+2025-01-16 10:29:24,988 - INFO - Generating summary...
+2025-01-16 10:29:24,991 - INFO - Summarizing text
+2025-01-16 10:29:25,463 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:29:25,463 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,     9, 25422,     2]])
+2025-01-16 10:29:46,090 - INFO - Text summarized successfully
+2025-01-16 10:29:46,102 - INFO - Generating recommendations...
+2025-01-16 10:29:46,265 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 10:29:46,272 - INFO - Generating summary...
+2025-01-16 10:29:46,274 - INFO - Summarizing text
+2025-01-16 10:29:46,659 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:29:46,663 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   389,   360,     2]])
+2025-01-16 10:30:09,348 - INFO - Text summarized successfully
+2025-01-16 10:30:09,368 - INFO - Generating recommendations...
+2025-01-16 10:30:09,671 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 10:30:09,827 - INFO - Generating summary...
+2025-01-16 10:30:09,829 - INFO - Summarizing text
+2025-01-16 10:30:10,560 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:30:10,560 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,  1944,  8234,     2]])
+2025-01-16 10:30:27,478 - INFO - Text summarized successfully
+2025-01-16 10:30:27,482 - INFO - Generating recommendations...
+2025-01-16 10:30:27,620 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 10:30:27,644 - INFO - Generating summary...
+2025-01-16 10:30:27,647 - INFO - Summarizing text
+2025-01-16 10:30:27,994 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:30:28,037 - INFO - Input tensor values: tensor([[    0,   134, 37431,  ...,   155, 28296,     2]])
+2025-01-16 10:30:42,768 - INFO - Text summarized successfully
+2025-01-16 10:30:42,782 - INFO - Generating recommendations...
+2025-01-16 10:30:42,920 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 10:30:42,936 - INFO - Generating summary...
+2025-01-16 10:30:42,938 - INFO - Summarizing text
+2025-01-16 10:30:43,311 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:30:43,311 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ..., 11897,   132,     2]])
+2025-01-16 10:31:02,717 - INFO - Text summarized successfully
+2025-01-16 10:31:02,729 - INFO - Generating recommendations...
+2025-01-16 10:31:02,896 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 10:31:02,918 - INFO - Generating summary...
+2025-01-16 10:31:02,918 - INFO - Summarizing text
+2025-01-16 10:31:03,295 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:31:03,295 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    21,  8967,     2]])
+2025-01-16 10:31:20,783 - INFO - Text summarized successfully
+2025-01-16 10:31:20,793 - INFO - Generating recommendations...
+2025-01-16 10:31:20,930 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 10:31:20,950 - INFO - Generating summary...
+2025-01-16 10:31:20,950 - INFO - Summarizing text
+2025-01-16 10:31:21,379 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:31:21,419 - INFO - Input tensor values: tensor([[    0,   597, 26306,  ...,    61,    56,     2]])
+2025-01-16 10:31:38,775 - INFO - Text summarized successfully
+2025-01-16 10:31:38,786 - INFO - Generating recommendations...
+2025-01-16 10:31:38,936 - INFO - Results saved to results\Accepted Report to VT-WGJ_results.txt
+2025-01-16 10:31:38,959 - INFO - Generating summary...
+2025-01-16 10:31:38,961 - INFO - Summarizing text
+2025-01-16 10:31:39,361 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:31:39,377 - INFO - Input tensor values: tensor([[   0, 1549, 1437,  ...,   25,   41,    2]])
+2025-01-16 10:32:00,631 - INFO - Text summarized successfully
+2025-01-16 10:32:00,643 - INFO - Generating recommendations...
+2025-01-16 10:32:00,811 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 10:32:00,826 - INFO - Generating summary...
+2025-01-16 10:32:00,828 - INFO - Summarizing text
+2025-01-16 10:32:01,200 - INFO - Input tensor shape: torch.Size([1, 1024])
+2025-01-16 10:32:01,203 - INFO - Input tensor values: tensor([[   0,  246, 1437,  ...,  381, 3134,    2]])
+2025-01-16 10:32:23,633 - INFO - Text summarized successfully
+2025-01-16 10:32:23,645 - INFO - Generating recommendations...
+2025-01-16 10:32:23,827 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 10:32:24,012 - INFO - DOCX file saved successfully: results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 10:32:24,012 - INFO - Results saved to results\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 10:32:24,054 - INFO - DOCX file saved successfully: results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 10:32:24,056 - INFO - Results saved to results\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 10:32:24,084 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 10:32:24,102 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 10:32:24,137 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 10:32:24,139 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 10:32:24,162 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 10:32:24,177 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 10:32:24,215 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 10:32:24,217 - INFO - Results saved to results\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 10:32:24,252 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 10:32:24,254 - INFO - Results saved to results\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 10:32:24,295 - INFO - DOCX file saved successfully: results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 10:32:24,311 - INFO - Results saved to results\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 10:32:24,345 - INFO - DOCX file saved successfully: results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 10:32:24,348 - INFO - Results saved to results\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 10:32:24,378 - INFO - DOCX file saved successfully: results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 10:32:24,378 - INFO - Results saved to results\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 10:32:24,411 - INFO - DOCX file saved successfully: results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 10:32:24,411 - INFO - Results saved to results\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 10:32:24,411 - INFO - Workflow completed successfully
+2025-01-16 10:50:44,331 - INFO - Converting PDF files to TXT format...
+2025-01-16 10:50:44,331 - INFO - TXT files already exist, skipping conversion.
+2025-01-16 10:50:44,331 - INFO - Preprocessing TXT files...
+2025-01-16 10:50:44,331 - INFO - Cleaned files already exist, skipping preprocessing.
+2025-01-16 10:50:44,331 - INFO - Loading summarization model...
+2025-01-16 10:50:44,346 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 10:50:53,141 - INFO - Model loaded successfully from local directory
+2025-01-16 10:50:53,277 - INFO - Generating summaries and recommendations...
+2025-01-16 10:50:53,500 - INFO - Overwriting existing results for data/cleaned_data\20000913_A320_C-GTDC.txt: results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 10:50:53,524 - INFO - Generating summary...
+2025-01-16 10:50:53,536 - INFO - Summarizing text

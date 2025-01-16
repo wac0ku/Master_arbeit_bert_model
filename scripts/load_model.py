@@ -4,9 +4,12 @@ import os
 
 logger = setup_logger("load_model")
 
+# Create the models directory if it does not exist
+model_directory = "models"  # Directory to store the downloaded model
+os.makedirs(model_directory, exist_ok=True)
+
 # Variable to cache the loaded model
 cached_model = None
-model_directory = "models"  # Directory to store the downloaded model
 
 def load_summarization_model(model_name="facebook/bart-large-cnn"):
     """Load a pretrained Hugging Face model for text summarization."""
@@ -26,7 +29,6 @@ def load_summarization_model(model_name="facebook/bart-large-cnn"):
     try:
         logger.info(f"Downloading model: {model_name}")
         cached_model = pipeline("summarization", model=model_name)
-        os.makedirs(model_directory, exist_ok=True)
         cached_model.save_pretrained(model_path)  # Save the model locally
         logger.info("Model downloaded and saved successfully")
         return cached_model
@@ -50,9 +52,6 @@ def summarize_text(text, summarizer, max_length=130, min_length=30):
         tokenizer.pad_token = tokenizer.eos_token  # Set padding token
         
         inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=1024)
-        
-        logger.info(f"Input tensor shape: {inputs['input_ids'].shape}")
-        logger.info(f"Input tensor values: {inputs['input_ids']}")
         
         # Generate summary with proper configuration
         summary = summarizer.model.generate(

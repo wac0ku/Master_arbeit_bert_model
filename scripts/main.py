@@ -36,16 +36,20 @@ def main():
         
         # Step 4: Generate summaries and recommendations
         logger.info("Generating summaries and recommendations...")
-        results_dir = "results"
-        os.makedirs(results_dir, exist_ok=True)  # Ensure results directory exists
+        results_txt_dir = "results/txt"
+        results_docx_dir = "results/docx"
+        os.makedirs(results_txt_dir, exist_ok=True)  # Ensure results TXT directory exists
+        os.makedirs(results_docx_dir, exist_ok=True)  # Ensure results DOCX directory exists
+
         
         # Check if all results already exist
         all_results_exist = True
         for txt_file in os.listdir(cleaned_txt_output_dir):
             if txt_file.endswith('.txt'):
-                result_txt_path = os.path.join(results_dir, f"{os.path.splitext(txt_file)[0]}_results.txt")
-                result_docx_path = os.path.join(results_dir, f"{os.path.splitext(txt_file)[0]}_report.docx")
+                result_txt_path = os.path.join(results_txt_dir, f"{os.path.splitext(txt_file)[0]}_results.txt")
+                result_docx_path = os.path.join(results_docx_dir, f"{os.path.splitext(txt_file)[0]}_report.docx")
                 if not (os.path.exists(result_txt_path) and os.path.exists(result_docx_path)):
+
                     all_results_exist = False
                     break
         
@@ -53,12 +57,13 @@ def main():
             logger.info("All results already exist, skipping the entire workflow.")
             return
         
-        results = process_multiple_files(cleaned_txt_output_dir, results_dir, summarizer)
+        results = process_multiple_files(cleaned_txt_output_dir, results_txt_dir, summarizer)
         
         if results:
             # Step 5: Save results in DOCX format
             for file_name, summary, recommendations in results:
-                docx_output_path = os.path.join(results_dir, f"{file_name}_report.docx")
+                docx_output_path = os.path.join(results_docx_dir, f"{file_name}_report.docx")
+
                 create_docx(summary, recommendations, docx_output_path)
                 logger.info(f"Results saved to {docx_output_path}")
         else:

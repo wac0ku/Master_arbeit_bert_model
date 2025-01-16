@@ -12,9 +12,7 @@ def generate_recommendations(summary):
     """Generate recommendations based on keywords in the summary and BERT model."""
     recommendations = []
     
-    
     if isinstance(summary, str):  # Ensure summary is a string
-
         # BERT-based recommendations
         bert_recommendations = recommendation_model(summary)
         for rec in bert_recommendations:

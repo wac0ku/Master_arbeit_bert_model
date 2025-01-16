@@ -8,6 +8,11 @@ logger = setup_logger("generate_docx")
 def create_docx(summary, recommendations, output_path):
     """Create a DOCX file with a summary and recommendations."""
     try:
+        # Check if the DOCX file already exists
+        if os.path.exists(output_path):
+            logger.info(f"Skipping creation of DOCX file, already exists: {output_path}")
+            return
+        
         # Ensure the results directory exists
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
