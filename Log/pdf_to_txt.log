@@ -1113,3 +1113,89 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 2025-01-16 10:50:53,500 - INFO - Overwriting existing results for data/cleaned_data\20000913_A320_C-GTDC.txt: results/txt\20000913_A320_C-GTDC_results.txt
 2025-01-16 10:50:53,524 - INFO - Generating summary...
 2025-01-16 10:50:53,536 - INFO - Summarizing text
+2025-01-16 10:51:39,917 - INFO - Text summarized successfully
+2025-01-16 10:51:40,016 - INFO - Generating recommendations...
+2025-01-16 10:51:45,183 - INFO - Results saved to results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 10:51:45,183 - INFO - Overwriting existing results for data/cleaned_data\20151016_A320_9V-TRH.txt: results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 10:51:45,183 - INFO - Generating summary...
+2025-01-16 10:51:45,201 - INFO - Summarizing text
+2025-01-16 10:52:13,185 - INFO - Text summarized successfully
+2025-01-16 10:52:13,316 - INFO - Generating recommendations...
+2025-01-16 10:52:14,204 - INFO - Results saved to results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 10:52:14,204 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt: results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 10:52:14,216 - INFO - Generating summary...
+2025-01-16 10:52:14,220 - INFO - Summarizing text
+2025-01-16 10:52:36,882 - INFO - Text summarized successfully
+2025-01-16 10:52:36,883 - INFO - Generating recommendations...
+2025-01-16 10:52:37,069 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 10:52:37,073 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt: results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 10:52:37,076 - INFO - Generating summary...
+2025-01-16 10:52:37,079 - INFO - Summarizing text
+2025-01-16 10:52:54,471 - INFO - Text summarized successfully
+2025-01-16 10:52:54,482 - INFO - Generating recommendations...
+2025-01-16 10:52:54,625 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 10:52:54,633 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt: results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 10:52:54,637 - INFO - Generating summary...
+2025-01-16 10:52:54,639 - INFO - Summarizing text
+2025-01-16 10:53:13,919 - INFO - Text summarized successfully
+2025-01-16 10:53:13,937 - INFO - Generating recommendations...
+2025-01-16 10:53:14,072 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 10:53:14,080 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt: results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 10:53:14,083 - INFO - Generating summary...
+2025-01-16 10:53:14,086 - INFO - Summarizing text
+2025-01-16 10:53:29,607 - INFO - Text summarized successfully
+2025-01-16 10:53:29,619 - INFO - Generating recommendations...
+2025-01-16 10:53:29,767 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 10:53:29,771 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt: results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 10:53:29,775 - INFO - Generating summary...
+2025-01-16 10:53:29,777 - INFO - Summarizing text
+2025-01-16 10:53:51,453 - INFO - Text summarized successfully
+2025-01-16 10:53:51,478 - INFO - Generating recommendations...
+2025-01-16 10:53:51,652 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 10:53:51,652 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt: results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 10:53:51,667 - INFO - Generating summary...
+2025-01-16 10:53:51,671 - INFO - Summarizing text
+2025-01-16 10:54:18,302 - INFO - Text summarized successfully
+2025-01-16 10:54:18,326 - INFO - Generating recommendations...
+2025-01-16 10:54:18,490 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 10:54:18,494 - INFO - Overwriting existing results for data/cleaned_data\Accepted Report to VT-WGJ.txt: results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 10:54:18,495 - INFO - Generating summary...
+2025-01-16 10:54:18,502 - INFO - Summarizing text
+2025-01-16 10:54:52,083 - INFO - Text summarized successfully
+2025-01-16 10:54:52,150 - INFO - Generating recommendations...
+2025-01-16 10:54:52,716 - INFO - Results saved to results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 10:54:52,716 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt: results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 10:54:52,733 - INFO - Generating summary...
+2025-01-16 10:54:52,733 - INFO - Summarizing text
+2025-01-16 10:55:14,390 - INFO - Text summarized successfully
+2025-01-16 10:55:14,402 - INFO - Generating recommendations...
+2025-01-16 10:55:14,550 - INFO - Results saved to results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 10:55:14,550 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt: results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 10:55:14,555 - INFO - Generating summary...
+2025-01-16 10:55:14,557 - INFO - Summarizing text
+2025-01-16 10:55:36,752 - INFO - Text summarized successfully
+2025-01-16 10:55:36,762 - INFO - Generating recommendations...
+2025-01-16 10:55:36,969 - INFO - Results saved to results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 10:55:36,987 - INFO - Skipping creation of DOCX file, already exists: results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 10:55:36,993 - INFO - Results saved to results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 10:55:36,995 - INFO - Skipping creation of DOCX file, already exists: results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 10:55:36,995 - INFO - Results saved to results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 10:55:36,999 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 10:55:37,001 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 10:55:37,002 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 10:55:37,005 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 10:55:37,008 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 10:55:37,010 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 10:55:37,012 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 10:55:37,013 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 10:55:37,013 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 10:55:37,017 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 10:55:37,019 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 10:55:37,023 - INFO - Results saved to results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 10:55:37,025 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 10:55:37,027 - INFO - Results saved to results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 10:55:37,028 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 10:55:37,030 - INFO - Results saved to results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 10:55:37,032 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 10:55:37,034 - INFO - Results saved to results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 10:55:37,036 - INFO - Workflow completed successfully

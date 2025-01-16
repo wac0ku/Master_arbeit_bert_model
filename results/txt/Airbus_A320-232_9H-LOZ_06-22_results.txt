@@ -2,6 +2,4 @@ Summary:
 The aircraft was scheduled to conduct a preservation flight1 on 28 May 2021 departing from and returning to Stansted Airport and lasting approximately 45 minutes. During final approach to land the No 2 engine reduced to idle and would not respond to any control inputs. The crew elected to shut down the engine and then performed an uneventful singleengine approach and landed safely. The engineering investigation determined that the cause of the engine problem was most likely an inadvertent activation of the overspeed protection valve in the fuel control system.
 
 Recommendations:
-- Perform engine maintenance and inspection.
-- Check fuel system for leaks or inefficiencies.
-- LABEL_1
+- No specific recommendations based on the summary.
