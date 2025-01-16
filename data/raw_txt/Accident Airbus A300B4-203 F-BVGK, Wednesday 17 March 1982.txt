@@ -1,0 +1,90 @@
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+     
+Home » ASN Aviation Safety WikiBase
+ 
+Date:
+Wednesday 17 March 1982
+Time:
+08:10
+Type:
+    
+Airbus A300B4-203
+Owner/operator:
+Air France
+Registration:
+F-BVGK
+MSN:
+070
+Year of manufacture: 1979
+Total airframe hrs:
+9053 hours
+Cycles:
+3376 flights
+Engine model:
+General Electric CF6-50C2
+Fatalities:
+Fatalities: 0 / Occupants: 124
+Other fatalities:
+0
+Aircraft damage:
+Destroyed, written off
+Category:
+Accident
+Location:
+Sana'a International Airport (SAH) - 
+   Yemen
+Phase:
+Take off
+Nature:
+Passenger - Scheduled
+Departure airport:
+Sana'a International Airport (SAH/ODSN)
+Destination airport:
+Cairo International Airport (CAI/HECA)
+Confidence Rating:
+ Accident investigation report completed and information captured
+Narrative:
+While travelling at 95 knots during takeoff from San'a International Airport, an explosion was felt, followed by shimmy
+and vibrations. The crew, thinking a tyre had exploded, aborted the takeoff. The explosion was in fact caused by an
+uncontained failure of the stage 1 HP compressor disk of the no. 2 engine. Debris punctured the fuel tank, causing a fire on
+the right hand side of the aircraft. The propagation of a low cycle fatigue crack on one of the embossments of the disk rim
+caused the disk fracture.
+CAUSES: "The accident directly resulted from the uncontained explosion of a first stage high pressure turbine disk of the
+right hand engine. The propagation of a low cycle fatigue crack on one of the embossments of the disk rim was at the
+origin of the disk fracture.
+This cracks, which existed before, had not been detected during the inspection conducted in the operator's workshops,
+according to the method defined by the manufacturer and in accordance with the requirements of the airworthiness
+authority. The investigations showed that it was necessary, not only to reduce the intervals between the inspections of these
+disks and conduct two independent sequential inspections, but also to modify the design and make sure they were
+Share 0
+progressively replaced by the new type. It seems obvious that the limit life validation methods used at the time of the
+accident, were still insufficient, as far as the probability of non-detection of cracks was concerned."
+Sources:
+Location
++
+−
+Leaflet | © OpenStreetMap
+Images:
+Quick Links:
+ASN Home
+Send Correction / Feedback
+FSF Home
+Disclaimer
+Copyright
+Contact Us
+Privacy Policy
+Press / Media
+1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+www.FlightSafety.org
+photo (c) via Werner Fischdick
+Revision history:
+Date/time Contributor Updates
+The Aviation Safety Network is an exclusive service provided by:
+CONNECT WITH US: 
+©2024 Flight Safety Foundation

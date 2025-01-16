@@ -1,21 +1,27 @@
-from docx import Document
-from docx.shared import Pt
 import os
+import datetime
+from docx import Document
 from logging_progress import setup_logger
 
 logger = setup_logger("generate_docx")
 
-def create_docx(summary, recommendations, output_path):
+def create_docx(summary, recommendations, output_dir):
     """Create a DOCX file with a summary and recommendations."""
     try:
+        # Create a directory for today's date
+        today_date = datetime.now().strftime("%Y-%m-%d")
+        date_dir = os.path.join(output_dir, today_date)
+        os.makedirs(date_dir, exist_ok=True)
+
+        # Generate a timestamped filename
+        timestamp = datetime.now().strftime("%H-%M-%S")
+        output_path = os.path.join(date_dir, f"{summary[:10]}_report_{timestamp}.docx")
+
         # Check if the DOCX file already exists
         if os.path.exists(output_path):
-            logger.info(f"Skipping creation of DOCX file, already exists: {output_path}")
-            return
-        
-        # Ensure the results directory exists
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            logger.info(f"Overwriting existing DOCX file: {output_path}")
 
+        # Create the DOCX file
         doc = Document()
         doc.add_heading('Summary', level=1)
         doc.add_paragraph(summary)
@@ -36,5 +42,5 @@ if __name__ == "__main__":
         "Recommendation 2: Improve process Y.",
         "Recommendation 3: Optimize resource Z."
     ]
-    output_path = "results/report.docx"
-    create_docx(summary, recommendations, output_path)
+    output_dir = "results/docx"  # Example path, adjust as needed
+    create_docx(summary, recommendations, output_dir)

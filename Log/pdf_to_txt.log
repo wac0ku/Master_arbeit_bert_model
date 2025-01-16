@@ -1199,3 +1199,623 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 2025-01-16 10:55:37,032 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
 2025-01-16 10:55:37,034 - INFO - Results saved to results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
 2025-01-16 10:55:37,036 - INFO - Workflow completed successfully
+2025-01-16 11:21:29,466 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:21:29,471 - INFO - Skipping 20000913_A320_C-GTDC.pdf, corresponding TXT file already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 11:21:29,473 - INFO - Skipping 20151016_A320_9V-TRH.pdf, corresponding TXT file already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 11:21:29,475 - INFO - Skipping Accepted Final Investigation Report VT-ITG.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 11:21:29,476 - INFO - Skipping Accepted Final Investigation Report VT-ITP.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 11:21:29,478 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 11:21:29,480 - INFO - Skipping Accepted Final Investigation Report VT-ITW.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 11:21:29,481 - INFO - Skipping Accepted Final Investigation Report VT-IVB.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 11:21:29,484 - INFO - Skipping Accepted Final Investigation Report VT-WGT.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 11:21:29,485 - INFO - Skipping Accepted Report to VT-WGJ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 11:21:29,488 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.pdf'
+2025-01-16 11:23:45,705 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:23:45,709 - INFO - Skipping 20000913_A320_C-GTDC.pdf, corresponding TXT file already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 11:23:45,709 - INFO - Skipping 20151016_A320_9V-TRH.pdf, corresponding TXT file already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 11:23:45,709 - INFO - Skipping Accepted Final Investigation Report VT-ITG.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 11:23:45,709 - INFO - Skipping Accepted Final Investigation Report VT-ITP.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 11:23:45,717 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 11:23:45,719 - INFO - Skipping Accepted Final Investigation Report VT-ITW.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 11:23:45,721 - INFO - Skipping Accepted Final Investigation Report VT-IVB.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 11:23:45,724 - INFO - Skipping Accepted Final Investigation Report VT-WGT.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 11:23:45,726 - INFO - Skipping Accepted Report to VT-WGJ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 11:23:45,730 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.pdf'
+2025-01-16 11:27:41,888 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:27:41,888 - INFO - Skipping 20000913_A320_C-GTDC.pdf, corresponding TXT file already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 11:27:41,888 - INFO - Skipping 20151016_A320_9V-TRH.pdf, corresponding TXT file already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 11:27:41,899 - INFO - Skipping Accepted Final Investigation Report VT-ITG.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 11:27:41,899 - INFO - Skipping Accepted Final Investigation Report VT-ITP.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 11:27:41,904 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 11:27:41,905 - INFO - Skipping Accepted Final Investigation Report VT-ITW.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 11:27:41,907 - INFO - Skipping Accepted Final Investigation Report VT-IVB.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 11:27:41,910 - INFO - Skipping Accepted Final Investigation Report VT-WGT.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 11:27:41,912 - INFO - Skipping Accepted Report to VT-WGJ.pdf, corresponding TXT file already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 11:27:41,914 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.pdf'
+2025-01-16 11:48:33,024 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:48:33,024 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 11:50:47,942 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:50:47,942 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 11:53:31,942 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:53:31,942 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 11:54:26,758 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:54:26,775 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 11:59:44,211 - INFO - Converting PDF files to TXT format...
+2025-01-16 11:59:44,219 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:01:06,443 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:01:06,443 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:04:54,326 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:04:54,326 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:05:45,566 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:05:45,566 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:07:46,677 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:07:46,686 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:12:44,200 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:12:44,205 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:15:29,079 - INFO - Successfully converted data/raw_pdf\20000913_A320_C-GTDC.pdf to results/txt\20000913_A320_C-GTDC.txt
+2025-01-16 12:15:29,149 - INFO - Successfully converted data/raw_pdf\20151016_A320_9V-TRH.pdf to results/txt\20151016_A320_9V-TRH.txt
+2025-01-16 12:15:29,294 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITG.pdf to results/txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:15:29,413 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITP.pdf to results/txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:15:29,547 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITQ.pdf to results/txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:15:29,694 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITW.pdf to results/txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:15:29,833 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-IVB.pdf to results/txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:15:29,965 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-WGT.pdf to results/txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:15:30,051 - INFO - Successfully converted data/raw_pdf\Accepted Report to VT-WGJ.pdf to results/txt\Accepted Report to VT-WGJ.txt
+2025-01-16 12:15:30,092 - INFO - Successfully converted data/raw_pdf\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.pdf to results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 12:15:30,130 - INFO - Successfully converted data/raw_pdf\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.pdf to results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 12:15:30,156 - INFO - Successfully converted data/raw_pdf\Accident Airbus A320-232 N413UA, Friday 21 November 1997.pdf to results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 12:15:30,187 - INFO - Successfully converted data/raw_pdf\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.pdf to results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 12:15:30,297 - INFO - Successfully converted data/raw_pdf\Airbus_A320-214_OE-LOA_09-20.pdf to results/txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:15:30,353 - INFO - Successfully converted data/raw_pdf\Airbus_A320-232_9H-LOZ_06-22.pdf to results/txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:15:30,381 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.pdf to results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 12:15:30,411 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.pdf to results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 12:15:30,437 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.pdf to results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 12:15:30,475 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.pdf to results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 12:15:30,500 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.pdf to results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 12:15:30,530 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.pdf to results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 12:15:30,561 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.pdf to results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 12:20:43,851 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:20:43,856 - ERROR - Error in main workflow: [WinError 267] Der Verzeichnisname ist ungültig: 'data/raw_pdf\\20000913_A320_C-GTDC.pdf'
+2025-01-16 12:26:31,099 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:26:31,099 - INFO - Overwriting existing TXT file: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 12:26:31,182 - INFO - Successfully converted data/raw_pdf\20000913_A320_C-GTDC.pdf to data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 12:26:31,182 - INFO - Overwriting existing TXT file: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 12:26:31,249 - INFO - Successfully converted data/raw_pdf\20151016_A320_9V-TRH.pdf to data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 12:26:31,249 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:26:31,416 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITG.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:26:31,419 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:26:31,557 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITP.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:26:31,560 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:26:31,701 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITQ.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:26:31,701 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:26:31,916 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-ITW.pdf to data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:26:31,920 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:26:32,108 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-IVB.pdf to data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:26:32,112 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:26:32,313 - INFO - Successfully converted data/raw_pdf\Accepted Final Investigation Report VT-WGT.pdf to data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:26:32,313 - INFO - Overwriting existing TXT file: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 12:26:32,515 - INFO - Successfully converted data/raw_pdf\Accepted Report to VT-WGJ.pdf to data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 12:26:32,755 - INFO - Successfully converted data/raw_pdf\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.pdf to data/raw_txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 12:26:32,807 - INFO - Successfully converted data/raw_pdf\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.pdf to data/raw_txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 12:26:32,845 - INFO - Successfully converted data/raw_pdf\Accident Airbus A320-232 N413UA, Friday 21 November 1997.pdf to data/raw_txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 12:26:32,900 - INFO - Successfully converted data/raw_pdf\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.pdf to data/raw_txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 12:26:32,903 - INFO - Overwriting existing TXT file: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:26:33,014 - INFO - Successfully converted data/raw_pdf\Airbus_A320-214_OE-LOA_09-20.pdf to data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:26:33,014 - INFO - Overwriting existing TXT file: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:26:33,077 - INFO - Successfully converted data/raw_pdf\Airbus_A320-232_9H-LOZ_06-22.pdf to data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:26:33,112 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.pdf to data/raw_txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 12:26:33,148 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.pdf to data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 12:26:33,175 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.pdf to data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 12:26:33,213 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.pdf to data/raw_txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 12:26:33,244 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.pdf to data/raw_txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 12:26:33,279 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.pdf to data/raw_txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 12:26:33,309 - INFO - Successfully converted data/raw_pdf\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.pdf to data/raw_txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 12:26:33,312 - INFO - Preprocessing TXT files...
+2025-01-16 12:26:33,314 - INFO - Skipping 20000913_A320_C-GTDC.txt, cleaned file already exists: data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-16 12:26:33,314 - INFO - Skipping 20151016_A320_9V-TRH.txt, cleaned file already exists: data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-16 12:26:33,327 - INFO - Skipping Accepted Final Investigation Report VT-ITG.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:26:33,331 - INFO - Skipping Accepted Final Investigation Report VT-ITP.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:26:33,331 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:26:33,339 - INFO - Skipping Accepted Final Investigation Report VT-ITW.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:26:33,342 - INFO - Skipping Accepted Final Investigation Report VT-IVB.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:26:33,345 - INFO - Skipping Accepted Final Investigation Report VT-WGT.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:26:33,347 - INFO - Skipping Accepted Report to VT-WGJ.txt, cleaned file already exists: data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-16 12:26:34,313 - INFO - Processed Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt - Detected language: en
+2025-01-16 12:26:34,313 - INFO - Processed Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt - Detected language: en
+2025-01-16 12:26:34,336 - INFO - Processed Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt - Detected language: en
+2025-01-16 12:26:34,347 - INFO - Processed Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt - Detected language: en
+2025-01-16 12:26:34,350 - INFO - Skipping Airbus_A320-214_OE-LOA_09-20.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:26:34,353 - INFO - Skipping Airbus_A320-232_9H-LOZ_06-22.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:26:34,364 - INFO - Processed Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt - Detected language: en
+2025-01-16 12:26:34,376 - INFO - Processed Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt - Detected language: en
+2025-01-16 12:26:34,391 - INFO - Processed Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt - Detected language: en
+2025-01-16 12:26:34,407 - INFO - Processed Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt - Detected language: en
+2025-01-16 12:26:34,417 - INFO - Processed Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt - Detected language: en
+2025-01-16 12:26:34,440 - INFO - Processed Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt - Detected language: en
+2025-01-16 12:26:34,455 - INFO - Processed Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt - Detected language: en
+2025-01-16 12:26:34,471 - INFO - Loading summarization model...
+2025-01-16 12:26:34,474 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 12:26:41,463 - INFO - Model loaded successfully from local directory
+2025-01-16 12:26:41,497 - INFO - Generating summaries and recommendations...
+2025-01-16 12:26:41,579 - INFO - Overwriting existing results for data/cleaned_data\20000913_A320_C-GTDC.txt: results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 12:26:41,586 - INFO - Generating summary...
+2025-01-16 12:26:41,589 - INFO - Summarizing text
+2025-01-16 12:27:11,478 - INFO - Text summarized successfully
+2025-01-16 12:27:11,581 - INFO - Generating recommendations...
+2025-01-16 12:27:15,820 - INFO - Results saved to results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 12:27:15,824 - INFO - Overwriting existing results for data/cleaned_data\20151016_A320_9V-TRH.txt: results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 12:27:15,832 - INFO - Generating summary...
+2025-01-16 12:27:15,835 - INFO - Summarizing text
+2025-01-16 12:27:39,501 - INFO - Text summarized successfully
+2025-01-16 12:27:39,540 - INFO - Generating recommendations...
+2025-01-16 12:27:39,845 - INFO - Results saved to results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 12:27:39,847 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt: results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 12:27:39,855 - INFO - Generating summary...
+2025-01-16 12:27:39,860 - INFO - Summarizing text
+2025-01-16 12:28:01,135 - INFO - Text summarized successfully
+2025-01-16 12:28:01,155 - INFO - Generating recommendations...
+2025-01-16 12:28:01,361 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 12:28:01,374 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt: results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 12:28:01,387 - INFO - Generating summary...
+2025-01-16 12:28:01,387 - INFO - Summarizing text
+2025-01-16 12:28:21,371 - INFO - Text summarized successfully
+2025-01-16 12:28:21,385 - INFO - Generating recommendations...
+2025-01-16 12:28:21,539 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 12:28:21,539 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt: results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 12:28:21,550 - INFO - Generating summary...
+2025-01-16 12:28:21,552 - INFO - Summarizing text
+2025-01-16 12:28:38,950 - INFO - Text summarized successfully
+2025-01-16 12:28:38,966 - INFO - Generating recommendations...
+2025-01-16 12:28:39,109 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 12:28:39,117 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt: results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 12:28:39,121 - INFO - Generating summary...
+2025-01-16 12:28:39,123 - INFO - Summarizing text
+2025-01-16 12:28:55,044 - INFO - Text summarized successfully
+2025-01-16 12:28:55,052 - INFO - Generating recommendations...
+2025-01-16 12:28:55,193 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 12:28:55,202 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt: results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 12:28:55,207 - INFO - Generating summary...
+2025-01-16 12:28:55,210 - INFO - Summarizing text
+2025-01-16 12:29:14,869 - INFO - Text summarized successfully
+2025-01-16 12:29:14,882 - INFO - Generating recommendations...
+2025-01-16 12:29:15,032 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 12:29:15,047 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt: results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 12:29:15,048 - INFO - Generating summary...
+2025-01-16 12:29:15,048 - INFO - Summarizing text
+2025-01-16 12:29:35,111 - INFO - Text summarized successfully
+2025-01-16 12:29:35,157 - INFO - Generating recommendations...
+2025-01-16 12:29:35,431 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 12:29:35,436 - INFO - Overwriting existing results for data/cleaned_data\Accepted Report to VT-WGJ.txt: results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 12:29:35,442 - INFO - Generating summary...
+2025-01-16 12:29:35,444 - INFO - Summarizing text
+2025-01-16 12:29:52,802 - INFO - Text summarized successfully
+2025-01-16 12:29:52,811 - INFO - Generating recommendations...
+2025-01-16 12:29:52,952 - INFO - Results saved to results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 12:29:52,952 - INFO - Generating summary...
+2025-01-16 12:29:52,952 - INFO - Summarizing text
+2025-01-16 12:30:13,399 - INFO - Text summarized successfully
+2025-01-16 12:30:13,400 - INFO - Generating recommendations...
+2025-01-16 12:30:13,577 - INFO - Results saved to results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_results.txt
+2025-01-16 12:30:13,581 - INFO - Generating summary...
+2025-01-16 12:30:13,586 - INFO - Summarizing text
+2025-01-16 12:30:40,064 - INFO - Text summarized successfully
+2025-01-16 12:30:40,083 - INFO - Generating recommendations...
+2025-01-16 12:30:40,280 - INFO - Results saved to results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_results.txt
+2025-01-16 12:30:40,297 - INFO - Generating summary...
+2025-01-16 12:30:40,298 - INFO - Summarizing text
+2025-01-16 12:30:50,798 - INFO - Text summarized successfully
+2025-01-16 12:30:50,814 - INFO - Generating recommendations...
+2025-01-16 12:30:50,919 - INFO - Results saved to results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_results.txt
+2025-01-16 12:30:50,933 - INFO - Generating summary...
+2025-01-16 12:30:50,936 - INFO - Summarizing text
+2025-01-16 12:31:16,938 - INFO - Text summarized successfully
+2025-01-16 12:31:16,951 - INFO - Generating recommendations...
+2025-01-16 12:31:17,147 - INFO - Results saved to results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_results.txt
+2025-01-16 12:31:17,152 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt: results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 12:31:17,158 - INFO - Generating summary...
+2025-01-16 12:31:17,159 - INFO - Summarizing text
+2025-01-16 12:31:43,522 - INFO - Text summarized successfully
+2025-01-16 12:31:43,588 - INFO - Generating recommendations...
+2025-01-16 12:31:43,953 - INFO - Results saved to results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 12:31:43,964 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt: results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 12:31:43,977 - INFO - Generating summary...
+2025-01-16 12:31:43,981 - INFO - Summarizing text
+2025-01-16 12:32:07,156 - INFO - Text summarized successfully
+2025-01-16 12:32:07,170 - INFO - Generating recommendations...
+2025-01-16 12:32:07,360 - INFO - Results saved to results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 12:32:07,363 - INFO - Generating summary...
+2025-01-16 12:32:07,365 - INFO - Summarizing text
+2025-01-16 12:32:17,791 - INFO - Text summarized successfully
+2025-01-16 12:32:17,803 - INFO - Generating recommendations...
+2025-01-16 12:32:17,918 - INFO - Results saved to results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_results.txt
+2025-01-16 12:32:17,918 - INFO - Generating summary...
+2025-01-16 12:32:17,918 - INFO - Summarizing text
+2025-01-16 12:32:41,568 - INFO - Text summarized successfully
+2025-01-16 12:32:41,585 - INFO - Generating recommendations...
+2025-01-16 12:32:41,826 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_results.txt
+2025-01-16 12:32:41,829 - INFO - Generating summary...
+2025-01-16 12:32:41,832 - INFO - Summarizing text
+2025-01-16 12:32:49,756 - INFO - Text summarized successfully
+2025-01-16 12:32:49,770 - INFO - Generating recommendations...
+2025-01-16 12:32:49,866 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_results.txt
+2025-01-16 12:32:49,870 - INFO - Generating summary...
+2025-01-16 12:32:49,872 - INFO - Summarizing text
+2025-01-16 12:33:04,165 - INFO - Text summarized successfully
+2025-01-16 12:33:04,176 - INFO - Generating recommendations...
+2025-01-16 12:33:04,304 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_results.txt
+2025-01-16 12:33:04,304 - INFO - Generating summary...
+2025-01-16 12:33:04,304 - INFO - Summarizing text
+2025-01-16 12:33:16,954 - INFO - Text summarized successfully
+2025-01-16 12:33:16,974 - INFO - Generating recommendations...
+2025-01-16 12:33:17,088 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_results.txt
+2025-01-16 12:33:17,102 - INFO - Generating summary...
+2025-01-16 12:33:17,104 - INFO - Summarizing text
+2025-01-16 12:33:24,468 - INFO - Text summarized successfully
+2025-01-16 12:33:24,475 - INFO - Generating recommendations...
+2025-01-16 12:33:24,565 - INFO - Results saved to results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_results.txt
+2025-01-16 12:33:24,565 - INFO - Generating summary...
+2025-01-16 12:33:24,565 - INFO - Summarizing text
+2025-01-16 12:33:50,286 - INFO - Text summarized successfully
+2025-01-16 12:33:50,301 - INFO - Generating recommendations...
+2025-01-16 12:33:50,487 - INFO - Results saved to results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_results.txt
+2025-01-16 12:33:50,513 - INFO - Results saved to results/txt\20000913_A320_C-GTDC.txt_results.txt
+2025-01-16 12:33:50,520 - INFO - Skipping creation of DOCX file, already exists: results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 12:33:50,523 - INFO - DOCX file saved to results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 12:33:50,525 - INFO - Results saved to results/txt\20151016_A320_9V-TRH.txt_results.txt
+2025-01-16 12:33:50,527 - INFO - Skipping creation of DOCX file, already exists: results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 12:33:50,530 - INFO - DOCX file saved to results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 12:33:50,533 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITG.txt_results.txt
+2025-01-16 12:33:50,536 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 12:33:50,538 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 12:33:50,541 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITP.txt_results.txt
+2025-01-16 12:33:50,542 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 12:33:50,543 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 12:33:50,546 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITQ.txt_results.txt
+2025-01-16 12:33:50,548 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 12:33:50,551 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 12:33:50,552 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITW.txt_results.txt
+2025-01-16 12:33:50,552 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 12:33:50,565 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 12:33:50,568 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-IVB.txt_results.txt
+2025-01-16 12:33:50,583 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 12:33:50,583 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 12:33:50,583 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-WGT.txt_results.txt
+2025-01-16 12:33:50,598 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 12:33:50,602 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 12:33:50,605 - INFO - Results saved to results/txt\Accepted Report to VT-WGJ.txt_results.txt
+2025-01-16 12:33:50,608 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 12:33:50,609 - INFO - DOCX file saved to results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 12:33:50,612 - INFO - Results saved to results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_results.txt
+2025-01-16 12:33:50,741 - INFO - DOCX file saved successfully: results/docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_report.docx
+2025-01-16 12:33:50,743 - INFO - DOCX file saved to results/docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_report.docx
+2025-01-16 12:33:50,745 - INFO - Results saved to results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_results.txt
+2025-01-16 12:33:50,774 - INFO - DOCX file saved successfully: results/docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_report.docx
+2025-01-16 12:33:50,774 - INFO - DOCX file saved to results/docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_report.docx
+2025-01-16 12:33:50,781 - INFO - Results saved to results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_results.txt
+2025-01-16 12:33:50,820 - INFO - DOCX file saved successfully: results/docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_report.docx
+2025-01-16 12:33:50,821 - INFO - DOCX file saved to results/docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_report.docx
+2025-01-16 12:33:50,823 - INFO - Results saved to results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_results.txt
+2025-01-16 12:33:50,858 - INFO - DOCX file saved successfully: results/docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_report.docx
+2025-01-16 12:33:50,859 - INFO - DOCX file saved to results/docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_report.docx
+2025-01-16 12:33:50,861 - INFO - Results saved to results/txt\Airbus_A320-214_OE-LOA_09-20.txt_results.txt
+2025-01-16 12:33:50,864 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 12:33:50,866 - INFO - DOCX file saved to results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 12:33:50,869 - INFO - Results saved to results/txt\Airbus_A320-232_9H-LOZ_06-22.txt_results.txt
+2025-01-16 12:33:50,871 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 12:33:50,873 - INFO - DOCX file saved to results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 12:33:50,876 - INFO - Results saved to results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_results.txt
+2025-01-16 12:33:50,907 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_report.docx
+2025-01-16 12:33:50,909 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_report.docx
+2025-01-16 12:33:50,909 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_results.txt
+2025-01-16 12:33:50,944 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_report.docx
+2025-01-16 12:33:50,950 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_report.docx
+2025-01-16 12:33:50,953 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_results.txt
+2025-01-16 12:33:50,988 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_report.docx
+2025-01-16 12:33:50,990 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_report.docx
+2025-01-16 12:33:50,991 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_results.txt
+2025-01-16 12:33:51,033 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_report.docx
+2025-01-16 12:33:51,049 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_report.docx
+2025-01-16 12:33:51,050 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_results.txt
+2025-01-16 12:33:51,084 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_report.docx
+2025-01-16 12:33:51,086 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_report.docx
+2025-01-16 12:33:51,089 - INFO - Results saved to results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_results.txt
+2025-01-16 12:33:51,120 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_report.docx
+2025-01-16 12:33:51,122 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_report.docx
+2025-01-16 12:33:51,126 - INFO - Results saved to results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_results.txt
+2025-01-16 12:33:51,148 - INFO - DOCX file saved successfully: results/docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_report.docx
+2025-01-16 12:33:51,148 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_report.docx
+2025-01-16 12:33:51,163 - INFO - Workflow completed successfully
+2025-01-16 12:52:08,160 - INFO - Starting recommendation generation process.
+2025-01-16 12:52:09,591 - INFO - Converting PDF files to TXT format...
+2025-01-16 12:52:09,591 - INFO - Skipping extraction of text, already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 12:52:09,599 - INFO - Skipping extraction of text, already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 12:52:09,601 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:52:09,604 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:52:09,606 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:52:09,609 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:52:09,611 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:52:09,614 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:52:09,617 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 12:52:09,620 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 12:52:09,623 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 12:52:09,626 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 12:52:09,629 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 12:52:09,632 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:52:09,634 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:52:09,637 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 12:52:09,640 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 12:52:09,644 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 12:52:09,648 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 12:52:09,651 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 12:52:09,654 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 12:52:09,658 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 12:52:09,661 - INFO - Preprocessing TXT files...
+2025-01-16 12:52:09,671 - INFO - Skipping 20000913_A320_C-GTDC.txt, cleaned file already exists: data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-16 12:52:09,672 - INFO - Skipping 20151016_A320_9V-TRH.txt, cleaned file already exists: data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-16 12:52:09,672 - INFO - Skipping Accepted Final Investigation Report VT-ITG.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 12:52:09,682 - INFO - Skipping Accepted Final Investigation Report VT-ITP.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 12:52:09,686 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 12:52:09,690 - INFO - Skipping Accepted Final Investigation Report VT-ITW.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 12:52:09,693 - INFO - Skipping Accepted Final Investigation Report VT-IVB.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 12:52:09,698 - INFO - Skipping Accepted Final Investigation Report VT-WGT.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 12:52:09,701 - INFO - Skipping Accepted Report to VT-WGJ.txt, cleaned file already exists: data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-16 12:52:09,704 - INFO - Skipping Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 12:52:09,709 - INFO - Skipping Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 12:52:09,712 - INFO - Skipping Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 12:52:09,716 - INFO - Skipping Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 12:52:09,721 - INFO - Skipping Airbus_A320-214_OE-LOA_09-20.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 12:52:09,726 - INFO - Skipping Airbus_A320-232_9H-LOZ_06-22.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 12:52:09,729 - INFO - Skipping Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 12:52:09,733 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 12:52:09,737 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 12:52:09,742 - INFO - Skipping Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 12:52:09,744 - INFO - Skipping Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 12:52:09,751 - INFO - Skipping Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 12:52:09,755 - INFO - Skipping Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 12:52:09,761 - INFO - Loading summarization model...
+2025-01-16 12:52:09,766 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 12:52:19,918 - INFO - Model loaded successfully from local directory
+2025-01-16 12:52:19,967 - INFO - Generating summaries and recommendations...
+2025-01-16 12:52:20,051 - INFO - Overwriting existing results for data/cleaned_data\20000913_A320_C-GTDC.txt: results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 12:52:20,071 - INFO - Generating summary...
+2025-01-16 12:52:20,073 - INFO - Summarizing text
+2025-01-16 12:52:53,241 - INFO - Text summarized successfully
+2025-01-16 12:52:53,475 - INFO - Generating recommendations...
+2025-01-16 12:52:53,488 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:52:59,352 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5548645853996277}]
+2025-01-16 12:52:59,362 - INFO - Results saved to results/txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 12:52:59,365 - INFO - Overwriting existing results for data/cleaned_data\20151016_A320_9V-TRH.txt: results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 12:52:59,370 - INFO - Generating summary...
+2025-01-16 12:52:59,373 - INFO - Summarizing text
+2025-01-16 12:53:24,471 - INFO - Text summarized successfully
+2025-01-16 12:53:24,584 - INFO - Generating recommendations...
+2025-01-16 12:53:24,589 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:53:25,921 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5794574022293091}]
+2025-01-16 12:53:25,935 - INFO - Results saved to results/txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 12:53:25,946 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt: results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 12:53:25,952 - INFO - Generating summary...
+2025-01-16 12:53:25,954 - INFO - Summarizing text
+2025-01-16 12:53:48,390 - INFO - Text summarized successfully
+2025-01-16 12:53:48,425 - INFO - Generating recommendations...
+2025-01-16 12:53:48,425 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:53:48,669 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5185721516609192}]
+2025-01-16 12:53:48,669 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 12:53:48,679 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt: results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 12:53:48,683 - INFO - Generating summary...
+2025-01-16 12:53:48,686 - INFO - Summarizing text
+2025-01-16 12:54:05,988 - INFO - Text summarized successfully
+2025-01-16 12:54:05,994 - INFO - Generating recommendations...
+2025-01-16 12:54:06,003 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:54:06,159 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5107375383377075}]
+2025-01-16 12:54:06,159 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 12:54:06,170 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt: results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 12:54:06,175 - INFO - Generating summary...
+2025-01-16 12:54:06,177 - INFO - Summarizing text
+2025-01-16 12:54:26,214 - INFO - Text summarized successfully
+2025-01-16 12:54:26,224 - INFO - Generating recommendations...
+2025-01-16 12:54:26,224 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:54:26,357 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5484609603881836}]
+2025-01-16 12:54:26,368 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 12:54:26,368 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt: results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 12:54:26,376 - INFO - Generating summary...
+2025-01-16 12:54:26,378 - INFO - Summarizing text
+2025-01-16 12:54:44,154 - INFO - Text summarized successfully
+2025-01-16 12:54:44,175 - INFO - Generating recommendations...
+2025-01-16 12:54:44,175 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:54:44,320 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5380232334136963}]
+2025-01-16 12:54:44,323 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 12:54:44,323 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt: results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 12:54:44,331 - INFO - Generating summary...
+2025-01-16 12:54:44,333 - INFO - Summarizing text
+2025-01-16 12:55:03,911 - INFO - Text summarized successfully
+2025-01-16 12:55:03,922 - INFO - Generating recommendations...
+2025-01-16 12:55:03,930 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:55:04,085 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5493535399436951}]
+2025-01-16 12:55:04,085 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 12:55:04,085 - INFO - Overwriting existing results for data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt: results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 12:55:04,103 - INFO - Generating summary...
+2025-01-16 12:55:04,105 - INFO - Summarizing text
+2025-01-16 12:55:20,283 - INFO - Text summarized successfully
+2025-01-16 12:55:20,300 - INFO - Generating recommendations...
+2025-01-16 12:55:20,300 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:55:20,446 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5535129904747009}]
+2025-01-16 12:55:20,450 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 12:55:20,455 - INFO - Overwriting existing results for data/cleaned_data\Accepted Report to VT-WGJ.txt: results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 12:55:20,459 - INFO - Generating summary...
+2025-01-16 12:55:20,462 - INFO - Summarizing text
+2025-01-16 12:55:37,121 - INFO - Text summarized successfully
+2025-01-16 12:55:37,127 - INFO - Generating recommendations...
+2025-01-16 12:55:37,127 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:55:37,285 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.533396303653717}]
+2025-01-16 12:55:37,289 - INFO - Results saved to results/txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 12:55:37,294 - INFO - Overwriting existing results for data/cleaned_data\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt: results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_results.txt
+2025-01-16 12:55:37,299 - INFO - Generating summary...
+2025-01-16 12:55:37,302 - INFO - Summarizing text
+2025-01-16 12:56:00,023 - INFO - Text summarized successfully
+2025-01-16 12:56:00,036 - INFO - Generating recommendations...
+2025-01-16 12:56:00,039 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:56:00,212 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5475761294364929}]
+2025-01-16 12:56:00,217 - INFO - Results saved to results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_results.txt
+2025-01-16 12:56:00,221 - INFO - Overwriting existing results for data/cleaned_data\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt: results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_results.txt
+2025-01-16 12:56:00,226 - INFO - Generating summary...
+2025-01-16 12:56:00,228 - INFO - Summarizing text
+2025-01-16 12:56:27,185 - INFO - Text summarized successfully
+2025-01-16 12:56:27,220 - INFO - Generating recommendations...
+2025-01-16 12:56:27,223 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:56:27,502 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5275959372520447}]
+2025-01-16 12:56:27,509 - INFO - Results saved to results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_results.txt
+2025-01-16 12:56:27,513 - INFO - Overwriting existing results for data/cleaned_data\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt: results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_results.txt
+2025-01-16 12:56:27,517 - INFO - Generating summary...
+2025-01-16 12:56:27,520 - INFO - Summarizing text
+2025-01-16 12:56:38,620 - INFO - Text summarized successfully
+2025-01-16 12:56:38,630 - INFO - Generating recommendations...
+2025-01-16 12:56:38,633 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:56:38,736 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5492969155311584}]
+2025-01-16 12:56:38,736 - INFO - Results saved to results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_results.txt
+2025-01-16 12:56:38,736 - INFO - Overwriting existing results for data/cleaned_data\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt: results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_results.txt
+2025-01-16 12:56:38,751 - INFO - Generating summary...
+2025-01-16 12:56:38,753 - INFO - Summarizing text
+2025-01-16 12:57:03,284 - INFO - Text summarized successfully
+2025-01-16 12:57:03,306 - INFO - Generating recommendations...
+2025-01-16 12:57:03,306 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:57:03,519 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5782071352005005}]
+2025-01-16 12:57:03,525 - INFO - Results saved to results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_results.txt
+2025-01-16 12:57:03,525 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt: results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 12:57:03,533 - INFO - Generating summary...
+2025-01-16 12:57:03,535 - INFO - Summarizing text
+2025-01-16 12:57:25,121 - INFO - Text summarized successfully
+2025-01-16 12:57:25,131 - INFO - Generating recommendations...
+2025-01-16 12:57:25,134 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:57:25,282 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5394706130027771}]
+2025-01-16 12:57:25,286 - INFO - Results saved to results/txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 12:57:25,286 - INFO - Overwriting existing results for data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt: results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 12:57:25,295 - INFO - Generating summary...
+2025-01-16 12:57:25,297 - INFO - Summarizing text
+2025-01-16 12:57:50,854 - INFO - Text summarized successfully
+2025-01-16 12:57:50,870 - INFO - Generating recommendations...
+2025-01-16 12:57:50,873 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:57:51,066 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5267518162727356}]
+2025-01-16 12:57:51,072 - INFO - Results saved to results/txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 12:57:51,074 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt: results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_results.txt
+2025-01-16 12:57:51,078 - INFO - Generating summary...
+2025-01-16 12:57:51,080 - INFO - Summarizing text
+2025-01-16 12:58:03,459 - INFO - Text summarized successfully
+2025-01-16 12:58:03,478 - INFO - Generating recommendations...
+2025-01-16 12:58:03,478 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:58:03,622 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5224636197090149}]
+2025-01-16 12:58:03,622 - INFO - Results saved to results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_results.txt
+2025-01-16 12:58:03,634 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt: results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_results.txt
+2025-01-16 12:58:03,640 - INFO - Generating summary...
+2025-01-16 12:58:03,642 - INFO - Summarizing text
+2025-01-16 12:58:30,592 - INFO - Text summarized successfully
+2025-01-16 12:58:30,610 - INFO - Generating recommendations...
+2025-01-16 12:58:30,610 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:58:30,859 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5527403354644775}]
+2025-01-16 12:58:30,864 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_results.txt
+2025-01-16 12:58:30,870 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt: results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_results.txt
+2025-01-16 12:58:30,875 - INFO - Generating summary...
+2025-01-16 12:58:30,877 - INFO - Summarizing text
+2025-01-16 12:58:39,337 - INFO - Text summarized successfully
+2025-01-16 12:58:39,337 - INFO - Generating recommendations...
+2025-01-16 12:58:39,353 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:58:39,453 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5295043587684631}]
+2025-01-16 12:58:39,453 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_results.txt
+2025-01-16 12:58:39,469 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt: results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_results.txt
+2025-01-16 12:58:39,475 - INFO - Generating summary...
+2025-01-16 12:58:39,478 - INFO - Summarizing text
+2025-01-16 12:58:55,608 - INFO - Text summarized successfully
+2025-01-16 12:58:55,621 - INFO - Generating recommendations...
+2025-01-16 12:58:55,623 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:58:55,751 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5532687306404114}]
+2025-01-16 12:58:55,755 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_results.txt
+2025-01-16 12:58:55,758 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt: results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_results.txt
+2025-01-16 12:58:55,761 - INFO - Generating summary...
+2025-01-16 12:58:55,763 - INFO - Summarizing text
+2025-01-16 12:59:06,822 - INFO - Text summarized successfully
+2025-01-16 12:59:06,830 - INFO - Generating recommendations...
+2025-01-16 12:59:06,833 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:59:06,950 - INFO - BERT recommendations: [{'label': 'LABEL_0', 'score': 0.5032159686088562}]
+2025-01-16 12:59:06,952 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_results.txt
+2025-01-16 12:59:06,952 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt: results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_results.txt
+2025-01-16 12:59:06,962 - INFO - Generating summary...
+2025-01-16 12:59:06,964 - INFO - Summarizing text
+2025-01-16 12:59:15,759 - INFO - Text summarized successfully
+2025-01-16 12:59:15,768 - INFO - Generating recommendations...
+2025-01-16 12:59:15,768 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:59:15,886 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5370486974716187}]
+2025-01-16 12:59:15,886 - INFO - Results saved to results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_results.txt
+2025-01-16 12:59:15,886 - INFO - Overwriting existing results for data/cleaned_data\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt: results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_results.txt
+2025-01-16 12:59:15,886 - INFO - Generating summary...
+2025-01-16 12:59:15,900 - INFO - Summarizing text
+2025-01-16 12:59:40,281 - INFO - Text summarized successfully
+2025-01-16 12:59:40,292 - INFO - Generating recommendations...
+2025-01-16 12:59:40,295 - INFO - Generating recommendations based on the summary.
+2025-01-16 12:59:40,470 - INFO - BERT recommendations: [{'label': 'LABEL_1', 'score': 0.5485736131668091}]
+2025-01-16 12:59:40,474 - INFO - Results saved to results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_results.txt
+2025-01-16 12:59:40,492 - INFO - Results saved to results/txt\20000913_A320_C-GTDC.txt_results.txt
+2025-01-16 12:59:40,495 - INFO - Skipping creation of DOCX file, already exists: results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 12:59:40,500 - INFO - DOCX file saved to results/docx\20000913_A320_C-GTDC.txt_report.docx
+2025-01-16 12:59:40,507 - INFO - Results saved to results/txt\20151016_A320_9V-TRH.txt_results.txt
+2025-01-16 12:59:40,509 - INFO - Skipping creation of DOCX file, already exists: results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 12:59:40,511 - INFO - DOCX file saved to results/docx\20151016_A320_9V-TRH.txt_report.docx
+2025-01-16 12:59:40,511 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITG.txt_results.txt
+2025-01-16 12:59:40,515 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 12:59:40,517 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITG.txt_report.docx
+2025-01-16 12:59:40,517 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITP.txt_results.txt
+2025-01-16 12:59:40,517 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 12:59:40,524 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITP.txt_report.docx
+2025-01-16 12:59:40,527 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITQ.txt_results.txt
+2025-01-16 12:59:40,528 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 12:59:40,531 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITQ.txt_report.docx
+2025-01-16 12:59:40,533 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-ITW.txt_results.txt
+2025-01-16 12:59:40,535 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 12:59:40,537 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-ITW.txt_report.docx
+2025-01-16 12:59:40,541 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-IVB.txt_results.txt
+2025-01-16 12:59:40,543 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 12:59:40,545 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-IVB.txt_report.docx
+2025-01-16 12:59:40,547 - INFO - Results saved to results/txt\Accepted Final Investigation Report VT-WGT.txt_results.txt
+2025-01-16 12:59:40,550 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 12:59:40,550 - INFO - DOCX file saved to results/docx\Accepted Final Investigation Report VT-WGT.txt_report.docx
+2025-01-16 12:59:40,556 - INFO - Results saved to results/txt\Accepted Report to VT-WGJ.txt_results.txt
+2025-01-16 12:59:40,557 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 12:59:40,560 - INFO - DOCX file saved to results/docx\Accepted Report to VT-WGJ.txt_report.docx
+2025-01-16 12:59:40,562 - INFO - Results saved to results/txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_results.txt
+2025-01-16 12:59:40,565 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_report.docx
+2025-01-16 12:59:40,566 - INFO - DOCX file saved to results/docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt_report.docx
+2025-01-16 12:59:40,569 - INFO - Results saved to results/txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_results.txt
+2025-01-16 12:59:40,571 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_report.docx
+2025-01-16 12:59:40,574 - INFO - DOCX file saved to results/docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt_report.docx
+2025-01-16 12:59:40,577 - INFO - Results saved to results/txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_results.txt
+2025-01-16 12:59:40,578 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_report.docx
+2025-01-16 12:59:40,578 - INFO - DOCX file saved to results/docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt_report.docx
+2025-01-16 12:59:40,583 - INFO - Results saved to results/txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_results.txt
+2025-01-16 12:59:40,585 - INFO - Skipping creation of DOCX file, already exists: results/docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_report.docx
+2025-01-16 12:59:40,588 - INFO - DOCX file saved to results/docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt_report.docx
+2025-01-16 12:59:40,590 - INFO - Results saved to results/txt\Airbus_A320-214_OE-LOA_09-20.txt_results.txt
+2025-01-16 12:59:40,592 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 12:59:40,594 - INFO - DOCX file saved to results/docx\Airbus_A320-214_OE-LOA_09-20.txt_report.docx
+2025-01-16 12:59:40,596 - INFO - Results saved to results/txt\Airbus_A320-232_9H-LOZ_06-22.txt_results.txt
+2025-01-16 12:59:40,598 - INFO - Skipping creation of DOCX file, already exists: results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 12:59:40,600 - INFO - DOCX file saved to results/docx\Airbus_A320-232_9H-LOZ_06-22.txt_report.docx
+2025-01-16 12:59:40,603 - INFO - Results saved to results/txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_results.txt
+2025-01-16 12:59:40,606 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_report.docx
+2025-01-16 12:59:40,608 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt_report.docx
+2025-01-16 12:59:40,611 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_results.txt
+2025-01-16 12:59:40,613 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_report.docx
+2025-01-16 12:59:40,615 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt_report.docx
+2025-01-16 12:59:40,618 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_results.txt
+2025-01-16 12:59:40,621 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_report.docx
+2025-01-16 12:59:40,622 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt_report.docx
+2025-01-16 12:59:40,626 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_results.txt
+2025-01-16 12:59:40,628 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_report.docx
+2025-01-16 12:59:40,631 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt_report.docx
+2025-01-16 12:59:40,634 - INFO - Results saved to results/txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_results.txt
+2025-01-16 12:59:40,638 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_report.docx
+2025-01-16 12:59:40,638 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt_report.docx
+2025-01-16 12:59:40,668 - INFO - Results saved to results/txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_results.txt
+2025-01-16 12:59:40,668 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_report.docx
+2025-01-16 12:59:40,668 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt_report.docx
+2025-01-16 12:59:40,668 - INFO - Results saved to results/txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_results.txt
+2025-01-16 12:59:40,684 - INFO - Skipping creation of DOCX file, already exists: results/docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_report.docx
+2025-01-16 12:59:40,684 - INFO - DOCX file saved to results/docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt_report.docx
+2025-01-16 12:59:40,684 - INFO - Workflow completed successfully

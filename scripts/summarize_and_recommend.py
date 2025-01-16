@@ -4,19 +4,28 @@ from logging_progress import setup_logger, display_progress
 from transformers import pipeline  # Importing BERT pipeline
 
 logger = setup_logger("summarize_and_recommend")
+logger.info("Starting recommendation generation process.")
+
 
 # Load BERT model for recommendations
-recommendation_model = pipeline("text-classification", model="bert-base-uncased")
-
+recommendation_model = pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english") # BERT model for text classification (recommendations) 
+                                                                                                                # Hierbei kann man mehrere Modelle ausprobieren, um das beste zu finden
+                                                                                                                # RUSLANA, HIER ANFANGEN RUMZUSPIELEN
+                                                                                                                # Ändere NUR model="distilbert-base-uncased-finetuned-sst-2-english" zu einem anderen Modell, um zu sehen, ob es besser ist
 def generate_recommendations(summary):
+    logger.info("Generating recommendations based on the summary.")
+
     """Generate recommendations based on keywords in the summary and BERT model."""
     recommendations = []
     
     if isinstance(summary, str):  # Ensure summary is a string
+
         # BERT-based recommendations
         bert_recommendations = recommendation_model(summary)
+        logger.info(f"BERT recommendations: {bert_recommendations}")  # Log the recommendations from BERT model
         for rec in bert_recommendations:
-            if rec['label'] != 'LABEL_0':  # Filter out irrelevant labels
+            
+            if rec['label'] == 'LABEL_1' and rec['score'] > 0.5:  # Filter out irrelevant labels and low confidence scores
                 recommendations.append(rec['label'])  # Assuming the model returns labels as recommendations
     else:
         logger.error("Summary is not a valid string, cannot generate recommendations.")

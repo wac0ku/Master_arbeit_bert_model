@@ -1,0 +1,5 @@
+Summary:
+Home Database Investigation Statistics Contact us About Home  ASN Aviation Safety WikiBase Date Wednesday 17 March 1982 Time 0810 Type Airbus A300B4203 Owner operator Air France Registration FBVGK MSN 070 Year of manufacture 1979 Total airframe hrs 9053 hours Cycles 3376 flights Engine model General Electric CF650C2 Fatalities Fatalities 0  Occupants 124 Other fatalities 0 Aircraft damage Destroyed written off Category Accident Location Sanaa International Airport SAH  Yemen Phase Take off Nature Passenger  Scheduled Departure airport Sanaa international AirportSAHODSN Destination airport Cairo International Airport CAIHECA Conf
+
+Recommendations:
+- LABEL_1

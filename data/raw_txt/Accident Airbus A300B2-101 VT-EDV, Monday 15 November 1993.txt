@@ -1,0 +1,93 @@
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+     
+Home » ASN Aviation Safety WikiBase
+ 
+Date:
+Monday 15 November 1993
+Time:
+09:25
+Type:
+    
+Airbus A300B2-101
+Owner/operator:
+Indian Airlines
+Registration:
+VT-EDV
+MSN:
+034
+Year of manufacture: 1976
+Engine model:
+General Electric CF6-50C
+Fatalities:
+Fatalities: 0 / Occupants: 262
+Other fatalities:
+0
+Aircraft damage:
+Destroyed, written off
+Category:
+Accident
+Location:
+26 km from Tirupati Airport (TIR) - 
+   India
+Phase:
+Landing
+Nature:
+Passenger - Scheduled
+Departure airport:
+Madras Airport (MAA/VOMM)
+Destination airport:
+Hyderabad-Begumpet Airport (HYD/VOHY)
+Confidence Rating:
+ Accident investigation report completed and information captured
+Narrative:
+The aircraft could not land at Hyderabad due to low visibility and carried out a missed approach. After the missed
+approach, the crew reported a flap retraction problem and decided to enter a holding pattern overhead at Hyderabad, during
+which the flight crew enquired visibility at nearby Air Force airfields. Because visibility was low there as well, the aircraft
+then diverted to Madras. Due to flaps problem, the crew had to maintain low speed and low altitude as a result of which it
+experienced fuel shortage. The crew then tried to divert to nearby Tirupati. However, the aircraft could not reach even
+Tirupati airport and executed forced landing in an open paddy field about 14 nautical miles from Tirupati airport. The
+aircraft dragged on the soft paddy field before coming to final stop.
+PROBABLE CAUSE: "(a) The ill-conceived decision of the aircraft's Commander to divert to Madras, without ensuring
+that adequate fuel was available for reaching there, when he was faced with a flap-jam and poor visibility at Hyderabad. (b)
+The failure of the aircraft's Commander and his Flight Crew to monitor fuel consumption correctly, and the failure of the
+Commander to revise his decision accordingly, until it became impossible to reach any airfield. (c) A forced landing due to
+the eventual shortage of fuel".
+Sources:
+Share 0
+Civil aviation aircraft accident summary for the year 1993 (DGAC India)
+History of this aircraft
+Other occurrences involving this aircraft
+30 June 1979 VT-EDV Indian Airlines 0 Calcutta Airport (CCU)
+sub
+Runway excursion
+Location
++
+−
+Leaflet | © OpenStreetMap
+Images:
+photo (c) Dave; Tirupati Airport (TIR); 15 November 1993
+photo (c) Dave; Tirupati Airport (TIR); 15 November 1993
+photo (c) Dave; Tirupati Airport (TIR); 15 November 1993
+Quick Links:
+ASN Home
+Send Correction / Feedback
+FSF Home
+Disclaimer
+Copyright
+Contact Us
+Privacy Policy
+Press / Media
+1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+www.FlightSafety.org
+photo (c) via Werner Fischdick; Toulouse-Blagnac Airport (TLS); July 1976
+Revision history:
+Date/time Contributor Updates
+The Aviation Safety Network is an exclusive service provided by:
+CONNECT WITH US: 
+©2024 Flight Safety Foundation

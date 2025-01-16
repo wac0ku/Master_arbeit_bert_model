@@ -54,24 +54,20 @@ Chennai Airport
 Point of Intended Landing 
 : 
 Kolkata Airport 
-10.
-Type of Operation 
+10. Type of Operation 
 : 
 Scheduled Operation 
-11.
-Passengers on Board 
+11. Passengers on Board 
 : 
 172 (Including 04 Cabin Crew Members) 
  
 Extent of Injuries 
 : 
 Nil 
-12.
-Phase of Operation 
+12. Phase of Operation 
 : 
 Climb 
-13.
-Type of Occurrence 
+13. Type of Occurrence 
 : 
 Air Turn Back due to Engine Stall.  
  
@@ -297,7 +293,7 @@ All
 734 
 India 
 Indigo 
-115
+115 
 161 
 25 
 25 
@@ -625,7 +621,7 @@ failure
 LPT 
 failure 
 N2 
-Vibration
+Vibration 
 MGB 
 IDG/LSOP 
 gear 

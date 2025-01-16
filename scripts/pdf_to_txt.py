@@ -17,8 +17,8 @@ def pdf_to_txt(pdf_path, output_dir):
 
         # Check if the corresponding TXT file already exists
         if os.path.exists(txt_path):
-            logger.info(f"Skipping {pdf_path}, corresponding TXT file already exists: {txt_path}")
-            return txt_path
+            logger.info(f"Skipping extraction of text, already exists: {txt_path}")
+            return
 
         # Open the PDF file
         with fitz.open(pdf_path) as doc:

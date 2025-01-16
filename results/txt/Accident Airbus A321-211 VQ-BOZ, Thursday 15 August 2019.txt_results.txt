@@ -1,0 +1,5 @@
+Summary:
+Ural Airlines Flight 178 an Airbus A321211 registration VQBOZ was substantially damaged when it force landed to a cornfield shortly after takeoff due to a dual bird strike and engine failure. Ten passengers were injured. The aircraft with 226 passengers and 7 crew was in the initial climb through 750 feet out of Zkukovskys runway 12 when the aircraft flew through a flock of seagulls and ingested birds into both engines CFM56 Both engines lost power forcing the crew to stop the climb at 750 feet and land the aircraft in a corn field about 23nm past the runway with gear retracted.
+
+Recommendations:
+- LABEL_1

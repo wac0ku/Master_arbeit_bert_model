@@ -1,0 +1,85 @@
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+     
+Home » ASN Aviation Safety WikiBase
+ 
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Post
+Date:
+Thursday 26 August 2021
+Time:
+16:50
+Type:
+    
+Airbus A320-231
+Owner/operator:
+Star East Airlines
+Registration:
+YR-SEA
+MSN:
+357
+Year of manufacture: 1992
+Engine model:
+IAEV2500-A1
+Fatalities:
+Fatalities: 0 / Occupants:
+Other fatalities:
+0
+Aircraft damage:
+Minor
+Category:
+Serious incident
+Location:
+30 nm W of LAJAK - 
+   Pakistan
+Phase:
+En route
+Nature:
+Unknown
+Departure airport:
+Bahrain International Airport (BAH/OBBI)
+Destination airport:
+Kabul-Hamid Karzai International Airport (KBL/OAKB)
+Confidence Rating:
+ Information verified through data from accident investigation authorities
+Narrative:
+When aircraft was 30NM west of position LAJAK, the flight crew reported that engine no.1 (left side) failed and requested
+landing at Islamabad. No assistance required upon arrival.
+The aircraft was given priority and cleared for a straight-in approach from position Lajak. The aircraft landed safely on
+runway 10R. 
+The aircraft operated on a flight to evacuate refugees from Kabul, Afghanistan, on behalf of the US Armed Forces.
+Sources:
+https://www.bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-yr-sea-
+operated-by-star-east-on-26-08-2021-en-route/
+Share 0
+Quick Links:
+ASN Home
+Send Correction / Feedback
+FSF Home
+Disclaimer
+Copyright
+Contact Us
+Privacy Policy
+Press / Media
+1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+www.FlightSafety.org
+History of this aircraft
+Other occurrences involving this aircraft
+1 June 2019 YR-SEA Smartwings 0 Heraklion-Nikos Kazantzakis international airport, Crete
+unk
+Revision history:
+Date/time
+Contributor Updates
+10-Sep-2021 15:53 harro
+Added
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+CONNECT WITH US: 
+©2025 Flight Safety Foundation

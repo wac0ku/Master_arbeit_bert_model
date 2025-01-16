@@ -1,43 +1,43 @@
 3
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin: 6/2022	
-9H-LOZ	
+ AAIB Bulletin: 6/2022 
+9H-LOZ 
 AAIB-27313
 SERIOUS INCIDENT
-	
-Aircraft Type and Registration:	
+ 
+Aircraft Type and Registration: 
 Airbus A320-232, 9H-LOZ 
-No & Type of Engines:	
+No & Type of Engines: 
 2 IAE V2500 turbofan engines
-Year of Manufacture:	
+Year of Manufacture: 
 2006 (Serial no: 2838)
-Date & Time (UTC):	
+Date & Time (UTC): 
 28 May 2021 at 0825 hrs
-Location:	
+Location: 
 London Stansted Airport, Essex
-Type of Flight:	
+Type of Flight: 
 Commercial Air Transport (Non-revenue)
-Persons on Board:	
-Crew - 2	
+Persons on Board: 
+Crew - 2 
 Passengers - None
  
-Injuries:	
-Crew - None	
+Injuries: 
+Crew - None 
 Passengers - N/A
-Nature of Damage:	
+Nature of Damage: 
 None 
-Commander’s Licence:	
+Commander’s Licence: 
 Airline Transport Pilot’s Licence
-Commander’s Age:	
+Commander’s Age: 
 30 years
-Commander’s Flying Experience:	
+Commander’s Flying Experience: 
 5,290 hours (of which 5,100 were on type)
-	
+ 
 Last 90 days – 25 hours
-	
+ 
 Last 28 days –   6 hours
-Information Source:	
+Information Source: 
 Aircraft Accident Report Form submitted by the 
 pilot
 Synopsis
@@ -59,14 +59,14 @@ conducted the standard walkaround and pre-departure checks with no abnormal find
 The aircraft departed from Stand 33L at 0803 hrs after a normal engine start and pushback 
 and taxied to line up and hold on Runway 22.
 Footnote
-1	
+1 
 These were routine flights conducted every 28 days to maintain serviceability of the aircraft during the 
 pandemic reduced flight schedules.
 4
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin:6/2022	
-9H-LOZ	
+ AAIB Bulletin:6/2022 
+9H-LOZ 
  AAIB-27313
 Whilst holding on the runway, the crew were requested by Air Traffic Control (ATC) to 
 consider a new Standard Instrument Departure (SID) route, but they declined this request 
@@ -110,8 +110,8 @@ sent for further investigation.
 5
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin: 6/2022	
-9H-LOZ	
+ AAIB Bulletin: 6/2022 
+9H-LOZ 
 AAIB-27313
 Figure 1
 Post-flight Report
@@ -128,38 +128,33 @@ Recorded information
 The aircraft manufacturer analysed the recorded flight data for the incident flight and 
 produced a flight track which is shown in Figure 2. To assist in understanding the different 
 phases of the flight the diagram has been annotated as follows:
-	
-●
+● 
 Arrow 1 – shows the initial takeoff from Stansted.
-	
-●
+● 
 Arrow 2 – shows the departure and climb following the SID.
-	
-●
+● 
 Arrow 3 – shows the first approach to land on Runway 22, with the start of 
 the engine fault shown by the yellow pin.
-	
-●
+● 
 Arrow 4 – shows the go-around and missed approach route to the hold, with 
 the engine shutdown point indicated by the yellow pin during the second 
 circuit of the holding pattern.
 6
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin:6/2022	
-9H-LOZ	
+ AAIB Bulletin:6/2022 
+9H-LOZ 
  AAIB-27313
-	
-●
+● 
 Arrow 5 – shows the re-join of the circuit at Stansted with the No 2 engine 
 shut down.
-	
-●
-Arrow 6 – shows the single engine final approach and landing on Runway 22.
+● 
+Arrow 6 – shows the single engine final approach and landing on Runway 22.
+ 
 Figure 2 
 Recorded data showing the incident flight track
 An overview of the relevant recorded data parameters for the incident flight, produced by 
-the aircraft manufacturer, is shown in Figure 3.  This highlights the section where the No 2 
+the aircraft manufacturer, is shown in Figure 3.  This highlights the section where the No 2 
 engine problem occurred.  From 08:27:46 hrs the EEC commanded EPR target rapidly 
 increased on both engines to maintain the selected aircraft autopilot airspeed.  Whilst the 
 EPR increased to match the EEC demand on engine No 1, the No 2 engine EPR began 
@@ -170,9 +165,10 @@ engine was shut down.
 7
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin: 6/2022	
-9H-LOZ	
+ AAIB Bulletin: 6/2022 
+9H-LOZ 
 AAIB-27313
+ 
 Figure 3 
 Relevant recorded data parameters for the incident flight
 Aircraft information
@@ -189,29 +185,26 @@ spray nozzles using the FMU, to achieve the target EPR.  If a fault results in t
 not being available, the control system reverts to reversionary mode and uses N1 to control 
 the engine.  N2 is the speed of rotation of the high-pressure spool.
 Footnote
-2	
+2 
 This is a ratio of the intake air pressure and the exhaust gas pressure, measured by sensors in the engine 
 intake and low-pressure turbine exhaust.
-3	
+3 
 The term spool refers to the entire compressor stages and turbine stages connected by a shaft.
 8
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin:6/2022	
-9H-LOZ	
+ AAIB Bulletin:6/2022 
+9H-LOZ 
  AAIB-27313
 The FMU has three mechanical control features, these are:
-	
-●
+● 
 The Fuel Metering Valve (FMV) which under normal operation modulates to 
 deliver a metered fuel flow to the fuel nozzles based on the EEC command.
-	
-●
+● 
 An engine overspeed protection valve which works in series with the FMV 
 to reduce the fuel flow to the spray nozzles if an overspeed of either the low-
 pressure or high-pressure spool is sensed by the EEC.
-	
-●
+● 
 A Pressure Rising and Shut-off Valve (PRSOV) which is the main open/shut 
 valve that controls fuel to the engine to facilitate starting and stopping of the 
 engine. 
@@ -239,8 +232,8 @@ master engine control lever.  The relevant FCOM checklist is shown in Figure 4.
 9
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin: 6/2022	
-9H-LOZ	
+ AAIB Bulletin: 6/2022 
+9H-LOZ 
 AAIB-27313
  
 Figure 4
@@ -266,8 +259,8 @@ processes by the engine manufacturer.
 10
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin:6/2022	
-9H-LOZ	
+ AAIB Bulletin:6/2022 
+9H-LOZ 
  AAIB-27313
 Previous similar events
 Uncommanded (by the EEC) closure of the overspeed protection valve within the FMU has 
@@ -293,7 +286,7 @@ down. The final overspeed protection fault warning seen on the post-flight repor
 intentionally inhibited by the system until after touchdown and the aircraft airspeed has 
 reduced below 80 kt, which is why it appeared to occur after the engine had been shut 
 down.  The previous in-service events where the overspeed protection valve had operated 
-without being commanded by the EEC, were very similar to this incident involving 9H-LOZ. 
+without being commanded by the EEC, were very similar to this incident involving 9H-LOZ.  
 It was not possible to confirm a definitive root cause for the activation of the overspeed 
 protection valve from the evidence recovered by the investigation.  However, these events 
 are all the subject of ongoing continued airworthiness activities by the engine and aircraft 
@@ -309,13 +302,13 @@ reported that progress on these issues is regularly communicated to operators
 of the engine during customer meetings, in which both the aircraft and engine 
 manufacturers participate.
 Footnote
-4	
+4 
 No evidence of the engine experiencing an actual stall or surge was reported.
 11
 ©  Crown copyright 2022
 All times are UTC
- AAIB Bulletin: 6/2022	
-9H-LOZ	
+ AAIB Bulletin: 6/2022 
+9H-LOZ 
 AAIB-27313
 At the request of the operator of 9H-LOZ, the aircraft manufacturer also agreed 
 to review the wording of the FCOM procedure for an ‘eng 1/2 fadec fault’ 

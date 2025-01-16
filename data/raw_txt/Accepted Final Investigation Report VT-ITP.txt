@@ -42,20 +42,16 @@ Dehradun Airport
 8. 
 Point of Intended Landing 
 Bengaluru Airport 
-10.
-Type of Operation 
+10. Type of Operation 
 Scheduled Operation 
-11.
-Passengers on Board 
+11. Passengers on Board 
 186 (Including 04 Cabin Crew Members) 
  
 Extent of Injuries 
 Nil 
-12.
-Phase of Operation 
+12. Phase of Operation 
 Climb 
-13.
-Type of Occurrence 
+13. Type of Occurrence 
 Diversion due to Engine High Vibration and 
 EGT Overlimit.  
  
@@ -270,7 +266,7 @@ All
 734 
 India 
 Indigo 
-115
+115 
 161 
 25 
 25 
@@ -582,21 +578,22 @@ Turbine failure
 Issued SB 72-00-0111 
 All IGO engine are post SB 
 72-00-0111. 
+ 
 4. 
 N2 Vibration 
  
 SB 72-00138 was released 
 to replace HPC stage 6 
 ring seal with modified 
-one.
+one. 
 134 engines are flying with 
 post mod HPC 6 ring seal 
 5. 
 MGB IDG/LSOP gear 
-failure.
+failure. 
 Issued SB 72-00-0129 
 30 engines are Pre SB 72-
-00-0129.
+00-0129. 
 Table 2: Typical Engine Failures and Rectification Action by Pratt & Whitney. 
 14 
  
@@ -620,7 +617,7 @@ gear
 failure. 
 Type of Event 
 RTO (Rejected 
-Take-off)
+Take-off) 
 Nil 
 1 
 Nil 
@@ -640,7 +637,7 @@ Nil
 5 
 3 
 GTB (Ground 
-Turn Back)
+Turn Back) 
 Nil 
 Nil 
 Nil 
@@ -652,14 +649,14 @@ Nil
 6 
 1 
 1 
-Diversion/ATB
-Nil
-Nil
-Nil
-Nil
-Nil
+Diversion/ATB 
+Nil 
+Nil 
+Nil 
+Nil 
+Nil 
 Emergency 
-Landing
+Landing 
 1 
 Nil 
 Nil 

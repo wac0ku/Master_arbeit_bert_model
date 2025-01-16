@@ -1,0 +1,5 @@
+Summary:
+On 16 October 2015 a TigerAir A320 lost the inboard and outboard fan cowls of its left engine during takeoff from Singapore Changi Airport. The flight crew declared Mayday and flew a holding pattern to burn fuel and reduce the aircraft landing weight. Engineers on the ground reported that the left main landing gear appeared to be down. The aircraft landed without incident. The Transport Safety Investigation Bureau classified this occurrence as a serious incident.
+
+Recommendations:
+- LABEL_1

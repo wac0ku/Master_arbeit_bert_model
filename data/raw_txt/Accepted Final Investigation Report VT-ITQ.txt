@@ -55,24 +55,20 @@ Lucknow Airport
 Point of Intended Landing 
 : 
 Jaipur Airport 
-10.
-Type of Operation 
+10. Type of Operation 
 : 
 Scheduled Operation 
-11.
-Passengers on Board 
+11. Passengers on Board 
 : 
 120 (Including 04 Cabin Crew Members) 
  
 Extent of Injuries 
 : 
 Nil 
-12.
-Phase of Operation 
+12. Phase of Operation 
 : 
 Climb 
-13.
-Type of Occurrence 
+13. Type of Occurrence 
 : 
 Air Turn Back due to Engine Stall.  
  
@@ -224,10 +220,8 @@ Total flying experience during last 1 year
 Total flying experience during last 6 
 Months 
  288.51 HOURS 
-Total flying experience during last 30 days   
- 65.24 HOURS 
-Total flying experience during last 07 Days  
- 9.46 HOURS 
+Total flying experience during last 30 days     65.24 HOURS 
+Total flying experience during last 07 Days    9.46 HOURS 
 Total flying experience during last 24 Hours  
  4.52 HOURS 
 5 
@@ -258,16 +252,16 @@ Total flying experience on type
  1887.14 HOURS 
 Last Flown on type 
  20.01.2019 
-Total flying experience during last 1 year 
+Total flying experience during last 1 year  
  821.53 HOURS 
 Total flying experience during last 6 
-Months
+Months 
  413.44 HOURS 
 Total flying experience during last 30 days 
  73.03 HOURS 
-Total flying experience during last 07 Days
+Total flying experience during last 07 Days 
  22.31 HOURS 
-Total flying experience during last 24 Hours 
+Total flying experience during last 24 Hours  
  3.93 HOURS 
 Rest period before flight 
  14.56 HOURS 
@@ -312,7 +306,7 @@ All
 734 
 India 
 Indigo 
-115
+115 
 161 
 25 
 25 
@@ -643,7 +637,7 @@ failure
 LPT 
 failure 
 N2 
-Vibration
+Vibration 
 MGB 
 IDG/LSOP 
 gear 

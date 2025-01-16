@@ -217,13 +217,11 @@ Total flying experience during last 1 year
 661:25 Hours 
 Total flying experience during last 6 Months 
 397:32 Hours 
-Total flying experience during last 30 days    
-64:10 Hours 
+Total flying experience during last 30 days     64:10 Hours 
 5 
  
 Total flying experience during last 07 Days    15:49 Hours 
-Total flying experience during last 24 Hours  
-3:36 Hours 
+Total flying experience during last 24 Hours   3:36 Hours 
 Rest period before flight 
 17:00 Hours 
  
@@ -255,8 +253,7 @@ Total flying experience during last 6 Months  341:17 Hours
 Total flying experience during last 30 days 
  76:23 Hours 
 Total flying experience during last 07 Days    16:45 Hours 
-Total flying experience during last 24 Hours 
- 3:36 Hours 
+Total flying experience during last 24 Hours   3:36 Hours 
 Rest period before flight  
  17:00 Hours 
  
@@ -301,7 +298,7 @@ All
 734 
 India 
 Indigo 
-115
+115 
 161 
 25 
 25 
@@ -625,7 +622,7 @@ failure
 LPT 
 failure 
 N2 
-Vibration
+Vibration 
 MGB 
 IDG/LSOP 
 gear 

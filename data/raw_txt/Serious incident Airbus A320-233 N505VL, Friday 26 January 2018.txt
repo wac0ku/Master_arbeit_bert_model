@@ -1,0 +1,83 @@
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+     
+Home » ASN Aviation Safety WikiBase
+ 
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Date:
+Friday 26 January 2018
+Time:
+Type:
+    
+Airbus A320-233
+Owner/operator:
+Volaris
+Registration:
+N505VL
+MSN:
+4798
+Year of manufacture: 2011
+Engine model:
+IAE V2527E-A5
+Fatalities:
+Fatalities: 0 / Occupants:
+Other fatalities:
+0
+Aircraft damage:
+None
+Category:
+Serious incident
+Location:
+Tijuana-Rodriguez Airport (TIJ/MMTJ) - 
+   Mexico
+Phase:
+Taxi
+Nature:
+Passenger - Scheduled
+Departure airport:
+Tijuana-Rodriguez Airport (TIJ/MMTJ)
+Destination airport:
+Mazatlán-Gen. Rafael Buelna Airport (MZT/MMMZ)
+Confidence Rating:
+ Information verified through data from accident investigation authorities
+Narrative:
+Volaris flight VOI590, an Airbus A320-233, was taxiing to the runway when engine no.1 failed.
+The crew decided to return to the apron.
+Sources:
+https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-n505vl-and-
+operated-by-volaris-on-26-01-2018-at-tijuana-investigation-led-by-caa---mexico/
+Location
+Share 0
+Quick Links:
+ASN Home
+Send Correction / Feedback
+FSF Home
+Disclaimer
+Copyright
+Contact Us
+Privacy Policy
+Press / Media
+1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+www.FlightSafety.org
++
+−
+Leaflet | © OpenStreetMap
+Revision history:
+Date/time
+Contributor
+Updates
+21-Feb-2024 18:59 ASN
+Added
+21-Feb-2024 18:59 ASN
+Updated [Location, ]
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+CONNECT WITH US: 
+©2025 Flight Safety Foundation

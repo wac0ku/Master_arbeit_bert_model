@@ -1,43 +1,43 @@
 16
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 SERIOUS INCIDENT
-Aircraft Type and Registration: 	
+Aircraft Type and Registration:  
 Airbus A320-214, OE-LOA
-No & Type of Engines: 	
+No & Type of Engines:  
 2 CFM56-5B turbofan engines
-Year of Manufacture: 	
+Year of Manufacture:  
 2007
-Date & Time (UTC): 	
+Date & Time (UTC):  
 1 March 2019 at 2020 hrs
-Location: 	
+Location:  
 London Stansted Airport
-Type of Flight: 	
+Type of Flight:  
 Commercial Air Transport (Passenger)
-	
-Persons on Board:	
-Crew - 7	
+ 
+Persons on Board: 
+Crew - 7 
 Passengers - 169
-	
-Injuries:	
-Crew - None	
+ 
+Injuries: 
+Crew - None 
 Passengers - 10 (Minor)
-Nature of Damage: 	
+Nature of Damage:  
 Left engine contained failure
-Commander’s Licence: 	
+Commander’s Licence:  
 Air Transport Pilot’s Licence
-Commander’s Age: 	
+Commander’s Age:  
 44 years
-Commander’s Flying Experience: 	
+Commander’s Flying Experience:  
 14,128 hours (of which 10,308 were on type)
-	
+ 
 Last 90 days - 195 hours
-	
+ 
 Last 28 days -   71 hours
-Information Source: 	
+Information Source:  
 AAIB Field Investigation
 Synopsis
 The aircraft was on a scheduled flight from London Stansted Airport to Vienna International 
@@ -59,8 +59,8 @@ passing blades and the resulting forces exceeded the design loads of the blades.
 17
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 History of the flight
 The aircraft was on a scheduled flight from London Stansted Airport to Vienna International 
@@ -69,12 +69,12 @@ commander was the PF for the sector and it was a line training sector for the co
 There were five flight attendants1 (FAs), including an additional crew member (ACM)2.
 The aircraft pushed back and taxied out to Runway 22 without event.  ATC clearance was 
 then given for the aircraft to line up and take off.  At the time it was dark outside, and the 
-weather was clear with the wind from 160° at 5 kt.  In the cabin, the lights had been dimmed 
+weather was clear with the wind from 160° at 5 kt.  In the cabin, the lights had been dimmed 
 for takeoff, as is normal practice.
 Flight crew observations
 Having lined up on the runway, the commander set the throttles to full power/toga3 and 
 commenced the takeoff roll.  About one second after the co-pilot said “thrust set”, at a 
-groundspeed of 31 kt, a loud bang was heard and the aircraft immediately drifted towards 
+groundspeed of 31 kt, a loud bang was heard and the aircraft immediately drifted towards 
 the left of the runway.  The commander said “stop stop stop” and rejected the takeoff.  
 The aircraft came to a stop between the centreline and the left side of the runway.  The 
 commander then set the parking brake, selected the public address system (PA) button and 
@@ -83,7 +83,7 @@ were stopping on the runway and then completed the actions for ‘ENG 1 FAIL’ 
 REVERSER UNLOCKED’ electronic centralised aircraft monitor (ECAM) messages; there 
 were no fire indications.  The left engine was shutdown at 2006:23 hrs.
 After the ECAM messages had been actioned the commander contacted the RFFS, who 
-were quickly on the scene, on frequency 121.6 MHz to confirm that there were no signs of 
+were quickly on the scene, on frequency 121.6 MHz to confirm that there were no signs of 
 fire visible from the outside.  As a result, it was decided to vacate the runway using the thrust 
 from the right engine and he asked ATC for clearance to do so.
 At 2007:21 hrs, just as the commander was about to make a PA to instruct the FA to return 
@@ -94,25 +94,25 @@ moving across the front of the aircraft.  The commander then had a conversation 
 Senior Flight Attendant (SFA), over the interphone, during which the commander asked why 
 the evacuation had been initiated.  She replied that she believed he had ordered one, which 
 he denied.  After this conversation, the APU was started and the right engine, which was still 
-operating while the evacuation was underway, was selected off at 2009:38 hrs.
+operating while the evacuation was underway, was selected off at 2009:38 hrs.
 Footnote
-1	
+1 
 The operator refers to its cabin crew as flight attendants.
-2	
+2 
 An ACM is a member of the flight attendant team who is not designated an operational role.  She was having 
 a familiarisation flight having recently completed her training.
-3	
+3 
 It was a requirement of the operator to do a full power/TOGA takeoff, for maintenance purposes, on the first 
 day of each month.  The flight crew elected to carry this out on the sector from Stansted to Vienna.
-4	
+4 
 In an emergency on the ground, this command is issued as an advance warning.  Upon this command, flight 
 attendants should immediately move to their doors, remain on high alert and wait for additional commands 
 from the cockpit.
 18
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The co-pilot then went into the cabin while the commander stayed in the cockpit and 
 maintained contact with ATC and the RFFS.  In the cabin the co-pilot found no passengers 
@@ -125,16 +125,18 @@ to the left before coming to a stop a few seconds later.  All except the SFA hea
 commander announce “attention crew: on station” over the PA after which they all 
 stood up at their assigned exits.  At the front of the cabin the SFA stood in the aisle facing 
 rearwards, while FA2 looked out of the Door 1L window.  At the rear of the aircraft FA4 
-and FA3 looked out of Door 3L and 3R respectively while the ACM stood in the middle.  
+and FA3 looked out of Door 3L and 3R respectively while the ACM stood in the middle. 
 No danger was observed; they thus awaited further instructions from the commander. 
-Figure 1 shows the location of the seating positions of the FAs and doors.
+Figure 1 shows the location of the seating positions of the FAs and doors.
+ 
+ 
 Figure 1
 A320 doors, FA seating locations and engine hazard areas
 19
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The SFA then tried to call FA3, in the rear of the aircraft, using the interphone, to check if 
 everything was alright.  However, when FA3 stood up, his crew swivel seat displaced the 
@@ -172,16 +174,16 @@ movement of the aircraft to the left scared her.  She reported that her attentio
 on the noises made by the aircraft and she did not hear the commander announce “attention 
 crew: on station” over the PA.
 Footnote
-5	
+5 
 See FA3 crew seat and cabin interphones section for more details.
-6	
+6 
 The high/low chime alerts the FAs that there is an incoming call on the interphone.  Lights in the ceiling 
 indicate who is calling.
 20
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The SFA reported that she stood up when the other FAs stood up.  She was aware of all 
 the passengers looking at her and felt under pressure because of this.  She was feeling 
@@ -193,7 +195,7 @@ signals difficult and she could not see well enough to understand signals given 
 The SFA commented that she intended to obtain information from FA3 to help her decide 
 whether an evacuation was needed.  She added that FA3 said he had seen flames and 
 sparks from the engine.  Her impression was that FA3 was “scared and shocked” and FA2 
-was “completely shocked”.  She stated she attempted to discuss what to do with FA3. 
+was “completely shocked”.  She stated she attempted to discuss what to do with FA3.  
 However, at some point during this exchange she said “evacuate, evacuate, evacuate” 
 over the interphone and subsequently over the PA.
 The SFA stated that she knew the guidance from the operator’s flight safety manual about 
@@ -225,13 +227,13 @@ and to keep herself calm.
 21
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 She did not follow all the conversation between FA3 and the SFA, but she remembered 
 FA3 saying that he had seen fire outside.  She heard him tell the SFA to say the evacuation 
 command “out loud”.  She attempted to contact the SFA via the other interphone at the 
-rear of the aircraft but was unsuccessful.  Then the SFA announced “evacuate, evacuate, 
+rear of the aircraft but was unsuccessful.  Then the SFA announced “evacuate,�evacuate,�
 evacuate” over the PA.  
 FA4 initially hesitated to begin the evacuation but when she realised that FA3 had already 
 opened the Door 3R, she opened Door 3L.
@@ -245,7 +247,7 @@ the airport operator’s staff were busy organising those passengers that wanted
 their journey to Vienna.  Most passengers subsequently completed their journey later that 
 evening.
 After the accident the AAIB emailed its Passenger Questionnaire to the 169 passengers; 
-46 (27%) were subsequently returned.
+46 (27%) were subsequently returned.
 Injuries
 Local authority ambulances attended the scene.  They reported that 10 patients were treated 
 for minor injuries at the scene by paramedics.  Most of the injuries were cuts, grazes, bruises 
@@ -267,9 +269,11 @@ exit were captured by the RFFS’s onboard infrared CCTV camera (Figure 2).
 22
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+ 
+ 
 Figure 2
 RFFS infrared CCTV showing some passengers leaving with baggage
 Of those passengers that used Door 2R, several commented that they were either nearly 
@@ -284,9 +288,11 @@ elected to command an evacaution.
 23
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+ 
+ 
 Figure 3
 A320 Evacuation checklist
 Safety studies regarding passenger behaviour during evacuation
@@ -298,18 +304,18 @@ collated questionnaires from passengers who had been evacuated and found that al
 50% attempted to remove a bag during the evacuation.  The primary reason given was to 
 keep hold of high value items in the bags such as money, keys and medicine.
 Footnote
-7	
+7 
 National Transportation Safety Board (2000). Emergency Evacuation of Commercial Airplanes. Safety Study 
 NTSB/SS-00/01. Washington, DC: NTSB https://www.ntsb.gov/safety/safety-studies/Documents/SS0001.
 pdf  [Accessed July 2020].
 24
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 A similar safety study by the Transportation Safety Board (TSB) of Canada8 studied 
-21 evacuations and found nine in which passengers stopped to retrieve carry-on baggage 
+21 evacuations and found nine in which passengers stopped to retrieve carry-on baggage 
 and attempted to take it with them as they exited the aircraft, despite being told not to by 
 the flight attendants.
 An EASA-sponsored study on CS-25 cabin safety requirements published in 20099 identified 
@@ -330,27 +336,27 @@ being more baggage in the cabin and an increased number of passengers travelling
 only cabin baggage.
 The Royal Aeronautical Society paper emphasises the point that passenger behaviour is 
 not strongly influenced by briefing or flight attendant instructions and recommends:
-‘Aviation authorities should consider the feasibility of introducing a certification 
-requirement for a means of remotely locking, from the flight deck, overhead bins 
-in passenger cabins that do not contain emergency equipment, for taxi, take-off 
+‘Aviation�authorities�should�consider�the�feasibility�of�introducing�a�certification�
+requirement�for�a�means�of�remotely�locking,�from�the�flight�deck,�overhead�bins�
+in�passenger�cabins�that�do�not�contain�emergency�equipment,�for�taxi,�take-off�
 and landing.’ 
   
 Footnote
-8	
+8 
 Transportation Safety Board Canada (2013).  Aviation Safety Study SA9501:  A safety study of evacuations 
 of large passenger carrying aircraft. https://skybrary.aero/bookshelf/books/2699.pdf  [Accessed July 2020].
-9	
+9 
 European Aviation Safety Agency (2009).  Project EASA.2008.C18 Study on CS-25 Cabin Safety 
 Requirements.  https://www.easa.europa.eu/sites/default/files/dfu/1%20-%20Study%20on%20CS-25%20
 Cabin%20Safety%20Requirements-easa.2008.c18.pdf  [Accessed July 2020].
-10	 Royal aeronautical society (2018).  Emergency Evacuation of Commercial Passenger Aeroplanes. https://
+10 Royal aeronautical society (2018).  Emergency Evacuation of Commercial Passenger Aeroplanes. https://
 www.aerosociety.com/media/8534/emergency-evacuation-of-commercial-passenger-aeroplanes-paper.pdf  
 [Accessed July 2020] .
 25
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Safety recommendations following previous evacuations
 On 16 April 2012 an Airbus A330, registration G-VSXY11, was en route from London Gatwick 
@@ -368,13 +374,13 @@ issue within the framework of rulemaking tasks RMT.0516 and RMT.0517 Updating Ai
 OPS Regulation (EU) No 965/2012/Implementing Rules and related Acceptable Means of 
 Compliance (AMC) & Guidance Material (GM).
 The outcome of the evaluation was contained in EASA Executive Director (ED) 
-Decision 2017/008/R, which was published on the EASA website on 30 March 2017.
+Decision 2017/008/R, which was published on the EASA website on 30 March 2017.
 The ED Decision introduced new text under AMC1 CAT.OP.MPA.170 on ‘passenger briefing’ 
 which states that, before takeoff and before landing, passengers should be briefed on/
 reminded of the importance of leaving hand baggage behind in case of evacuation.  This is 
-stated in Section 1.2.12, Passenger briefing, of the operator’s Flight Safety Manual.
+stated in Section 1.2.12, Passenger�briefing, of the operator’s Flight Safety Manual.
 The ED Decision also introduced guidance under GM2 CAT.OP.MPA.170, (f)(5)(vi) 
-Passenger briefing - safety briefing material which states that the operator should consider 
+Passenger�briefing�-�safety�briefing�material which states that the operator should consider 
 including information on leaving hand baggage behind, in its safety briefing material on 
 emergency exits.  The operator of OE-LOA had this information on its passenger safety 
 cards that were in each seat pocket of the aircraft and in Section 1.1.12.4, Safety card, of 
@@ -383,13 +389,13 @@ The EASA stated that emergency evacuations had also been captured as a candidate
 safety issue within their safety risk portfolio for commercial air transport (fixed wing), as part 
 of the EASA’s safety risk management process.
   Footnote
-11	 The full report into the accident involving G-VSXY can be found here: https://www.gov.uk/aaib-reports/1-
+11 The full report into the accident involving G-VSXY can be found here: https://www.gov.uk/aaib-reports/1-
 2014-g-vsxy-16-april-2012 [Accessed July 2020].
 26
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 CS-25 requirements for evacuation emergency demonstration
 CS-25.80312 requires that all passengers and crew can be evacuated within 90 seconds 
@@ -406,7 +412,7 @@ to the previous operator going bankrupt and the current operator commencing oper
 She resumed working for the current operator who had taken over as the AOC holder.  She 
 completed SFA training and was promoted to SFA in May 2018.
 FA4 also worked for the previous operator and had a period of not flying between 
-December 2017 and March 2018.  All the other FAs were recruited after this.  The ACM was 
+December 2017 and March 2018.  All the other FAs were recruited after this.  The ACM was 
 completing her first familiarisation flight following her initial training.
 The operator reported that the initial FA training course was designed for 20 to 25 trainees, 
 though there was no formal limit.  It consisted of a six-week classroom-based course and 
@@ -418,27 +424,27 @@ lot of continuity of practice and staff between the previous and current operato
 practical training scenarios in the CEET resulted in a simulated evacuation.  The initial 
 and senior training received by these FAs did not include examples of the pilots’ activities 
 when responding to an emergency or the potential effects of startle and surprise on 
-FA performance.
+FA performance.
 The operator did not have their own FA simulation training facility and relied on the use of a 
 facility owned by another operator.
 All FA training met the relevant requirements and was approved by the national aviation 
 authority.
 Footnote
-12	 European Union Aviation Safety Agency (2020) Certification Specifications and Acceptable Means of 
+12 European Union Aviation Safety Agency (2020) Certification� Specifications� and� Acceptable� Means� of�
 Compliance for Large Aeroplanes CS-25.  Amendment 24, 10 January 2020.  https://www.easa.europa.eu/
 sites/default/files/dfu/CS-25%20Amendment%2024.pdf [accessed on 30 March 2020].
-13	 The current operator started on 1 March 2018.  All references in this report to the ‘operator’ refer to this 
+13 The current operator started on 1 March 2018.  All references in this report to the ‘operator’ refer to this 
 current operator unless they are specifically identified as the ‘previous operator’.
-14	 A simulation device that approximates the passenger cabin environment and equipment to enable practical 
+14 A simulation device that approximates the passenger cabin environment and equipment to enable practical 
 emergency scenarios to be trained.
 27
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Organisational information
-The operator’s Operations Manual, Part A, stated: ‘the designated senior flight attendant 
+The operator’s Operations Manual, Part A, stated: ‘the�designated�senior�flight�attendant�
 must have at least one year’s experience as an operating cabin crew member.’
 The operator did not have any requirements for the composition of the FA team in terms of 
 experience.
@@ -451,12 +457,12 @@ operator’s Flight Safety Manual:
 If no evacuation command is issued from the cockpit, and there is no doubt 
 that an evacuation is necessary, the Senior FA or any other FA can initiate an 
 evacuation under the following conditions:
-a) 
-Immediate danger (fire, smoke, explosion, water etc.)
-b)	
-Cockpit crew is incapacitated (injured, not on board)
-c)	
-Communications down due to heavy damage to aircraft’
+a)�
+Immediate�danger�(fire,�smoke,�explosion,�water�etc.)
+b) 
+Cockpit�crew�is�incapacitated�(injured,�not�on�board)
+c) 
+Communications�down�due�to�heavy�damage�to�aircraft’
 Aircraft information
 Evacuation routes
 The slides available on the aircraft are shown in Figure 1.  FAs do not supervise the overwing 
@@ -472,20 +478,25 @@ The rear interphone intended for use by FA3 was located on the aisle swivel seat
 28
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+ 
+ 
 Figure 4
 Rear aisle swivel seat in stowed (left) and forward-facing (right) positions
+ 
  
 Figure 5
 Example picture of interphone dislodged from the cradle and trapped in the stowed seat
 29
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+ 
+ 
 Figure 6
 Interphone handset
 Figure 6 shows the buttons available on the passenger cabin interphones.  It was possible 
@@ -507,13 +518,13 @@ cabin.
 Recorded information
 The FDR and CVR were recovered from the aircraft and downloaded at the AAIB.  Both 
 recorders captured the event and the recordings have been used to help write the History 
-of the flight section.  The CVR contained a number of discussions between the flight crew 
+of�the�flight�section.  The CVR contained a number of discussions between the flight crew 
 and the FA, but not the PA in the cabin.
 30
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The CVR is a 4-channel recorder which records audio from the commander, co-pilot, cockpit 
 third occupant station and the Cockpit Area Microphone (CAM).  Each of the occupants 
@@ -525,17 +536,17 @@ prior to each flight.  One of these items is to ensure the third occupants ACP i
 audio from the PA system so the CVR will record it:
 THIRD OCCUPANT AUDIO CONTROL PANEL
 PA knob…………………………………………............……………..RECIEPT
--	 This allows cabin attendant announcements to be recorded on the CVR.
--	 For proper recording, set volume at or above medium range.
+- This allows cabin attendant announcements to be recorded on the CVR.
+- For proper recording, set volume at or above medium range.
 The co-pilot stated that he checked this item before the flight.
 It is believed recept is deselected when there is a third occupant, as this avoids all 
-PA announcements being heard through their headset.
+PA announcements being heard through their headset.
 A check of the system by the operator’s engineers found it to be serviceable.
 Engine aspects
 General description
 The CFM 56-5B engine is a two spool, high bypass ratio turbofan engine.  It has a 
-single‑stage fan and a four-stage booster which together comprise the LP compressor 
-(LPC) and a nine‑stage HP compressor (HPC).  The LPC is driven by a four-stage LP 
+single-stage fan and a four-stage booster which together comprise the LP compressor 
+(LPC) and a nine-stage HP compressor (HPC).  The LPC is driven by a four-stage LP 
 turbine and the HPC is driven by a single-stage HP turbine.  It has a Full Authority Digital 
 Engine Control (FADEC) which provides engine control and monitoring via the Engine 
 Control Unit.
@@ -555,20 +566,24 @@ angular position of the vanes.
 31
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The Variable Bleed Valve (VBV) system is located forward of the HPC.  It regulates the 
 amount of air discharged from the LPC into the HPC.
+ 
+ 
 Figure 8
 Section of High Pressure Compressor showing rotor, IGVs and VSVs
+ 
+ 
 Figure 9
 Example High Pressure Compressor rotor blade 
 32
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Engine maintenance history
 The left engine, engine serial number (ESN) 697283, was manufactured in 2007 and had 
@@ -590,20 +605,22 @@ since the engine repair.
 Engine examination
 The aircraft had been moved from the runway but debris which had exited the left 
 engine was collected from the runway by the Airport Authority and provided to the AAIB 
-(Figure 10).  The items collected included multiple IGVs, fragments of compressor blades 
+(Figure 10).  The items collected included multiple IGVs, fragments of compressor blades 
 and fragments of engine acoustic liner. 
+ 
+ 
 Figure 10
 Items collected from the runway
 (Note: the yellow items are frangible links from the emergency evacuation slides)
 33
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Preliminary examination of the engine identified that the engine casing had not been 
 breached but that engine parts, predominantly IGVs, had exited the engine through the 
-VBV louvre panels.  Other parts, later identified as IGV vanes and HP compressor stage 1 
+VBV louvre panels.  Other parts, later identified as IGV vanes and HP compressor stage 1 
 blade fragments, had collected in the VBV sumps.  The engine centrebody exhibited a 
 circumferential crack running around approximately 270° of its diameter.
 Debris retrieved from inside the engine cowlings was identified as fragments of washers 
@@ -631,9 +648,11 @@ damaged.
 34
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+ 
+ 
 Figure 11
 Lever arm disconnected from connecting link on IGV actuation ring
 Internal examination of the HPC module
@@ -648,8 +667,8 @@ imbalance.
 35
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
  
  
@@ -674,15 +693,17 @@ from contact with the HPC case.
 36
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
+Figure 13 
+ 
 Figure 13
 Fracture surfaces of blades exhibiting below-platform liberation
 Known effects of disengaged IGV/VSV lever arm
 The engine manufacturer advised that a disengaged, bent or broken IGV or VSV lever arm will 
 result in an off-schedule variable vane which does not move in unison with the other vanes.  
-This will cause variation in the airflow around the vane, and lead to a once‑per‑revolution 
+This will cause variation in the airflow around the vane, and lead to a once-per-revolution 
 (1/rev) excitation of the adjacent blades as they rotate past the vane.  The force of the 
 excitation is proportional to the angle of the off-schedule vane.  The excitation creates 
 stresses in the blade which are beyond the design limit.  This phenomenon typically results 
@@ -696,7 +717,7 @@ occurred as a result of one or more disengaged, bent or broken IGV/VSV lever arm
 The engine manufacturer is aware of approximately 200 off-schedule VSV findings and/or 
 events, of which 22 were attributed to improper engagement of lever arms in the connecting 
 links.  Thirteen of those, including this event resulted in HPC blade release.  Of those, 
-ESN 697283 had the lowest cycles to failure (220 cycles) and was among those with lowest 
+ESN 697283 had the lowest cycles to failure (220 cycles) and was among those with lowest 
 time to failure (513 hours).  The remaining nine occurrences were detected before blade 
 release occurred.
 The previous thirteen events have shown that the time to blade release is variable and 
@@ -705,8 +726,8 @@ properties and the nature of the improper engagement of the lever arm.
 37
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Other findings during engine disassembly
 During the engine examination several non-conformances were noted with components 
@@ -721,19 +742,19 @@ lever arms are correctly installed in the connecting links.
 ‘…. CAUTION: HIGH PRESSURE COMPRESSOR BLADE DAMAGE WILL 
 OCCUR IF THE LEVER ARM PINS ARE NOT CORRECTLY ENGAGED 
 INTO THE CONNECTING LINKS AND ACTUATION RING BUSHINGS.
-(6) 	 Do a visual inspection to make sure all of the lever arm pins are correctly 
+(6)  Do a visual inspection to make sure all of the lever arm pins are correctly 
 engaged as follows:
-(a)	
+(a) 
 Verify the lever arm pins are properly installed into each of the 
 connecting links.
-1	
+1 
 Place a white stripe across four IGV lever arm pins and 
 bushings (2 each side).  Use a temporary marking pen.
-2	
+2 
 Place a white stripe across eight stage 1, 2 and 3 lever arm 
 pins and bushings (4 each side).  Use a temporary marking 
 pen.
-(b)	
+(b) 
 Verify that all IGV and stage 1, 2 and 3 lever arm pins are engaged 
 around the entire VSV system.’
 Information from the engine maintenance facility
@@ -753,8 +774,8 @@ several external accessories that needed to be moved for access, it might be pos
 38
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 overlook tightening a lever arm.  The certifying engineer indicated his belief that if an IGV 
 was not secure, an engine surge or stall would occur during the post-maintenance engine 
@@ -779,7 +800,7 @@ passengers walking in front of the aircraft.  The commander then contacted the S
 why an evacuation had been initiated.  After this exchange he realised that passengers 
 were going towards the right engine, which was still operating.  Had any of them entered 
 the right engine’s inlet suction danger area (Figure 1, Area A), it is possible that they could 
-have been sucked into the engine.  The right engine was shutdown 2 minutes after the 
+have been sucked into the engine.  The right engine was shutdown 2 minutes after the 
 commander noticed that Door 1L was open.
 Once they had noticed that an evacuation had commenced there was realistically no way 
 that the flight crew would have been able to recover the situation.  It may have been prudent 
@@ -798,8 +819,8 @@ her to command the evacuation over the PA.
 39
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 At the front of the aircraft, the noise of the engine failure sounded very loud to the two FAs.  
 The SFA was startled by the noise of the engine failure and the movement of the aircraft 
@@ -843,8 +864,8 @@ they had not commanded the evacuation.
 40
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The SFA had recently been promoted after a relatively short time as an FA.  During her 
 time as FA, there was a period where she did not fly due to the operator’s bankruptcy.  As 
@@ -890,20 +911,20 @@ possessions with them.  There were several examples where witnesses reported tha
 41
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 this passenger behaviour slowed the evacuation or that the evacuation took longer than 
-90 seconds.
+90 seconds.
 The Royal Aeronautical Society commented that:
 ‘This trend appears to be increasing and can only be exacerbated by the 
 increasing volume of cabin baggage being permitted by some operators for 
 commercial reasons.’  
 The Society made a recommendation to consider physical means of preventing passengers 
 retrieving their baggage: 
-‘Aviation authorities should consider the feasibility of introducing a certification 
-requirement for a means of remotely locking, from the flight deck, overhead bins 
-in passenger cabins that do not contain emergency equipment, for taxi, take-off 
+‘Aviation�authorities�should�consider�the�feasibility�of�introducing�a�certification�
+requirement�for�a�means�of�remotely�locking,�from�the�flight�deck,�overhead�bins�
+in�passenger�cabins�that�do�not�contain�emergency�equipment,�for�taxi,�take-off�
 and landing.’
 Current mitigations for the issue include passenger briefing and printed instructions on 
 the cabin safety card.  However, the motivation for passengers to remain united with their 
@@ -912,9 +933,9 @@ to passengers.  These factors may lead passengers to feel it is safe to pause an
 baggage and for the evacuation to proceed at a slower pace.  For a high proportion of 
 passengers, briefing and instruction by FAs does not overcome this.
 The EASA addressed previous Safety Recommendation 2014-005 and published new 
-acceptable means of compliance in AMC1 CAT.OP.MPA.170 on ‘passenger briefing’ and 
-new guidance material in GM2 CAT.OP.MPA.170, (f)(5)(vi) ‘Passenger briefing - safety 
-briefing material’ almost two years before this accident. The operator was compliant with 
+acceptable means of compliance in AMC1 CAT.OP.MPA.170 on ‘passenger�briefing’ and 
+new guidance material in GM2 CAT.OP.MPA.170, (f)(5)(vi) ‘Passenger� briefing� -� safety�
+briefing�material’ almost two years before this accident. The operator was compliant with 
 the new material but, despite these improvements, the instructions about baggage still did 
 not influence this behaviour for a high percentage of passengers.
 The evidence from this accident, in combination with the collated evidence from previous 
@@ -931,8 +952,8 @@ evacuations by retrieving carry-on baggage.
 42
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 This incident has shown once again that, during an emergency evacuation, a proportion 
 of passengers will attempt to leave the aircraft with their carry-on baggage slowing the 
@@ -942,7 +963,7 @@ behaviour which will slow down the evacuation and increase the risk of injury.  
 the following Safety Recommendation is made:
 Safety Recommendation 2020-019
 It is recommended that the European Union Aviation Safety Agency consider 
-including a more realistic simulation of passenger behaviour in regard to carry‑on 
+including a more realistic simulation of passenger behaviour in regard to carry-on 
 baggage in the test criteria and procedures for the emergency demonstration 
 in CS-25.
 Engine failure
@@ -977,8 +998,8 @@ detected an improperly assembled IGV lever arm.
 43
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 The time elapsed between the engine repair and the subsequent investigation and the 
 absence of anything particularly memorable about the installation of the connecting links, 
@@ -1017,14 +1038,14 @@ ACP selections to ensure the PA was recorded.  It was not established why the CV
 record the PA audio.
 Conclusions
 The left engine experienced a contained engine failure.  All the damage found in the engine 
-was consistent with the release of one or more high-pressure compressor stage 1 blades 
+was consistent with the release of one or more high-pressure compressor stage 1 blades 
 as a result of high-cycle fatigue arising from aerodynamic excitation of the blades.  A 
 single inlet guide vane lever arm, which had been improperly assembled in the connecting 
 44
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 link on the inlet guide vane actuation ring, was identified as the source of the stimulus that 
 resulted in the blade release.
@@ -1047,13 +1068,11 @@ Safety actions
 As a result of this event the operator has stated that several safety actions have been or will 
 be completed, including:
 Procedures
-●
-●
+● 
 The operator sent a Memo, on 19 May 2020, to all its Airbus pilots instructing 
 them to ensure the PA recept is selected on an Audio Control Panel, thus 
 ensuring the CVR records any PA announcements.
-●
-●
+● 
 The operator’s Flight Safety Manual will be amended to instruct the Flight 
 Attendants to attempt to establish communications with the flight crew to 
 check that an evacuation is safe and necessary before commanding it 
@@ -1061,77 +1080,66 @@ independently.
 Training
 The operator has taken the following safety actions in relation to its flight 
 attendant training.  The operator has:
-●
-●
+● 
 Augmented the team responsible for training with the addition of a deputy 
 manager of flight attendant training.
-●
-●
+● 
 Introduced a maximum limit of 25 trainees in initial flight attendant training 
 courses.  After approval from the operator’s competent authority, it was 
 subsequently increased to 30 in April 2020.
 45
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
-●
-●
+● 
 Added practical training in the CEET to the senior flight attendant course 
 as standard.  Practical training has also been incorporated in their annual 
 recurrent training.
-●
-●
+● 
 Improved variety of training scenarios in the CEET, including scenarios that 
 result in a return to normal operations rather than an evacuation.
-●
-●
+● 
 Improved the syllabus of flight attendant training to include the performance 
 effects of startle, an improved 30-second review15 technique and enhanced 
 communication training.
-●
-●
+● 
 Produced a video training aid that will introduce flight attendants to the 
 actions of the flight crew after a rejected takeoff. 
-●
-●
+● 
 Extended the aeroplane familiarisation phase during initial training with 
 additional familiarisation flights.
 Crew composition
-●
-●
+● 
 The operator has introduced a requirement in the Operations Manual 
 regarding flight attendant team composition.  A minimum of two experienced 
 flight attendants shall be part of the operating crew’s complement.  This is 
 50% of the operating crew members, as their A320s are operated with four 
 flight attendants.
 The engine manufacturer has stated the following safety actions have or will be taken:
-●
-●
+● 
 Provided a presentation on the subject of improper IGV/VSV lever arm 
 assembly and its consequences at an All Operators Conference in 
-June 2019 and published an article in its monthly publication ‘Fleet Highlites’ 
-in January 2020.
-●
-●
+June 2019 and published an article in its monthly publication ‘Fleet Highlites’ 
+in January 2020.
+● 
 Highlight the issue of improper IGV/VSV lever arm assembly during calls 
 with its field service representatives for onward dissemination to operators 
 and overhaul facilities.
-●
-●
+● 
 Evaluate the use of a HPC performance analytic tool to determine if the 
 effects of a mis-assembled lever arm could be identified from a detectable 
 shift in engine performance.
 Published: 6 August 2020. 
 Footnote
-15	 A process where FA mentally rehearse the steps they would have to take during an evacuation before each 
+15 A process where FA mentally rehearse the steps they would have to take during an evacuation before each 
 takeoff and landing.
 46
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Aircraft 
 type
@@ -1219,7 +1227,7 @@ that the evacuation took too much time
 and attributed this to people collecting 
 their baggage before leaving.  Identified 
 in the EASA study as taking longer than 
-90 seconds to complete the evacuation.
+90 seconds to complete the evacuation.
 https://www.onderzoeksraad.nl/en/
 page/750/runway-overrun-after-
 rejected-take-off-md-88-groningen-
@@ -1229,8 +1237,8 @@ Previous accidents and incidents where passengers evacuated with baggage
 47
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Aircraft 
 type
@@ -1304,8 +1312,8 @@ Previous accidents and incidents where passengers evacuated with baggage
 48
 ©  Crown copyright 2020
 All times are UTC
- AAIB Bulletin: 9/2020	
-OE-LOA	
+ AAIB Bulletin: 9/2020 
+OE-LOA 
 AAIB-25599
 Aircraft 
 type
@@ -1325,7 +1333,7 @@ on bags with them and were allowed to
 take them down the slides rather than block 
 the exits with discarded bags.  Identified 
 in the EASA study as taking longer than 
-90 seconds to complete the evacuation.
+90 seconds to complete the evacuation.
 https://www.taic.org.nz/sites/default/
 files/inquiry/documents/06-003.pdf
 A330-300

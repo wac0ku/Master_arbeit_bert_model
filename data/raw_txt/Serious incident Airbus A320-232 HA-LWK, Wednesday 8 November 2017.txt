@@ -1,0 +1,82 @@
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+     
+Home » ASN Aviation Safety WikiBase
+ 
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Date:
+Wednesday 8 November 2017
+Time:
+22:18
+Type:
+    
+Airbus A320-232
+Owner/operator:
+Wizz Air
+Registration:
+HA-LWK
+MSN:
+4716
+Year of manufacture: 2011
+Engine model:
+IAE V2527-A5
+Fatalities:
+Fatalities: 0 / Occupants:
+Other fatalities:
+0
+Aircraft damage:
+None
+Category:
+Serious incident
+Location:
+near Tuzla International Airport (TZL) - 
+   Bosnia and Herzegovina
+Phase:
+Approach
+Nature:
+Private
+Departure airport:
+Malmö-Sturup Airport (MMX/ESMS)
+Destination airport:
+Tuzla International Airport (TZL/LQTZ)
+Confidence Rating:
+ Information is only available from news, social media or unofficial sources
+Narrative:
+Wizz Air flight W64292 suffered an engine stall of engine no. 1 during the approach to Tuzla International Airport.
+The engine was shut down and the aircraft landed safely.
+The aircraft was ferried to Budapest on November 10 and re-entered service on November 11.
+Sources:
+https://www.bfu-web.de/DE/Publikationen/Bulletins/2017/Bulletin2017-11.pdf?__blob=publicationFile
+https://www.flightradar24.com/data/flights/w64292#f78525d
+History of this aircraft
+Quick Links:
+ASN Home
+Send Correction / Feedback
+FSF Home
+Disclaimer
+Copyright
+Contact Us
+Privacy Policy
+Press / Media
+1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+www.FlightSafety.org
+Other occurrences involving this aircraft
+30 March 2018 HA-LWK Wizz Air 0 near Skopje, Macedonia
+non
+Engine failure
+Revision history:
+Date/time
+Contributor Updates
+05-Mar-2018 19:52 harro
+Added
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+CONNECT WITH US: 
+©2025 Flight Safety Foundation

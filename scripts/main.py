@@ -16,19 +16,18 @@ def main():
         pdf_input_dir = "data/raw_pdf"
         raw_txt_output_dir = "data/raw_txt"
         
-        if not os.listdir(raw_txt_output_dir):  # Check if the directory is empty
-            convert_all_pdfs(pdf_input_dir, raw_txt_output_dir)
-        else:
-            logger.info("TXT files already exist, skipping conversion.")
+        # Ensure output directory exists
+        os.makedirs(raw_txt_output_dir, exist_ok=True)
+
+        # Process all PDF files
+        convert_all_pdfs(pdf_input_dir, raw_txt_output_dir)
 
         # Step 2: Preprocess the TXT files
         logger.info("Preprocessing TXT files...")
         cleaned_txt_output_dir = "data/cleaned_data"
+        os.makedirs(cleaned_txt_output_dir, exist_ok=True)  # Ensure cleaned data directory exists
         
-        if not os.listdir(cleaned_txt_output_dir):  # Check if the directory is empty
-            preprocess_txt(raw_txt_output_dir, cleaned_txt_output_dir)
-        else:
-            logger.info("Cleaned files already exist, skipping preprocessing.")
+        preprocess_txt(raw_txt_output_dir, cleaned_txt_output_dir)
 
         # Step 3: Load the summarization model
         logger.info("Loading summarization model...")
@@ -41,31 +40,25 @@ def main():
         os.makedirs(results_txt_dir, exist_ok=True)  # Ensure results TXT directory exists
         os.makedirs(results_docx_dir, exist_ok=True)  # Ensure results DOCX directory exists
 
-        
-        # Check if all results already exist
-        all_results_exist = True
-        for txt_file in os.listdir(cleaned_txt_output_dir):
-            if txt_file.endswith('.txt'):
-                result_txt_path = os.path.join(results_txt_dir, f"{os.path.splitext(txt_file)[0]}_results.txt")
-                result_docx_path = os.path.join(results_docx_dir, f"{os.path.splitext(txt_file)[0]}_report.docx")
-                if not (os.path.exists(result_txt_path) and os.path.exists(result_docx_path)):
-
-                    all_results_exist = False
-                    break
-        
-        if all_results_exist:
-            logger.info("All results already exist, skipping the entire workflow.")
-            return
-        
         results = process_multiple_files(cleaned_txt_output_dir, results_txt_dir, summarizer)
         
         if results:
             # Step 5: Save results in DOCX format
             for file_name, summary, recommendations in results:
+                txt_output_path = os.path.join(results_txt_dir, f"{file_name}_results.txt")
                 docx_output_path = os.path.join(results_docx_dir, f"{file_name}_report.docx")
 
+                # Save the TXT file
+                with open(txt_output_path, 'w', encoding='utf-8') as txt_file:
+                    txt_file.write(f"Summary:\n{summary}\n\nRecommendations:\n")
+                    for rec in recommendations:
+                        txt_file.write(f"- {rec}\n")
+                
+                logger.info(f"Results saved to {txt_output_path}")
+                
+                # Save the DOCX file
                 create_docx(summary, recommendations, docx_output_path)
-                logger.info(f"Results saved to {docx_output_path}")
+                logger.info(f"DOCX file saved to {docx_output_path}")
         else:
             logger.error("No results generated.")
         

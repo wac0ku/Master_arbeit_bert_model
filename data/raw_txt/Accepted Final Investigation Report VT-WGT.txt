@@ -311,24 +311,20 @@ Patna Airport
 Point of Intended Landing 
 : 
 Delhi Airport 
-10.
-Type of Operation 
+10. Type of Operation 
 : 
 Scheduled Operation 
-11.
-Passengers on Board 
+11. Passengers on Board 
 : 
 134 (Including 04 Cabin Crew Members) 
  
 Extent of Injuries 
 : 
 Nil 
-12.
-Phase of Operation 
+12. Phase of Operation 
 : 
 Cruise 
-13.
-Type of Occurrence 
+13. Type of Occurrence 
 : 
 Diversion due to Engine Failure (Commanded 
 In-Flight Shut Down).  
@@ -541,7 +537,7 @@ All
 734 
 India 
 Indigo 
-115
+115 
 161 
 25 
 25 
@@ -847,7 +843,7 @@ Nil
 Nil 
 Nil 
 ATB (Air Turn 
-Back)
+Back) 
 Nil 
 1 
 18 
