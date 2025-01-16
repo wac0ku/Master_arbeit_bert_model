@@ -47,15 +47,11 @@ def main():
         if results:
             # Step 5: Save results in both formats
             for file_name, summary, recommendations in results:
-                timestamp = datetime.now().strftime("%H-%M-%S")
                 base_filename = os.path.splitext(file_name)[0]
                 
-                # Save results for each model
+                # Save the TXT file with dynamic recommendations
                 for model_name in recommendation_models.keys():
-                    txt_output_path = os.path.join(results_txt_dir, f"test_{today_date}_{timestamp}_{model_name}_{base_filename}.txt")
-                    docx_output_path = os.path.join(results_docx_dir, f"test_{today_date}_{timestamp}_{model_name}_{base_filename}.docx")
-
-                    # Save the TXT file with dynamic recommendations
+                    txt_output_path = os.path.join(results_txt_dir, f"{base_filename}_{model_name}_results.txt")
                     with open(txt_output_path, 'w', encoding='utf-8') as txt_file:
                         txt_file.write(f"Summary:\n{summary}\n\nRecommendations:\n")
                         if isinstance(recommendations, list):
@@ -75,12 +71,12 @@ def main():
                                     txt_file.write(f"- {rec}\n")
                         else:
                             txt_file.write(f"- {recommendations}\n")
-                    
+                
                     logger.info(f"Results saved to {txt_output_path}")
                     
                     # Save the DOCX file
-                    create_docx(summary, recommendations, results_docx_dir)
-                    logger.info(f"DOCX file saved to {docx_output_path}")
+                    create_docx(summary, recommendations, base_filename, results_docx_dir)
+                    logger.info(f"DOCX file saved to {results_docx_dir}/{base_filename}_{model_name}_report.docx")
         else:
             logger.error("No results generated.")
         

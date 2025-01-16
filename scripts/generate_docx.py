@@ -5,15 +5,11 @@ from logging_progress import setup_logger
 
 logger = setup_logger("generate_docx")
 
-def create_docx(summary, recommendations, docx_dir):
+def create_docx(summary, recommendations, base_filename, docx_dir):
     """Create a DOCX file with a summary and recommendations."""
     try:
-        # Generate a timestamped filename
-        today_date = datetime.now().strftime("%Y-%m-%d")
-        timestamp = datetime.now().strftime("%H-%M-%S")
-        base_filename = os.path.splitext(os.path.basename(docx_dir))[0]  # Remove extension
-
-        docx_output_path = os.path.join(docx_dir, f"{base_filename}_{today_date}_{timestamp}.docx")
+        # Generate the output filename
+        docx_output_path = os.path.join(docx_dir, f"{base_filename}_report.docx")
 
         # Check if the DOCX file already exists
         if os.path.exists(docx_output_path):
@@ -41,7 +37,7 @@ if __name__ == "__main__":
         "Recommendation 2: Improve process Y.",
         "Recommendation 3: Optimize resource Z."
     ]
-    output_dir = "results"  # Example path, adjust as needed
+    output_dir = "results"  # This will be dynamically set in the main workflow
     today_date = datetime.now().strftime("%Y-%m-%d")
-    docx_dir = os.path.join(output_dir, today_date, "docx")  # Only handle docx_dir
-    create_docx(summary, recommendations, docx_dir)
+    docx_dir = os.path.join(output_dir, today_date, "docx")  # This will be dynamically set in the main workflow
+    create_docx(summary, recommendations, "sample_filename", docx_dir)

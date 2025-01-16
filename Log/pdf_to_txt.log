@@ -4259,3 +4259,1419 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 2025-01-16 15:32:00,646 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-32-00_generator_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
 2025-01-16 15:32:00,646 - INFO - Workflow completed successfully
 2025-01-16 15:32:00,653 - INFO - Cached model cleared.
+2025-01-16 15:39:43,448 - INFO - Starting aviation accident analysis process.
+2025-01-16 15:40:07,697 - INFO - Converting PDF files to TXT format...
+2025-01-16 15:40:07,763 - INFO - Skipping extraction of text, already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 15:40:07,779 - INFO - Skipping extraction of text, already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 15:40:07,780 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:40:07,780 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:40:07,780 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:40:07,780 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:40:07,796 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:40:07,796 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:40:07,796 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 15:40:07,813 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:40:07,830 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:40:07,830 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:40:07,830 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:40:07,830 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:40:07,847 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:40:07,863 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:40:07,863 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:40:07,863 - INFO - Preprocessing TXT files...
+2025-01-16 15:40:07,992 - INFO - Skipping 20000913_A320_C-GTDC.txt, cleaned file already exists: data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-16 15:40:07,995 - INFO - Skipping 20151016_A320_9V-TRH.txt, cleaned file already exists: data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-16 15:40:07,999 - INFO - Skipping Accepted Final Investigation Report VT-ITG.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:40:08,002 - INFO - Skipping Accepted Final Investigation Report VT-ITP.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:40:08,017 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:40:08,020 - INFO - Skipping Accepted Final Investigation Report VT-ITW.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:40:08,024 - INFO - Skipping Accepted Final Investigation Report VT-IVB.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:40:08,026 - INFO - Skipping Accepted Final Investigation Report VT-WGT.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:40:08,038 - INFO - Skipping Accepted Report to VT-WGJ.txt, cleaned file already exists: data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-16 15:40:08,040 - INFO - Skipping Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:40:08,043 - INFO - Skipping Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:40:08,045 - INFO - Skipping Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:40:08,047 - INFO - Skipping Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:40:08,060 - INFO - Skipping Airbus_A320-214_OE-LOA_09-20.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:40:08,065 - INFO - Skipping Airbus_A320-232_9H-LOZ_06-22.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:40:08,073 - INFO - Skipping Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:40:08,077 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:40:08,084 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:40:08,091 - INFO - Skipping Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:40:08,095 - INFO - Skipping Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:40:08,097 - INFO - Skipping Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:40:08,099 - INFO - Skipping Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:40:08,114 - INFO - Loading summarization model...
+2025-01-16 15:40:08,120 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 15:40:15,313 - INFO - Model loaded successfully from local directory
+2025-01-16 15:40:15,380 - INFO - Generating summaries and recommendations...
+2025-01-16 15:40:15,685 - INFO - Generating summary...
+2025-01-16 15:40:15,724 - INFO - Summarizing text
+2025-01-16 15:40:40,972 - INFO - Text summarized successfully
+2025-01-16 15:40:40,993 - INFO - Generating recommendations...
+2025-01-16 15:40:40,998 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:40:45,091 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9968895316123962}]
+2025-01-16 15:40:45,631 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5606138110160828}]
+2025-01-16 15:40:46,598 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5432038307189941}]
+2025-01-16 15:40:56,763 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 15:40:56,780 - INFO - Generating summary...
+2025-01-16 15:40:56,780 - INFO - Summarizing text
+2025-01-16 15:41:26,747 - INFO - Text summarized successfully
+2025-01-16 15:41:26,777 - INFO - Generating recommendations...
+2025-01-16 15:41:26,784 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:41:27,364 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9987689852714539}]
+2025-01-16 15:41:28,398 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5168997049331665}]
+2025-01-16 15:41:29,565 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5436275005340576}]
+2025-01-16 15:41:39,775 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 15:41:39,797 - INFO - Generating summary...
+2025-01-16 15:41:39,797 - INFO - Summarizing text
+2025-01-16 15:42:06,869 - INFO - Text summarized successfully
+2025-01-16 15:42:06,947 - INFO - Generating recommendations...
+2025-01-16 15:42:06,947 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:42:07,514 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9971277117729187}]
+2025-01-16 15:42:09,013 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6173515319824219}]
+2025-01-16 15:42:10,295 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5417942404747009}]
+2025-01-16 15:42:19,566 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 15:42:19,598 - INFO - Generating summary...
+2025-01-16 15:42:19,598 - INFO - Summarizing text
+2025-01-16 15:42:44,002 - INFO - Text summarized successfully
+2025-01-16 15:42:44,033 - INFO - Generating recommendations...
+2025-01-16 15:42:44,033 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:42:44,497 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9979398846626282}]
+2025-01-16 15:42:45,362 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5545154809951782}]
+2025-01-16 15:42:46,338 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5414834022521973}]
+2025-01-16 15:42:53,780 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 15:42:53,787 - INFO - Generating summary...
+2025-01-16 15:42:53,797 - INFO - Summarizing text
+2025-01-16 15:43:13,480 - INFO - Text summarized successfully
+2025-01-16 15:43:13,532 - INFO - Generating recommendations...
+2025-01-16 15:43:13,538 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:43:14,018 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9959237575531006}]
+2025-01-16 15:43:14,916 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5145151615142822}]
+2025-01-16 15:43:16,047 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5419409871101379}]
+2025-01-16 15:43:23,547 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 15:43:23,580 - INFO - Generating summary...
+2025-01-16 15:43:23,580 - INFO - Summarizing text
+2025-01-16 15:43:43,631 - INFO - Text summarized successfully
+2025-01-16 15:43:43,652 - INFO - Generating recommendations...
+2025-01-16 15:43:43,653 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:43:44,132 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9940887689590454}]
+2025-01-16 15:43:45,031 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5146881937980652}]
+2025-01-16 15:43:46,130 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5402058959007263}]
+2025-01-16 15:43:54,448 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 15:43:54,459 - INFO - Generating summary...
+2025-01-16 15:43:54,459 - INFO - Summarizing text
+2025-01-16 15:44:18,464 - INFO - Text summarized successfully
+2025-01-16 15:44:18,499 - INFO - Generating recommendations...
+2025-01-16 15:44:18,501 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:44:18,924 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9956567287445068}]
+2025-01-16 15:44:19,713 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5437609553337097}]
+2025-01-16 15:44:20,664 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5404243469238281}]
+2025-01-16 15:44:28,573 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 15:44:28,610 - INFO - Generating summary...
+2025-01-16 15:44:28,614 - INFO - Summarizing text
+2025-01-16 15:44:48,750 - INFO - Text summarized successfully
+2025-01-16 15:44:48,754 - INFO - Generating recommendations...
+2025-01-16 15:44:48,763 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:44:49,181 - INFO - distilbert recommendations: [{'label': 'POSITIVE', 'score': 0.9564194679260254}]
+2025-01-16 15:44:49,955 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5284695029258728}]
+2025-01-16 15:44:50,954 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5410887598991394}]
+2025-01-16 15:44:59,348 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 15:44:59,365 - INFO - Generating summary...
+2025-01-16 15:44:59,373 - INFO - Summarizing text
+2025-01-16 15:45:20,052 - INFO - Text summarized successfully
+2025-01-16 15:45:20,110 - INFO - Generating recommendations...
+2025-01-16 15:45:20,114 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:45:20,547 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9705038070678711}]
+2025-01-16 15:45:21,282 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6643585562705994}]
+2025-01-16 15:45:22,264 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5400830507278442}]
+2025-01-16 15:45:29,847 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 15:45:29,883 - INFO - Generating summary...
+2025-01-16 15:45:29,883 - INFO - Summarizing text
+2025-01-16 15:45:53,798 - INFO - Text summarized successfully
+2025-01-16 15:45:53,821 - INFO - Generating recommendations...
+2025-01-16 15:45:53,823 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:45:54,250 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9992415904998779}]
+2025-01-16 15:45:54,997 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7532723546028137}]
+2025-01-16 15:45:56,113 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5422919988632202}]
+2025-01-16 15:46:04,994 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_results.txt
+2025-01-16 15:46:05,019 - INFO - Generating summary...
+2025-01-16 15:46:05,019 - INFO - Summarizing text
+2025-01-16 15:46:31,580 - INFO - Text summarized successfully
+2025-01-16 15:46:31,609 - INFO - Generating recommendations...
+2025-01-16 15:46:31,614 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:46:32,049 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9900190830230713}]
+2025-01-16 15:46:32,833 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6098069548606873}]
+2025-01-16 15:46:33,883 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5434602499008179}]
+2025-01-16 15:46:49,594 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_results.txt
+2025-01-16 15:46:49,618 - INFO - Generating summary...
+2025-01-16 15:46:49,621 - INFO - Summarizing text
+2025-01-16 15:47:02,439 - INFO - Text summarized successfully
+2025-01-16 15:47:02,451 - INFO - Generating recommendations...
+2025-01-16 15:47:02,454 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:47:02,865 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9994848966598511}]
+2025-01-16 15:47:03,617 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.6708943247795105}]
+2025-01-16 15:47:04,545 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5413245558738708}]
+2025-01-16 15:47:11,585 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_results.txt
+2025-01-16 15:47:11,607 - INFO - Generating summary...
+2025-01-16 15:47:11,610 - INFO - Summarizing text
+2025-01-16 15:47:38,613 - INFO - Text summarized successfully
+2025-01-16 15:47:38,636 - INFO - Generating recommendations...
+2025-01-16 15:47:38,638 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:47:39,133 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9992303848266602}]
+2025-01-16 15:47:39,980 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7502437829971313}]
+2025-01-16 15:47:41,055 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5404748916625977}]
+2025-01-16 15:47:50,784 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_results.txt
+2025-01-16 15:47:50,808 - INFO - Generating summary...
+2025-01-16 15:47:50,811 - INFO - Summarizing text
+2025-01-16 15:48:17,282 - INFO - Text summarized successfully
+2025-01-16 15:48:17,304 - INFO - Generating recommendations...
+2025-01-16 15:48:17,306 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:48:17,751 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9991733431816101}]
+2025-01-16 15:48:18,732 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7650765776634216}]
+2025-01-16 15:48:19,832 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.542715311050415}]
+2025-01-16 15:48:28,301 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 15:48:28,301 - INFO - Generating summary...
+2025-01-16 15:48:28,316 - INFO - Summarizing text
+2025-01-16 15:48:56,321 - INFO - Text summarized successfully
+2025-01-16 15:48:56,340 - INFO - Generating recommendations...
+2025-01-16 15:48:56,340 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:48:56,783 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9983921647071838}]
+2025-01-16 15:48:57,566 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.5573380589485168}]
+2025-01-16 15:48:58,582 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5421416163444519}]
+2025-01-16 15:49:06,465 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 15:49:06,484 - INFO - Generating summary...
+2025-01-16 15:49:06,486 - INFO - Summarizing text
+2025-01-16 15:49:18,628 - INFO - Text summarized successfully
+2025-01-16 15:49:18,641 - INFO - Generating recommendations...
+2025-01-16 15:49:18,644 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:49:19,015 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9975663423538208}]
+2025-01-16 15:49:19,689 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6972283720970154}]
+2025-01-16 15:49:20,566 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5402255058288574}]
+2025-01-16 15:49:27,393 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_results.txt
+2025-01-16 15:49:27,416 - INFO - Generating summary...
+2025-01-16 15:49:27,433 - INFO - Summarizing text
+2025-01-16 15:49:50,917 - INFO - Text summarized successfully
+2025-01-16 15:49:50,928 - INFO - Generating recommendations...
+2025-01-16 15:49:50,931 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:49:51,364 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9914012551307678}]
+2025-01-16 15:49:52,235 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5129614472389221}]
+2025-01-16 15:49:53,340 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5437020659446716}]
+2025-01-16 15:50:02,116 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_results.txt
+2025-01-16 15:50:02,125 - INFO - Generating summary...
+2025-01-16 15:50:02,128 - INFO - Summarizing text
+2025-01-16 15:50:12,805 - INFO - Text summarized successfully
+2025-01-16 15:50:12,874 - INFO - Generating recommendations...
+2025-01-16 15:50:12,886 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:50:13,318 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9916906356811523}]
+2025-01-16 15:50:14,050 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.612660825252533}]
+2025-01-16 15:50:14,934 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5434802174568176}]
+2025-01-16 15:50:23,194 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_results.txt
+2025-01-16 15:50:23,202 - INFO - Generating summary...
+2025-01-16 15:50:23,204 - INFO - Summarizing text
+2025-01-16 15:50:39,203 - INFO - Text summarized successfully
+2025-01-16 15:50:39,231 - INFO - Generating recommendations...
+2025-01-16 15:50:39,235 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:50:39,650 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9986365437507629}]
+2025-01-16 15:50:40,400 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5945004820823669}]
+2025-01-16 15:50:41,284 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5398073196411133}]
+2025-01-16 15:50:48,621 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_results.txt
+2025-01-16 15:50:48,633 - INFO - Generating summary...
+2025-01-16 15:50:48,633 - INFO - Summarizing text
+2025-01-16 15:51:00,592 - INFO - Text summarized successfully
+2025-01-16 15:51:00,605 - INFO - Generating recommendations...
+2025-01-16 15:51:00,608 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:51:00,986 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.807536780834198}]
+2025-01-16 15:51:01,668 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6562256813049316}]
+2025-01-16 15:51:02,531 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5424919128417969}]
+2025-01-16 15:51:09,320 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_results.txt
+2025-01-16 15:51:09,332 - INFO - Generating summary...
+2025-01-16 15:51:09,336 - INFO - Summarizing text
+2025-01-16 15:51:16,949 - INFO - Text summarized successfully
+2025-01-16 15:51:16,961 - INFO - Generating recommendations...
+2025-01-16 15:51:16,966 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:51:17,361 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9950128197669983}]
+2025-01-16 15:51:18,036 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5599994659423828}]
+2025-01-16 15:51:18,857 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5426701903343201}]
+2025-01-16 15:51:25,116 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_results.txt
+2025-01-16 15:51:25,122 - INFO - Generating summary...
+2025-01-16 15:51:25,124 - INFO - Summarizing text
+2025-01-16 15:51:52,608 - INFO - Text summarized successfully
+2025-01-16 15:51:52,627 - INFO - Generating recommendations...
+2025-01-16 15:51:52,629 - INFO - Generating recommendations based on the summary.
+2025-01-16 15:51:53,041 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9846433401107788}]
+2025-01-16 15:51:53,879 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.5847728848457336}]
+2025-01-16 15:51:54,888 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.542038083076477}]
+2025-01-16 15:52:03,789 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_results.txt
+2025-01-16 15:52:03,810 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-03_distilbert_20000913_A320_C-GTDC.txt
+2025-01-16 15:52:03,969 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-03.docx
+2025-01-16 15:52:03,969 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-03_distilbert_20000913_A320_C-GTDC.docx
+2025-01-16 15:52:03,969 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-03_roberta_20000913_A320_C-GTDC.txt
+2025-01-16 15:52:03,969 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-03.docx
+2025-01-16 15:52:04,017 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-03.docx
+2025-01-16 15:52:04,021 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-03_roberta_20000913_A320_C-GTDC.docx
+2025-01-16 15:52:04,021 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-03_deberta_20000913_A320_C-GTDC.txt
+2025-01-16 15:52:04,057 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,057 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-03_deberta_20000913_A320_C-GTDC.docx
+2025-01-16 15:52:04,057 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-03_zero_shot_20000913_A320_C-GTDC.txt
+2025-01-16 15:52:04,068 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,105 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,107 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-03_zero_shot_20000913_A320_C-GTDC.docx
+2025-01-16 15:52:04,107 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-03_generator_20000913_A320_C-GTDC.txt
+2025-01-16 15:52:04,107 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,150 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,151 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-03_generator_20000913_A320_C-GTDC.docx
+2025-01-16 15:52:04,151 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_distilbert_20151016_A320_9V-TRH.txt
+2025-01-16 15:52:04,151 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,194 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,194 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_distilbert_20151016_A320_9V-TRH.docx
+2025-01-16 15:52:04,200 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_roberta_20151016_A320_9V-TRH.txt
+2025-01-16 15:52:04,202 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,239 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,251 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_roberta_20151016_A320_9V-TRH.docx
+2025-01-16 15:52:04,254 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_deberta_20151016_A320_9V-TRH.txt
+2025-01-16 15:52:04,254 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,287 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,289 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_deberta_20151016_A320_9V-TRH.docx
+2025-01-16 15:52:04,293 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_zero_shot_20151016_A320_9V-TRH.txt
+2025-01-16 15:52:04,294 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,324 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,324 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_zero_shot_20151016_A320_9V-TRH.docx
+2025-01-16 15:52:04,324 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_generator_20151016_A320_9V-TRH.txt
+2025-01-16 15:52:04,324 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,354 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,354 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_generator_20151016_A320_9V-TRH.docx
+2025-01-16 15:52:04,367 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:52:04,370 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,404 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,405 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITG.docx
+2025-01-16 15:52:04,405 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:52:04,405 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,451 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,467 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITG.docx
+2025-01-16 15:52:04,467 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:52:04,467 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,501 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,501 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITG.docx
+2025-01-16 15:52:04,501 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:52:04,514 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,532 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,546 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITG.docx
+2025-01-16 15:52:04,550 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 15:52:04,551 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,577 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,584 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITG.docx
+2025-01-16 15:52:04,584 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:52:04,584 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,622 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,625 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITP.docx
+2025-01-16 15:52:04,627 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:52:04,627 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,665 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,667 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITP.docx
+2025-01-16 15:52:04,680 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:52:04,684 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,711 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,717 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITP.docx
+2025-01-16 15:52:04,718 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:52:04,718 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,751 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,751 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITP.docx
+2025-01-16 15:52:04,751 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 15:52:04,751 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,784 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,784 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITP.docx
+2025-01-16 15:52:04,784 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:52:04,797 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,818 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,831 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_distilbert_Accepted Final Investigation Report VT-ITQ.docx
+2025-01-16 15:52:04,834 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:52:04,834 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,873 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,884 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_roberta_Accepted Final Investigation Report VT-ITQ.docx
+2025-01-16 15:52:04,884 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:52:04,884 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,931 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,931 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_deberta_Accepted Final Investigation Report VT-ITQ.docx
+2025-01-16 15:52:04,931 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:52:04,931 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,985 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:04,998 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_zero_shot_Accepted Final Investigation Report VT-ITQ.docx
+2025-01-16 15:52:04,998 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 15:52:04,998 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:05,051 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-04.docx
+2025-01-16 15:52:05,051 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-04_generator_Accepted Final Investigation Report VT-ITQ.docx
+2025-01-16 15:52:05,051 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:52:05,101 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,101 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-ITW.docx
+2025-01-16 15:52:05,113 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:52:05,115 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,151 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,184 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-ITW.docx
+2025-01-16 15:52:05,184 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:52:05,197 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,252 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,253 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-ITW.docx
+2025-01-16 15:52:05,253 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:52:05,266 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,304 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,304 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-ITW.docx
+2025-01-16 15:52:05,304 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 15:52:05,317 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,346 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,351 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-ITW.docx
+2025-01-16 15:52:05,355 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:52:05,357 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,387 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,389 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-IVB.docx
+2025-01-16 15:52:05,392 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:52:05,394 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,421 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,434 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-IVB.docx
+2025-01-16 15:52:05,434 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:52:05,434 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,471 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,471 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-IVB.docx
+2025-01-16 15:52:05,471 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:52:05,471 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,507 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,507 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-IVB.docx
+2025-01-16 15:52:05,507 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 15:52:05,518 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,551 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,554 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-IVB.docx
+2025-01-16 15:52:05,558 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:52:05,561 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,588 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,588 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_distilbert_Accepted Final Investigation Report VT-WGT.docx
+2025-01-16 15:52:05,601 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:52:05,601 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,635 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,647 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_roberta_Accepted Final Investigation Report VT-WGT.docx
+2025-01-16 15:52:05,652 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:52:05,654 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,685 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,687 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_deberta_Accepted Final Investigation Report VT-WGT.docx
+2025-01-16 15:52:05,691 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:52:05,693 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,722 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,725 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_zero_shot_Accepted Final Investigation Report VT-WGT.docx
+2025-01-16 15:52:05,727 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 15:52:05,727 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,758 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,758 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_generator_Accepted Final Investigation Report VT-WGT.docx
+2025-01-16 15:52:05,758 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_distilbert_Accepted Report to VT-WGJ.txt
+2025-01-16 15:52:05,758 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,790 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,790 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_distilbert_Accepted Report to VT-WGJ.docx
+2025-01-16 15:52:05,799 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_roberta_Accepted Report to VT-WGJ.txt
+2025-01-16 15:52:05,802 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,821 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,841 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_roberta_Accepted Report to VT-WGJ.docx
+2025-01-16 15:52:05,847 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_deberta_Accepted Report to VT-WGJ.txt
+2025-01-16 15:52:05,850 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,879 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,879 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_deberta_Accepted Report to VT-WGJ.docx
+2025-01-16 15:52:05,885 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_zero_shot_Accepted Report to VT-WGJ.txt
+2025-01-16 15:52:05,887 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,911 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,917 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_zero_shot_Accepted Report to VT-WGJ.docx
+2025-01-16 15:52:05,921 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_generator_Accepted Report to VT-WGJ.txt
+2025-01-16 15:52:05,922 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,951 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,953 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_generator_Accepted Report to VT-WGJ.docx
+2025-01-16 15:52:05,955 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_distilbert_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:52:05,958 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,987 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:05,990 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_distilbert_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.docx
+2025-01-16 15:52:05,993 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_roberta_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:52:05,993 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:06,022 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-05.docx
+2025-01-16 15:52:06,036 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_roberta_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.docx
+2025-01-16 15:52:06,036 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_deberta_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:52:06,076 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,078 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_deberta_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.docx
+2025-01-16 15:52:06,082 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_zero_shot_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:52:06,085 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,117 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,120 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_zero_shot_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.docx
+2025-01-16 15:52:06,122 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-05_generator_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 15:52:06,122 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,157 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,159 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-05_generator_Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.docx
+2025-01-16 15:52:06,160 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_distilbert_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:52:06,160 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,191 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,191 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_distilbert_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.docx
+2025-01-16 15:52:06,204 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_roberta_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:52:06,206 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,242 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,255 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_roberta_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.docx
+2025-01-16 15:52:06,255 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_deberta_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:52:06,255 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,288 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,288 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_deberta_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.docx
+2025-01-16 15:52:06,302 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:52:06,302 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,338 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,340 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.docx
+2025-01-16 15:52:06,343 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_generator_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 15:52:06,344 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,372 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,372 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_generator_Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.docx
+2025-01-16 15:52:06,386 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_distilbert_Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:52:06,386 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,423 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,425 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_distilbert_Accident Airbus A320-232 N413UA, Friday 21 November 1997.docx
+2025-01-16 15:52:06,428 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_roberta_Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:52:06,428 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,461 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,472 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_roberta_Accident Airbus A320-232 N413UA, Friday 21 November 1997.docx
+2025-01-16 15:52:06,487 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_deberta_Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:52:06,489 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,524 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,526 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_deberta_Accident Airbus A320-232 N413UA, Friday 21 November 1997.docx
+2025-01-16 15:52:06,526 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:52:06,530 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,566 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,567 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A320-232 N413UA, Friday 21 November 1997.docx
+2025-01-16 15:52:06,567 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_generator_Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 15:52:06,567 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,600 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,600 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_generator_Accident Airbus A320-232 N413UA, Friday 21 November 1997.docx
+2025-01-16 15:52:06,613 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_distilbert_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:52:06,617 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,650 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,650 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_distilbert_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.docx
+2025-01-16 15:52:06,658 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_roberta_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:52:06,660 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,684 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,700 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_roberta_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.docx
+2025-01-16 15:52:06,713 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_deberta_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:52:06,717 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,749 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,750 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_deberta_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.docx
+2025-01-16 15:52:06,755 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:52:06,758 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,793 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,795 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_zero_shot_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.docx
+2025-01-16 15:52:06,795 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_generator_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 15:52:06,800 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,832 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,834 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_generator_Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.docx
+2025-01-16 15:52:06,834 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_distilbert_Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:52:06,834 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,867 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,867 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_distilbert_Airbus_A320-214_OE-LOA_09-20.docx
+2025-01-16 15:52:06,867 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_roberta_Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:52:06,867 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,914 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,917 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_roberta_Airbus_A320-214_OE-LOA_09-20.docx
+2025-01-16 15:52:06,930 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_deberta_Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:52:06,933 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,966 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:06,967 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_deberta_Airbus_A320-214_OE-LOA_09-20.docx
+2025-01-16 15:52:06,967 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_zero_shot_Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:52:06,967 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:07,000 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-06.docx
+2025-01-16 15:52:07,000 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_zero_shot_Airbus_A320-214_OE-LOA_09-20.docx
+2025-01-16 15:52:07,016 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-06_generator_Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 15:52:07,052 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,069 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-06_generator_Airbus_A320-214_OE-LOA_09-20.docx
+2025-01-16 15:52:07,074 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_distilbert_Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:52:07,074 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,114 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,114 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_distilbert_Airbus_A320-232_9H-LOZ_06-22.docx
+2025-01-16 15:52:07,117 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_roberta_Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:52:07,117 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,151 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,167 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_roberta_Airbus_A320-232_9H-LOZ_06-22.docx
+2025-01-16 15:52:07,167 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_deberta_Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:52:07,167 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,201 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,214 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_deberta_Airbus_A320-232_9H-LOZ_06-22.docx
+2025-01-16 15:52:07,214 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_zero_shot_Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:52:07,214 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,250 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,250 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_zero_shot_Airbus_A320-232_9H-LOZ_06-22.docx
+2025-01-16 15:52:07,250 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_generator_Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 15:52:07,250 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,281 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,294 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_generator_Airbus_A320-232_9H-LOZ_06-22.docx
+2025-01-16 15:52:07,297 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:52:07,300 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,334 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,334 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.docx
+2025-01-16 15:52:07,334 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:52:07,334 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,367 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,384 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.docx
+2025-01-16 15:52:07,397 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:52:07,400 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,434 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,440 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.docx
+2025-01-16 15:52:07,445 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:52:07,449 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,484 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,484 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.docx
+2025-01-16 15:52:07,501 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 15:52:07,501 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,534 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,534 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.docx
+2025-01-16 15:52:07,534 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:52:07,547 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,585 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,585 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.docx
+2025-01-16 15:52:07,585 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:52:07,598 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,651 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,664 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.docx
+2025-01-16 15:52:07,664 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:52:07,664 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,702 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,715 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.docx
+2025-01-16 15:52:07,719 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:52:07,719 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,751 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,751 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.docx
+2025-01-16 15:52:07,764 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 15:52:07,767 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,801 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,801 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.docx
+2025-01-16 15:52:07,801 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:52:07,801 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,848 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,848 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_distilbert_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.docx
+2025-01-16 15:52:07,848 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:52:07,848 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,902 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:07,967 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_roberta_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.docx
+2025-01-16 15:52:07,967 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:52:07,967 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:08,016 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-07.docx
+2025-01-16 15:52:08,019 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_deberta_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.docx
+2025-01-16 15:52:08,023 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:52:08,070 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,070 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_zero_shot_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.docx
+2025-01-16 15:52:08,070 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 15:52:08,081 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,118 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,118 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-07_generator_Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.docx
+2025-01-16 15:52:08,118 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:52:08,118 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,167 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,169 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.docx
+2025-01-16 15:52:08,174 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:52:08,174 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,201 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,217 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.docx
+2025-01-16 15:52:08,230 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:52:08,234 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,267 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,267 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.docx
+2025-01-16 15:52:08,276 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:52:08,278 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,314 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,316 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.docx
+2025-01-16 15:52:08,317 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 15:52:08,317 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,361 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,361 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.docx
+2025-01-16 15:52:08,367 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:52:08,367 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,408 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,410 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.docx
+2025-01-16 15:52:08,411 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:52:08,417 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,503 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,517 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.docx
+2025-01-16 15:52:08,517 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:52:08,517 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,560 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,560 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.docx
+2025-01-16 15:52:08,568 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:52:08,568 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,613 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,617 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.docx
+2025-01-16 15:52:08,618 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 15:52:08,618 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,668 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,668 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.docx
+2025-01-16 15:52:08,668 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:52:08,668 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,701 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,701 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.docx
+2025-01-16 15:52:08,714 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:52:08,718 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,751 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,768 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.docx
+2025-01-16 15:52:08,768 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:52:08,781 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,817 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,820 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.docx
+2025-01-16 15:52:08,823 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:52:08,825 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,856 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,858 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.docx
+2025-01-16 15:52:08,861 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 15:52:08,861 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,900 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,901 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.docx
+2025-01-16 15:52:08,901 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:52:08,901 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,934 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,934 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_distilbert_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
+2025-01-16 15:52:08,947 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:52:08,947 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:08,984 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-08.docx
+2025-01-16 15:52:09,000 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_roberta_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
+2025-01-16 15:52:09,000 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:52:09,040 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-09.docx
+2025-01-16 15:52:09,042 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_deberta_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
+2025-01-16 15:52:09,045 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:52:09,050 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-09.docx
+2025-01-16 15:52:09,084 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-09.docx
+2025-01-16 15:52:09,084 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_zero_shot_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
+2025-01-16 15:52:09,097 - INFO - Results saved to results\2025-01-16\txt\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 15:52:09,097 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\docx_2025-01-16_15-52-09.docx
+2025-01-16 15:52:09,133 - INFO - DOCX file saved successfully: results\2025-01-16\docx\docx_2025-01-16_15-52-09.docx
+2025-01-16 15:52:09,135 - INFO - DOCX file saved to results\2025-01-16\docx\test_2025-01-16_15-52-08_generator_Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.docx
+2025-01-16 15:52:09,135 - INFO - Workflow completed successfully
+2025-01-16 15:52:09,135 - INFO - Cached model cleared.
+2025-01-16 16:06:09,594 - INFO - Starting aviation accident analysis process.
+2025-01-16 16:06:37,954 - INFO - Converting PDF files to TXT format...
+2025-01-16 16:06:38,114 - INFO - Skipping extraction of text, already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 16:06:38,120 - INFO - Skipping extraction of text, already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 16:06:38,121 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 16:06:38,127 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 16:06:38,127 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 16:06:38,133 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 16:06:38,133 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 16:06:38,147 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 16:06:38,151 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 16:06:38,158 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 16:06:38,167 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 16:06:38,179 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 16:06:38,186 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 16:06:38,188 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 16:06:38,196 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 16:06:38,211 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 16:06:38,214 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 16:06:38,216 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 16:06:38,225 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 16:06:38,231 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 16:06:38,235 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 16:06:38,239 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 16:06:38,242 - INFO - Preprocessing TXT files...
+2025-01-16 16:06:38,549 - INFO - Skipping 20000913_A320_C-GTDC.txt, cleaned file already exists: data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-16 16:06:38,555 - INFO - Skipping 20151016_A320_9V-TRH.txt, cleaned file already exists: data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-16 16:06:38,560 - INFO - Skipping Accepted Final Investigation Report VT-ITG.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 16:06:38,564 - INFO - Skipping Accepted Final Investigation Report VT-ITP.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 16:06:38,572 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 16:06:38,579 - INFO - Skipping Accepted Final Investigation Report VT-ITW.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 16:06:38,583 - INFO - Skipping Accepted Final Investigation Report VT-IVB.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 16:06:38,588 - INFO - Skipping Accepted Final Investigation Report VT-WGT.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 16:06:38,593 - INFO - Skipping Accepted Report to VT-WGJ.txt, cleaned file already exists: data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-16 16:06:38,600 - INFO - Skipping Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 16:06:38,616 - INFO - Skipping Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 16:06:38,624 - INFO - Skipping Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 16:06:38,627 - INFO - Skipping Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 16:06:38,635 - INFO - Skipping Airbus_A320-214_OE-LOA_09-20.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 16:06:38,642 - INFO - Skipping Airbus_A320-232_9H-LOZ_06-22.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 16:06:38,650 - INFO - Skipping Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 16:06:38,657 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 16:06:38,662 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 16:06:38,668 - INFO - Skipping Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 16:06:38,680 - INFO - Skipping Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 16:06:38,689 - INFO - Skipping Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 16:06:38,695 - INFO - Skipping Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 16:06:38,723 - INFO - Loading summarization model...
+2025-01-16 16:06:38,729 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 16:06:50,747 - INFO - Model loaded successfully from local directory
+2025-01-16 16:06:50,820 - INFO - Generating summaries and recommendations...
+2025-01-16 16:06:51,353 - INFO - Generating summary...
+2025-01-16 16:06:51,371 - INFO - Summarizing text
+2025-01-16 16:07:35,753 - INFO - Text summarized successfully
+2025-01-16 16:07:35,926 - INFO - Generating recommendations...
+2025-01-16 16:07:35,930 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:07:45,157 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9968895316123962}]
+2025-01-16 16:07:46,568 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5606138110160828}]
+2025-01-16 16:07:48,897 - INFO - deberta recommendations: [{'label': 'LABEL_1', 'score': 0.5426437854766846}]
+2025-01-16 16:08:22,808 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 16:08:22,921 - INFO - Generating summary...
+2025-01-16 16:08:22,928 - INFO - Summarizing text
+2025-01-16 16:10:47,588 - INFO - Starting aviation accident analysis process.
+2025-01-16 16:11:03,205 - INFO - Converting PDF files to TXT format...
+2025-01-16 16:11:03,302 - INFO - Skipping extraction of text, already exists: data/raw_txt\20000913_A320_C-GTDC.txt
+2025-01-16 16:11:03,304 - INFO - Skipping extraction of text, already exists: data/raw_txt\20151016_A320_9V-TRH.txt
+2025-01-16 16:11:03,314 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 16:11:03,319 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 16:11:03,324 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 16:11:03,329 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 16:11:03,332 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 16:11:03,335 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 16:11:03,338 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accepted Report to VT-WGJ.txt
+2025-01-16 16:11:03,343 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 16:11:03,367 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 16:11:03,373 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 16:11:03,398 - INFO - Skipping extraction of text, already exists: data/raw_txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 16:11:03,401 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 16:11:03,408 - INFO - Skipping extraction of text, already exists: data/raw_txt\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 16:11:03,414 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 16:11:03,422 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 16:11:03,430 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 16:11:03,436 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 16:11:03,441 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 16:11:03,445 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 16:11:03,449 - INFO - Skipping extraction of text, already exists: data/raw_txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 16:11:03,456 - INFO - Preprocessing TXT files...
+2025-01-16 16:11:03,638 - INFO - Skipping 20000913_A320_C-GTDC.txt, cleaned file already exists: data/cleaned_data\20000913_A320_C-GTDC.txt
+2025-01-16 16:11:03,638 - INFO - Skipping 20151016_A320_9V-TRH.txt, cleaned file already exists: data/cleaned_data\20151016_A320_9V-TRH.txt
+2025-01-16 16:11:03,655 - INFO - Skipping Accepted Final Investigation Report VT-ITG.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITG.txt
+2025-01-16 16:11:03,661 - INFO - Skipping Accepted Final Investigation Report VT-ITP.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITP.txt
+2025-01-16 16:11:03,691 - INFO - Skipping Accepted Final Investigation Report VT-ITQ.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITQ.txt
+2025-01-16 16:11:03,691 - INFO - Skipping Accepted Final Investigation Report VT-ITW.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-ITW.txt
+2025-01-16 16:11:03,691 - INFO - Skipping Accepted Final Investigation Report VT-IVB.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-IVB.txt
+2025-01-16 16:11:03,704 - INFO - Skipping Accepted Final Investigation Report VT-WGT.txt, cleaned file already exists: data/cleaned_data\Accepted Final Investigation Report VT-WGT.txt
+2025-01-16 16:11:03,704 - INFO - Skipping Accepted Report to VT-WGJ.txt, cleaned file already exists: data/cleaned_data\Accepted Report to VT-WGJ.txt
+2025-01-16 16:11:03,718 - INFO - Skipping Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993.txt
+2025-01-16 16:11:03,721 - INFO - Skipping Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982.txt
+2025-01-16 16:11:03,721 - INFO - Skipping Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A320-232 N413UA, Friday 21 November 1997.txt
+2025-01-16 16:11:03,721 - INFO - Skipping Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt, cleaned file already exists: data/cleaned_data\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019.txt
+2025-01-16 16:11:03,738 - INFO - Skipping Airbus_A320-214_OE-LOA_09-20.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-214_OE-LOA_09-20.txt
+2025-01-16 16:11:03,738 - INFO - Skipping Airbus_A320-232_9H-LOZ_06-22.txt, cleaned file already exists: data/cleaned_data\Airbus_A320-232_9H-LOZ_06-22.txt
+2025-01-16 16:11:03,738 - INFO - Skipping Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021.txt
+2025-01-16 16:11:03,754 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018.txt
+2025-01-16 16:11:03,754 - INFO - Skipping Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.txt
+2025-01-16 16:11:03,769 - INFO - Skipping Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.txt
+2025-01-16 16:11:03,772 - INFO - Skipping Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017.txt
+2025-01-16 16:11:03,772 - INFO - Skipping Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018.txt
+2025-01-16 16:11:03,785 - INFO - Skipping Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt, cleaned file already exists: data/cleaned_data\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.txt
+2025-01-16 16:11:03,789 - INFO - Loading summarization model...
+2025-01-16 16:11:03,789 - INFO - Loading model from local directory: models\facebook_bart-large-cnn
+2025-01-16 16:11:13,787 - INFO - Model loaded successfully from local directory
+2025-01-16 16:11:13,823 - INFO - Generating summaries and recommendations...
+2025-01-16 16:11:14,054 - INFO - Overwriting existing results for data/cleaned_data\20000913_A320_C-GTDC.txt: results\2025-01-16\txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 16:11:14,072 - INFO - Generating summary...
+2025-01-16 16:11:14,078 - INFO - Summarizing text
+2025-01-16 16:11:50,235 - INFO - Text summarized successfully
+2025-01-16 16:11:50,720 - INFO - Generating recommendations...
+2025-01-16 16:11:50,738 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:12:03,690 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9968895316123962}]
+2025-01-16 16:12:04,854 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5606138110160828}]
+2025-01-16 16:12:07,270 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5110145211219788}]
+2025-01-16 16:12:32,531 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_results.txt
+2025-01-16 16:12:32,679 - INFO - Generating summary...
+2025-01-16 16:12:32,710 - INFO - Summarizing text
+2025-01-16 16:12:58,543 - INFO - Text summarized successfully
+2025-01-16 16:12:58,568 - INFO - Generating recommendations...
+2025-01-16 16:12:58,571 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:12:58,996 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9987689852714539}]
+2025-01-16 16:12:59,774 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5168997049331665}]
+2025-01-16 16:13:00,860 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.511383593082428}]
+2025-01-16 16:13:09,619 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_results.txt
+2025-01-16 16:13:09,639 - INFO - Generating summary...
+2025-01-16 16:13:09,642 - INFO - Summarizing text
+2025-01-16 16:13:32,815 - INFO - Text summarized successfully
+2025-01-16 16:13:32,835 - INFO - Generating recommendations...
+2025-01-16 16:13:32,837 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:13:33,173 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9971277117729187}]
+2025-01-16 16:13:33,820 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6173515319824219}]
+2025-01-16 16:13:34,614 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5129500031471252}]
+2025-01-16 16:13:41,426 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_results.txt
+2025-01-16 16:13:41,426 - INFO - Generating summary...
+2025-01-16 16:13:41,434 - INFO - Summarizing text
+2025-01-16 16:13:57,680 - INFO - Text summarized successfully
+2025-01-16 16:13:57,696 - INFO - Generating recommendations...
+2025-01-16 16:13:57,698 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:13:58,047 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9979398846626282}]
+2025-01-16 16:13:58,640 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5545154809951782}]
+2025-01-16 16:13:59,380 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5135551691055298}]
+2025-01-16 16:14:03,143 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_results.txt
+2025-01-16 16:14:03,151 - INFO - Generating summary...
+2025-01-16 16:14:03,151 - INFO - Summarizing text
+2025-01-16 16:14:19,280 - INFO - Text summarized successfully
+2025-01-16 16:14:19,321 - INFO - Generating recommendations...
+2025-01-16 16:14:19,325 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:14:20,023 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9959237575531006}]
+2025-01-16 16:14:20,204 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5145151615142822}]
+2025-01-16 16:14:20,616 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.514156699180603}]
+2025-01-16 16:14:24,351 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_results.txt
+2025-01-16 16:14:24,357 - INFO - Generating summary...
+2025-01-16 16:14:24,359 - INFO - Summarizing text
+2025-01-16 16:14:39,597 - INFO - Text summarized successfully
+2025-01-16 16:14:39,671 - INFO - Generating recommendations...
+2025-01-16 16:14:39,674 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:14:40,034 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9940887689590454}]
+2025-01-16 16:14:40,174 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5146881937980652}]
+2025-01-16 16:14:40,474 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.513373076915741}]
+2025-01-16 16:14:43,581 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_results.txt
+2025-01-16 16:14:43,587 - INFO - Generating summary...
+2025-01-16 16:14:43,587 - INFO - Summarizing text
+2025-01-16 16:15:02,813 - INFO - Text summarized successfully
+2025-01-16 16:15:02,864 - INFO - Generating recommendations...
+2025-01-16 16:15:02,868 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:15:03,362 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9956567287445068}]
+2025-01-16 16:15:03,652 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5437609553337097}]
+2025-01-16 16:15:04,149 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5123843550682068}]
+2025-01-16 16:15:08,140 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_results.txt
+2025-01-16 16:15:08,146 - INFO - Generating summary...
+2025-01-16 16:15:08,149 - INFO - Summarizing text
+2025-01-16 16:15:25,025 - INFO - Text summarized successfully
+2025-01-16 16:15:25,060 - INFO - Generating recommendations...
+2025-01-16 16:15:25,063 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:15:25,424 - INFO - distilbert recommendations: [{'label': 'POSITIVE', 'score': 0.9564194679260254}]
+2025-01-16 16:15:25,687 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5284695029258728}]
+2025-01-16 16:15:26,164 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5112093687057495}]
+2025-01-16 16:15:32,869 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_results.txt
+2025-01-16 16:15:32,882 - INFO - Generating summary...
+2025-01-16 16:15:32,885 - INFO - Summarizing text
+2025-01-16 16:15:49,382 - INFO - Text summarized successfully
+2025-01-16 16:15:49,403 - INFO - Generating recommendations...
+2025-01-16 16:15:49,406 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:15:49,777 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9705038070678711}]
+2025-01-16 16:15:50,460 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6643585562705994}]
+2025-01-16 16:15:51,228 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5127676725387573}]
+2025-01-16 16:15:57,311 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_results.txt
+2025-01-16 16:15:57,321 - INFO - Generating summary...
+2025-01-16 16:15:57,321 - INFO - Summarizing text
+2025-01-16 16:16:15,517 - INFO - Text summarized successfully
+2025-01-16 16:16:15,528 - INFO - Generating recommendations...
+2025-01-16 16:16:15,528 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:16:15,887 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9992415904998779}]
+2025-01-16 16:16:16,776 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7532723546028137}]
+2025-01-16 16:16:17,775 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5114031434059143}]
+2025-01-16 16:16:22,599 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_results.txt
+2025-01-16 16:16:22,605 - INFO - Generating summary...
+2025-01-16 16:16:22,607 - INFO - Summarizing text
+2025-01-16 16:16:44,313 - INFO - Text summarized successfully
+2025-01-16 16:16:44,331 - INFO - Generating recommendations...
+2025-01-16 16:16:44,333 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:16:45,031 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9900190830230713}]
+2025-01-16 16:16:45,774 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6098069548606873}]
+2025-01-16 16:16:47,172 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5130622982978821}]
+2025-01-16 16:16:57,943 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_results.txt
+2025-01-16 16:16:57,948 - INFO - Generating summary...
+2025-01-16 16:16:57,950 - INFO - Summarizing text
+2025-01-16 16:17:07,826 - INFO - Text summarized successfully
+2025-01-16 16:17:07,836 - INFO - Generating recommendations...
+2025-01-16 16:17:07,839 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:17:08,174 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9994848966598511}]
+2025-01-16 16:17:09,161 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.6708943247795105}]
+2025-01-16 16:17:09,965 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5183588266372681}]
+2025-01-16 16:17:14,892 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_results.txt
+2025-01-16 16:17:14,901 - INFO - Generating summary...
+2025-01-16 16:17:14,903 - INFO - Summarizing text
+2025-01-16 16:17:37,224 - INFO - Text summarized successfully
+2025-01-16 16:17:37,238 - INFO - Generating recommendations...
+2025-01-16 16:17:37,240 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:17:37,607 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9992303848266602}]
+2025-01-16 16:17:38,370 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7502437829971313}]
+2025-01-16 16:17:39,353 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5123945474624634}]
+2025-01-16 16:17:43,966 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_results.txt
+2025-01-16 16:17:43,969 - INFO - Generating summary...
+2025-01-16 16:17:43,969 - INFO - Summarizing text
+2025-01-16 16:18:04,138 - INFO - Text summarized successfully
+2025-01-16 16:18:04,182 - INFO - Generating recommendations...
+2025-01-16 16:18:04,185 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:18:04,568 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9991733431816101}]
+2025-01-16 16:18:05,249 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.7650765776634216}]
+2025-01-16 16:18:05,898 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5102518796920776}]
+2025-01-16 16:18:09,695 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_results.txt
+2025-01-16 16:18:09,706 - INFO - Generating summary...
+2025-01-16 16:18:09,709 - INFO - Summarizing text
+2025-01-16 16:18:30,053 - INFO - Text summarized successfully
+2025-01-16 16:18:30,067 - INFO - Generating recommendations...
+2025-01-16 16:18:30,070 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:18:30,438 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9983921647071838}]
+2025-01-16 16:18:31,058 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.5573380589485168}]
+2025-01-16 16:18:31,707 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5114973187446594}]
+2025-01-16 16:18:35,365 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_results.txt
+2025-01-16 16:18:35,370 - INFO - Generating summary...
+2025-01-16 16:18:35,372 - INFO - Summarizing text
+2025-01-16 16:18:44,756 - INFO - Text summarized successfully
+2025-01-16 16:18:44,766 - INFO - Generating recommendations...
+2025-01-16 16:18:44,769 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:18:44,836 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9975663423538208}]
+2025-01-16 16:18:44,939 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6972283720970154}]
+2025-01-16 16:18:45,161 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.513447642326355}]
+2025-01-16 16:18:47,826 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_results.txt
+2025-01-16 16:18:47,830 - INFO - Generating summary...
+2025-01-16 16:18:47,832 - INFO - Summarizing text
+2025-01-16 16:19:10,165 - INFO - Text summarized successfully
+2025-01-16 16:19:10,243 - INFO - Generating recommendations...
+2025-01-16 16:19:10,246 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:19:10,671 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9914012551307678}]
+2025-01-16 16:19:10,895 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5129614472389221}]
+2025-01-16 16:19:11,291 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5142982006072998}]
+2025-01-16 16:19:15,604 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_results.txt
+2025-01-16 16:19:15,610 - INFO - Generating summary...
+2025-01-16 16:19:15,613 - INFO - Summarizing text
+2025-01-16 16:19:23,208 - INFO - Text summarized successfully
+2025-01-16 16:19:23,216 - INFO - Generating recommendations...
+2025-01-16 16:19:23,218 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:19:23,271 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9916906356811523}]
+2025-01-16 16:19:23,368 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.612660825252533}]
+2025-01-16 16:19:23,613 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5143264532089233}]
+2025-01-16 16:19:26,994 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_results.txt
+2025-01-16 16:19:26,998 - INFO - Generating summary...
+2025-01-16 16:19:27,000 - INFO - Summarizing text
+2025-01-16 16:19:40,527 - INFO - Text summarized successfully
+2025-01-16 16:19:40,580 - INFO - Generating recommendations...
+2025-01-16 16:19:40,582 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:19:40,665 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9986365437507629}]
+2025-01-16 16:19:40,847 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5945004820823669}]
+2025-01-16 16:19:41,112 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5155296325683594}]
+2025-01-16 16:19:44,222 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_results.txt
+2025-01-16 16:19:44,228 - INFO - Generating summary...
+2025-01-16 16:19:44,231 - INFO - Summarizing text
+2025-01-16 16:19:54,097 - INFO - Text summarized successfully
+2025-01-16 16:19:54,112 - INFO - Generating recommendations...
+2025-01-16 16:19:54,115 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:19:54,183 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.807536780834198}]
+2025-01-16 16:19:54,290 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.6562256813049316}]
+2025-01-16 16:19:54,510 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5128300189971924}]
+2025-01-16 16:19:57,234 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_results.txt
+2025-01-16 16:19:57,234 - INFO - Generating summary...
+2025-01-16 16:19:57,242 - INFO - Summarizing text
+2025-01-16 16:20:03,802 - INFO - Text summarized successfully
+2025-01-16 16:20:03,810 - INFO - Generating recommendations...
+2025-01-16 16:20:03,813 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:20:03,868 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9950128197669983}]
+2025-01-16 16:20:03,958 - INFO - roberta recommendations: [{'label': 'LABEL_1', 'score': 0.5599994659423828}]
+2025-01-16 16:20:04,156 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5151718258857727}]
+2025-01-16 16:20:06,435 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_results.txt
+2025-01-16 16:20:06,441 - INFO - Generating summary...
+2025-01-16 16:20:06,444 - INFO - Summarizing text
+2025-01-16 16:20:26,630 - INFO - Text summarized successfully
+2025-01-16 16:20:26,675 - INFO - Generating recommendations...
+2025-01-16 16:20:26,685 - INFO - Generating recommendations based on the summary.
+2025-01-16 16:20:26,873 - INFO - distilbert recommendations: [{'label': 'NEGATIVE', 'score': 0.9846433401107788}]
+2025-01-16 16:20:27,048 - INFO - roberta recommendations: [{'label': 'LABEL_0', 'score': 0.5847728848457336}]
+2025-01-16 16:20:27,331 - INFO - deberta recommendations: [{'label': 'LABEL_0', 'score': 0.5131199955940247}]
+2025-01-16 16:20:32,266 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_results.txt
+2025-01-16 16:20:32,286 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_distilbert_results.txt
+2025-01-16 16:20:32,442 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,445 - INFO - DOCX file saved to results\2025-01-16\docx/20000913_A320_C-GTDC_distilbert_report.docx
+2025-01-16 16:20:32,447 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_roberta_results.txt
+2025-01-16 16:20:32,449 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,482 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,488 - INFO - DOCX file saved to results\2025-01-16\docx/20000913_A320_C-GTDC_roberta_report.docx
+2025-01-16 16:20:32,491 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_deberta_results.txt
+2025-01-16 16:20:32,493 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,521 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,523 - INFO - DOCX file saved to results\2025-01-16\docx/20000913_A320_C-GTDC_deberta_report.docx
+2025-01-16 16:20:32,527 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_zero_shot_results.txt
+2025-01-16 16:20:32,529 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,561 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,563 - INFO - DOCX file saved to results\2025-01-16\docx/20000913_A320_C-GTDC_zero_shot_report.docx
+2025-01-16 16:20:32,566 - INFO - Results saved to results\2025-01-16\txt\20000913_A320_C-GTDC_generator_results.txt
+2025-01-16 16:20:32,567 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,596 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20000913_A320_C-GTDC_report.docx
+2025-01-16 16:20:32,598 - INFO - DOCX file saved to results\2025-01-16\docx/20000913_A320_C-GTDC_generator_report.docx
+2025-01-16 16:20:32,602 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_distilbert_results.txt
+2025-01-16 16:20:32,631 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,633 - INFO - DOCX file saved to results\2025-01-16\docx/20151016_A320_9V-TRH_distilbert_report.docx
+2025-01-16 16:20:32,636 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_roberta_results.txt
+2025-01-16 16:20:32,639 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,669 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,681 - INFO - DOCX file saved to results\2025-01-16\docx/20151016_A320_9V-TRH_roberta_report.docx
+2025-01-16 16:20:32,684 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_deberta_results.txt
+2025-01-16 16:20:32,687 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,713 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,715 - INFO - DOCX file saved to results\2025-01-16\docx/20151016_A320_9V-TRH_deberta_report.docx
+2025-01-16 16:20:32,719 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_zero_shot_results.txt
+2025-01-16 16:20:32,722 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,749 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,751 - INFO - DOCX file saved to results\2025-01-16\docx/20151016_A320_9V-TRH_zero_shot_report.docx
+2025-01-16 16:20:32,754 - INFO - Results saved to results\2025-01-16\txt\20151016_A320_9V-TRH_generator_results.txt
+2025-01-16 16:20:32,756 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,784 - INFO - DOCX file saved successfully: results\2025-01-16\docx\20151016_A320_9V-TRH_report.docx
+2025-01-16 16:20:32,786 - INFO - DOCX file saved to results\2025-01-16\docx/20151016_A320_9V-TRH_generator_report.docx
+2025-01-16 16:20:32,789 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_distilbert_results.txt
+2025-01-16 16:20:32,818 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,820 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITG_distilbert_report.docx
+2025-01-16 16:20:32,824 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_roberta_results.txt
+2025-01-16 16:20:32,825 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,854 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,868 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITG_roberta_report.docx
+2025-01-16 16:20:32,871 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_deberta_results.txt
+2025-01-16 16:20:32,872 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,900 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,902 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITG_deberta_report.docx
+2025-01-16 16:20:32,905 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_zero_shot_results.txt
+2025-01-16 16:20:32,907 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,934 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,936 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITG_zero_shot_report.docx
+2025-01-16 16:20:32,939 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITG_generator_results.txt
+2025-01-16 16:20:32,941 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,972 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITG_report.docx
+2025-01-16 16:20:32,974 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITG_generator_report.docx
+2025-01-16 16:20:32,976 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_distilbert_results.txt
+2025-01-16 16:20:33,008 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,009 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITP_distilbert_report.docx
+2025-01-16 16:20:33,012 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_roberta_results.txt
+2025-01-16 16:20:33,014 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,045 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,059 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITP_roberta_report.docx
+2025-01-16 16:20:33,062 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_deberta_results.txt
+2025-01-16 16:20:33,064 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,091 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,093 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITP_deberta_report.docx
+2025-01-16 16:20:33,095 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_zero_shot_results.txt
+2025-01-16 16:20:33,097 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,140 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,143 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITP_zero_shot_report.docx
+2025-01-16 16:20:33,146 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITP_generator_results.txt
+2025-01-16 16:20:33,148 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,176 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITP_report.docx
+2025-01-16 16:20:33,179 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITP_generator_report.docx
+2025-01-16 16:20:33,185 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_distilbert_results.txt
+2025-01-16 16:20:33,216 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,218 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITQ_distilbert_report.docx
+2025-01-16 16:20:33,220 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_roberta_results.txt
+2025-01-16 16:20:33,222 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,253 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,266 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITQ_roberta_report.docx
+2025-01-16 16:20:33,270 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_deberta_results.txt
+2025-01-16 16:20:33,271 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,301 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,303 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITQ_deberta_report.docx
+2025-01-16 16:20:33,306 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_zero_shot_results.txt
+2025-01-16 16:20:33,308 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,337 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,339 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITQ_zero_shot_report.docx
+2025-01-16 16:20:33,342 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITQ_generator_results.txt
+2025-01-16 16:20:33,344 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,375 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITQ_report.docx
+2025-01-16 16:20:33,377 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITQ_generator_report.docx
+2025-01-16 16:20:33,379 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_distilbert_results.txt
+2025-01-16 16:20:33,408 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,411 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITW_distilbert_report.docx
+2025-01-16 16:20:33,414 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_roberta_results.txt
+2025-01-16 16:20:33,416 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,449 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,479 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITW_roberta_report.docx
+2025-01-16 16:20:33,482 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_deberta_results.txt
+2025-01-16 16:20:33,484 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,518 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,521 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITW_deberta_report.docx
+2025-01-16 16:20:33,524 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_zero_shot_results.txt
+2025-01-16 16:20:33,527 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,560 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,562 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITW_zero_shot_report.docx
+2025-01-16 16:20:33,566 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-ITW_generator_results.txt
+2025-01-16 16:20:33,568 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,609 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-ITW_report.docx
+2025-01-16 16:20:33,611 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-ITW_generator_report.docx
+2025-01-16 16:20:33,615 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_distilbert_results.txt
+2025-01-16 16:20:33,647 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,649 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-IVB_distilbert_report.docx
+2025-01-16 16:20:33,652 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_roberta_results.txt
+2025-01-16 16:20:33,654 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,685 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,700 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-IVB_roberta_report.docx
+2025-01-16 16:20:33,705 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_deberta_results.txt
+2025-01-16 16:20:33,709 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,739 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,741 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-IVB_deberta_report.docx
+2025-01-16 16:20:33,744 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_zero_shot_results.txt
+2025-01-16 16:20:33,747 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,779 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,781 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-IVB_zero_shot_report.docx
+2025-01-16 16:20:33,784 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-IVB_generator_results.txt
+2025-01-16 16:20:33,787 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,815 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-IVB_report.docx
+2025-01-16 16:20:33,818 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-IVB_generator_report.docx
+2025-01-16 16:20:33,821 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_distilbert_results.txt
+2025-01-16 16:20:33,851 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,852 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-WGT_distilbert_report.docx
+2025-01-16 16:20:33,855 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_roberta_results.txt
+2025-01-16 16:20:33,857 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,885 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,899 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-WGT_roberta_report.docx
+2025-01-16 16:20:33,902 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_deberta_results.txt
+2025-01-16 16:20:33,904 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,933 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,935 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-WGT_deberta_report.docx
+2025-01-16 16:20:33,937 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_zero_shot_results.txt
+2025-01-16 16:20:33,939 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,968 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:33,971 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-WGT_zero_shot_report.docx
+2025-01-16 16:20:33,974 - INFO - Results saved to results\2025-01-16\txt\Accepted Final Investigation Report VT-WGT_generator_results.txt
+2025-01-16 16:20:33,976 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:34,004 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Final Investigation Report VT-WGT_report.docx
+2025-01-16 16:20:34,006 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Final Investigation Report VT-WGT_generator_report.docx
+2025-01-16 16:20:34,009 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_distilbert_results.txt
+2025-01-16 16:20:34,039 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,040 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Report to VT-WGJ_distilbert_report.docx
+2025-01-16 16:20:34,043 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_roberta_results.txt
+2025-01-16 16:20:34,045 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,075 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,089 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Report to VT-WGJ_roberta_report.docx
+2025-01-16 16:20:34,091 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_deberta_results.txt
+2025-01-16 16:20:34,093 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,122 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,124 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Report to VT-WGJ_deberta_report.docx
+2025-01-16 16:20:34,126 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_zero_shot_results.txt
+2025-01-16 16:20:34,128 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,156 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,158 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Report to VT-WGJ_zero_shot_report.docx
+2025-01-16 16:20:34,161 - INFO - Results saved to results\2025-01-16\txt\Accepted Report to VT-WGJ_generator_results.txt
+2025-01-16 16:20:34,162 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,189 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accepted Report to VT-WGJ_report.docx
+2025-01-16 16:20:34,191 - INFO - DOCX file saved to results\2025-01-16\docx/Accepted Report to VT-WGJ_generator_report.docx
+2025-01-16 16:20:34,194 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_distilbert_results.txt
+2025-01-16 16:20:34,223 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,225 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_distilbert_report.docx
+2025-01-16 16:20:34,228 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_roberta_results.txt
+2025-01-16 16:20:34,230 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,262 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,277 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_roberta_report.docx
+2025-01-16 16:20:34,280 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_deberta_results.txt
+2025-01-16 16:20:34,281 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,310 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,312 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_deberta_report.docx
+2025-01-16 16:20:34,315 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_zero_shot_results.txt
+2025-01-16 16:20:34,317 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,344 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,346 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_zero_shot_report.docx
+2025-01-16 16:20:34,349 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_generator_results.txt
+2025-01-16 16:20:34,351 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,378 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_report.docx
+2025-01-16 16:20:34,380 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B2-101 VT-EDV, Monday 15 November 1993_generator_report.docx
+2025-01-16 16:20:34,384 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_distilbert_results.txt
+2025-01-16 16:20:34,413 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,416 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_distilbert_report.docx
+2025-01-16 16:20:34,418 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_roberta_results.txt
+2025-01-16 16:20:34,421 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,450 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,464 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_roberta_report.docx
+2025-01-16 16:20:34,467 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_deberta_results.txt
+2025-01-16 16:20:34,470 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,500 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,502 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_deberta_report.docx
+2025-01-16 16:20:34,505 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_zero_shot_results.txt
+2025-01-16 16:20:34,508 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,551 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,553 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_zero_shot_report.docx
+2025-01-16 16:20:34,557 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_generator_results.txt
+2025-01-16 16:20:34,560 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,592 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_report.docx
+2025-01-16 16:20:34,595 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A300B4-203 F-BVGK, Wednesday 17 March 1982_generator_report.docx
+2025-01-16 16:20:34,598 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_distilbert_results.txt
+2025-01-16 16:20:34,628 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,630 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A320-232 N413UA, Friday 21 November 1997_distilbert_report.docx
+2025-01-16 16:20:34,632 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_roberta_results.txt
+2025-01-16 16:20:34,634 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,664 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,677 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A320-232 N413UA, Friday 21 November 1997_roberta_report.docx
+2025-01-16 16:20:34,680 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_deberta_results.txt
+2025-01-16 16:20:34,683 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,711 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,713 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A320-232 N413UA, Friday 21 November 1997_deberta_report.docx
+2025-01-16 16:20:34,716 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_zero_shot_results.txt
+2025-01-16 16:20:34,718 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,749 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,752 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A320-232 N413UA, Friday 21 November 1997_zero_shot_report.docx
+2025-01-16 16:20:34,756 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A320-232 N413UA, Friday 21 November 1997_generator_results.txt
+2025-01-16 16:20:34,757 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,786 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A320-232 N413UA, Friday 21 November 1997_report.docx
+2025-01-16 16:20:34,788 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A320-232 N413UA, Friday 21 November 1997_generator_report.docx
+2025-01-16 16:20:34,792 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_distilbert_results.txt
+2025-01-16 16:20:34,823 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,825 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_distilbert_report.docx
+2025-01-16 16:20:34,828 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_roberta_results.txt
+2025-01-16 16:20:34,830 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,861 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,874 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_roberta_report.docx
+2025-01-16 16:20:34,877 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_deberta_results.txt
+2025-01-16 16:20:34,879 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,907 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,909 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_deberta_report.docx
+2025-01-16 16:20:34,914 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_zero_shot_results.txt
+2025-01-16 16:20:34,916 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,943 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,945 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_zero_shot_report.docx
+2025-01-16 16:20:34,948 - INFO - Results saved to results\2025-01-16\txt\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_generator_results.txt
+2025-01-16 16:20:34,951 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,979 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_report.docx
+2025-01-16 16:20:34,981 - INFO - DOCX file saved to results\2025-01-16\docx/Accident Airbus A321-211 VQ-BOZ, Thursday 15 August 2019_generator_report.docx
+2025-01-16 16:20:34,984 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_distilbert_results.txt
+2025-01-16 16:20:35,016 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,018 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-214_OE-LOA_09-20_distilbert_report.docx
+2025-01-16 16:20:35,021 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_roberta_results.txt
+2025-01-16 16:20:35,022 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,053 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,066 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-214_OE-LOA_09-20_roberta_report.docx
+2025-01-16 16:20:35,069 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_deberta_results.txt
+2025-01-16 16:20:35,071 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,099 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,101 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-214_OE-LOA_09-20_deberta_report.docx
+2025-01-16 16:20:35,103 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_zero_shot_results.txt
+2025-01-16 16:20:35,105 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,134 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,136 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-214_OE-LOA_09-20_zero_shot_report.docx
+2025-01-16 16:20:35,138 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-214_OE-LOA_09-20_generator_results.txt
+2025-01-16 16:20:35,140 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,168 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-214_OE-LOA_09-20_report.docx
+2025-01-16 16:20:35,170 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-214_OE-LOA_09-20_generator_report.docx
+2025-01-16 16:20:35,178 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_distilbert_results.txt
+2025-01-16 16:20:35,205 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,207 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-232_9H-LOZ_06-22_distilbert_report.docx
+2025-01-16 16:20:35,210 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_roberta_results.txt
+2025-01-16 16:20:35,212 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,243 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,257 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-232_9H-LOZ_06-22_roberta_report.docx
+2025-01-16 16:20:35,260 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_deberta_results.txt
+2025-01-16 16:20:35,262 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,290 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,292 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-232_9H-LOZ_06-22_deberta_report.docx
+2025-01-16 16:20:35,295 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_zero_shot_results.txt
+2025-01-16 16:20:35,296 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,325 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,327 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-232_9H-LOZ_06-22_zero_shot_report.docx
+2025-01-16 16:20:35,329 - INFO - Results saved to results\2025-01-16\txt\Airbus_A320-232_9H-LOZ_06-22_generator_results.txt
+2025-01-16 16:20:35,331 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,359 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Airbus_A320-232_9H-LOZ_06-22_report.docx
+2025-01-16 16:20:35,361 - INFO - DOCX file saved to results\2025-01-16\docx/Airbus_A320-232_9H-LOZ_06-22_generator_report.docx
+2025-01-16 16:20:35,364 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_distilbert_results.txt
+2025-01-16 16:20:35,392 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,395 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_distilbert_report.docx
+2025-01-16 16:20:35,397 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_roberta_results.txt
+2025-01-16 16:20:35,399 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,428 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,442 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_roberta_report.docx
+2025-01-16 16:20:35,446 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_deberta_results.txt
+2025-01-16 16:20:35,447 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,476 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,479 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_deberta_report.docx
+2025-01-16 16:20:35,482 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_zero_shot_results.txt
+2025-01-16 16:20:35,484 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,517 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,519 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_zero_shot_report.docx
+2025-01-16 16:20:35,521 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_generator_results.txt
+2025-01-16 16:20:35,523 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,553 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_report.docx
+2025-01-16 16:20:35,556 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-231 YR-SEA, Thursday 26 August 2021_generator_report.docx
+2025-01-16 16:20:35,558 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_distilbert_results.txt
+2025-01-16 16:20:35,590 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,592 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_distilbert_report.docx
+2025-01-16 16:20:35,603 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_roberta_results.txt
+2025-01-16 16:20:35,606 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,635 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,648 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_roberta_report.docx
+2025-01-16 16:20:35,653 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_deberta_results.txt
+2025-01-16 16:20:35,656 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,684 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,686 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_deberta_report.docx
+2025-01-16 16:20:35,690 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_zero_shot_results.txt
+2025-01-16 16:20:35,692 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,719 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,721 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_zero_shot_report.docx
+2025-01-16 16:20:35,725 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_generator_results.txt
+2025-01-16 16:20:35,727 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,755 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_report.docx
+2025-01-16 16:20:35,757 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXH, Thursday 11 January 2018_generator_report.docx
+2025-01-16 16:20:35,761 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_distilbert_results.txt
+2025-01-16 16:20:35,791 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,793 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_distilbert_report.docx
+2025-01-16 16:20:35,797 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_roberta_results.txt
+2025-01-16 16:20:35,799 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,828 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,876 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_roberta_report.docx
+2025-01-16 16:20:35,879 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_deberta_results.txt
+2025-01-16 16:20:35,880 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,912 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,914 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_deberta_report.docx
+2025-01-16 16:20:35,918 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_zero_shot_results.txt
+2025-01-16 16:20:35,921 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,957 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,959 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_zero_shot_report.docx
+2025-01-16 16:20:35,962 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_generator_results.txt
+2025-01-16 16:20:35,964 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:35,998 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_report.docx
+2025-01-16 16:20:36,000 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016_generator_report.docx
+2025-01-16 16:20:36,003 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_distilbert_results.txt
+2025-01-16 16:20:36,046 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,049 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_distilbert_report.docx
+2025-01-16 16:20:36,052 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_roberta_results.txt
+2025-01-16 16:20:36,054 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,097 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,111 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_roberta_report.docx
+2025-01-16 16:20:36,113 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_deberta_results.txt
+2025-01-16 16:20:36,115 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,249 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,249 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_deberta_report.docx
+2025-01-16 16:20:36,249 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_zero_shot_results.txt
+2025-01-16 16:20:36,249 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,615 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,615 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_zero_shot_report.docx
+2025-01-16 16:20:36,615 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_generator_results.txt
+2025-01-16 16:20:36,615 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,660 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_report.docx
+2025-01-16 16:20:36,662 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021_generator_report.docx
+2025-01-16 16:20:36,665 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_distilbert_results.txt
+2025-01-16 16:20:36,752 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,754 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_distilbert_report.docx
+2025-01-16 16:20:36,756 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_roberta_results.txt
+2025-01-16 16:20:36,758 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,787 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,801 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_roberta_report.docx
+2025-01-16 16:20:36,804 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_deberta_results.txt
+2025-01-16 16:20:36,807 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,837 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,840 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_deberta_report.docx
+2025-01-16 16:20:36,843 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_zero_shot_results.txt
+2025-01-16 16:20:36,844 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,872 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,875 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_zero_shot_report.docx
+2025-01-16 16:20:36,879 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_generator_results.txt
+2025-01-16 16:20:36,880 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,908 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_report.docx
+2025-01-16 16:20:36,910 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-232 HA-LWK, Wednesday 8 November 2017_generator_report.docx
+2025-01-16 16:20:36,914 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_distilbert_results.txt
+2025-01-16 16:20:36,941 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:36,943 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_distilbert_report.docx
+2025-01-16 16:20:36,947 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_roberta_results.txt
+2025-01-16 16:20:36,948 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:36,978 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:36,991 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_roberta_report.docx
+2025-01-16 16:20:36,995 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_deberta_results.txt
+2025-01-16 16:20:36,997 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,027 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,029 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_deberta_report.docx
+2025-01-16 16:20:37,033 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_zero_shot_results.txt
+2025-01-16 16:20:37,035 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,063 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,065 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_zero_shot_report.docx
+2025-01-16 16:20:37,067 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_generator_results.txt
+2025-01-16 16:20:37,069 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,097 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_report.docx
+2025-01-16 16:20:37,099 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-233 N505VL, Friday 26 January 2018_generator_report.docx
+2025-01-16 16:20:37,102 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_distilbert_results.txt
+2025-01-16 16:20:37,131 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,133 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_distilbert_report.docx
+2025-01-16 16:20:37,135 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_roberta_results.txt
+2025-01-16 16:20:37,138 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,166 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,179 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_roberta_report.docx
+2025-01-16 16:20:37,182 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_deberta_results.txt
+2025-01-16 16:20:37,184 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,210 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,213 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_deberta_report.docx
+2025-01-16 16:20:37,216 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_zero_shot_results.txt
+2025-01-16 16:20:37,218 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,248 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,250 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_zero_shot_report.docx
+2025-01-16 16:20:37,252 - INFO - Results saved to results\2025-01-16\txt\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_generator_results.txt
+2025-01-16 16:20:37,255 - INFO - Overwriting existing DOCX file: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,284 - INFO - DOCX file saved successfully: results\2025-01-16\docx\Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_report.docx
+2025-01-16 16:20:37,286 - INFO - DOCX file saved to results\2025-01-16\docx/Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020_generator_report.docx
+2025-01-16 16:20:37,288 - INFO - Workflow completed successfully
+2025-01-16 16:20:37,291 - INFO - Cached model cleared.
