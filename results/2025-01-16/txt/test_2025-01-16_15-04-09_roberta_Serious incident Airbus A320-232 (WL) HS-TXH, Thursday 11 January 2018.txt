@@ -1,6 +1,0 @@
-Summary:
-Airbus A320232 WL Owneroperator Thai Smile Registration HSTXH MSN 5828 Year of manufacture 2013 Engine model IAE V2527A5 Fatalities Fatalities 0  Occupants Other fatalities 0 Aircraft damage None Category Serious incident Location near Bangkok Airport  Thailand Phase Approach Nature Passenger  Scheduled Departure airport Hat Yai Airport HDYVTSS Destination airport BangkokSuvarnabhumi International Airport BKKVTBS Confidence Rating Information verified through data from accident investigation authorities Narrative A pilot declared emergency due to low fuel quantity level before landing at Suvarn abhumi.
-
-Recommendations:
-- roberta: LABEL_1
-- deberta: LABEL_1

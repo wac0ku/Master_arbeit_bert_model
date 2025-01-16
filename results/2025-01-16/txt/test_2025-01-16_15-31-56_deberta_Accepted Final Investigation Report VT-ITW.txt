@@ -1,6 +1,0 @@
-Summary:
-Ms Indigo Airbus A320271 NEO aircraft VTITW was involved in an Air Turn Back due to Engine Stall during climb. There were 172 passengers on board the aircraft including 04 cabin crew members. The occurrence was classified as a Serious Incident and an investigation to investigate into the probable causes of the serious incident was instituted.
-
-Recommendations:
-- roberta: LABEL_1
-- Unable to generate specific recommendations

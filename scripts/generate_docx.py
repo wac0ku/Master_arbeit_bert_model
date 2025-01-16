@@ -11,9 +11,9 @@ def create_docx(summary, recommendations, docx_dir):
         # Generate a timestamped filename
         today_date = datetime.now().strftime("%Y-%m-%d")
         timestamp = datetime.now().strftime("%H-%M-%S")
-        base_filename = os.path.basename(docx_dir)
+        base_filename = os.path.splitext(os.path.basename(docx_dir))[0]  # Remove extension
 
-        docx_output_path = os.path.join(docx_dir, f"test_{today_date}_{timestamp}_{base_filename}.docx")
+        docx_output_path = os.path.join(docx_dir, f"{base_filename}_{today_date}_{timestamp}.docx")
 
         # Check if the DOCX file already exists
         if os.path.exists(docx_output_path):

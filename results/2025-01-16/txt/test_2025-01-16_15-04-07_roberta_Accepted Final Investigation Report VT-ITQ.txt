@@ -1,6 +1,0 @@
-Summary:
-Ms Indigo Airbus A320271 NEO aircraft VTITQ while operating a scheduled flight from Lucknow to Jaipur was involved in an Air Turn Back due to engine stall during climb. The occurrence was classified as Serious Incident and an investigation to investigate into the probable causes of the serious incident was instituted under Rule 11 1 of Aircraft Investigation of Accidents and Incidents Rules 2017.
-
-Recommendations:
-- roberta: LABEL_1
-- deberta: LABEL_1

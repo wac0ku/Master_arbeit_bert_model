@@ -1,5 +1,0 @@
-Summary:
-Airbus A320232 returned to land at WashingtonDulles International Airport USA after the no1 engine fan cowls separated after takeoff. It appeared that fan cOWs were not correctly latched following engine maintanance.
-
-Recommendations:
-- deberta: LABEL_1
