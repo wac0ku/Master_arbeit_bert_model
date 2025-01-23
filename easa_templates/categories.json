@@ -1,0 +1,91 @@
+{
+    "easa_risk_categories": [
+      {
+        "id": "HF-1",
+        "name": "Human Factors (Crew)",
+        "description": "Errors related to flight crew performance, fatigue, or training deficiencies",
+        "easa_reference": "EASA SIB 2020-05, Regulation (EU) 965/2012",
+        "priority": "High",
+        "examples": [
+          "Pilot decision-making errors",
+          "Inadequate CRM (Crew Resource Management)",
+          "Non-compliance with SOPs"
+        ]
+      },
+      {
+        "id": "MNT-2",
+        "name": "Maintenance Non-Compliance",
+        "description": "Failures stemming from improper maintenance procedures or documentation",
+        "easa_reference": "Part-145.A.65, AMC 145.A.48",
+        "priority": "Critical",
+        "examples": [
+          "Incomplete maintenance records",
+          "Unauthorized repairs",
+          "Overdue inspections"
+        ]
+      },
+      {
+        "id": "SYS-3",
+        "name": "Technical System Failures",
+        "description": "Malfunctions of aircraft systems requiring engineering analysis",
+        "easa_reference": "CS-25, AMC 20-8",
+        "priority": "Medium",
+        "examples": [
+          "Hydraulic system leaks",
+          "Avionics software errors",
+          "Engine bearing wear"
+        ]
+      },
+      {
+        "id": "ATC-4",
+        "name": "Air Traffic Control Issues",
+        "description": "Errors in air traffic management or communication",
+        "easa_reference": "Regulation (EU) 376/2014, ESARR 3",
+        "priority": "High",
+        "examples": [
+          "Clearance violations",
+          "Frequency congestion",
+          "Radar misinterpretation"
+        ]
+      },
+      {
+        "id": "ENV-5",
+        "name": "Environmental Factors",
+        "description": "Weather-related risks and external environmental conditions",
+        "easa_reference": "EPAS 2025 Vol III, SIB 2019-12",
+        "priority": "Medium",
+        "examples": [
+          "Bird strikes",
+          "Volcanic ash contamination",
+          "Crosswind exceedances"
+        ]
+      },
+      {
+        "id": "DES-6",
+        "name": "Design & Certification",
+        "description": "Issues related to aircraft design or certification process",
+        "easa_reference": "Part-21, CS-23 Amendment 5",
+        "priority": "Low",
+        "examples": [
+          "Inadequate system redundancy",
+          "Certification assumption errors",
+          "Material fatigue not accounted for"
+        ]
+      }
+    ],
+    "compliance_matrix": {
+      "priority_levels": {
+        "Critical": "Requires immediate notification to EASA (72h)",
+        "High": "Must be addressed within 30 days",
+        "Medium": "Corrective action within 90 days",
+        "Low": "Included in next safety review cycle"
+      },
+      "reporting_requirements": {
+        "mandatory_reporting": [
+          "Part-ML.3",
+          "Regulation (EU) 376/2014 Art.4",
+          "ADs (Airworthiness Directives)"
+        ]
+      }
+    }
+}

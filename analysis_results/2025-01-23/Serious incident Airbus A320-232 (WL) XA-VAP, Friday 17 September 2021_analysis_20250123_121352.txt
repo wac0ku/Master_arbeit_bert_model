@@ -1,0 +1,94 @@
+EASA-Analysebericht - Masterarbeit
+Originaldatei: Serious incident Airbus A320-232 (WL) XA-VAP, Friday 17 September 2021.pdf
+Analysezeitpunkt: 2025-01-23T12:13:52.636067
+Gefundene Schlüsselwörter: 1
+
+Inhaltsanalyse:
+Seite 1:
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+Home » ASN Aviation Safety WikiBase
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Share0
+Post
+Date: Friday 17 September 2021
+Time: 12:16 UTC
+Type: Airbus A320-232 (WL)
+Owner/operator: Viva Aerobus
+Registration: XA-VAP
+MSN: 6888
+Year of manufacture:2015
+Engine model: IAE V2527-A5
+Fatalities: Fatalities: 0 / Occupants: 172
+Other fatalities: 0
+Aircraft damage: Unknown
+Category: Serious incident
+Location: near Léon/Guanajuato-Del Bajio Airport (BJX/MMLO) - Mexico
+Phase: Initial climb
+Nature: Passenger - Scheduled
+Departure airport: Léon/Guanajuato-Del Bajio Airport (BJX/MMLO)
+Destination airport: Tijuana-Rodriguez Airport (TIJ/MMTJ)
+Confidence Rating: Information verified through data from accident investigation authorities
+Narrative:
+VivaAerobus flight VB5029, an Airbus A320-232, returned to land at Léon/Guanajuato-Del Bajio Airport after suffering a
+fire in the turbine section of engine no.2 shortly after takeoff.
+A video of the incident shows sparks being emitted from the engine exhaust.
+Sources:
+https://guanajuato.lasillarota.com/estados/avion-con-170-pasajeros-aterriza-de-emergencia-en-guanajuato-/561293
+https://www.flightradar24.com/data/aircraft/xa-vap#292ebcd9
+https://www.transponder1200.com/a320-de-viva-aerobus-aterriza-de-emergencia-por-fuego-de-motor/
+https://www.bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-xa-vap-
+operated-by-vivaaerobus-on-17-09-2021-at-leon/
+
+Seite 2:
+https://www.elsoldemexico.com.mx/republica/sociedad/video-del-avion-de-viva-aerobus-realiza-aterrizaje-de-emergencia-
+en-guanajuato-7225170.html
+History of this aircraft
+Other occurrences involving this aircraft
+31 March 2023XA-VAPViva Aerobus0Guadalajara International Airport (GDL) min
+Collision with Ground support equipment
+Media:
+EnElAire
+@Enel_Aire·Follow
+#IMPORTANTE El día de hoy, cerca de las 07:10AM hora
+local, el vuelo VIV5029 de #VivaAerobus cubriendo la ruta
+entre Silao (BJX) y Tijuana (TIJ) con un equipo Airbus A320
+experimentó fugo en el motor derecho momentos
+después del despegue.
+1/2
+Watch on X
+6:47 PM · Sep 17, 2021
+252 Reply Copy link
+Read 15 replies
+Viva Aerobus Airbus A320 (XA-VAP) experienced engine problems and flames soon after take-off from Bajio
+Airport (MMLO), Mexico poss due to birdstrike. Flight #VB5029 to Tijuana safely returned to land 25 min
+
+Seite 3:
+later.https://t.co/9LzohcjWeb
+— JACDEC (@JacdecNew) September 17, 2021
+Revision history:
+Date/time Contributor Updates
+17-Sep-2021 16:00 harro Added
+17-Sep-2021 16:01 harro Updated [Location, Narrative, ]
+17-Sep-2021 17:32 harro Updated [Embed code, Narrative, ]
+17-Sep-2021 19:17 Iceman 29 Updated [Embed code, ]
+10-Oct-2021 19:17 harro Updated [Source, Embed code, Narrative, ]
+04-Aug-2023 16:19Bandit Updated
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+Quick Links:
+ASN Home Send Correction / Feedback 1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+FSF Home Disclaimer
+www.FlightSafety.org
+Copyright
+Contact Us Privacy Policy
+Press / Media
+CONNECT WITH US:
+©2025 Flight Safety Foundation

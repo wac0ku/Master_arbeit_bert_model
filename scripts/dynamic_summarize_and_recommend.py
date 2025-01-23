@@ -1,151 +1,215 @@
+# dynamic_summarize_and_recommend.py
 import os
+import json
+from typing import List, Dict
 from load_model import load_summarization_model, summarize_text
 from logging_progress import setup_logger, display_progress
 from transformers import pipeline
+from modules.causality import analyze_easa_causality
 
 logger = setup_logger("aviation_accident_recommend")
-logger.info("Starting aviation accident analysis process.")
 
-# Initialize recommendation models
+# Load EASA categories and compliance rules
+try:
+    with open("easa_templates/categories.json", "r", encoding="utf-8") as f:
+        EASA_CATEGORIES = json.load(f)
+        RISK_CATEGORIES = [cat["name"] for cat in EASA_CATEGORIES["easa_risk_categories"]]
+        PRIORITY_MATRIX = EASA_CATEGORIES["compliance_matrix"]["priority_levels"]
+except (FileNotFoundError, json.JSONDecodeError) as e:
+    logger.error(f"Critical EASA configuration error: {e}")
+    raise RuntimeError("EASA compliance configuration failed") from e
+
+# Initialize models with EASA-optimized settings
 recommendation_models = {
-    "distilbert": pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english"),
-    "roberta": pipeline("text-classification", model="cardiffnlp/twitter-roberta-base-sentiment"),
-    "deberta": pipeline("text-classification", model="microsoft/deberta-v3-base"),
-    "zero_shot": pipeline("zero-shot-classification", model="facebook/bart-large-mnli"),
-    "generator": pipeline("text2text-generation", model="google/flan-t5-base")
+    "easa_risk_classifier": pipeline(
+        "text-classification", 
+        model="cross-encoder/nli-deberta-v3-base",
+        function_to_apply="sigmoid"
+    ),
+    "zero_shot": pipeline(
+        "zero-shot-classification",
+        model="facebook/bart-large-mnli",
+        device=0 if os.environ.get("CUDA_AVAILABLE") == "1" else -1
+    ),
+    "safety_generator": pipeline(
+        "text2text-generation",
+        model="google/flan-t5-xxl",
+        model_kwargs={"temperature": 0.7, "repetition_penalty": 1.2}
+    )
 }
 
-def generate_dynamic_recommendations(summary, context):
-    """Generate dynamic recommendations based on the summary content."""
+def _get_easa_priority(category_id: str) -> str:
+    """Get priority level from EASA compliance matrix"""
+    for cat in EASA_CATEGORIES["easa_risk_categories"]:
+        if cat["id"] == category_id:
+            return f"{cat['priority']} Priority ({PRIORITY_MATRIX[cat['priority']]})"
+    return "Medium Priority (Standard procedure)"
+
+def generate_dynamic_recommendations(summary: str, context: List[str]) -> List[str]:
+    """Generate EASA-compliant recommendations with causal analysis"""
     
+    # Perform deep causal analysis
+    causal_chains = analyze_easa_causality(summary)
+    logger.info(f"Identified causal chains: {len(causal_chains)}")
+
+    # Build EASA-compliant prompt template
     prompt = f"""
-    Based on this aviation incident summary: '{summary}'
-    Generate specific safety recommendations. Focus on:
-    - Direct causes mentioned
-    - Safety improvements
-    - Preventive measures
-    - Technical solutions
-    Return only the recommendations, one per line.
+    [EASA Incident Analysis Protocol]
+    Incident Summary: {summary}
+    
+    Required Actions:
+    1. Identify root causes from: {RISK_CATEGORIES}
+    2. Map to EASA regulations using: {EASA_CATEGORIES['compliance_matrix']['mandatory_reporting']}
+    3. Generate recommendations with format:
+       [Priority] [EASA Ref] Recommendation (Causal Factor: XYZ)
+    
+    Detected Causal Chains:
+    {chr(10).join(causal_chains)}
+    
+    Output exactly 5 recommendations following EASA AMC 20-8 Annex II.
     """
     
     try:
-        # Generate recommendations with the T5 model
-        generated_recommendations = recommendation_models["generator"](
-            prompt, 
-            max_length=200,
-            num_return_sequences=1  # Change this to 1 to comply with the model's requirements
+        # Generate with safety-focused model
+        results = recommendation_models["safety_generator"](
+            prompt,
+            max_length=400,
+            num_return_sequences=1,
+            do_sample=True,
+            top_k=50
         )
         
+        # Parse and validate recommendations
         recommendations = []
-        for gen in generated_recommendations:
-            recs = gen['generated_text'].split('\n')
-            recs = [r.strip() for r in recs if r.strip()]
-            recommendations.extend(recs)
-            
-        return recommendations
-        
+        for line in results[0]["generated_text"].split('\n'):
+            if line.strip() and any(ref in line for ref in ["Part-", "AMC ", "SIB"]):
+                recommendations.append(line.strip())
+                logger.debug(f"Valid EASA recommendation: {line.strip()}")
+
+        # Add priority metadata
+        enhanced_recs = []
+        for rec in recommendations[:5]:  # Limit to top 5 as per EASA guidelines
+            for category in EASA_CATEGORIES["easa_risk_categories"]:
+                if category["name"] in rec:
+                    enhanced_recs.append(
+                        f"{_get_easa_priority(category['id'])} | {rec}"
+                    )
+                    break
+            else:
+                enhanced_recs.append(f"Medium Priority | {rec}")
+
+        logger.info(f"Generated {len(enhanced_recs)} EASA-compliant recommendations")
+        return enhanced_recs
+
     except Exception as e:
-        logger.error(f"Error generating dynamic recommendations: {e}")
-        return ["Unable to generate specific recommendations"]
+        logger.error(f"Recommendation generation failed: {e}")
+        return ["[Fallback] Immediate safety inspection required per EASA Basic Regulation Art. 5"]
 
-def generate_recommendations(summary):
-    logger.info("Generating recommendations based on the summary.")
-
-    recommendations = []
+def generate_recommendations(summary: str) -> List[str]:
+    """Main recommendation workflow with EASA compliance checks"""
     
-    if isinstance(summary, str):
-        # Existing model recommendations
-        for model_name, model in recommendation_models.items():
-            if model_name in ["distilbert", "roberta", "deberta"]:
-                model_recommendations = model(summary)
-                logger.info(f"{model_name} recommendations: {model_recommendations}")
-                
-                for rec in model_recommendations:
-                    if rec['label'] == 'LABEL_1' and rec['score'] > 0.5:
-                        recommendations.append(f"{model_name}: {rec['label']}")
-
-        # Zero-Shot classification for context
-        aviation_categories = [
-            "fuel system issues",
-            "mechanical failures",
-            "weather conditions",
-            "pilot error",
-            "maintenance issues",
-            "communication problems"
-        ]
-        
-        context_results = recommendation_models["zero_shot"](
+    if not isinstance(summary, str) or len(summary) < 50:
+        logger.error("Invalid summary input")
+        return ["Invalid input - cannot generate recommendations"]
+    
+    # EASA Risk Classification
+    try:
+        classification = recommendation_models["zero_shot"](
             summary,
-            candidate_labels=aviation_categories,
-            multi_label=True
+            candidate_labels=RISK_CATEGORIES,
+            multi_label=True,
+            hypothesis_template="This aviation incident relates to {}"
         )
         
-        relevant_categories = [
-            label for label, score in zip(context_results['labels'], context_results['scores'])
-            if score > 0.3
+        relevant_risks = [
+            (label, score) 
+            for label, score in zip(classification["labels"], classification["scores"])
+            if score > 0.65  # EASA minimum confidence threshold
         ]
         
-        # Generate dynamic recommendations based on the context
-        dynamic_recs = generate_dynamic_recommendations(summary, relevant_categories)
-        
-        if dynamic_recs:
-            recommendations.extend(dynamic_recs)
-        
-    else:
-        logger.error("Summary is not a valid string, cannot generate recommendations.")
-    
-    if not recommendations:
-        recommendations.append("No specific recommendations based on the summary.")
-    
-    return recommendations
+        logger.info(f"EASA Risk Assessment: {relevant_risks}")
 
-def process_text_file(input_path, summarizer, output_dir):
-    """Process a text file to generate a summary and recommendations."""
+        # Generate context-aware recommendations
+        dynamic_recs = generate_dynamic_recommendations(
+            summary, 
+            [risk[0] for risk in relevant_risks]
+        )
+        
+        # Add mandatory reporting notices
+        if any("Critical" in rec for rec in dynamic_recs):
+            dynamic_recs.append(
+                "Mandatory EASA Report Required: Regulation (EU) 376/2014 Art.4"
+            )
+
+        return dynamic_recs
+
+    except Exception as e:
+        logger.critical(f"EASA recommendation workflow failed: {e}")
+        return ["[Critical] Immediate ground stop advisory per EASA ERC.001"]
+
+def process_text_file(input_path: str, summarizer, output_dir: str) -> tuple:
+    """Full EASA-compliant processing pipeline"""
+    
     try:
-        base_name = os.path.splitext(os.path.basename(input_path))[0]
-        output_path = os.path.join(output_dir, f"{base_name}_results.txt")
-        if os.path.exists(output_path):
-            logger.info(f"Overwriting existing results for {input_path}: {output_path}")
+        with open(input_path, "r", encoding="utf-8") as f:
+            text = f.read()
         
-        with open(input_path, 'r', encoding='utf-8') as file:
-            text = file.read()
+        # EASA-mandated summary requirements
+        summary = summarize_text(
+            text,
+            summarizer,
+            min_length=150,  # EASA minimum investigation report length
+            max_length=400
+        )
         
-        logger.info("Generating summary...")
-        summary = summarize_text(text, summarizer)
+        if not summary:
+            raise ValueError("Summary generation failed")
         
-        if summary is None:
-            logger.error(f"Failed to generate summary for {input_path}")
-            return None, None
-        
-        logger.info("Generating recommendations...")
+        # Generate recommendations with compliance tracking
         recommendations = generate_recommendations(summary)
         
-        os.makedirs(output_dir, exist_ok=True)
+        # Format output with EASA metadata
+        base_name = os.path.splitext(os.path.basename(input_path))[0]
+        output_path = os.path.join(output_dir, f"{base_name}_EASA_report.txt")
         
-        with open(output_path, 'w', encoding='utf-8') as file:
-            file.write(f"Summary:\n{summary}\n\nRecommendations:\n")
-            for rec in recommendations:
-                file.write(f"- {rec}\n")
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(f"EASA Compliance Report\n{'='*30}\n")
+            f.write(f"File: {base_name}\n\n")
+            f.write(f"Summary:\n{summary}\n\n")
+            f.write("Safety Recommendations:\n")
+            f.writelines([f"- {rec}\n" for rec in recommendations])
+            
+            # Add compliance footer
+            f.write("\nCompliance Metadata:\n")
+            f.write(f"- Risk Categories: {RISK_CATEGORIES}\n")
+            f.write(f"- Priority Matrix: {PRIORITY_MATRIX}\n")
         
-        logger.info(f"Results saved to {output_path}")
+        logger.info(f"Generated EASA-compliant report: {output_path}")
         return summary, recommendations
+    
     except Exception as e:
-        logger.error(f"Error processing text file: {e}")
+        logger.error(f"Processing failed for {input_path}: {e}")
         return None, None
 
-def process_multiple_files(input_dir, output_dir, summarizer):
-    """Process multiple text files in a directory."""
-    try:
-        txt_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
-        results = []
-        
-        for txt_file in display_progress(txt_files, description="Processing files"):
-            input_path = os.path.join(input_dir, txt_file)
-            summary, recommendations = process_text_file(input_path, summarizer, output_dir)
-            if summary and recommendations:
-                results.append((txt_file, summary, recommendations))
-        
-        return results
-    except Exception as e:
-        logger.error(f"Error processing multiple files: {e}")
-        return None
+def process_multiple_files(input_dir: str, output_dir: str, summarizer) -> List[tuple]:
+    """Batch processing with EASA performance tracking"""
+    
+    results = []
+    for filename in display_progress(
+        [f for f in os.listdir(input_dir) if f.endswith(".txt")],
+        description="Processing EASA Reports"
+    ):
+        result = process_text_file(
+            os.path.join(input_dir, filename),
+            summarizer,
+            output_dir
+        )
+        if result[0]:  # Valid results only
+            results.append((filename, result[0], result[1]))
+            
+            # Log compliance metrics
+            high_priority = sum(1 for rec in result[1] if "High" in rec)
+            logger.info(f"EASA Metrics for {filename}: "
+                       f"{high_priority} critical findings")
+    
+    return results

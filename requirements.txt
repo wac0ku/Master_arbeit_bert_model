@@ -6,3 +6,12 @@ rich==13.7.0
 tensorflow # TensorFlow very important
 torch # PyTorch very important
 sentencepiece # convert slow tokenizer to fast one
+spacy
+nltk
+graphviz
+chardet
+pdfplumber
+pytesseract
+pandas
+pillow
+matplotlib

@@ -1,43 +1,57 @@
-import os
-from datetime import datetime
 from docx import Document
-from logging_progress import setup_logger
+from docx.shared import Cm
+from datetime import datetime
+from pathlib import Path
+import pandas as pd
+import matplotlib.pyplot as plt
+import io
 
-logger = setup_logger("generate_docx")
+def create_analysis_report(results: dict, output_dir: Path) -> str:
+    """Generiere Masterarbeit-Analysebericht im DOCX-Format"""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    report_filename = f"Masterarbeit_Analysebericht_{timestamp}.docx"
+    report_path = output_dir / report_filename
 
-def create_docx(summary, recommendations, base_filename, docx_dir):
-    """Create a DOCX file with a summary and recommendations."""
-    try:
-        # Generate the output filename
-        docx_output_path = os.path.join(docx_dir, f"{base_filename}_report.docx")
-
-        # Check if the DOCX file already exists
-        if os.path.exists(docx_output_path):
-            logger.info(f"Overwriting existing DOCX file: {docx_output_path}")
-
-        # Create the DOCX file
-        doc = Document()
-        doc.add_heading('Summary', level=1)
-        doc.add_paragraph(summary)
-
-        doc.add_heading('Recommendations', level=1)
-        for rec in recommendations:
-            doc.add_paragraph(rec, style='List Bullet')
-
-        doc.save(docx_output_path)
-        logger.info(f"DOCX file saved successfully: {docx_output_path}")
-
-    except Exception as e:
-        logger.error(f"Error creating DOCX file: {e}")
-
-if __name__ == "__main__":
-    summary = "This is a sample summary of the text."
-    recommendations = [
-        "Recommendation 1: Implement feature X.",
-        "Recommendation 2: Improve process Y.",
-        "Recommendation 3: Optimize resource Z."
-    ]
-    output_dir = "results"  # This will be dynamically set in the main workflow
-    today_date = datetime.now().strftime("%Y-%m-%d")
-    docx_dir = os.path.join(output_dir, today_date, "docx")  # This will be dynamically set in the main workflow
-    create_docx(summary, recommendations, "sample_filename", docx_dir)
+    doc = Document()
+    
+    # Titelblatt
+    doc.add_heading('Masterarbeit - Sicherheitsanalysebericht', 0)
+    doc.add_paragraph(f"Generiert am: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}")
+    
+    # Statistische Auswertung
+    doc.add_heading('Gesamtstatistik', level=1)
+    risk_data = pd.DataFrame.from_dict(results, orient='index')
+    
+    # Risikoverteilung
+    plt.figure(figsize=(10, 6))
+    risk_data['risk_level'].value_counts().plot.bar()
+    plt.title('Verteilung der Risikobewertungen')
+    plt.xlabel('Risikostufe')
+    plt.ylabel('Anzahl')
+    img_stream = io.BytesIO()
+    plt.savefig(img_stream, format='png', dpi=150)
+    doc.add_picture(img_stream, width=Cm(15))
+    
+    # Detailtabelle
+    doc.add_heading('Einzelergebnisse', level=1)
+    table = doc.add_table(rows=1, cols=4)
+    table.style = 'Table Grid'
+    
+    # Header
+    hdr = table.rows[0].cells
+    hdr[0].text = 'Dateiname'
+    hdr[1].text = 'Risikostufe'
+    hdr[2].text = 'Empfehlungen'
+    hdr[3].text = 'Schlüsselwörter'
+    
+    # Datenzeilen
+    for filename, data in results.items():
+        row = table.add_row().cells
+        row[0].text = filename
+        row[1].text = data['risk_level'].upper()
+        row[2].text = '\n'.join(data['recommendations'])
+        row[3].text = str(data['keyword_count'])
+    
+    # Speichern
+    doc.save(report_path)
+    return str(report_path)

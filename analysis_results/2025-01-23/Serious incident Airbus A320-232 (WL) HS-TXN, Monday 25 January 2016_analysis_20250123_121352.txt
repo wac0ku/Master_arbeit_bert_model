@@ -1,0 +1,58 @@
+EASA-Analysebericht - Masterarbeit
+Originaldatei: Serious incident Airbus A320-232 (WL) HS-TXN, Monday 25 January 2016.pdf
+Analysezeitpunkt: 2025-01-23T12:13:52.424016
+Gefundene Schlüsselwörter: 1
+
+Inhaltsanalyse:
+Seite 1:
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+Home » ASN Aviation Safety WikiBase
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Date: Monday 25 January 2016
+Time: c. 08:00
+Type: Airbus A320-232 (WL)
+Owner/operator: Thai Smile
+Registration: HS-TXN
+MSN: 6113
+Year of manufacture:2014
+Engine model: IAE V2527-A5
+Fatalities: Fatalities: 0 / Occupants:
+Other fatalities: 0
+Aircraft damage: None
+Category: Serious incident
+Location: between Chiang Mai and Bangkok - Thailand
+Phase: En route
+Nature: Passenger - Scheduled
+Departure airport: Chiang Mai International Airport (CNX/VTCC)
+Destination airport: Bangkok-Suvarnabhumi International Airport (BKK/VTBS)
+Confidence Rating: Information verified through data from accident investigation authorities
+Narrative:
+Flight WE165 suffered engine problems which forced the crew to shut down engine no.1 in flight. The aircraft landed
+safely at Suvarnabhumi Airport at 08:36 with one engine inoperative.
+Sources:
+https://www.bea.aero/en/investigation-reports/notified-events/detail/event/serious-incident-to-an-airbus-a320-occured-on-
+01252016-cruising-over-thailand-investigation-led-by-aib-thailand/
+Revision history:
+Date/time ContributorUpdates
+03-Feb-2016 21:09harro Added
+Corrections or additions? ... Edit this accident description
+
+Seite 2:
+The Aviation Safety Network is an exclusive service provided by:
+Quick Links:
+ASN Home Send Correction / Feedback 1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+FSF Home Disclaimer
+www.FlightSafety.org
+Copyright
+Contact Us Privacy Policy
+Press / Media
+CONNECT WITH US:
+©2025 Flight Safety Foundation

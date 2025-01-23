@@ -1,0 +1,60 @@
+EASA-Analysebericht - Masterarbeit
+Originaldatei: Serious incident Airbus A320-251N HS-BBX, Sunday 29 November 2020.pdf
+Analysezeitpunkt: 2025-01-23T12:13:52.986923
+Gefundene Schlüsselwörter: 1
+
+Inhaltsanalyse:
+Seite 1:
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+Home » ASN Aviation Safety WikiBase
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Share0
+Post
+Date: Sunday 29 November 2020
+Time:
+Type: Airbus A320-251N
+Owner/operator: Thai Air Asia
+Registration: HS-BBX
+MSN: 7195
+Year of manufacture:2016
+Engine model: CFMI CFM LEAP-1A26E1
+Fatalities: Fatalities: 0 / Occupants:
+Other fatalities: 0
+Aircraft damage: None
+Category: Serious incident
+Location: Phuket International Airport (VTSP) - Thailand
+Phase: Taxi
+Nature: Passenger - Scheduled
+Departure airport: Chiang Mai International Airport (CNX/VTCC)
+Destination airport: Phuket International Airport (HKT/VTSP)
+Confidence Rating: Information verified through data from accident investigation authorities
+Narrative:
+Engine 1 caught fire during taxi after landing at Phuket International Airport.
+Sources:
+https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-hs-bbx-
+operated-by-thai-air-asia-on-29-11-2020-at-phuket/
+Revision history:
+Date/time Contributor Updates
+13-Apr-2023 16:54 harro Added
+21-Mar-2024 11:21ASN Updated [Date, ]
+
+Seite 2:
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+Quick Links:
+ASN Home Send Correction / Feedback 1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+FSF Home Disclaimer
+www.FlightSafety.org
+Copyright
+Contact Us Privacy Policy
+Press / Media
+CONNECT WITH US:
+©2025 Flight Safety Foundation

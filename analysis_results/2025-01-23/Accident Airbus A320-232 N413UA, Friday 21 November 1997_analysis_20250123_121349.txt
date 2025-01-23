@@ -1,0 +1,63 @@
+EASA-Analysebericht - Masterarbeit
+Originaldatei: Accident Airbus A320-232 N413UA, Friday 21 November 1997.pdf
+Analysezeitpunkt: 2025-01-23T12:13:49.323811
+Gefundene Schlüsselwörter: 0
+
+Inhaltsanalyse:
+Seite 1:
+Home
+Database
+Investigation
+Statistics
+Contact us
+About
+Home » ASN Aviation Safety WikiBase
+This information is added by users of ASN. Neither ASN nor the Flight Safety Foundation are responsible for the
+completeness or correctness of this information. If you feel this information is incomplete or incorrect, you can submit
+corrected information.
+Share0
+Date: Friday 21 November 1997
+Time:
+Type: Airbus A320-232
+Owner/operator: United Airlines
+Registration: N413UA
+MSN: 470
+Year of manufacture:1994
+Engine model: IAE V2527-A5
+Fatalities: Fatalities: 0 / Occupants:
+Other fatalities: 0
+Aircraft damage: Minor
+Category: Accident
+Location: Washington-Dulles International Airport, DC (IAD/KIAD) - United States of America
+Phase: Initial climb
+Nature: Passenger - Scheduled
+Departure airport: Washington-Dulles International Airport, DC (IAD/KIAD)
+Destination airport:
+Confidence Rating: Information is only available from news, social media or unofficial sources
+Narrative:
+The aircraft returned to land at Washington-Dulles International Airport, USA after the no.1 engine fan cowls separated
+after takeoff.
+It appeared that fan cowls were not correctly latched following engine maintanance.
+Sources:
+FAA
+History of this aircraft
+
+Seite 2:
+Other occurrences involving this aircraft
+7 April 1997N413UAUnited Airlines0Newark, NJ non
+Turbulence
+Revision history:
+Date/time ContributorUpdates
+30-Nov-2018 19:36harro Added
+Corrections or additions? ... Edit this accident description
+The Aviation Safety Network is an exclusive service provided by:
+Quick Links:
+ASN Home Send Correction / Feedback 1920 Ballenger Av, 4th Fl.
+Alexandria, Virginia 22314
+FSF Home Disclaimer
+www.FlightSafety.org
+Copyright
+Contact Us Privacy Policy
+Press / Media
+CONNECT WITH US:
+©2024 Flight Safety Foundation

@@ -1,80 +1,162 @@
-from transformers import pipeline, BartTokenizer
-from logging_progress import setup_logger
+# load_model.py
 import os
+import gc
+import time
+import logging
+import psutil
+from typing import Optional
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
+from logging_progress import setup_logger
+from accelerate import init_empty_weights, load_checkpoint_and_dispatch
 
 logger = setup_logger("load_model")
 
-# Create the models directory if it does not exist
-model_directory = "models"  # Directory to store the downloaded model
-os.makedirs(model_directory, exist_ok=True)
+class ModelManager:
+    """Singleton-Klasse zur Memory-sicheren Modellverwaltung"""
+    _instance = None
+    MEMORY_THRESHOLD = 0.85  # 85% RAM-Auslastung als kritisch
 
-# Variable to cache the loaded model
-cached_model = None
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._model = None
+            cls._instance._tokenizer = None
+        return cls._instance
 
-def load_summarization_model(model_name="facebook/bart-large-cnn"):
-    """Load a pretrained Hugging Face model for text summarization."""
-    global cached_model
-    if cached_model is not None:
-        logger.info("Loading model from cache...")
-        return cached_model
-    
-    # Check if the model is already downloaded
-    model_path = os.path.join(model_directory, model_name.replace("/", "_"))
-    if os.path.exists(model_path):
-        logger.info(f"Loading model from local directory: {model_path}")
-        cached_model = pipeline("summarization", model=model_path)
-        logger.info("Model loaded successfully from local directory")
-        return cached_model
-    
-    try:
-        logger.info(f"Downloading model: {model_name}")
-        cached_model = pipeline("summarization", model=model_name)
-        cached_model.save_pretrained(model_path)  # Save the model locally
-        logger.info("Model downloaded and saved successfully")
-        return cached_model
-    except Exception as e:
-        logger.error(f"Error loading model: {e}")
+    @property
+    def memory_usage(self) -> float:
+        return psutil.virtual_memory().percent / 100
+
+    def _check_memory(self):
+        """Prüft Systemspeicher vor Modellladen"""
+        if self.memory_usage > self.MEMORY_THRESHOLD:
+            raise MemoryError(f"Memory usage exceeds {self.MEMORY_THRESHOLD*100}%")
+
+    def _clear_cuda_cache(self):
+        """Räumt GPU-Speicher gründlich auf"""
+        if 'cuda' in str(self._model.device):
+            import torch
+            torch.cuda.empty_cache()
+            torch.cuda.reset_peak_memory_stats()
+            gc.collect()
+
+    def load_model(self, model_name: str = "facebook/bart-large-cnn") -> Optional[pipeline]:
+        """Lädt Modell mit Memory-Protection und Retry-Mechanismus"""
+        if self._model:
+            return self._model
+
+        max_retries = 3
+        model_path = os.path.join("models", model_name.replace("/", "_"))
+
+        for attempt in range(max_retries):
+            try:
+                self._check_memory()
+                logger.info(f"Memory check passed ({self.memory_usage:.1%} used)")
+
+                if os.path.exists(model_path):
+                    logger.info(f"Loading model from cache: {model_path}")
+                    return self._load_cached_model(model_path)
+
+                logger.info(f"Downloading model: {model_name}")
+                self._download_and_cache_model(model_name, model_path)
+                return self._load_cached_model(model_path)
+
+            except MemoryError as e:
+                logger.warning(f"Memory error (attempt {attempt+1}): {e}")
+                self.unload_model()
+                time.sleep(5 * (attempt + 1))
+            except Exception as e:
+                logger.error(f"Loading failed: {e}")
+                break
+
         return None
 
-def summarize_text(text, summarizer, max_length=130, min_length=30):
-    """Summarize the given text using the loaded model."""
+    def _download_and_cache_model(self, model_name: str, save_path: str):
+        """Lädt Modell mit optimiertem Memory-Handling"""
+        try:
+            with init_empty_weights():
+                config = AutoModelForSeq2SeqLM.from_pretrained(model_name).config
+
+            self._model = load_checkpoint_and_dispatch(
+                AutoModelForSeq2SeqLM.from_config(config),
+                model_name,
+                device_map="auto"
+            )
+            self._tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+            self._model.save_pretrained(save_path)
+            self._tokenizer.save_pretrained(save_path)
+            logger.info(f"Model saved to {save_path}")
+
+        except Exception as e:
+            logger.error(f"Model download failed: {e}")
+            raise
+
+    def _load_cached_model(self, model_path: str) -> pipeline:
+        """Lädt lokal gespeichertes Modell mit Memory-Optimierung"""
+        try:
+            self._tokenizer = AutoTokenizer.from_pretrained(model_path)
+            self._model = AutoModelForSeq2SeqLM.from_pretrained(
+                model_path,
+                device_map="auto",
+                low_cpu_mem_usage=True
+            )
+
+            summarizer = pipeline(
+                "summarization",
+                model=self._model,
+                tokenizer=self._tokenizer,
+                framework="pt",
+                device=self._model.device
+            )
+
+            logger.info(f"Model loaded successfully on {summarizer.device}")
+            return summarizer
+
+        except Exception as e:
+            logger.error(f"Error loading cached model: {e}")
+            self.unload_model()
+            raise
+
+    def unload_model(self):
+        """Gibt Modellspeicher explizit frei"""
+        if self._model:
+            del self._model
+            del self._tokenizer
+            self._model = None
+            self._tokenizer = None
+
+        self._clear_cuda_cache()
+        gc.collect()
+        logger.info("Model memory released")
+
+    def __del__(self):
+        """Destruktor für automatische Bereinigung"""
+        self.unload_model()
+
+def summarize_text(text: str, summarizer: pipeline, **kwargs) -> Optional[str]:
+    """Textzusammenfassung mit Memory-Überwachung"""
     try:
         if not text.strip():
-            logger.error("Input text is empty, cannot summarize.")
+            logger.error("Empty input text")
             return None
-        
-        if len(text) < 50:  # Check for minimum length
-            logger.error("Input text is too short for summarization.")
-            return None
-        
-        logger.info("Summarizing text")
-        tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
-        tokenizer.pad_token = tokenizer.eos_token  # Set padding token
-        
-        inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=1024)
-        
-        # Generate summary with proper configuration
-        summary = summarizer.model.generate(
-            inputs['input_ids'],
-            max_length=max_length,
-            min_length=min_length,
-            num_beams=4,  # Use beam search for better results
-            early_stopping=True
-        )
-        
-        if summary is None or len(summary) == 0:
-            logger.error("Summary returned is empty.")
-            return None
-        
-        logger.info("Text summarized successfully")
-        return tokenizer.decode(summary[0], skip_special_tokens=True)
-    except Exception as e:
-        logger.error(f"Error summarizing text: {e}")
-        return None
 
-def clear_cached_model():
-    """Clear the cached model to release resources."""
-    global cached_model
-    if cached_model is not None:
-        cached_model = None
-        logger.info("Cached model cleared.")
+        if len(text) < 50:
+            logger.warning("Input text too short")
+            return text
+
+        logger.info(f"Summarizing text ({len(text)} chars)")
+        result = summarizer(
+            text,
+            max_length=kwargs.get('max_length', 130),
+            min_length=kwargs.get('min_length', 30),
+            num_beams=4,
+            early_stopping=True,
+            truncation=True
+        )
+
+        return result[0]['summary_text'] if result else None
+
+    except Exception as e:
+        logger.error(f"Summarization failed: {e}")
+        return None

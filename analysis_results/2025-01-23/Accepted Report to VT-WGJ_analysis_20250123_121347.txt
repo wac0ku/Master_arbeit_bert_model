@@ -1,0 +1,684 @@
+EASA-Analysebericht - Masterarbeit
+Originaldatei: Accepted Report to VT-WGJ.pdf
+Analysezeitpunkt: 2025-01-23T12:13:48.872621
+Gefundene Schlüsselwörter: 3
+
+Inhaltsanalyse:
+Seite 1:
+FINAL INVESTIGATION REPORT
+OF
+SERIOUS INCIDENT TO GO AIR
+AIRBUS A320 AIRCRAFT VT-WGJ
+AT BANGALORE ON 01/09/2018
+AIRCRAFT ACCIDENT INVESTIGATION BUREAU
+MINISTRY OF CIVIL AVIATION
+GOVERNMENT OF INDIA
+
+Seite 2:
+FOREWORD
+This document has been prepared based upon the evidences collected
+during the investigation and opinion obtained from the experts. The
+investigation has been carried out in accordance with Annex 13 to the
+convention on International Civil Aviation and under Rule 11 of Aircraft
+(Investigation of Accidents and Incidents), Rules 2017 of India. The
+investigation is conducted not to apportion blame or to assess individual
+or collective responsibility. The sole objective is to draw lessons from
+this incident which may help in preventing such incidents in future.
+
+Seite 3:
+INDEX
+1.0 FACTUAL INFORMATION 01
+1.1 History of Flight 01
+1.2 Injuries to Persons 02
+1.3 Damage to Aircraft 02
+1.4 Other damage 03
+1.5 Personnel information 03
+1.5.1 Pilot in Command (Pilot Flying) 03
+1.5.2 Co-Pilot (Pilot Monitoring) 03
+1.6 Aircraft information 04
+1.6.1 Operational Aspects 04
+1.7 Meteorological information 10
+1.8 Aids to Navigation 10
+1.9 Communication 10
+1.10 Aerodrome information 10
+1.11 Flight recorders 11
+1.11.1 CVR 11
+1.11.2 FDR 12
+1.12 Wreckage and impact information 14
+1.13 Medical and pathological Information 14
+1.14 Fire 14
+1.15 Survival aspects 14
+1.16 Tests and research 14
+1.17 Organizational and management information 14
+1.18 Additional information 15
+1.19 Useful or effective investigation Technique 15
+2.0 ANALYSIS 16
+2.1 General 16
+2.2 Engineering (Load) Analysis 16
+2.3 DFDR Analysis 17
+2.3.1 High Engine Vibrations & ATB 17
+2.3.2 Approach & Landing 19
+2.4 Circumstances leading to the incident 22
+3.0 CONCLUSIONS 23
+3.1 Findings 23
+3.2 Cause 24
+4.0 RECOMMENDATIONS 24
+
+Seite 4:
+LIST OF ABBREVIATIONS
+A/C Aircraft
+ACARS Aircraft Communication Addressing and Reporting System
+AGB Accessory Gear Box
+AoA Angle of Attack
+AP Autopilot
+ATC Air Traffic Control
+ATPL Airline Transport Pilot License
+A/THR Auto thrust
+CAS Computed Air Speed
+CG Centre of Gravity
+CL or CLB Climb
+CPL Commercial Pilot License
+DES Descent
+DFDR Digital Flight Data Recorder
+ECAM Electronic Centralized Aircraft Monitor
+EGT Exhaust Gas Temperature
+FCOM Flight Crew Operating Manual
+FCTM Flight Crew Training Manual
+FD Flight Director
+FMA Flight Mode Annunciator
+FWD Forward
+GS/LOC Glide Slope/ Localiser
+IAF Indian Air Force
+IFS In-flight Services
+IFSD In-flight Shut Down
+IFTB In-Flight Turn Back
+LDA Landing Distance Available
+MCT/ FLX Max Continuous Thrust / Flex
+METAR Meteorological Aerodrome Report
+MGB Main Gear Box
+MODs Modifications
+MTOW Max Takeoff Weight
+MSN Manufacturer Serial Number
+NAV Navigation
+NDB Non Directional Beacon
+NEO New Engine Option
+PF Pilot Flying
+PM Pilot Monitoring
+QRH Quick Reference Handbook
+RA Radio Altitude
+SALT Selected Altitude
+SBs Service Bulletins
+
+Seite 5:
+SCAS Selected Computed Air Speed
+SD System Display
+SOP Standard Operating Procedure
+SRS Speed Reference System
+TAF Terminal Area Forecast
+THR Thrust
+TL Thrust Lever
+TLA Thrust Lever Angle
+TRK Track
+T/O Take Off
+UTC Coordinated Universal Time
+VLS Lowest Selectable Speed
+VIB Vibration
+VRTG Vertical ‘g’ force
+VOBL Bangalore Airport
+
+Seite 6:
+FINAL INVESTIGATION REPORT ON SERIOUS INCIDENT TO GO AIR
+AIRBUS A320 AIRCRAFT VT-WGJ AT BANGALORE ON 01/09/2018
+1.0 FACTUAL INFORMATION
+1.1 History of Flight
+On 1st September 2018, Airbus A320 aircraft VT-WGJ was involved in a serious
+incident while operating flight G8-283 from Bangalore to Pune. The aircraft was
+under command of an ATPL holder (PF) with a CPL holder acting as Pilot
+Monitoring (PM). There were 169 passengers on board. The incident occurred in
+day light conditions. There was no fire or any injury to crew or passengers.
+During takeoff roll, engine no. 1, N2 vibrations went very high at a ground speed
+of 20 knots. The vibrations levels increased to 10.0 units and at 1500 radio
+altitude, alert on ECAM (Master Caution) came up for high engine vibrations on
+engine #1 and hence the QRH procedure was carried out after which the N2
+vibrations parameters were at normal levels momentarily. The vibrations levels
+increased again followed by other warnings i.e. Eng 1 OIL CLOG, Eng 1 OIL
+FILTER DEGRADE, Eng 1 STALL. In addition, AUTO FLT/ AUTO THR was put
+OFF and a decision was taken by the commander to continue on manual thrust.
+The warnings were followed by Eng 1 FAIL.
+The ECAM procedure to shut down Eng 1 was carried out. The PF decided to
+return to VOBL (nearest airport) on priority and a PAN PAN call was made. No
+assistance at the airport was requested. A single engine straight in ILS approach
+was carried out. Following instructions of the PF, the PM had switched off the
+Glideslope mode.
+During final approach, several callouts were made by the PM with regards to
+speed and alignment of the aircraft. PF accordingly carried out small adjustments
+of eng 2 thrust. During approach, in an attempt to flare, attitude was raised. The
+aircraft pitched up accordingly, but limited by the aircraft protection (αprot) which
+had been activated, and touched the ground. As per PM, he was aware that it
+1
+
+Seite 7:
+had resulted in hard landing but he had not conveyed it to PF. The aircraft taxied
+to bay.
+On ground, it was found that the ‘g’ value at touchdown has reached 2.68,
+whereas the Manufacturer limitation is 2.6. DFDR output was provided to the
+manufacturer and computation of landing ‘gʼ, based on parameters, (i.e. Landing
+g, landing weight of the aircraft 64.45T and Rate of Descent at Touch down 13.1
+feet/sec) gave a value of 3.25, classifying the event as a ‘Severe Hard Landing’. .
+The occurrence was hence categorised as "severe hard landing".
+The aircraft remained on ground for almost 6 months for maintenance activity.
+1.2 Injuries to Person
+INJURIES CREW PASSENGERS OTHERS
+FATAL Nil Nil Nil
+SERIOUS Nil Nil Nil
+Nil / 06 Nil / 169 Nil
+MINOR/ NONE
+1.3 Damage to Aircraft
+The DFDR data of the flight was sent to Airbus for analysis. The Airbus
+engineering team analyzed the DFDR data and it was confirmed that the landing
+was “Severe hard landing” as the g value has gone up to 3.25. Following the
+DFDR data analysis, the Airbus engineering team recommended for “Structural
+Inspection for severe hard landing” on the following parts of Aircraft.
+• Landing gear
+• Vertical Tail plane.
+• Wing
+• Centre Fuselage & Centre wing box.
+• Fuselage Cargo Door (FWD & AFT) surrounding structure.
+• Forward & Aft Cargo Door.
+• Bulk Cargo Door
+• Emergency Exit Hatches.
+After inspections, both main landing gears were removed, as recommended by
+the supplier, Safran.
+2
+
+Seite 8:
+1.4 Other Damage
+NIL
+1.5 Personnel Information
+1.5.1. Pilot in Command (Pilot Flying)
+SI No. Item Description
+1. Age 47 yrs
+2. License ATPL
+3. License validity 13/03/2021
+4. Medical Valid
+5. Last route check done on 29/11/2017
+6. IR date 23/03/2018
+7. FRTO license valid upto 13/03/2021
+8. Total flying hours 6096
+9. Flying hours as Commander on A320 675:00
+10. Flying done in last 1 year 820:00
+11. Flying done in last 6 months 424:00
+12. Flying done in last 3 months 226:00
+13. Flying done in last 1 month 73:00
+14. Flying done in last 7 days 12:00
+Pilot Flying (PF) had earlier flown turboprops (HS 748) with Indian Air Force. He
+was a Qualified Flying Instructor (QFI) with IAF.
+1.5.2 Co-Pilot (Pilot Monitoring)
+SI No. Item Description
+1. Age 42 yrs
+2. License CPL
+3. License Validity Valid
+4. Medical Valid
+3
+
+Seite 9:
+5. Last route check done on 30/11/2017
+6. IR date 30/05/2018
+7. FRTO license valid upto 17/06/2020
+8. Total flying hours 945.49
+9. Flying hours on A320 633:32
+10. Flying done in last 1 year 633:32
+11. Flying done in last 6 months 388:58
+12. Flying done in last 3 months 231:22
+13. Flying done in last 1 month 77:22
+14. Flying done in last 7 days 15:51
+Pilot Monitoring (PM), a CPL holder was with IFS for 10 years in two different
+airlines before joining the present airline as Trainee First officer in July 2017.
+1.6 Aircraft Information
+Airbus A320 Neo MSN 7737, Indian Registration VT-WGJ, was delivered in
+November 2017 and is equipped with P & W Neo Engines. At the time of
+occurrence, this Aircraft had logged 3096 hrs and 1969 cycles since new.
+1.6.1 Operational Aspects
+Following are the relevant extracts from FCOM/ QRH :-
+With A/THR engaged, when a thrust lever is set below the CL detent, the
+thrust of the associated engine is limited to the thrust lever position. Normal
+operation of the A/THR system requires the thrust levers to be:
+➢ In the CL detent for the two-engine configuration.
+✓ If they are not set in the CL detent, “LVR CLB” flashes white on the FMA. If
+one lever is in the CL detent and other one is not, then LVR ASYM is
+displayed in amber
+➢ TL of operating engine in MCT detent when in the one-engine-out
+configuration (one TL at idle is considered one engine operation)..
+✓ If the appropriate lever is not set in the MCT detent, “LVR MCT” flashes
+white on the FMA
+4
+
+Seite 10:
+High engine vibration requires the flight crew to monitor engine parameters,
+especially the EGT, and cross check with the other engine. Thrust can be
+reduced if conditions permit to do so, in order to maintain vibrations below the
+amber threshold of 5 UNITS.
+The ENG SD page is automatically displayed between 1st engine take-off
+thrust and till 1500 ft RA. (The relevant SD page is automatically displayed as
+soon as a fault or malfunction triggers a caution or warning message.) When
+the cockpit unit (Units) value of vibrations exceeds 5 Units, the Units values on
+the Engine SD page change from GREEN to AMBER. The high vibration
+ECAM caution is inhibited below 1500ft RA.
+The maximum level of vibration that can be recorded on the DFDR is
+10UNITS.
+5
+
+Seite 11:
+As per stall procedure, whenever engine stall (In flight) is detected by Flight
+Crew before FADEC or instructed by ECAM, the thrust lever of the affected
+engine should be set to idle.
+When one engine TL is at idle, it is considered as single engine operation
+and the other engine thrust lever at that time should be set to MCT. The
+ECAM caution ‘THR LEVERS….MOVE’ would be displayed and in addition,
+the FMA will display ‘LEVER MCT’ flashing in white. A master caution is
+repeated every 5 seconds if one lever is at idle and the other is not at the
+MCT detent.
+When the AP is in OP DES mode, it manages the aircraft trajectory to target
+the selected CAS, but the aircraft trajectory can only be level flight or
+descent.
+6
+
+Seite 12:
+ENG1 FAIL ECAM caution is triggered when the engine core speed falls
+below idle, whereas ‘ENG SHUTDOWN’ is triggered when the engine
+Master Switch is set to OFF by the flight crew. As per the FCTM, in the
+event of an engine failure, thrust levers should be set to MCT.
+The stabilization criterion is given below. This requires that the flight crew must
+initiate a Go Around, if approach is not stabilized.
+7
+
+Seite 13:
+Following is the Normal Standard Operating Procedures (Approach) given in
+FCOM:
+8
+
+Seite 14:
+9
+
+Seite 15:
+1.7 Meteorological Information
+Relevant METARs reported were as given below:
+VOBL 312300Z 29005KT 6000 Hz SCT012 SCT 080 20/20 Q1014 NOSIG=
+VOBL 010030Z 27008KT SCT012 SCT080 20/20 Q1014 NOSIG=
+VOBL 010100Z 28007KT SCT012 SCT080 20/20 Q1014 NOSIG=
+VOBL 010130Z 28010KT SCT012 SCT080 20/20 Q1014 NOSIG=
+The METAR valid at the time of incident indicated wind from 280° (headwind) at
+a speed of 7kts, with scattered clouds at 1200 ft and visibility of 6000 m in haze.
+1.8 Aids to Navigation
+All Navigational Aids on ground and of the aircraft were working satisfactorily.
+1.9 Communication
+There was always two way communications between the ATC and the aircraft.
+1.10 Aerodrome Information
+The Runway orientation at BIAL international airport, Bengaluru is 09/27. Its
+elevation is 2925ft. The ILS is available for both approaches for runway 09/27.
+10
+
+Seite 16:
+PAPI is available for both sides of the runway. NDB is also available at BIAL for
+approach and landing.
+The ATC is controlled and manned by Airport Authority of India. Met Office
+services are 24 Hrs. TAF, Trend Forecast and Briefing is available.
+1.11 Flight Recorders
+1.11.1 CVR
+The relevant extract from CVR readout is as below:-
+• During climb at about 4500 ft (1500 ft RA) Master Caution came on.
+• The Master Caution of No 1 engine High Vibration was followed by QRH
+checklist.
+• The aircraft climbed to FL140.
+• The PAN PAN call was made by PF. He informed ATC that it was due to
+technical reasons.
+• PF briefed the situation to Cabin crew that they were returning to Bangalore.
+• The ATC vectored VT-WGJ for priority landing on Runway 27.
+• The PF choose to disengage Auto thrust at approx. 12500 feet and
+disengaged Auto pilot at around 4000 feet.
+• The PM gave speed check calls.
+• Checklist and callouts were mostly standard.
+11
+
+Seite 17:
+• The PF switched off the glide slope mode switch on finals.
+• The (low energy) speed speed speed warning came number of times.
+• The PM gave repetitive inputs to PF to make necessary changes in the flight
+path.
+• The PM didn’t advise the PF to Go-around.
+1.11.2 FDR
+Following are the relevant extracts from FDR: (Aircraft touch down at 00:51:08
+hours UTC)
+Time (UTC)
+00:28:30 Start of Take Off roll
+00:28:35 E1N2 VIB = 10 Units GND SPD = 20 Kts
+00:29:08 Aircraft takes off, (EGT1/ EGT2) = 933/ 891
+00:29:16 Autopilot engaged
+00:29:24 Thrust reduced to CLIMB from FLEX-MCT
+00:29:30 Speed target became 250 kts
+00:29:45 Master Caution Comes ON for 6 secs
+00:30:01 to TLA 1 starts reducing to 20 and back to 24; no change in
+00:30:11 E1N2 VIB
+00:30:14 to Flaps retracted and TLA 1 starts reducing from 24.6 to
+00:31:42 9.49
+00:31:42 Aircraft crossing 8500 ft
+00:32 :14 Subsequently Oil Pressure Eng1 starts reducing
+00:32 :33 E1 N2 VIB starts reducing
+00:33:27 Selected CAS increased to 276 kts
+00:34:21 Master Caution triggered twice
+00:34:41 E1 N1 increases to 10 Units for 3 secs
+00:34:58 TLA ENG 1 brought back to zero, subsequently E1 N2
+VIB reduced < 1 Unit. Master caution triggered every 5
+seconds to alert the flight crew that one TLA is at idle and
+the other is not at MCT.
+12
+
+Seite 18:
+00:36:19 Auto Thrust was Disengaged, Master caution stopped. Alt
+12872 ft and climbing
+00:38:00 IFTB initiated
+00:39:24 Master Caution – Eng1 Oil Filter Degraded & Eng 1 Oil
+Filter clogged
+00:39 :47 TLA 2 also reduced to IDLE (18.6 deg)
+00:40:09 EGT ENG 1 shoots up from 607°C to 945°C in 4 seconds
+(Most probably the ENG Failed at this juncture)
+00:40:13 EGT ENG1l records ZERO. (possibly value> 999)
+00:40:15 EGT ENG 1 Over limit warning triggers for 4 secs
+00:40:17 Master Caution triggers for 4 secs., fuel flow drops to 67
+kg/h from 256 kg/h
+00:40:46. ENG 1 Master Lever turned to OFF (Shut down)
+00:47:00 Conf 1 + f Selected, ALT 5232 ft, IAS 207kts
+00:49:27 Master Caution triggered – ‘Eng 1 OIL SYSTEM FAULT’
+00:49:37 AP 1 & 2 disconnected by the flight crew
+00:49:38 and Manual Approach (1000ft to 400ft RA)
+00:50:25 Low energy aural warning “SPEED SPEED” triggered 4
+times and aural warning “GLIDESLOPE” was triggered at
+620ft RA for 14 seconds
+Alpha protection was activated 6 times
+00:50:25 Manual Landing performed by the Captain (PF)
+00:50:45 Aircraft was at 250ft RA
+Sidestick pitch up inputs increased the pitch to 10º by
+125ft RA, activating the angle of attack protection. Further
+pitch up inputs were applied and continual full back stick
+was applied with Alpha Prot active from 25ft RA to
+touchdown.
+00:51:08 Aircraft touched down hard on the runway threshold
+13
+
+Seite 19:
+1.12 Wreckage and Impact Information
+The landing was classified as a severe hard landing and a loads analysis showed
+the main landing gears had experienced excessive loads and considered
+unserviceable.
+1.13 Medical and Pathological Information
+Both cockpit crew had undergone pre-flight medical examination prior to take-off
+from Bangalore including Breath Analyser Test. The pre flight medical was
+satisfactory.
+1.14 Fire
+There was no fire.
+1.15 Survival Aspects
+The incident was survivable.
+1.16 Test and Research
+NIL
+1.17 Organisational and Management Information
+The flight was operated by a scheduled Airlines having valid Scheduled Operator
+Permit (SOP) issued by DGCA. CEO is the Accountable Manager. The company
+has Director Operations and Director Training.
+14
+
+Seite 20:
+1.18 Additional Information
+Flight Mode Annunciator display in case of Thrust Lever not at appropriate
+position is given below:
+1.19 Useful or Effective Investigation Technique
+NIL
+15
+
+Seite 21:
+2. ANALYSIS
+2.1 GENERAL
+Both operating flight crew were appropriately licensed and qualified to operate
+the flight. Their preflight Medical was valid. They had undergone all refresher
+trainings and nothing was wanting as per the requirements.
+The aircraft had valid Certificate of Airworthiness/ Airworthiness Review
+Certificate at the time of incident. The aircraft held valid Certificate of Release to
+Service. The mandatory Modifications and SBs were complied with.
+The weather at the airport at the time of incident was fine and is not a
+contributory factor to the incident.
+2.2. ENGINEERING (LOAD) ANALYSIS
+The reason for engine parameters going beyond limits during flight and
+resultant “In Flight Shut Down” was because of No. 3 Bearing Failure. This is a
+known problem with Neo Engines. The initial review of the DFDR data plots
+indicated a max vertical acceleration of 2.68 g. ‘g’ values is sampled 8 times a
+second. Vertical ‘g’ is sampled 8 times per second in the DFDR readout and the
+peak value may not have been captured if it occurred between 2 recorded
+values. .
+DFDR raw data was shared with Airbus who, carried out loads computation, in
+order to assess the severity of the event. The feedback was received wherein it
+was indicated that though the touchdown ‘gʼ was 2.68, but computation of
+landing ‘gʼ, based on parameters, (i.e. Landing g, landing weight of the aircraft
+64.45T and Rate of Descent at Touch down 13.1 feet/sec) gave a value of 3.25,
+classifying the event as a ‘Severe Hard Landing’.
+Airbus has introduced new FDIMU software incorporating a new load 15 report
+which analyses additional parameters to the ones used in the existing software.
+With the application of the new software, the load 15 report will directly classify
+similar events as a ‘Severe Hard Landing’.
+16
+
+Seite 22:
+As far as severe hard landing is concerned, the aircraft or maintenance aspects
+have not contributed to the incident.
+2.3 DFDR Analysis
+The aircraft returned to Bangalore due to high vibrations followed by In-flight
+Engine Shut Down (IFSD) in Flight. The aircraft is fitted with P & W Neo engines
+and the engine vibration is a known issue. A DFDR analysis report was
+received from Airbus and has been used while analyzing the operational
+aspects of this occurrence.
+2.3.1 High Engine Vibrations & ATB
+During take-off roll, at a ground speed of 20 knots, Eng # 1 N2 Vibrations
+reached 10.0 Units. The other engine was operating normal with all parameters
+stable. Auto pilot was engaged in SRS/ NAV mode, when the aircraft was at
+200 ft radio altitude with CAS as 164 knots. The N2 vibrations of 10.0 Units
+continued. The engine SD page got displayed and N2 vibrations flashed
+number of times during the above period.
+Though ENG 1 HIGH VIB ECAM caution was recorded (as per ACARS), the
+caution is inhibited until 1500 ft RA. At that time, EGT on engine # 1 was 940°C
+and on engine # 2 it was 890° C. The caution was displayed above 1500ft RA
+The aircraft continued to climb and while crossing 5000 ft with AP1 and A/THR
+engaged, vibrations were still 10.0 Units. Eng # 1 thrust lever was moved back
+but the Eng # 1 N2 vibrations continued to be 10.0 Units.
+The crew continued the flight with CAS of 225 knots. After crossing 5500 feet,
+altitude was selected to 14000 feet. Both thrust levers remained in CL detent
+with auto thrust active. Engine # 1 N2 Vibrations continued at 10.0 UNITS.
+While crossing 8500 feet with AP1 and auto thrust still engaged, Eng # 1 thrust
+lever was reduced to 9 degrees. Eng #1 N2 vibrations dropped from 10.0 Units
+to 5.0 Units. When the aircraft was climbing through 10000 feet, Eng # 1 thrust
+lever was moved from 9 degrees to 11 degrees. Correspondingly N2 vibrations
+17
+
+Seite 23:
+also started increasing and went beyond 5.0 Units. Auto Pilot 1 and Auto thrust
+were still engaged.
+Eng # 1 N2 vibrations further increased to 6.8 Units which triggered the master
+caution warning twice. The Eng # 1 N2 vibrations reached 10.0 Units with
+engine stall. This caused the master caution second time.
+The aircraft still continued to climb with Eng # 1 thrust lever moved to idle and
+Eng # 2 thrust lever in CL detent. This triggered the master caution every 5
+seconds to alert the crew that autothrust is limited and to move the thrust levers.
+Auto thrust was disengaged when the aircraft was crossing 12900 feet which
+stopped the master caution. Auto pilot 1 remained engaged.
+The crew decided to return and auto pilot was changed to OP DES mode when
+the aircraft was at 14000 feet. The selected altitude was reduced to 12000 feet
+and selected CAS was increased to 250 knots from 214 knots. There was no
+change in thrust lever positions, engine #1 TL remained at idle and engine #2
+TL remained in CL detent, delivering climb power.
+After about 84 seconds of initiation of turn back, Engine #1 oil filter degraded
+and filter clog messages were recorded on the ACARS report. (The ENG page
+was displayed on the SD.)
+As engine #2 was at climb power and engine #1 was at idle, the aircraft energy
+was too high. The Autopilot was unable to maintain the 250 kts selected speed,
+even in level flight since Auto thrust was OFF and speed increased beyond 260
+kts.
+By reducing the thrust on engine #2, the AP was able to meet the selected CAS
+(target) and increase the aircraft descent rate towards the selected altitude.
+After 30 seconds of reducing thrust on Eng # 2, engine fail ECAM caution got
+triggered with Eng # 1 EGT increasing from 610 degree C to 1095 degree C.
+The flight crew shut down Eng #1 by taking Engine #1 lever to OFF. The thrust
+levers were not moved as required in the FCOM. Engine #1 TL remained at idle
+18
+
+Seite 24:
+and engine #2 TL remained at 16° (intermediate position between idle and CL)
+for a minute.
+When the aircraft was at 6700 ft and descending to selected altitude of 5500 ft,
+speed was at selected CAS of 220 kts. A/THR remained OFF. Both TLs were at
+idle. With both APs engaged, LOC capture mode got engaged. LOC TRK mode
+got engaged a minute later, indicating that LOC is captured and was tracked.
+During this period, Glideslope mode was engaged and captured.
+2.3.2 Approach & Landing
+(The aircraft had touched down at 00:51:08 hrs. UTC.)
+During approach, at 00:49:31 hrs. UTC, aircraft was in CONF FULL (Slats/
+Flaps 27°/40°), Landing gear was selected down, Ground spoilers were armed,
+Auto brake was not armed and AP1 & 2 were engaged. At 1120 ft RA, the
+aircraft was tracking the GS and LOC. A/THR was disengaged with both TLs at
+idle. CAS was 135 kts. reducing. Aircraft pitch was 3.5º increasing.
+At 00:49:37, when the aircraft was at 1000 ft RA (decreasing), AP 1 & 2 was
+disconnected by the flight crew. CAS was 125 kts. Both FDs were engaged in
+GS/ LOC modes and the aircraft was aligned to the glide slope and localiser.
+19
+
+Seite 25:
+PF carried out manual approach. Between 1000 ft to 400 ft RA, high activity
+was recorded on Pilot Flying side stick. Pitch varied between 3º and 12º nose
+up and Roll varied between 0º and 10º (right wing down). Vertical descent rate
+varied between 0 ft/ min and 1600 ft/ min. CAS varied between 125 kts and 113
+kts (VLS was 127 kts).
+During this period, low energy aural warning “SPEED SPEED SPEED” triggered
+4 times. Thrust was manually increased on engine #2. Aircraft started to dip
+under the glide slope by 1.4 dots and EGPWS aural warning “GLIDESLOPE”
+was triggered at 620 ft RA for 14 seconds. Glideslope deviation reached 2.7
+dots below glide slope at 400 ft RA. Alpha protection was activated 6 times.
+AoA reached 12º (Alpha Prot) and 15º (Alpha Max).
+The approach was continued despite the aircraft being unstable in attitude,
+below the glideslope by 2.7 dots and its speed below VLS. In accordance with
+the FCOM stabilisation criteria a go-around should have been performed.
+20
+
+Seite 26:
+When the aircraft was at 400 ft RA, engine # 2 thrust was controlled manually
+between idle and CL detents. At 250 ft RA, engine # 2 TL was progressively
+reduced (reached to IDLE detent at 200 ft RA) then moved to the CL detent
+before being set at IDLE detent again at 40 ft RA. Pitch increased from 5º to 10º
+nose up. CAS reduced from 130 kts to 110 kts at landing (VLS –17kts). Roll
+varied between 6º right wing down and 2º left wing down. Flare was performed
+while full back stick order was applied. Alpha Prot was active. AoA increased
+from +12.8° to +15.7° (= AoA max). Alpha Prot limited the AoA from increasing
+further
+At the time of touch down, CAS was 109 kts (VLS -18kts), vertical descent rate
+was -752 ft/ min, recorded VRTG was 2.68 g, pitch was 10º nose up and AoA
+was at Alpha Max (15º)
+21
+
+Seite 27:
+2.4 Circumstances leading to the incident
+On application of take-off thrust, Eng # 1 N2 Vibrations increased to 10 Units. It
+is the maximum value that can be displayed on the engine SD page. Though
+ECAM is inhibited during take-off and till 1500 ft RA after take-off, N2 VIB would
+have been flashing during that period on the lower ECAM/ SD page.
+During climb at about 4500 feet (1500 ft RA), ENG1 HIGH VIB ECAM caution
+displayed. Flight crew carried out QRH checklist as per the procedure. The flight
+was continued, though thrust on engine #1 was reduced sufficiently for the
+vibrations to reduce below the threshold of 5 Units. The crew kept climbing to
+FL 140 whereas they could have leveled off for trouble shooting.
+As soon as Eng #1 thrust was increased, once again there was increase in the
+Eng N2 vibrations and stalling of Eng # 1. Engine #1 thrust lever was set to idle
+while engine #2 thrust lever was left at CL detent. In the event of one engine
+thrust lever at idle, other engine thrust lever should be set to MCT. The inaction
+of the crew induced an FMA display “LVR MCT” (flashing) caution, which
+repeated every 5 seconds. The flight crew at this stage should have moved the
+thrust levers to MCT, but instead they disconnected the auto thrust which
+remained so till end of the flight.
+The flight crew after discussion among themselves decided to return to
+Bangalore. PAN PAN Call was given. The reason mentioned was due technical.
+Here, correct reason i.e. engine problem could have been mentioned.
+During descent, engine #1 failed and was shutdown. Engine #2 was reduced to
+idle till reaching 1000 ft RA. Till that point, the flight was on auto pilot, with auto
+thrust OFF (engine #2 was controlled manually).
+Aural low energy SPEED SPEED SPEED warnings were triggered from 1000 ft
+and GLIDESLOPE warnings were triggered from 620 ft RA. The aircraft was
+below the Glideslope by 1.4 dots. Successive side stick pitch up inputs resulted
+in the pitch increasing up to 12º, activating the Angle of Attack protection. The
+22
+
+Seite 28:
+approach was continued despite being unstable and significantly below the
+Glideslope (2.7 dots below the Glideslope). The unstable approach continued till
+touchdown. All checklists were carried out but PM did not advise PF to go
+around.
+The aircraft made a severe hard landing at the runway threshold while the PF
+was still commanding a full back stick. The aircraft pitch was 10° nose up, Alpha
+Prot was active and speed was 18 kts below VLS.
+3 CONCLUSIONS
+3.1 Findings
+3.1.1 Both operating flight crew were appropriately licensed and qualified to operate
+the flight. Their preflight Medical was valid.
+3.1.2 The aircraft had valid Certificate of Airworthiness/Airworthiness Review
+Certificate and Certificate of Release to Service at the time of incident.
+3.1.3 The weather at the airport at the time of incident was fine and is not a
+contributory factor to the incident.
+3.1.4 Shortly after take-off thrust was applied, engine # 1 vibrations increased to 10
+UNITS, the maximum value that can be displayed on the engine SD page. The
+take-off roll and flight was continued. ENG1 HIGH VIB ECAM caution displayed
+at 1500 ft RA and approximately, one minute later, thrust on engine # 1 was
+reduced to keep the vibrations below the threshold of 5 Units.
+3.1.5 Engine #1 thrust lever was set to idle while engine #2 thrust lever was left at CL
+detent. This induced an FMA display “LVR MCT” (flashing), repeated every 5
+seconds. After about 88 seconds, the flight crew disconnected auto thrust,
+without making any changes to the thrust lever positions.
+3.1.6 An in-flight turn back was initiated to the departure airport.
+3.1.7 During descent as engine #1 failed, it was shutdown. Thrust of engine # 2 was
+reduced to idle.
+3.1.8 A manual approach was performed by the PF. (No AP/ ATHR below 1000’ RA)
+23
+
+Seite 29:
+3.1.9 “SPEED SPEED SPEED” and “GLIDESLOPE” warnings were triggered.
+Successive side stick pitch up inputs resulted in the pitch increasing up to 12º,
+activating the Angle of Attack protection.
+3.1.10 The approach was unstable. The aircraft went below the glidepath. The speed
+was too low. The aircraft was in a low energy state.
+3.1.11 PF has not carried out Go Around, nor the PM advised PF to go around.
+3.1.12 The aircraft envelope protections limited the Angle of Attack from exceeding
+Alpha Max during the final approach and landing.
+3.1.13 The aircraft performed a severe hard landing (2.68 g) while the PF was still
+commanding a full back stick. Airbus subsequently computed the g value as
+3.25 and incident was assessed as severe hard landing
+3.1.14 At the time of touchdown, the aircraft pitch was 10° nose up, Alpha Prot was still
+active and the speed was 18 kts below VLS.
+3.1.15 During rectification on ground, oil chip was detected in MCD No. 3 (AGB &
+MGB).
+3.1.16 The involved engine was replaced and on the recommendation of the supplier,
+Safran, both main landing gears were also replaced.
+3.2 CAUSE
+Unstabilised approach due to improper understanding of automation and thrust
+management after failure of one of the engines in flight resulted in severe hard
+landing and consequential damages.
+4.0 RECOMMENDATIONS
+For all Airlines flight crew
+4.1 During simulator trainings (normal flying or with failures), emphasis should be
+laid on the use of appropriate levels of automation at all times. There should be
+clear understanding of automation, its appropriate level of selection and
+confirmation by assessing the aircraft response.
+24
+
+Seite 30:
+4.2 To maintain handling skills, adequate manual flying should be practiced on
+aircraft, whenever conditions are favorable. Prior appropriate briefing MUST be
+given to Pilot Monitoring for giving callouts of parameter deviations promptly so
+that smooth transition back to automation can be carried out if required.
+4.3 There should be strict compliance of stabilized approach by the flight crew. PM
+should play an assertive role while calling out deviations and carry out a “Go
+Around”, if required.
+Date: 04.02.2020
+Place: New Delhi
+25

@@ -15,8 +15,15 @@ def generate_docx_from_txt(txt_dir, docx_dir):
             base_filename = os.path.splitext(txt_file)[0]
 
             # Read the content of the TXT file
-            with open(txt_path, 'r', encoding='utf-8') as file:
+            file = None
+            try:
+                file = open(txt_path, 'r', encoding='utf-8')
                 content = file.read()
+            except Exception as e:
+                print(f"Error reading file {txt_path}: {e}")
+            finally:
+                if file:
+                    file.close()
 
             # Create a new DOCX file
             docx_output_path = os.path.join(docx_dir, f"{base_filename}.docx")
